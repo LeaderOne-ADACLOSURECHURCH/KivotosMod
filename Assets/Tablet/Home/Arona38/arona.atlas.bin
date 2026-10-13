@@ -1,0 +1,152 @@
+arona.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bow
+  rotate: true
+  xy: 546, 40
+  size: 58, 42
+  orig: 58, 42
+  offset: 0, 0
+  index: -1
+Eyebrow
+  rotate: true
+  xy: 294, 14
+  size: 84, 16
+  orig: 84, 16
+  offset: 0, 0
+  index: -1
+Hitomi
+  rotate: false
+  xy: 384, 6
+  size: 64, 20
+  orig: 64, 20
+  offset: 0, 0
+  index: -1
+cheek
+  rotate: false
+  xy: 312, 4
+  size: 70, 16
+  orig: 70, 16
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 344, 28
+  size: 106, 70
+  orig: 106, 70
+  offset: 0, 0
+  index: -1
+chestclothes
+  rotate: false
+  xy: 2, 2
+  size: 86, 78
+  orig: 86, 78
+  offset: 0, 0
+  index: -1
+dress
+  rotate: true
+  xy: 272, 100
+  size: 154, 134
+  orig: 154, 134
+  offset: 0, 0
+  index: -1
+eyeW
+  rotate: true
+  xy: 312, 22
+  size: 76, 14
+  orig: 76, 14
+  offset: 0, 0
+  index: -1
+eyelids
+  rotate: true
+  xy: 328, 26
+  size: 72, 14
+  orig: 72, 14
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 272, 14
+  size: 84, 20
+  orig: 84, 20
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 90, 2
+  size: 90, 92
+  orig: 90, 92
+  offset: 0, 0
+  index: -1
+hairBack
+  rotate: false
+  xy: 514, 6
+  size: 102, 30
+  orig: 102, 30
+  offset: 0, 0
+  index: -1
+hairM
+  rotate: false
+  xy: 90, 94
+  size: 136, 160
+  orig: 136, 160
+  offset: 0, 0
+  index: -1
+halo
+  rotate: true
+  xy: 514, 38
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 514, 100
+  size: 48, 154
+  orig: 48, 154
+  offset: 0, 0
+  index: -1
+handR
+  rotate: false
+  xy: 228, 98
+  size: 42, 156
+  orig: 42, 156
+  offset: 0, 0
+  index: -1
+headdress
+  rotate: true
+  xy: 564, 122
+  size: 132, 110
+  orig: 132, 110
+  offset: 0, 0
+  index: -1
+headshade
+  rotate: false
+  xy: 452, 28
+  size: 60, 70
+  orig: 60, 70
+  offset: 0, 0
+  index: -1
+legD
+  rotate: false
+  xy: 2, 82
+  size: 86, 172
+  orig: 86, 172
+  offset: 0, 0
+  index: -1
+legUP
+  rotate: false
+  xy: 408, 100
+  size: 104, 154
+  orig: 104, 154
+  offset: 0, 0
+  index: -1
+liuhai
+  rotate: true
+  xy: 184, 4
+  size: 88, 86
+  orig: 88, 86
+  offset: 0, 0
+  index: -1
