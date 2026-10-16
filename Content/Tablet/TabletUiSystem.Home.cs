@@ -36,7 +36,6 @@ public sealed partial class TabletUiSystem
     private static readonly Rectangle LobbyClockRect = new(396, 390, 49, 24);
     private static readonly Dictionary<string, Asset<Texture2D>> LobbyTextures = new(StringComparer.Ordinal);
     private static TabletSpineScene _lobbyArona;
-    private static TabletSpineScene _lobbyClassroom;
     private static bool _lobbyLoadFailed;
     private static bool _lobbyHidden;
     private static bool _lobbyCharactersOpen;
@@ -62,12 +61,11 @@ public sealed partial class TabletUiSystem
 
     private static void UpdateLobby(float seconds)
     {
-        if (_lobbyClassroom == null && !_lobbyLoadFailed)
+        if (_lobbyArona == null && !_lobbyLoadFailed)
         {
             try
             {
                 Mod mod = _instance.Mod;
-                _lobbyClassroom = new TabletSpineScene(mod, "Classroom", "arona_workpage_daytime", "Idle_background_00");
                 _lobbyArona = new TabletSpineScene(mod, "Arona", "arona_spr", "Idle_01", blink: true);
             }
             catch (Exception exception)
@@ -76,31 +74,22 @@ public sealed partial class TabletUiSystem
                 _instance.Mod.Logger.Error("Unable to load Blue Archive lobby Spine assets.", exception);
             }
         }
-        _lobbyClassroom?.Update(seconds);
         _lobbyArona?.Update(seconds);
         _lobbyBannerTime = (_lobbyBannerTime + Math.Clamp(seconds, 0, 0.1f)) % 8f;
     }
 
     private static void UnloadLobby()
     {
-        TabletSpineScene arona = _lobbyArona, classroom = _lobbyClassroom;
-        _lobbyArona = _lobbyClassroom = null;
-        Main.QueueMainThreadAction(() => { arona?.Dispose(); classroom?.Dispose(); });
+        TabletSpineScene arona = _lobbyArona;
+        _lobbyArona = null;
+        Main.QueueMainThreadAction(() => arona?.Dispose());
         LobbyTextures.Clear();
         _lobbyLoadFailed = _lobbyHidden = _lobbyCharactersOpen = _lobbyMemoryScene = false;
         _lobbyNotice = null;
         _lobbyBannerTime = 0;
     }
 
-    private static void DrawLobbyBackground(SpriteBatch sb, Layout layout)
-    {
-        if (_lobbyClassroom == null) { DrawClassroomBackground(sb, layout); return; }
-        Rectangle bounds = _lobbyClassroom.Bounds;
-        float scale = Math.Max(DisplayRect.Width / (float)bounds.Width, DisplayRect.Height / (float)bounds.Height);
-        Vector2 anchor = new(DisplayRect.Center.X - (bounds.X + bounds.Width / 2f) * scale,
-            DisplayRect.Center.Y + (bounds.Y + bounds.Height / 2f) * scale);
-        _lobbyClassroom.Draw(sb, layout.ToScreen(anchor), scale * layout.Scale, layout.ToScreen(DisplayRect));
-    }
+    private static void DrawLobbyBackground(SpriteBatch sb, Layout layout) => DrawClassroomBackground(sb, layout);
 
     private static void DrawLobbyHome(SpriteBatch sb, Layout layout, Vector2 mouse)
     {
@@ -345,8 +334,7 @@ public sealed partial class TabletUiSystem
         }
         if (LobbyPortraitRect.Contains(point) && player.GetModPlayer<TabletCompanionPlayer>().Companion == TabletStudentId.Arona)
         {
-            if (_lobbyMemoryScene) _lobbyClassroom?.Touch();
-            else if (!TabletDynamicPortraitRenderer.BlinkArona38()) _lobbyArona?.Touch();
+            if (!TabletDynamicPortraitRenderer.BlinkArona38()) _lobbyArona?.Touch();
         }
     }
 
@@ -365,8 +353,7 @@ public sealed partial class TabletUiSystem
 
     private static void ResetLobbyMemoryScene()
     {
-        // Keep the 4.2 classroom background, but do not enter its original Arona pose.
+        // The original Arona scene stays disabled with the legacy layered background.
         _lobbyMemoryScene = false;
-        _lobbyClassroom?.SetIdle("Idle_background_00");
     }
 }

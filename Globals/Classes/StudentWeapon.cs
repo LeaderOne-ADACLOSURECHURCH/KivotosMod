@@ -112,6 +112,9 @@ namespace KivotosMod.Globals.Classes
         }
         public override void HoldItem(Player player)
         {
+            // Held projectiles are owner-created and replicated by Terraria.
+            if (player.whoAmI != Main.myPlayer)
+                return;
             if (player.HasProj(Item.shoot))
                 return;
             int projDamage = (int)player.GetTotalDamage<RangedDamageClass>().ApplyTo(Item.damage);

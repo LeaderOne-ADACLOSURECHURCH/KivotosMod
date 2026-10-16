@@ -97,6 +97,35 @@ public sealed class TabletStudentAppearancePlayer : ModPlayer
         HasSelection = false;
     }
 
+    internal static bool IsFormationStudent(TabletStudentId student) => student is
+        TabletStudentId.Yuuka or TabletStudentId.Hina or TabletStudentId.Noa
+        or TabletStudentId.Shiroko or TabletStudentId.Hoshino;
+
+    internal void ReceiveSelection(bool hasSelection, TabletStudentId student)
+    {
+        HasSelection = hasSelection;
+        SelectedStudent = student;
+    }
+
+    public override void SyncPlayer(int toWho, int fromWho, bool newPlayer)
+    {
+        TabletNet.SendAppearance(Player.whoAmI, HasSelection, SelectedStudent, toWho, fromWho);
+    }
+
+    public override void CopyClientState(ModPlayer targetCopy)
+    {
+        TabletStudentAppearancePlayer copy = (TabletStudentAppearancePlayer)targetCopy;
+        copy.HasSelection = HasSelection;
+        copy.SelectedStudent = SelectedStudent;
+    }
+
+    public override void SendClientChanges(ModPlayer clientPlayer)
+    {
+        TabletStudentAppearancePlayer previous = (TabletStudentAppearancePlayer)clientPlayer;
+        if (HasSelection != previous.HasSelection || SelectedStudent != previous.SelectedStudent)
+            SyncPlayer(-1, -1, false);
+    }
+
     public override void SaveData(TagCompound tag)
     {
         tag[nameof(HasSelection)] = HasSelection;
@@ -111,7 +140,7 @@ public sealed class TabletStudentAppearancePlayer : ModPlayer
 
         // Keep old save values stable (Arona=3, Sora=4, Plana=5) and reject
         // companion-only values in Formation. Hina is the new value 6.
-        if (decoded != TabletStudentId.Yuuka && decoded != TabletStudentId.Noa && decoded != TabletStudentId.Hina && decoded != TabletStudentId.Shiroko && decoded != TabletStudentId.Hoshino)
+        if (!IsFormationStudent(decoded))
         {
             SelectedStudent = TabletStudentId.Yuuka;
             HasSelection = false;

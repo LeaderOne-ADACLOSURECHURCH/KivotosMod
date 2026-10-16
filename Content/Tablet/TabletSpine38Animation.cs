@@ -8,13 +8,18 @@ internal sealed class TabletSpine38Animation
 {
     internal const float MinBlinkInterval = 3f;
     internal const float MaxBlinkInterval = 6f;
+    internal const float TrackingResponseSeconds = 0.18f;
+    internal const float MaxTrackingSpeed = 4f;
     private const float BlinkFade = 0.08f;
     private readonly AnimationState _state;
     private readonly Animation _blink;
     private readonly Random _random;
     private readonly Slot _pupils;
     private readonly float[] _pupilVertices;
+    private readonly Bone _headControl;
+    private readonly float _turnMinX, _turnMaxX, _turnMinY, _turnMaxY;
     private float _mouseX, _mouseY, _lookX, _lookY;
+    private float _focusX, _focusY;
     private bool _hasMouse;
     private float _blinkTimer;
     private float _blinkRemaining;
@@ -27,6 +32,23 @@ internal sealed class TabletSpine38Animation
         Skeleton = new Skeleton(data);
         _random = random ?? Random.Shared;
         _blink = CreateBlink(data, sora);
+        if (!sora)
+        {
+            _headControl = Skeleton.FindBone("bone18") ?? throw new InvalidOperationException("Arona head control 'bone18' is missing.");
+            Animation turning = data.FindAnimation("Turning") ?? throw new InvalidOperationException("Arona head animation 'Turning' is missing.");
+            TranslateTimeline control = null;
+            foreach (Timeline timeline in turning.Timelines)
+                if (timeline is TranslateTimeline translate && timeline is not ScaleTimeline
+                    && translate.BoneIndex == _headControl.Data.Index) { control = translate; break; }
+            if (control == null) throw new InvalidOperationException("Arona head control range is missing.");
+            for (int i = 0; i < control.Frames.Length; i += 3)
+            {
+                _turnMinX = Math.Min(_turnMinX, control.Frames[i + 1]);
+                _turnMaxX = Math.Max(_turnMaxX, control.Frames[i + 1]);
+                _turnMinY = Math.Min(_turnMinY, control.Frames[i + 2]);
+                _turnMaxY = Math.Max(_turnMaxY, control.Frames[i + 2]);
+            }
+        }
         foreach (Slot slot in Skeleton.Slots)
             if (slot.Attachment is MeshAttachment mesh && mesh.Name == "Hitomi")
             {
@@ -48,20 +70,43 @@ internal sealed class TabletSpine38Animation
         else if ((_blinkTimer -= seconds) <= 0) Blink();
         _state.Update(seconds);
         _state.Apply(Skeleton);
+        // Sample the unturned face as a stable reference. Restore the control
+        // before each solve so the tracking offset cannot accumulate or feed back.
+        if (_headControl != null) { _headControl.X = _headControl.Data.X; _headControl.Y = _headControl.Data.Y; }
         Skeleton.UpdateWorldTransform();
-        // Keep the last gaze while the lids close. Resume smoothing toward the
-        // current pointer once they reopen; a blink must not recenter the pupils.
-        if (Blinking) return;
         var pupils = (MeshAttachment)_pupils.Attachment;
         pupils.ComputeWorldVertices(_pupils, 0, _pupilVertices.Length, _pupilVertices, 0, 2);
         float x = 0, y = 0;
         for (int i = 0; i < _pupilVertices.Length; i += 2) { x += _pupilVertices[i]; y += _pupilVertices[i + 1]; }
         x /= _pupilVertices.Length / 2; y /= _pupilVertices.Length / 2;
-        float targetX = _hasMouse ? Math.Clamp((_mouseX - x) / 100f, -1, 1) * 2.5f : 0;
-        float targetY = _hasMouse ? Math.Clamp((_mouseY - y) / 100f, -1, 1) * 1.4f : 0;
+        float targetX = _hasMouse ? Math.Clamp((_mouseX - x) / 100f, -1, 1) : 0;
+        float targetY = _hasMouse ? Math.Clamp((_mouseY - y) / 100f, -1, 1) : 0;
+        float followBlend = 1 - MathF.Exp(-seconds / TrackingResponseSeconds);
+        float maxStep = MaxTrackingSpeed * seconds;
+        if (_headControl == null) { _focusX = targetX; _focusY = targetY; }
+        else if (maxStep > 0)
+        {
+            // A smooth speed limit damps alternating targets without the residual
+            // bias produced by clipping equal positive/negative steps abruptly.
+            _focusX += maxStep * MathF.Tanh((targetX - _focusX) * followBlend / maxStep);
+            _focusY += maxStep * MathF.Tanh((targetY - _focusY) * followBlend / maxStep);
+        }
+        if (_headControl != null)
+        {
+            // The authored negative "change" constraint moves face details
+            // opposite bone18. Invert both axes, within the Turning key ranges.
+            float turnX = _focusX >= 0 ? _focusX * _turnMinX : -_focusX * _turnMaxX;
+            float turnY = _focusY >= 0 ? _focusY * _turnMinY : -_focusY * _turnMaxY;
+            _headControl.X = _headControl.Data.X + turnX;
+            _headControl.Y = _headControl.Data.Y + turnY;
+            Skeleton.UpdateWorldTransform();
+        }
+        // Head tracking continues through blinking; hold the pupil gaze until
+        // reopening, then smoothly catch up to the same filtered focus point.
+        if (Blinking) return;
         float blend = 1 - MathF.Exp(-12f * seconds);
-        _lookX += (targetX - _lookX) * blend;
-        _lookY += (targetY - _lookY) * blend;
+        _lookX += (_focusX * 2.5f - _lookX) * blend;
+        _lookY += (_focusY * 1.4f - _lookY) * blend;
     }
 
     // Coordinates are skeleton world coordinates, before the UI renderer's Y flip.

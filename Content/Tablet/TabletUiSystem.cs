@@ -321,6 +321,7 @@ public sealed partial class TabletUiSystem : ModSystem
         };
         for (int i = 0; i < classroomNames.Length; i++)
             _classroomLayers[i] = ModContent.Request<Texture2D>($"KivotosMod/Assets/Tablet/UI/Classroom/{classroomNames[i]}", mode);
+        LoadLegacyPresentation();
 
         string[] categoryNames =
         {
@@ -374,6 +375,7 @@ public sealed partial class TabletUiSystem : ModSystem
         _formationStudentButton = _formationOutfitButton = _formationBond = null;
         TabletDynamicPortraitRenderer.Unload();
         UnloadLobby();
+        UnloadLegacyPresentation();
         _studentThumbnails = Array.Empty<Asset<Texture2D>>();
         _studentPortraitBase.Clear();
         _studentPortraitFace.Clear();
@@ -400,6 +402,7 @@ public sealed partial class TabletUiSystem : ModSystem
             return;
 
         Visible = true;
+        Startup.Start();
         _previousUiAnimationTimestamp = 0;
         _holdTimer = 0;
         _instance?._tabletInterface?.SetState(_instance._tabletState);
@@ -453,6 +456,7 @@ public sealed partial class TabletUiSystem : ModSystem
 
     private static void FinishClose()
     {
+        Startup.Reset();
         _previousUiAnimationTimestamp = 0;
         _draggingTablet = false;
         _openingShortcutClick = false;
@@ -587,6 +591,7 @@ public sealed partial class TabletUiSystem : ModSystem
         long timestamp = Stopwatch.GetTimestamp();
         float animationSeconds = UiAnimationDelta(_previousUiAnimationTimestamp, timestamp);
         _previousUiAnimationTimestamp = timestamp;
+        Startup.Update(animationSeconds);
         TabletDynamicPortraitRenderer.UpdateSpine38(Mod, animationSeconds);
         if (_page == TabletPage.Home)
             UpdateLobby(animationSeconds);
@@ -657,7 +662,7 @@ public sealed partial class TabletUiSystem : ModSystem
             inputEnabled && clicked && DisplayRect.Contains(p),
             mouseTablet);
 
-        if (!_openedFromInventory && inputEnabled && escapeDown && !_escapeWasDown)
+        if (!_openedFromInventory && inputEnabled && !Startup.Visible && escapeDown && !_escapeWasDown)
         {
             if (_settingsOpen)
             {
@@ -670,6 +675,16 @@ public sealed partial class TabletUiSystem : ModSystem
             }
         }
         _escapeWasDown = escapeDown;
+
+        // The legacy S screen owns display clicks through its entire fade.
+        // Consuming the click here prevents opening a menu underneath the logo.
+        if (Startup.Visible)
+        {
+            if (inputEnabled && clicked && DisplayRect.Contains(p))
+                Startup.Tap();
+            _draggingScrollbar = false;
+            return;
+        }
 
         if (!inputEnabled)
         {
@@ -1392,6 +1407,7 @@ public sealed partial class TabletUiSystem : ModSystem
             DrawSettingsOverlay(sb, layout, mouseTablet);
 
         DrawPageTransitionOverlay(sb, layout);
+        DrawStartupScreen(sb, layout);
         DrawTouchFeedback(sb, layout);
         DrawPowerOverlay(sb, layout);
         DrawFrame(sb, layout, mouseTablet);
@@ -2212,6 +2228,11 @@ public sealed partial class TabletUiSystem : ModSystem
         Rectangle source = new(250, 0, DisplayRect.Width, DisplayRect.Height);
         for (int i = 0; i < _classroomLayers.Length; i++)
         {
+            if (i == 2)
+            {
+                DrawLegacyPresentationPass(sb, layout, startup: false);
+                continue;
+            }
             Texture2D tex = _classroomLayers[i].Value;
             sb.Draw(tex, layout.ToScreen(DisplayRect), source, Color.White);
         }
