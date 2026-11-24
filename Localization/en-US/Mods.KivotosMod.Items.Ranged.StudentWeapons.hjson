@@ -4,6 +4,19 @@ HoshinoWeapon: {
 	FlavorTooltip: ""
 }
 
+ArisuWeapon: {
+	DisplayName: Light Sword: Supernova
+	Tooltip:
+		'''
+		Fire with left click. Every five shots fill one energy level. Full energy boosts normal shots to 135% damage.
+		At full energy, hold right click for two seconds to fire a rail round through terrain. Releasing early cancels the charge.
+		Automatically drinks mana potions from your inventory when mana is insufficient.
+		'''
+	FlavorTooltip: The Engineering Club entrusted this enormous railgun to Aris.
+	Growth: Base damage from boss progression: {0}
+	Energy: Energy: {0}/2
+}
+
 HinaWeapon: {
 	DisplayName: 终末·毁灭者
 	Tooltip: ""

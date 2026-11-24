@@ -1,0 +1,218 @@
+{
+  "format": "premultiplied RGBA8 for tModLoader rawimg",
+  "textures": [
+    {
+      "path": "Assets/Tablet/Home/Arona/arona_spr.png",
+      "pixels": 4194304,
+      "translucentPixels": 1030084,
+      "sha256": "2dd46efe8ef35731b5a5f3f8c31c490fb742717e1748b41b0d1f09e896c5a6f9"
+    },
+    {
+      "path": "Assets/Tablet/Home/Classroom/arona_workpage_daytime.png",
+      "pixels": 4194304,
+      "translucentPixels": 359595,
+      "sha256": "db3d9eedcfa659fc0055bd0038a082413fa12089e95e437ff57269c5952ecd01"
+    },
+    {
+      "path": "Assets/Tablet/Home/Classroom/arona_workpage_daytime2.png",
+      "pixels": 4194304,
+      "translucentPixels": 1040057,
+      "sha256": "18508f8e5a4b4f27e4a87e0c54806087403a39fda813648b5b48e2f1c7dd5f43"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Cafe_Icon_Arrow.png",
+      "pixels": 7314,
+      "translucentPixels": 2245,
+      "sha256": "0aca5244542a141c026292786a8739b2669c6c284eecd21f8ad391a425fc40f1"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Bg_Raius5px_Shadow.png",
+      "pixels": 2304,
+      "translucentPixels": 961,
+      "sha256": "3b3d9ff9aa1ab0a10f79b62e5a6f1021a77433dea6fcdd676b3bd3d2bcbff6dd"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Cafe.png",
+      "pixels": 12901,
+      "translucentPixels": 1631,
+      "sha256": "3b34cdb187b3f248e5aea735ddca789a8d576a409a7d55825b84dd4ac70b03ec"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Change_Count.png",
+      "pixels": 9744,
+      "translucentPixels": 633,
+      "sha256": "e5a052657bc70259236bfec33954daada0d3e4c60c4c10f7223e7d311d9544df"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Craft.png",
+      "pixels": 10824,
+      "translucentPixels": 1693,
+      "sha256": "ea60410388158d3b9cecc896f9d3e3a0270a8b570860935c8f96a844aeed31fc"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_DailyReward.png",
+      "pixels": 14250,
+      "translucentPixels": 2635,
+      "sha256": "195b31327c1d3fdaca494624c46b4648babe21d833ee38b008f3b61f6ae4e49f"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Diamond.png",
+      "pixels": 4899,
+      "translucentPixels": 265,
+      "sha256": "1a18792ca86d108f3862c5c2bd612f35c07ef5bddf3642eda316701a6d863343"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Edit.png",
+      "pixels": 15624,
+      "translucentPixels": 1852,
+      "sha256": "60fb235e4e547fca086551f07fdffb1448a095a1b8e04d18658748fdd75eb0ca"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Gacha.png",
+      "pixels": 19404,
+      "translucentPixels": 2126,
+      "sha256": "25a9d43818fab4fdcbfdb047b854e61e60a5c115f70052e9825acc3877b0974c"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Gembag.png",
+      "pixels": 11730,
+      "translucentPixels": 2001,
+      "sha256": "5bb1a366e6bf54d4258485432f1c37273ecc0916728fd8e5eb20616ffb96c440"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Gold.png",
+      "pixels": 4899,
+      "translucentPixels": 349,
+      "sha256": "56a0e266aff6e1adf9427793058ab8092df401bb96ed37fc27c1462bd6169dfc"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Mail.png",
+      "pixels": 6400,
+      "translucentPixels": 779,
+      "sha256": "a8b47c320d01f035d368ceab80a9a07965944abbf23d9c4e05ac8f1729df60db"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Menu_Small.png",
+      "pixels": 2809,
+      "translucentPixels": 0,
+      "sha256": "c430a3b2e4367b473323ddd4bcb398566de611c9a1e258e9666e03470e841b53"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_MoMoTalk.png",
+      "pixels": 10057,
+      "translucentPixels": 1906,
+      "sha256": "49ec34a5916db42c31c6bc712434c11f1c8bcd0457c7f4964d4e6163916cd681"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Notice.png",
+      "pixels": 11770,
+      "translucentPixels": 1685,
+      "sha256": "e662fbcd3e69531f853610d04b6e1702a3c0262355e51bfc965cbae5a970197a"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_SchaleBilding.png",
+      "pixels": 17024,
+      "translucentPixels": 1791,
+      "sha256": "b19a4116fe12f22aa93a1b486c2bba511595b466a64b75e0bf2e133238b5a2f8"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Shop.png",
+      "pixels": 14508,
+      "translucentPixels": 1896,
+      "sha256": "dfbe6853c2a8a2d1fdd67b8ee99c045e3028c333b8b315868a1745ed749a5255"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Social.png",
+      "pixels": 17284,
+      "translucentPixels": 2107,
+      "sha256": "7e9de2935b31d395fda2f5cc2a045f23bc71075d75e1edc49642e83452aa6994"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_SpecialLobby.png",
+      "pixels": 6400,
+      "translucentPixels": 1964,
+      "sha256": "c51782fca7f1fbc94ea173badb0a5859df173a1bd61dabbe08802d7299563ba2"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Stamina.png",
+      "pixels": 4899,
+      "translucentPixels": 373,
+      "sha256": "57178b0c482eabb86759abfde0e5272e989e27186c9bb35a705cfda8aca37534"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Icon_Student.png",
+      "pixels": 13910,
+      "translucentPixels": 1617,
+      "sha256": "68f2bc1bf19d5389b4d8dd516a4577c7b8b4f6a363bc96462ee0609e7133499c"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_Plus_Btn.png",
+      "pixels": 3969,
+      "translucentPixels": 336,
+      "sha256": "2dae3b96cb422a5a4679f269c6c1c532bdacd83ce00766098bbc32d138e5966e"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Common_UIHide_Icon2.png",
+      "pixels": 5226,
+      "translucentPixels": 386,
+      "sha256": "d495a753c2214c8ec9fcf498a482d069ec0c0b7e29063a0245920515cec19436"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Event_Banner_841_Jp.png",
+      "pixels": 176256,
+      "translucentPixels": 46978,
+      "sha256": "825a76f5786681072421667f4bc4b582a3eb3d4a77db7d7191ea6266b9231a3a"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Event_Banner_842_Jp.png",
+      "pixels": 176256,
+      "translucentPixels": 43321,
+      "sha256": "dfc267f1874208f2e60da19f2ad5a519c4e7d17c9df5f020f6d2a05c5841ad47"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Lobby_Gacha_Banner_210204_1.png",
+      "pixels": 246051,
+      "translucentPixels": 21477,
+      "sha256": "81a2025db581c379dd202cf6debb37caa472aabde6d7ccadffee49a156151b11"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/Lobby_Icon_Work.png",
+      "pixels": 76328,
+      "translucentPixels": 6259,
+      "sha256": "fd6146111d4e0ab24c5d573fef4b65bd9615eab24bf85d732ced030cba443f99"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/School_Icon_Schedule.png",
+      "pixels": 11730,
+      "translucentPixels": 2152,
+      "sha256": "ce57bcf0ded96e192da58ec774f66b5843fc2a725c3c4017d9c293021f8a5774"
+    },
+    {
+      "path": "Assets/Tablet/Home/UI/UIWorkAronaSceneBG_DecoColor.png",
+      "pixels": 1862,
+      "translucentPixels": 418,
+      "sha256": "04a379649a0fb25b43788a2f5c88785e9f3fd453b87b5e12eb2e2a9ef2cb0d6c"
+    },
+    {
+      "path": "Assets/Tablet/Home/Sora38/sora.png",
+      "pixels": 158536,
+      "translucentPixels": 0,
+      "sha256": "f4e581688f82fbc8a1d9db78c940a13dd67a2517aaa2e10dd3645d8d6f0c2d96"
+    },
+    {
+      "path": "Assets/Tablet/Home/Arona38/arona.png",
+      "pixels": 262144,
+      "translucentPixels": 0,
+      "sha256": "3ac3f6f3b7d8853897d11bd4714b61a1b384b0dd3e8ce30e3242fd3a3f779244"
+    },
+    {
+      "path": "Assets/Tablet/Home/Plana38/plana.png",
+      "pixels": 524288,
+      "translucentPixels": 0,
+      "sha256": "b5792dca1cd4776a7c1be81ff0be89a644e43467b3f2fae5633f2b7fd8793b0b"
+    }
+  ],
+  "alphaPreserved": true,
+  "opaquePixelsPreserved": true,
+  "passed": true
+}

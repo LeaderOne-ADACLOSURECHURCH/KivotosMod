@@ -1,0 +1,159 @@
+plana.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bow
+  rotate: true
+  xy: 198, 19
+  size: 50, 70
+  orig: 50, 70
+  offset: 0, 0
+  index: -1
+Sideburns
+  rotate: false
+  xy: 410, 183
+  size: 100, 112
+  orig: 100, 112
+  offset: 0, 0
+  index: -1
+bangs
+  rotate: false
+  xy: 678, 419
+  size: 84, 90
+  orig: 84, 90
+  offset: 0, 0
+  index: -1
+braid
+  rotate: true
+  xy: 399, 7
+  size: 32, 68
+  orig: 32, 68
+  offset: 0, 0
+  index: -1
+cheek
+  rotate: true
+  xy: 313, 115
+  size: 70, 14
+  orig: 70, 14
+  offset: 0, 0
+  index: -1
+collar
+  rotate: false
+  xy: 329, 2
+  size: 68, 61
+  orig: 68, 61
+  offset: 0, 0
+  index: -1
+dress
+  rotate: true
+  xy: 126, 71
+  size: 114, 185
+  orig: 114, 185
+  offset: 0, 0
+  index: -1
+eyeW
+  rotate: true
+  xy: 270, 3
+  size: 66, 14
+  orig: 66, 14
+  offset: 0, 0
+  index: -1
+eyebow
+  rotate: true
+  xy: 512, 265
+  size: 30, 6
+  orig: 30, 6
+  offset: 0, 0
+  index: -1
+eyelash
+  rotate: true
+  xy: 500, 37
+  size: 82, 14
+  orig: 82, 14
+  offset: 0, 0
+  index: -1
+eyelids
+  rotate: true
+  xy: 313, 43
+  size: 70, 14
+  orig: 70, 14
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 678, 325
+  size: 82, 92
+  orig: 82, 92
+  offset: 0, 0
+  index: -1
+hairB
+  rotate: true
+  xy: 2, 297
+  size: 212, 520
+  orig: 212, 520
+  offset: 0, 0
+  index: -1
+hairM
+  rotate: false
+  xy: 2, 65
+  size: 122, 120
+  orig: 122, 120
+  offset: 0, 0
+  index: -1
+hairdress
+  rotate: false
+  xy: 410, 41
+  size: 88, 140
+  orig: 88, 140
+  offset: 0, 0
+  index: -1
+hairshadow
+  rotate: false
+  xy: 126, 11
+  size: 70, 58
+  orig: 70, 58
+  offset: 0, 0
+  index: -1
+halo
+  rotate: false
+  xy: 2, 33
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+legs
+  rotate: false
+  xy: 330, 65
+  size: 78, 230
+  orig: 78, 230
+  offset: 0, 0
+  index: -1
+overcoat
+  rotate: false
+  xy: 524, 59
+  size: 152, 450
+  orig: 152, 450
+  offset: 0, 0
+  index: -1
+overcoatB
+  rotate: true
+  xy: 2, 187
+  size: 108, 326
+  orig: 108, 326
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: true
+  xy: 500, 121
+  size: 60, 16
+  orig: 60, 16
+  offset: 0, 0
+  index: -1
+uniform
+  rotate: true
+  xy: 678, 245
+  size: 78, 92
+  orig: 78, 92
+  offset: 0, 0
+  index: -1

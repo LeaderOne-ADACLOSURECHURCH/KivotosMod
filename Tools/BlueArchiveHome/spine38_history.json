@@ -1,0 +1,3791 @@
+[
+  {
+    "sha": "a7e2c9d52a106d18a20c2fd00d84d7db34384650",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTphN2UyYzlkNTJhMTA2ZDE4YTIwYzJmZDAwZDg0ZDdkYjM0Mzg0NjUw",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2020-06-12T09:35:13Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2020-06-12T09:37:37Z"
+      },
+      "message": "[csharp] SkeletonBinary: Optimization of ReadFloat and ReadInt performance, overall ~10% performance gain. Closes #1698.",
+      "tree": {
+        "sha": "b6ece03c3c490befa896a679cc01aff0e21d27f4",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/b6ece03c3c490befa896a679cc01aff0e21d27f4"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/a7e2c9d52a106d18a20c2fd00d84d7db34384650",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/a7e2c9d52a106d18a20c2fd00d84d7db34384650",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/a7e2c9d52a106d18a20c2fd00d84d7db34384650",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/a7e2c9d52a106d18a20c2fd00d84d7db34384650/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eadce3188c788ae78ccec487c3a0a290d0ec18d9",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/eadce3188c788ae78ccec487c3a0a290d0ec18d9",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/eadce3188c788ae78ccec487c3a0a290d0ec18d9"
+      }
+    ]
+  },
+  {
+    "sha": "b67bf992a0349b779aac9f619f027d34e296267c",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpiNjdiZjk5MmEwMzQ5Yjc3OWFhYzlmNjE5ZjAyN2QzNGUyOTYyNjdj",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-12-20T11:20:09Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-12-20T11:20:46Z"
+      },
+      "message": "Single bone IK fix and license header update. Closes #1580, closes #1581.",
+      "tree": {
+        "sha": "573f3d0e29aa284b1ad0ff5a5a93be61dc3aadfb",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/573f3d0e29aa284b1ad0ff5a5a93be61dc3aadfb"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/b67bf992a0349b779aac9f619f027d34e296267c",
+      "comment_count": 2,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/b67bf992a0349b779aac9f619f027d34e296267c",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/b67bf992a0349b779aac9f619f027d34e296267c",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/b67bf992a0349b779aac9f619f027d34e296267c/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c0699e23a0c8799710323bdf0e076e18f6ba41a2",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/c0699e23a0c8799710323bdf0e076e18f6ba41a2",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/c0699e23a0c8799710323bdf0e076e18f6ba41a2"
+      }
+    ]
+  },
+  {
+    "sha": "bc522117b131d95799a1841cb62eafe779baede3",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpiYzUyMjExN2IxMzFkOTU3OTlhMTg0MWNiNjJlYWZlNzc5YmFlZGUz",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-08-07T12:48:44Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-08-07T12:48:44Z"
+      },
+      "message": "[csharp] Fixed a typo in SkeletonBinary.cs that led to a compile error.",
+      "tree": {
+        "sha": "c5b3c7d8340144979427f1ba7109f355899938f6",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/c5b3c7d8340144979427f1ba7109f355899938f6"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/bc522117b131d95799a1841cb62eafe779baede3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/bc522117b131d95799a1841cb62eafe779baede3",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/bc522117b131d95799a1841cb62eafe779baede3",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/bc522117b131d95799a1841cb62eafe779baede3/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed95732bf2ccbf23d90e0a39f22c2b859af22e49",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ed95732bf2ccbf23d90e0a39f22c2b859af22e49",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/ed95732bf2ccbf23d90e0a39f22c2b859af22e49"
+      }
+    ]
+  },
+  {
+    "sha": "336288cb2e22fcc13f3ac0be71593779b55327ea",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTozMzYyODhjYjJlMjJmY2MxM2YzYWMwYmU3MTU5Mzc3OWI1NTMyN2Vh",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-08-07T09:43:29Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-08-07T09:43:29Z"
+      },
+      "message": "[csharp] fix parsing of default skins without attachment for binary files.",
+      "tree": {
+        "sha": "0f7b51a590de2bd8f29533f672b962fd686c9f03",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/0f7b51a590de2bd8f29533f672b962fd686c9f03"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/336288cb2e22fcc13f3ac0be71593779b55327ea",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/336288cb2e22fcc13f3ac0be71593779b55327ea",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/336288cb2e22fcc13f3ac0be71593779b55327ea",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/336288cb2e22fcc13f3ac0be71593779b55327ea/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cc694f7b5a199238e3f7012c706b163ad7d0285f",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/cc694f7b5a199238e3f7012c706b163ad7d0285f",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/cc694f7b5a199238e3f7012c706b163ad7d0285f"
+      }
+    ]
+  },
+  {
+    "sha": "505719c1f152022acdbe159ffed334df9a7627cb",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo1MDU3MTljMWYxNTIwMjJhY2RiZTE1OWZmZWQzMzRkZjlhNzYyN2Ni",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-20T08:18:01Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-20T08:19:17Z"
+      },
+      "message": "[unity] Added soft IK support. See #1383.",
+      "tree": {
+        "sha": "0ff60f4e21a42d428cc96c9240cd6798d70f3b66",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/0ff60f4e21a42d428cc96c9240cd6798d70f3b66"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/505719c1f152022acdbe159ffed334df9a7627cb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/505719c1f152022acdbe159ffed334df9a7627cb",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/505719c1f152022acdbe159ffed334df9a7627cb",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/505719c1f152022acdbe159ffed334df9a7627cb/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "64695a2c808a36068a4845b06666d7d08afd4bb3",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/64695a2c808a36068a4845b06666d7d08afd4bb3",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/64695a2c808a36068a4845b06666d7d08afd4bb3"
+      }
+    ]
+  },
+  {
+    "sha": "55daa017d55bb3a52fc1dfded6139243013ff73f",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo1NWRhYTAxN2Q1NWJiM2E1MmZjMWRmZGVkNjEzOTI0MzAxM2ZmNzNm",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-05T18:57:20Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-05T18:57:20Z"
+      },
+      "message": "[csharp] Fixed a mistake of last porting commit 217ebe8: Binary format, added a string table. Changed some lines to be closer to ref-impl.",
+      "tree": {
+        "sha": "298a2805a231ba133fb205829dcee3182b801925",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/298a2805a231ba133fb205829dcee3182b801925"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/55daa017d55bb3a52fc1dfded6139243013ff73f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/55daa017d55bb3a52fc1dfded6139243013ff73f",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/55daa017d55bb3a52fc1dfded6139243013ff73f",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/55daa017d55bb3a52fc1dfded6139243013ff73f/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "217ebe8888678cae10d7e1d18b91cf46a54c72e1",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/217ebe8888678cae10d7e1d18b91cf46a54c72e1",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/217ebe8888678cae10d7e1d18b91cf46a54c72e1"
+      }
+    ]
+  },
+  {
+    "sha": "217ebe8888678cae10d7e1d18b91cf46a54c72e1",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MToyMTdlYmU4ODg4Njc4Y2FlMTBkN2UxZDE4YjkxY2Y0NmE1NGM3MmUx",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-05T17:57:23Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-05T17:57:23Z"
+      },
+      "message": "[csharp] Port of commits 7249fd6, 30a1a9b, 634887f: Binary format, added a string table. csharp: Moved separate functions to SkeletonInput class for unification with reference impl.",
+      "tree": {
+        "sha": "bde1d52c89079a7520e72b2382a96ebbaebf8dc8",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/bde1d52c89079a7520e72b2382a96ebbaebf8dc8"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/217ebe8888678cae10d7e1d18b91cf46a54c72e1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/217ebe8888678cae10d7e1d18b91cf46a54c72e1",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/217ebe8888678cae10d7e1d18b91cf46a54c72e1",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/217ebe8888678cae10d7e1d18b91cf46a54c72e1/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5193613445e4b0ebc4107c758c2c5d7d337df899",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/5193613445e4b0ebc4107c758c2c5d7d337df899",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/5193613445e4b0ebc4107c758c2c5d7d337df899"
+      }
+    ]
+  },
+  {
+    "sha": "5193613445e4b0ebc4107c758c2c5d7d337df899",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo1MTkzNjEzNDQ1ZTRiMGViYzQxMDdjNzU4YzJjNWQ3ZDMzN2RmODk5",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-05T16:43:24Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-06-05T16:43:24Z"
+      },
+      "message": "[csharp] Port of commit ec5b721: Set array sizes up front rather than shrink afterward. Also changed `IkConstraintData.Bones` type from `List<BoneData>` to `ExposedList<BoneData>` for unification reasons.",
+      "tree": {
+        "sha": "760bf8773e5b0447a0baa7c0b6f322f592d8bd1e",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/760bf8773e5b0447a0baa7c0b6f322f592d8bd1e"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/5193613445e4b0ebc4107c758c2c5d7d337df899",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/5193613445e4b0ebc4107c758c2c5d7d337df899",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/5193613445e4b0ebc4107c758c2c5d7d337df899",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/5193613445e4b0ebc4107c758c2c5d7d337df899/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "625f9b076a3b92d6cac7e0c1d805230404976269",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/625f9b076a3b92d6cac7e0c1d805230404976269",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/625f9b076a3b92d6cac7e0c1d805230404976269"
+      }
+    ]
+  },
+  {
+    "sha": "4a684f63bf862a119d05fb3455a9037d081ecbfa",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo0YTY4NGY2M2JmODYyYTExOWQwNWZiMzQ1NWE5MDM3ZDA4MWVjYmZh",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-05-31T19:25:46Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-05-31T19:25:46Z"
+      },
+      "message": "[csharp] Ported more skin API changes of commits eae88a0 and b87ff73 (Added Mesh#newLinkedMesh(), replaced VertexAttachment#applyDeform with VertexAttachment#deformAttachment), see #841.",
+      "tree": {
+        "sha": "ae4c37d4dc942130b061d14b3dc19c11b02fd418",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/ae4c37d4dc942130b061d14b3dc19c11b02fd418"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/4a684f63bf862a119d05fb3455a9037d081ecbfa",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/4a684f63bf862a119d05fb3455a9037d081ecbfa",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/4a684f63bf862a119d05fb3455a9037d081ecbfa",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/4a684f63bf862a119d05fb3455a9037d081ecbfa/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "47c3704acdde96d00d44bf5bfe42b4cc15d6affe",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/47c3704acdde96d00d44bf5bfe42b4cc15d6affe",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/47c3704acdde96d00d44bf5bfe42b4cc15d6affe"
+      }
+    ]
+  },
+  {
+    "sha": "c63bc7b88f7202a0c7718b6a724040a4e314c28f",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpjNjNiYzdiODhmNzIwMmEwYzc3MThiNmE3MjQwNDBhNGUzMTRjMjhm",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-05-22T16:29:54Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-05-22T16:37:57Z"
+      },
+      "message": "[csharp] See #1346: Port bone/constraint association with skins. Also contains second (and final) partial port of commit ff5b854. Adapted spine-unity for skin changes. Fixed a bug in Skin setter property.",
+      "tree": {
+        "sha": "cbceadd5ba96f77a97a226c6f689d3fa519013e3",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/cbceadd5ba96f77a97a226c6f689d3fa519013e3"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/c63bc7b88f7202a0c7718b6a724040a4e314c28f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/c63bc7b88f7202a0c7718b6a724040a4e314c28f",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/c63bc7b88f7202a0c7718b6a724040a4e314c28f",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/c63bc7b88f7202a0c7718b6a724040a4e314c28f/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1eea0c24c98c1f2191045cb9fddf902239cd30db",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/1eea0c24c98c1f2191045cb9fddf902239cd30db",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/1eea0c24c98c1f2191045cb9fddf902239cd30db"
+      }
+    ]
+  },
+  {
+    "sha": "a009c35b82f7a53ffac8afd1cf217d40d91fd5b7",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTphMDA5YzM1YjgyZjdhNTNmZmFjOGFmZDFjZjIxN2Q0MGQ5MWZkNWI3",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-05-16T16:52:20Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2019-05-17T11:54:56Z"
+      },
+      "message": "[csharp] Ported skin API changes, see #841.",
+      "tree": {
+        "sha": "a60d40931c9e653073b9238ba4a208131f94e37b",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/a60d40931c9e653073b9238ba4a208131f94e37b"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/a009c35b82f7a53ffac8afd1cf217d40d91fd5b7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/a009c35b82f7a53ffac8afd1cf217d40d91fd5b7",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/a009c35b82f7a53ffac8afd1cf217d40d91fd5b7",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/a009c35b82f7a53ffac8afd1cf217d40d91fd5b7/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a19331f843d5921de5013c5d0813dcbca6d00d07",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/a19331f843d5921de5013c5d0813dcbca6d00d07",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/a19331f843d5921de5013c5d0813dcbca6d00d07"
+      }
+    ]
+  },
+  {
+    "sha": "09130b15df3c9c7593c7f355a325ceea885d4ae7",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTowOTEzMGIxNWRmM2M5Yzc1OTNjN2YzNTVhMzI1Y2VlYTg4NWQ0YWU3",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-05-02T09:43:36Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-05-02T09:43:36Z"
+      },
+      "message": "Merge branch '3.7' into 3.8-beta",
+      "tree": {
+        "sha": "86fb1500b76cffa12aed87bed5c7bf26f694dd83",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/86fb1500b76cffa12aed87bed5c7bf26f694dd83"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/09130b15df3c9c7593c7f355a325ceea885d4ae7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/09130b15df3c9c7593c7f355a325ceea885d4ae7",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/09130b15df3c9c7593c7f355a325ceea885d4ae7",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/09130b15df3c9c7593c7f355a325ceea885d4ae7/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5e7e03d8f4de5520d08d31c91305e88c3eb809fa",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/5e7e03d8f4de5520d08d31c91305e88c3eb809fa",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/5e7e03d8f4de5520d08d31c91305e88c3eb809fa"
+      },
+      {
+        "sha": "67f469b06d1f2ce97b43ad93c40df73c3b9c94f4",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/67f469b06d1f2ce97b43ad93c40df73c3b9c94f4",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/67f469b06d1f2ce97b43ad93c40df73c3b9c94f4"
+      }
+    ]
+  },
+  {
+    "sha": "7f7e5f0fec0a955ba1612c88940e9da707a126e5",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo3ZjdlNWYwZmVjMGE5NTViYTE2MTJjODg5NDBlOWRhNzA3YTEyNmU1",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-05-02T09:38:19Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-05-02T09:38:19Z"
+      },
+      "message": "Updated license headers and LICENSE files.",
+      "tree": {
+        "sha": "8d3635761a70eb27e99ee224bbb58d4a6fa1f365",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/8d3635761a70eb27e99ee224bbb58d4a6fa1f365"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/7f7e5f0fec0a955ba1612c88940e9da707a126e5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7f7e5f0fec0a955ba1612c88940e9da707a126e5",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/7f7e5f0fec0a955ba1612c88940e9da707a126e5",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7f7e5f0fec0a955ba1612c88940e9da707a126e5/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "86a529d01c453ec01374329be74ed416e981358c",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/86a529d01c453ec01374329be74ed416e981358c",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/86a529d01c453ec01374329be74ed416e981358c"
+      }
+    ]
+  },
+  {
+    "sha": "d337f587b7ea826611a9bd96c149003876d770c6",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpkMzM3ZjU4N2I3ZWE4MjY2MTFhOWJkOTZjMTQ5MDAzODc2ZDc3MGM2",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-04-16T12:55:54Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2019-04-16T12:55:54Z"
+      },
+      "message": "[csharp] Ported addition of x/y bounding coordinates to SkeletonData. See #1325.",
+      "tree": {
+        "sha": "90360556f8e54a09a08b8dbdc0ff3087a2f1df6b",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/90360556f8e54a09a08b8dbdc0ff3087a2f1df6b"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/d337f587b7ea826611a9bd96c149003876d770c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/d337f587b7ea826611a9bd96c149003876d770c6",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/d337f587b7ea826611a9bd96c149003876d770c6",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/d337f587b7ea826611a9bd96c149003876d770c6/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "67753024ec70366b418f13279177674f07683066",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/67753024ec70366b418f13279177674f07683066",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/67753024ec70366b418f13279177674f07683066"
+      }
+    ]
+  },
+  {
+    "sha": "f186a83fca0aa25d250848ae8880a2b8aa3cca85",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpmMTg2YTgzZmNhMGFhMjVkMjUwODQ4YWU4ODgwYTJiOGFhM2NjYTg1",
+    "commit": {
+      "author": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2018-12-24T11:43:06Z"
+      },
+      "committer": {
+        "name": "Harald Csaszar",
+        "email": "harald.csaszar@pixelcloudgames.com",
+        "date": "2018-12-24T11:43:06Z"
+      },
+      "message": "[csharp] Unified all line endings of files in spine-csharp to lf.",
+      "tree": {
+        "sha": "b5304e08eabc5f12b7ae7b7ce422ee72eb2fe7e2",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/b5304e08eabc5f12b7ae7b7ce422ee72eb2fe7e2"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/f186a83fca0aa25d250848ae8880a2b8aa3cca85",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f186a83fca0aa25d250848ae8880a2b8aa3cca85",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/f186a83fca0aa25d250848ae8880a2b8aa3cca85",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f186a83fca0aa25d250848ae8880a2b8aa3cca85/comments",
+    "author": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "HaraldCsaszar",
+      "id": 32591206,
+      "node_id": "MDQ6VXNlcjMyNTkxMjA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32591206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaraldCsaszar",
+      "html_url": "https://github.com/HaraldCsaszar",
+      "followers_url": "https://api.github.com/users/HaraldCsaszar/followers",
+      "following_url": "https://api.github.com/users/HaraldCsaszar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaraldCsaszar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaraldCsaszar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaraldCsaszar/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaraldCsaszar/orgs",
+      "repos_url": "https://api.github.com/users/HaraldCsaszar/repos",
+      "events_url": "https://api.github.com/users/HaraldCsaszar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaraldCsaszar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ff67c6c039cb2cc6ea9d918dd149a0f90eca4f60",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ff67c6c039cb2cc6ea9d918dd149a0f90eca4f60",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/ff67c6c039cb2cc6ea9d918dd149a0f90eca4f60"
+      }
+    ]
+  },
+  {
+    "sha": "0d33b54ef04a62e48eb8f918455e754e9c1b9579",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTowZDMzYjU0ZWYwNGE2MmU0OGViOGY5MTg0NTVlNzU0ZTljMWI5NTc5",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-09-06T12:33:41Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-09-06T12:33:41Z"
+      },
+      "message": "[csharp] Add event volume and balance.",
+      "tree": {
+        "sha": "9cc3370b84f91e834a6c55c76afa8d1b2bff10e8",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/9cc3370b84f91e834a6c55c76afa8d1b2bff10e8"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/0d33b54ef04a62e48eb8f918455e754e9c1b9579",
+      "comment_count": 1,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/0d33b54ef04a62e48eb8f918455e754e9c1b9579",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/0d33b54ef04a62e48eb8f918455e754e9c1b9579",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/0d33b54ef04a62e48eb8f918455e754e9c1b9579/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "45fbd64e300c0dffe6df6b238e1a9adbbb801a94",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/45fbd64e300c0dffe6df6b238e1a9adbbb801a94",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/45fbd64e300c0dffe6df6b238e1a9adbbb801a94"
+      }
+    ]
+  },
+  {
+    "sha": "cbd6b2617eb1161c602ce710539cf75cd06e5e83",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpjYmQ2YjI2MTdlYjExNjFjNjAyY2U3MTA1MzljZjc1Y2QwNmU1ZTgz",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-08-23T21:54:02Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-08-23T21:54:02Z"
+      },
+      "message": "[csharp] Port IkConstraint unform and compress.",
+      "tree": {
+        "sha": "d1debd5bcc9f13d7676fb5d005e331c5623cf896",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/d1debd5bcc9f13d7676fb5d005e331c5623cf896"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/cbd6b2617eb1161c602ce710539cf75cd06e5e83",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/cbd6b2617eb1161c602ce710539cf75cd06e5e83",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/cbd6b2617eb1161c602ce710539cf75cd06e5e83",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/cbd6b2617eb1161c602ce710539cf75cd06e5e83/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "66236adea5f29921561dd0cf9296fc46343d0c26",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/66236adea5f29921561dd0cf9296fc46343d0c26",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/66236adea5f29921561dd0cf9296fc46343d0c26"
+      }
+    ]
+  },
+  {
+    "sha": "d5354cb6bf52e3edf0ee8fe4ff0895cf869dfa8c",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpkNTM1NGNiNmJmNTJlM2VkZjBlZThmZTRmZjA4OTVjZjg2OWRmYThj",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-08-14T15:45:38Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-08-14T15:45:38Z"
+      },
+      "message": "[csharp] Ported stretchy IK. See https://github.com/EsotericSoftware/spine-runtimes/issues/1142",
+      "tree": {
+        "sha": "c9b1d23222bb7d4dc694616bb126b3b60d3e62e8",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/c9b1d23222bb7d4dc694616bb126b3b60d3e62e8"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/d5354cb6bf52e3edf0ee8fe4ff0895cf869dfa8c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/d5354cb6bf52e3edf0ee8fe4ff0895cf869dfa8c",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/d5354cb6bf52e3edf0ee8fe4ff0895cf869dfa8c",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/d5354cb6bf52e3edf0ee8fe4ff0895cf869dfa8c/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b8b4a4adfeb41b9521262a2c858f443a6aea969",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/4b8b4a4adfeb41b9521262a2c858f443a6aea969",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/4b8b4a4adfeb41b9521262a2c858f443a6aea969"
+      }
+    ]
+  },
+  {
+    "sha": "83778a76c1f38e3a8edc78fdbb05ed21515e48c7",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo4Mzc3OGE3NmMxZjM4ZTNhOGVkYzc4ZmRiYjA1ZWQyMTUxNWU0OGM3",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-01-18T18:47:44Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2018-01-18T18:47:44Z"
+      },
+      "message": "[csharp] Add audioPath to EventData and SkeletonData",
+      "tree": {
+        "sha": "e8f98bd71776ee3d2b481b4c299e61556c82abd8",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/e8f98bd71776ee3d2b481b4c299e61556c82abd8"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/83778a76c1f38e3a8edc78fdbb05ed21515e48c7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/83778a76c1f38e3a8edc78fdbb05ed21515e48c7",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/83778a76c1f38e3a8edc78fdbb05ed21515e48c7",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/83778a76c1f38e3a8edc78fdbb05ed21515e48c7/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "18eec077e4bc948b79acb99a0dfecb0255a44f7b",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/18eec077e4bc948b79acb99a0dfecb0255a44f7b",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/18eec077e4bc948b79acb99a0dfecb0255a44f7b"
+      }
+    ]
+  },
+  {
+    "sha": "ca9f46d92bafb1eb4346bc1558ab2696367dd661",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpjYTlmNDZkOTJiYWZiMWViNDM0NmJjMTU1OGFiMjY5NjM2N2RkNjYx",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2017-07-20T11:03:11Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2017-07-20T11:03:11Z"
+      },
+      "message": "[csharp] Fix (IS_UNITY) symbol.",
+      "tree": {
+        "sha": "0be9257e34e6a16cd18bf899dd22bc8ac1888188",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/0be9257e34e6a16cd18bf899dd22bc8ac1888188"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/ca9f46d92bafb1eb4346bc1558ab2696367dd661",
+      "comment_count": 1,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ca9f46d92bafb1eb4346bc1558ab2696367dd661",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/ca9f46d92bafb1eb4346bc1558ab2696367dd661",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ca9f46d92bafb1eb4346bc1558ab2696367dd661/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f3cf2889b6349bcb8b1f6d21f39c20905412be0d",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f3cf2889b6349bcb8b1f6d21f39c20905412be0d",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/f3cf2889b6349bcb8b1f6d21f39c20905412be0d"
+      }
+    ]
+  },
+  {
+    "sha": "63c3a4801493741a03e91eaf680c792c267c6d35",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo2M2MzYTQ4MDE0OTM3NDFhMDNlOTFlYWY2ODBjNzkyYzI2N2M2ZDM1",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2017-04-19T12:14:09Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2017-04-19T12:14:09Z"
+      },
+      "message": "[csharp] Added clipping attachment, loading and subs for clipping code",
+      "tree": {
+        "sha": "07af6c2666cdbd07cdb3e3206a98db42a91445d0",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/07af6c2666cdbd07cdb3e3206a98db42a91445d0"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/63c3a4801493741a03e91eaf680c792c267c6d35",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/63c3a4801493741a03e91eaf680c792c267c6d35",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/63c3a4801493741a03e91eaf680c792c267c6d35",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/63c3a4801493741a03e91eaf680c792c267c6d35/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "282ca30e5a8b126e2728dee4904b2469f4fb7432",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/282ca30e5a8b126e2728dee4904b2469f4fb7432",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/282ca30e5a8b126e2728dee4904b2469f4fb7432"
+      }
+    ]
+  },
+  {
+    "sha": "3697e431ee76598fab7e8c7486866d41ce767c4d",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTozNjk3ZTQzMWVlNzY1OThmYWI3ZThjNzQ4Njg2NmQ0MWNlNzY3YzRk",
+    "commit": {
+      "author": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2017-02-28T14:37:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-02-28T14:37:46Z"
+      },
+      "message": "[csharp] Fix reading dark color from binary.",
+      "tree": {
+        "sha": "bf601fa430208225e698847c042817b882a64998",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/bf601fa430208225e698847c042817b882a64998"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/3697e431ee76598fab7e8c7486866d41ce767c4d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/3697e431ee76598fab7e8c7486866d41ce767c4d",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/3697e431ee76598fab7e8c7486866d41ce767c4d",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/3697e431ee76598fab7e8c7486866d41ce767c4d/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6fdded7bf892a5214d21d27ec077411036f3cb74",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/6fdded7bf892a5214d21d27ec077411036f3cb74",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/6fdded7bf892a5214d21d27ec077411036f3cb74"
+      }
+    ]
+  },
+  {
+    "sha": "03c41b7667467f45e991ed3dab40890cb6226e37",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTowM2M0MWI3NjY3NDY3ZjQ1ZTk5MWVkM2RhYjQwODkwY2I2MjI2ZTM3",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2017-02-20T09:59:27Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2017-02-20T09:59:27Z"
+      },
+      "message": "[csharp] Fixed transform constraint binary reading, didn't read local/relative properties",
+      "tree": {
+        "sha": "295aeb9a87e48ee8fedfd5e2eb4634dd46bd42ba",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/295aeb9a87e48ee8fedfd5e2eb4634dd46bd42ba"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/03c41b7667467f45e991ed3dab40890cb6226e37",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/03c41b7667467f45e991ed3dab40890cb6226e37",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/03c41b7667467f45e991ed3dab40890cb6226e37",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/03c41b7667467f45e991ed3dab40890cb6226e37/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "023bec462fc027cb803c3742e4f4bf548a588757",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/023bec462fc027cb803c3742e4f4bf548a588757",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/023bec462fc027cb803c3742e4f4bf548a588757"
+      }
+    ]
+  },
+  {
+    "sha": "3736a5c3dca094f650a209745b665aeba7303e08",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTozNzM2YTVjM2RjYTA5NGY2NTBhMjA5NzQ1YjY2NWFlYmE3MzAzZTA4",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2017-01-28T15:20:23Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2017-01-28T15:20:23Z"
+      },
+      "message": "[csharp] Ported 3.6-beta changes.",
+      "tree": {
+        "sha": "e539ab898af2dfd0caf00e62e1247c167d4fd5df",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/e539ab898af2dfd0caf00e62e1247c167d4fd5df"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/3736a5c3dca094f650a209745b665aeba7303e08",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/3736a5c3dca094f650a209745b665aeba7303e08",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/3736a5c3dca094f650a209745b665aeba7303e08",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/3736a5c3dca094f650a209745b665aeba7303e08/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7ac7afac2c5b3c90f921910b0e9473ae038cfd32",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7ac7afac2c5b3c90f921910b0e9473ae038cfd32",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/7ac7afac2c5b3c90f921910b0e9473ae038cfd32"
+      }
+    ]
+  },
+  {
+    "sha": "0a423c37575f9304756aa39d6149363930a5e660",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTowYTQyM2MzNzU3NWY5MzA0NzU2YWEzOWQ2MTQ5MzYzOTMwYTVlNjYw",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2016-12-23T04:24:58Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2016-12-23T04:24:58Z"
+      },
+      "message": "[unity] Updated editors.",
+      "tree": {
+        "sha": "0a6f9cb6d622013a9581b7b74728d413aedf1dd0",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/0a6f9cb6d622013a9581b7b74728d413aedf1dd0"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/0a423c37575f9304756aa39d6149363930a5e660",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/0a423c37575f9304756aa39d6149363930a5e660",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/0a423c37575f9304756aa39d6149363930a5e660",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/0a423c37575f9304756aa39d6149363930a5e660/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "acd50548d5ee09ea11637525970142d332d20cf7",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/acd50548d5ee09ea11637525970142d332d20cf7",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/acd50548d5ee09ea11637525970142d332d20cf7"
+      }
+    ]
+  },
+  {
+    "sha": "1aa8f56f9b0a180ecc24ae3c46ce5812663d8f31",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MToxYWE4ZjU2ZjliMGExODBlY2MyNGFlM2M0NmNlNTgxMjY2M2Q4ZjMx",
+    "commit": {
+      "author": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2016-11-28T11:04:08Z"
+      },
+      "committer": {
+        "name": "pharan",
+        "email": "johndygit@live.com.ph",
+        "date": "2016-11-28T11:04:08Z"
+      },
+      "message": "[csharp] Fix SkeletonBinary/SkeletonJson for Unity-WSA.",
+      "tree": {
+        "sha": "e623f927e2abfa0f5a6ca249b073f33eeb94d22b",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/e623f927e2abfa0f5a6ca249b073f33eeb94d22b"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/1aa8f56f9b0a180ecc24ae3c46ce5812663d8f31",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/1aa8f56f9b0a180ecc24ae3c46ce5812663d8f31",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/1aa8f56f9b0a180ecc24ae3c46ce5812663d8f31",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/1aa8f56f9b0a180ecc24ae3c46ce5812663d8f31/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "da0578ae644f7939b3986c9c594244d14d3b122f",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/da0578ae644f7939b3986c9c594244d14d3b122f",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/da0578ae644f7939b3986c9c594244d14d3b122f"
+      }
+    ]
+  },
+  {
+    "sha": "36000e3c550a80c712afcf65a73103c7d29c9f5f",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTozNjAwMGUzYzU1MGE4MGM3MTJhZmNmNjVhNzMxMDNjN2QyOWM5ZjVm",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-11-15T22:10:23Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-11-15T22:10:23Z"
+      },
+      "message": "Updated to v3.5 (merge dev branch).\n\n# Conflicts:\n#\tspine-c/src/spine/AnimationState.c",
+      "tree": {
+        "sha": "12298913f69b1a5a6c807c2946e500a8804abd49",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/12298913f69b1a5a6c807c2946e500a8804abd49"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/36000e3c550a80c712afcf65a73103c7d29c9f5f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/36000e3c550a80c712afcf65a73103c7d29c9f5f",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/36000e3c550a80c712afcf65a73103c7d29c9f5f",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/36000e3c550a80c712afcf65a73103c7d29c9f5f/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "87499ee545fa466ebf925d1f541630c6dea1846c",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/87499ee545fa466ebf925d1f541630c6dea1846c",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/87499ee545fa466ebf925d1f541630c6dea1846c"
+      }
+    ]
+  },
+  {
+    "sha": "c0fdc454a2fb8df095aa47c252c20961a8059257",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpjMGZkYzQ1NGEyZmI4ZGYwOTVhYTQ3YzI1MmMyMDk2MWE4MDU5MjU3",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-10-15T21:45:16Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-10-15T21:45:16Z"
+      },
+      "message": "Fixed inconsistent newlines.\n\nLicense header was followed by \\n\\n and files ended with \\n. Changed to \\r\\n.",
+      "tree": {
+        "sha": "5c31cca83aebfc01c3d0766bcd6ec0dd3fbad632",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/5c31cca83aebfc01c3d0766bcd6ec0dd3fbad632"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/c0fdc454a2fb8df095aa47c252c20961a8059257",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/c0fdc454a2fb8df095aa47c252c20961a8059257",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/c0fdc454a2fb8df095aa47c252c20961a8059257",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/c0fdc454a2fb8df095aa47c252c20961a8059257/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a18f0818c95c0ab3d4c45477ea061b062789600",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7a18f0818c95c0ab3d4c45477ea061b062789600",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/7a18f0818c95c0ab3d4c45477ea061b062789600"
+      }
+    ]
+  },
+  {
+    "sha": "7a18f0818c95c0ab3d4c45477ea061b062789600",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo3YTE4ZjA4MThjOTVjMGFiM2Q0YzQ1NDc3ZWEwNjFiMDYyNzg5NjAw",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-10-15T21:15:41Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-10-15T21:15:41Z"
+      },
+      "message": "Every space in its place! (tm)\n\n(whitespace clean up)",
+      "tree": {
+        "sha": "3429d4d0d1cae874beeca564adb16f9202b7e3f6",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/3429d4d0d1cae874beeca564adb16f9202b7e3f6"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/7a18f0818c95c0ab3d4c45477ea061b062789600",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7a18f0818c95c0ab3d4c45477ea061b062789600",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/7a18f0818c95c0ab3d4c45477ea061b062789600",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7a18f0818c95c0ab3d4c45477ea061b062789600/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ded7a697d9602b36f854648a17f9c404adb45fc6",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ded7a697d9602b36f854648a17f9c404adb45fc6",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/ded7a697d9602b36f854648a17f9c404adb45fc6"
+      }
+    ]
+  },
+  {
+    "sha": "5aa27771c30a6efb853f1774902a93e2746a2ab6",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo1YWEyNzc3MWMzMGE2ZWZiODUzZjE3NzQ5MDJhOTNlMjc0NmEyYWI2",
+    "commit": {
+      "author": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2016-10-13T13:12:05Z"
+      },
+      "committer": {
+        "name": "badlogic",
+        "email": "badlogicgames@gmail.com",
+        "date": "2016-10-13T13:12:05Z"
+      },
+      "message": "[runtimes] Updated ALL sources to use latest Spine Runtimes License v2.5. Manually checked all the things...",
+      "tree": {
+        "sha": "fc402e08024d6d87e5457835670fcea35521e20c",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/fc402e08024d6d87e5457835670fcea35521e20c"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/5aa27771c30a6efb853f1774902a93e2746a2ab6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/5aa27771c30a6efb853f1774902a93e2746a2ab6",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/5aa27771c30a6efb853f1774902a93e2746a2ab6",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/5aa27771c30a6efb853f1774902a93e2746a2ab6/comments",
+    "author": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "badlogic",
+      "id": 514052,
+      "node_id": "MDQ6VXNlcjUxNDA1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/badlogic",
+      "html_url": "https://github.com/badlogic",
+      "followers_url": "https://api.github.com/users/badlogic/followers",
+      "following_url": "https://api.github.com/users/badlogic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/badlogic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/badlogic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/badlogic/subscriptions",
+      "organizations_url": "https://api.github.com/users/badlogic/orgs",
+      "repos_url": "https://api.github.com/users/badlogic/repos",
+      "events_url": "https://api.github.com/users/badlogic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/badlogic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5ada79849a47dcde00907daf9db9c25583a73808",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/5ada79849a47dcde00907daf9db9c25583a73808",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/5ada79849a47dcde00907daf9db9c25583a73808"
+      }
+    ]
+  },
+  {
+    "sha": "1c1936532527900f74cfb58f7002998bf157b254",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MToxYzE5MzY1MzI1Mjc5MDBmNzRjZmI1OGY3MDAyOTk4YmYxNTdiMjU0",
+    "commit": {
+      "author": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2016-06-29T20:29:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-06-29T20:29:33Z"
+      },
+      "message": "[csharp][monogame][unity][xna] Updated to 3.3.x (#623)\n\n* [spine-csharp] Ported 3.3 changes of Animation and inner classes. Added MathUtils.Clamp\r\n\r\n* [spine-csharp] Ported 3.3 changes of AnimationStateData. Updated .gitignore to exclude .meta files from spine-csharp\r\n\r\n* [spine-csharp] Ported 3.3 changes of Bone\r\n\r\n* [spine-csharp] Ported 3.3 changes of BoneData\r\n\r\n* [spine-csharp] Ported 3.3 changes of Event\r\n\r\n* [spine-csharp] Ported 3.3 changes to IKConstraint. Also got rid of the hideous labeled break. Replaced with while and sprinkled continues and break :D\r\n\r\n* [spine-csharp] Mario is not good with labeled breaks. Fixed with goto\r\n\r\n* [spine-csharp] Ported more 3.3 changes, only SkeletonJson and SkeletonBinary left. Unity runtime also needs updating with new changes\r\n\r\n* [spine-csharp] fixed compilation errors initially not reported by Mono CS\r\n\r\n* Minor clean up.\r\n\r\nEvery space has its place.\u2122\r\n\r\n* Match csharp 3.3 refactorings.\r\n\r\n* [Unity] Minor cleanup in SkeletonBaker.\r\n\r\n* Better exception messages.\r\n\r\n* Removed extra usings. Matched whitespace style.\r\n\r\n* Fixed Bone.cs method PascalCase and xml documentation.\r\n\r\n* Fixed Exception ctor arguments.\r\n\r\n* Fixed single bone IK mixing.\r\n\r\nMatched libgdx commit:\r\nhttps://github.com/EsotericSoftware/spine-runtimes/commit/e0ee18a0880cf48f4f8cb68e381de6d7e2fd8378\r\n\r\n* [spine-csharp] Port of 3.3 changes to SkeletonJson, incomplete\r\n\r\n* [Unity] Ragdoll: account for shear and new constraints.\r\n\r\n* [spine-csharp] Ported 3.3 changes to SkeletonJson\r\n\r\n* [spine-csharp] Ported 3.3 changes to SkeletonBinary. Time for testing and debugging\r\n\r\n* [spine-csharp] Fixed up XNA runtime\r\n\r\n* Added simple example data in new exports/ folder\r\n\r\n* [spine-csharp] Fixed bug in Slot construtor, wasn't assigning index. Fixed bug in CurveTimeline, argument guard was wrong. Fixed bugs in SkeletonJson, indexing to get duration of a timeline was wrong. Added simple example to spine-xna for easier debugging\r\n\r\n* [spine-csharp] Fixed porting bug in ColorTimeline#apply, indexing was wrong\r\n\r\n* [spine-csharp] Fixed SkeletonJson#ReadVertices, calling resize on temp lists was wrong. Updated goblin sample in spine-xna, fixed mesh attachment rendering in spine-xna.\r\n\r\n* [spine-xna] Added binary exports, modified XNA game\r\n\r\n* [spine-xna] Added tank example\r\n\r\n* Some cleanup. Relabeled generic todos.\r\n\r\n* Prevent SpineEditorUtilities from orphaning failed instantiations.\r\n\r\n* Ignore PathAttachment when checking for required atlas regions.\r\n\r\n* [spine-csharp] the great spaces to tabs battle\r\n\r\n* [spine-csharp] Fixed inherit deform.\r\n\r\n* [spine-csharp] Match Skeleton.java properties and stuff.\r\n\r\n* [spine-csharp] Fixed enums, all upper cased now, using Enum.ParseType in case-insensitive mode\r\n\r\n* [csharp] Ported 206e7f983c4df4d27fee6cac05d152eb2295c8b0 to csharp runtime. Fixes attachment keys on different tracks\r\n\r\n* [csharp] Updated README.md\r\n\r\n* [xna] [monogame] [unity] Updated README.md\r\n\r\n* Revert \"[csharp] Ported 206e7f983c4df4d27fee6cac05d152eb2295c8b0 to csharp runtime. Fixes attachment keys on different tracks\"\r\n\r\nThis reverts commit 175216868dd00b4ae31cc717022242308c150f6a.\r\n\r\n* [csharp] Fix to AttachmentTimeline#apply, fix for the fix for the fix for the revert for the fix\r\n\r\n* [csharp] Matched and fixed more comments, summaries, exception messages and formatting.\r\n\r\n* [csharp] Fix deformed weighted vertices condition + match libgdx closer.\r\n\r\n* [csharp] Use internal ExposedList array for critical methods.\r\n\r\n* [csharp] SkeletonJson and SkeletonBinary minor formatting and fixes.\r\n\r\n* [unity] Match changes and fixes in spine-csharp 3.3 + better editor messages.\r\n\r\n* [unity] Updated sample scenes and files.\r\n\r\n* [csharp] Some formatting got left behind.\r\n\r\n* [unity] New readme links + Removed redundant info.\r\n\r\n* [exports] Remove dummy project.",
+      "tree": {
+        "sha": "efa6d6191d9c7a4a67c71ce923b12897f17172b7",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/efa6d6191d9c7a4a67c71ce923b12897f17172b7"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/1c1936532527900f74cfb58f7002998bf157b254",
+      "comment_count": 2,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/1c1936532527900f74cfb58f7002998bf157b254",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/1c1936532527900f74cfb58f7002998bf157b254",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/1c1936532527900f74cfb58f7002998bf157b254/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20460fbdaa21cc61073974dc09daefaca5f78141",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/20460fbdaa21cc61073974dc09daefaca5f78141",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/20460fbdaa21cc61073974dc09daefaca5f78141"
+      }
+    ]
+  },
+  {
+    "sha": "f1406e2f854fb64d923491a5c7b136e3fcfe1acf",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpmMTQwNmUyZjg1NGZiNjRkOTIzNDkxYTVjN2IxMzZlM2ZjZmUxYWNm",
+    "commit": {
+      "author": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2016-06-01T00:25:30Z"
+      },
+      "committer": {
+        "name": "Nathan Sweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-06-01T00:25:30Z"
+      },
+      "message": "Update spine-csharp to v3.2 (shearing) (#562)\n\n* spine-csharp updated to 3.2.00.\r\n\r\n* Some cleanup, catchup and fixes.\r\n\r\n* Mix transform constraint scale and shear offsets.\r\n\r\n* Update readmes.\r\n\r\n* Clean up.\r\n\r\n* Formatting.\r\n\r\n* Fixed single bone IK with nonuniform scale. Improved two bone IK.",
+      "tree": {
+        "sha": "7beb055be2f933cb24399f63a5bd9f34b4a00069",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/7beb055be2f933cb24399f63a5bd9f34b4a00069"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/f1406e2f854fb64d923491a5c7b136e3fcfe1acf",
+      "comment_count": 1,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f1406e2f854fb64d923491a5c7b136e3fcfe1acf",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/f1406e2f854fb64d923491a5c7b136e3fcfe1acf",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f1406e2f854fb64d923491a5c7b136e3fcfe1acf/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05d60e53773e6663645cc8c6490711d1fac832d6",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/05d60e53773e6663645cc8c6490711d1fac832d6",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/05d60e53773e6663645cc8c6490711d1fac832d6"
+      }
+    ]
+  },
+  {
+    "sha": "2c0dea8f87aaa5bf90025a7c374d72577b3208d6",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MToyYzBkZWE4Zjg3YWFhNWJmOTAwMjVhN2MzNzRkNzI1NzdiMzIwOGQ2",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-04-14T11:40:39Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-04-14T11:40:39Z"
+      },
+      "message": "Fixed reading draw order timeline in binary format.",
+      "tree": {
+        "sha": "eceb972fa786693c4b5e708167f8d229aa8ea76d",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/eceb972fa786693c4b5e708167f8d229aa8ea76d"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/2c0dea8f87aaa5bf90025a7c374d72577b3208d6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/2c0dea8f87aaa5bf90025a7c374d72577b3208d6",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/2c0dea8f87aaa5bf90025a7c374d72577b3208d6",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/2c0dea8f87aaa5bf90025a7c374d72577b3208d6/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a3c24b4fb04c89614cf1c3fdc2ff678e5615256",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7a3c24b4fb04c89614cf1c3fdc2ff678e5615256",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/7a3c24b4fb04c89614cf1c3fdc2ff678e5615256"
+      }
+    ]
+  },
+  {
+    "sha": "7823833bb4ca973fb032dd200c05be1e284a9224",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo3ODIzODMzYmI0Y2E5NzNmYjAzMmRkMjAwYzA1YmUxZTI4NGE5MjI0",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-04-13T19:14:59Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-04-13T19:14:59Z"
+      },
+      "message": "Minor clean up.",
+      "tree": {
+        "sha": "28680e5134993c332f1a2e18c442e96f63741009",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/28680e5134993c332f1a2e18c442e96f63741009"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/7823833bb4ca973fb032dd200c05be1e284a9224",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7823833bb4ca973fb032dd200c05be1e284a9224",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/7823833bb4ca973fb032dd200c05be1e284a9224",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/7823833bb4ca973fb032dd200c05be1e284a9224/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84"
+      }
+    ]
+  },
+  {
+    "sha": "ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpiYTVlNDA3M2MzM2EyYTdkNmE0NDJiYzcyYmJmYzg4NTJkODZmYzg0",
+    "commit": {
+      "author": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2016-04-13T15:10:20Z"
+      },
+      "committer": {
+        "name": "Nathan Sweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-04-13T15:10:20Z"
+      },
+      "message": "Updated spine-csharp to 3.1.05: linked meshes. (#543)\n\n* Updated spine-csharp to 3.1.00: linked meshes.\r\n\r\n* Updated SkeletonBinary.cs for 3.1.05\r\n\r\nbased on:\r\nhttps://github.com/EsotericSoftware/spine-runtimes/commit/3a06b829cc81203ebeec996efad33e4bef6cc8c7\r\nhttps://github.com/EsotericSoftware/spine-runtimes/commit/8c55aa1f62d5a3238c9f6be7a835a6a9b5995593\r\n\r\n* Fixed skeleton flip when rotation and scale are disabled.\r\n\r\nBased on: https://github.com/EsotericSoftware/spine-runtimes/commit/b22669711d94005c75c367b8b792a1582a8404b4\r\n\r\n* Fixed IK when the parent has nonuniform scale and the child Y != 0.\r\n\r\nBased on: https://github.com/EsotericSoftware/spine-runtimes/commit/bf902936aa5a914b2be901cbd142a323e1f43955\r\n\r\n* Removed redundant locals.",
+      "tree": {
+        "sha": "b4dbd07b57db10d7b452936613e9e8691efe359c",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/b4dbd07b57db10d7b452936613e9e8691efe359c"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ba5e4073c33a2a7d6a442bc72bbfc8852d86fc84/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2b27761539303100fce92f1c1ca5fddaeb58d4c3",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/2b27761539303100fce92f1c1ca5fddaeb58d4c3",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/2b27761539303100fce92f1c1ca5fddaeb58d4c3"
+      }
+    ]
+  },
+  {
+    "sha": "0f723b9fa75e59326a4db14164c0f4452d6ca07d",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTowZjcyM2I5ZmE3NWU1OTMyNmE0ZGIxNDE2NGMwZjQ0NTJkNmNhMDdk",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-02-17T02:52:22Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-02-17T02:52:22Z"
+      },
+      "message": "A few fixes and minor improvements.",
+      "tree": {
+        "sha": "75c9f64821ed19a5494a25daa94b6fc815138da4",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/75c9f64821ed19a5494a25daa94b6fc815138da4"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/0f723b9fa75e59326a4db14164c0f4452d6ca07d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/0f723b9fa75e59326a4db14164c0f4452d6ca07d",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/0f723b9fa75e59326a4db14164c0f4452d6ca07d",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/0f723b9fa75e59326a4db14164c0f4452d6ca07d/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "11c251615dccf09e69a5a3027c31ce9a22f6a657",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/11c251615dccf09e69a5a3027c31ce9a22f6a657",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/11c251615dccf09e69a5a3027c31ce9a22f6a657"
+      }
+    ]
+  },
+  {
+    "sha": "821928fb89fdcad6b61228509d58080885e8d742",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo4MjE5MjhmYjg5ZmRjYWQ2YjYxMjI4NTA5ZDU4MDgwODg1ZThkNzQy",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-02-17T01:44:33Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-02-17T01:44:33Z"
+      },
+      "message": "Removed time parameter.",
+      "tree": {
+        "sha": "eb04f30b9c6095271f0149614a677639ad33d6b2",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/eb04f30b9c6095271f0149614a677639ad33d6b2"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/821928fb89fdcad6b61228509d58080885e8d742",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/821928fb89fdcad6b61228509d58080885e8d742",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/821928fb89fdcad6b61228509d58080885e8d742",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/821928fb89fdcad6b61228509d58080885e8d742/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4758bc713c196d067dea77458b7d8116bcff8f74",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/4758bc713c196d067dea77458b7d8116bcff8f74",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/4758bc713c196d067dea77458b7d8116bcff8f74"
+      }
+    ]
+  },
+  {
+    "sha": "08b74f5b187079323f4a1f8b0638198641406a59",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTowOGI3NGY1YjE4NzA3OTMyM2Y0YTFmOGIwNjM4MTk4NjQxNDA2YTU5",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-02-14T21:51:18Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2016-02-14T21:51:18Z"
+      },
+      "message": "Updated spine-csharp to Spine v3.",
+      "tree": {
+        "sha": "01247b6e7be43d92186b8d1992a93df969094745",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/01247b6e7be43d92186b8d1992a93df969094745"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/08b74f5b187079323f4a1f8b0638198641406a59",
+      "comment_count": 2,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/08b74f5b187079323f4a1f8b0638198641406a59",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/08b74f5b187079323f4a1f8b0638198641406a59",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/08b74f5b187079323f4a1f8b0638198641406a59/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b7fc36328bf97c6c4c3d15e68ae928244438a0c",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/4b7fc36328bf97c6c4c3d15e68ae928244438a0c",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/4b7fc36328bf97c6c4c3d15e68ae928244438a0c"
+      }
+    ]
+  },
+  {
+    "sha": "8006c7b4b966af151db35032e2e3ae5e1c80df17",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo4MDA2YzdiNGI5NjZhZjE1MWRiMzUwMzJlMmUzYWU1ZTFjODBkZjE3",
+    "commit": {
+      "author": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2015-12-30T06:55:05Z"
+      },
+      "committer": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2015-12-30T06:55:05Z"
+      },
+      "message": "[Unity] Fix for Unity UWP/Windows Phone\n\nhttps://github.com/EsotericSoftware/spine-runtimes/issues/495",
+      "tree": {
+        "sha": "0fb9a1d5737ca52fde08d3e12bb0814d92ad8d27",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/0fb9a1d5737ca52fde08d3e12bb0814d92ad8d27"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/8006c7b4b966af151db35032e2e3ae5e1c80df17",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/8006c7b4b966af151db35032e2e3ae5e1c80df17",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/8006c7b4b966af151db35032e2e3ae5e1c80df17",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/8006c7b4b966af151db35032e2e3ae5e1c80df17/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dd28645a0b665063d1c82c1d47260703dc05eb16",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/dd28645a0b665063d1c82c1d47260703dc05eb16",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/dd28645a0b665063d1c82c1d47260703dc05eb16"
+      }
+    ]
+  },
+  {
+    "sha": "ed356642301a7481fbc47b3f09d8e98e9e1a3663",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTplZDM1NjY0MjMwMWE3NDgxZmJjNDdiM2YwOWQ4ZTk4ZTllMWEzNjYz",
+    "commit": {
+      "author": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2015-12-15T09:15:48Z"
+      },
+      "committer": {
+        "name": "John",
+        "email": "johndygit@live.com.ph",
+        "date": "2015-12-15T09:15:48Z"
+      },
+      "message": "Merge pull request #437 from witcher112/master\n\nUnity 5 and Windows Phone building fixes",
+      "tree": {
+        "sha": "73e04d93dce113d918b7aa6dc1572ba0a82b9354",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/73e04d93dce113d918b7aa6dc1572ba0a82b9354"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/ed356642301a7481fbc47b3f09d8e98e9e1a3663",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ed356642301a7481fbc47b3f09d8e98e9e1a3663",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/ed356642301a7481fbc47b3f09d8e98e9e1a3663",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/ed356642301a7481fbc47b3f09d8e98e9e1a3663/comments",
+    "author": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pharan",
+      "id": 1911082,
+      "node_id": "MDQ6VXNlcjE5MTEwODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pharan",
+      "html_url": "https://github.com/pharan",
+      "followers_url": "https://api.github.com/users/pharan/followers",
+      "following_url": "https://api.github.com/users/pharan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pharan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pharan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pharan/subscriptions",
+      "organizations_url": "https://api.github.com/users/pharan/orgs",
+      "repos_url": "https://api.github.com/users/pharan/repos",
+      "events_url": "https://api.github.com/users/pharan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pharan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c28d6442ff3606e560dbf035dc851d72b8ffd3ac",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/c28d6442ff3606e560dbf035dc851d72b8ffd3ac",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/c28d6442ff3606e560dbf035dc851d72b8ffd3ac"
+      },
+      {
+        "sha": "14803b4fab189e4cb258a19c0456566a8225c9dd",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/14803b4fab189e4cb258a19c0456566a8225c9dd",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/14803b4fab189e4cb258a19c0456566a8225c9dd"
+      }
+    ]
+  },
+  {
+    "sha": "91340709d4812efb3f3184a0d1981eb948295f13",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo5MTM0MDcwOWQ0ODEyZWZiM2YzMTg0YTBkMTk4MWViOTQ4Mjk1ZjEz",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-08-03T13:04:44Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-08-03T13:06:20Z"
+      },
+      "message": "Source formatting.\n\nSo fresh and so clean!",
+      "tree": {
+        "sha": "3cee79e07774c24fa67c6518739ba4eebbfab386",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/3cee79e07774c24fa67c6518739ba4eebbfab386"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/91340709d4812efb3f3184a0d1981eb948295f13",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/91340709d4812efb3f3184a0d1981eb948295f13",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/91340709d4812efb3f3184a0d1981eb948295f13",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/91340709d4812efb3f3184a0d1981eb948295f13/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9478db3d2dd978b743bfe58f806873696fc0ce6d",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/9478db3d2dd978b743bfe58f806873696fc0ce6d",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/9478db3d2dd978b743bfe58f806873696fc0ce6d"
+      }
+    ]
+  },
+  {
+    "sha": "4057316a919e7da98ad200a0a37a4fef8e1c6377",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTo0MDU3MzE2YTkxOWU3ZGE5OGFkMjAwYTBhMzdhNGZlZjhlMWM2Mzc3",
+    "commit": {
+      "author": {
+        "name": "ZimM",
+        "email": "fearcatalyst@gmail.com",
+        "date": "2015-06-29T17:07:39Z"
+      },
+      "committer": {
+        "name": "ZimM",
+        "email": "fearcatalyst@gmail.com",
+        "date": "2015-06-29T17:07:39Z"
+      },
+      "message": "Merge remote-tracking branch 'remotes/upstream/master' into optimizations",
+      "tree": {
+        "sha": "af3d7cc49c33b91b5ebfc993f0b454db635c3645",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/af3d7cc49c33b91b5ebfc993f0b454db635c3645"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/4057316a919e7da98ad200a0a37a4fef8e1c6377",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/4057316a919e7da98ad200a0a37a4fef8e1c6377",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/4057316a919e7da98ad200a0a37a4fef8e1c6377",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/4057316a919e7da98ad200a0a37a4fef8e1c6377/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "292f8a6404e3f1faf1cd217cf67115bbd4b600e2",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/292f8a6404e3f1faf1cd217cf67115bbd4b600e2",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/292f8a6404e3f1faf1cd217cf67115bbd4b600e2"
+      },
+      {
+        "sha": "876b845d1622989ddd551b6cb9c5d3369a4b4f38",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/876b845d1622989ddd551b6cb9c5d3369a4b4f38",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/876b845d1622989ddd551b6cb9c5d3369a4b4f38"
+      }
+    ]
+  },
+  {
+    "sha": "14803b4fab189e4cb258a19c0456566a8225c9dd",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MToxNDgwM2I0ZmFiMTg5ZTRjYjI1OGExOWMwNDU2NTY2YTgyMjVjOWRk",
+    "commit": {
+      "author": {
+        "name": "Tomasz Jaworski",
+        "email": "wiedzminek112@gmail.com",
+        "date": "2015-06-18T16:01:59Z"
+      },
+      "committer": {
+        "name": "Tomasz Jaworski",
+        "email": "wiedzminek112@gmail.com",
+        "date": "2015-06-18T16:01:59Z"
+      },
+      "message": "Windows Phone 8 complation fixed (BufferedStream changed to FileStream)\n\nRaggedySpineboy - changed fixedAngle to freezeRotation for Unity 5.1\n\nChanged SkeletonRagdoll2D #if UNITY_5_0 to UNITY_5",
+      "tree": {
+        "sha": "2db2e1a1adabd87434899e8ad33f5d43b43237ee",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/2db2e1a1adabd87434899e8ad33f5d43b43237ee"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/14803b4fab189e4cb258a19c0456566a8225c9dd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/14803b4fab189e4cb258a19c0456566a8225c9dd",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/14803b4fab189e4cb258a19c0456566a8225c9dd",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/14803b4fab189e4cb258a19c0456566a8225c9dd/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "876b845d1622989ddd551b6cb9c5d3369a4b4f38",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/876b845d1622989ddd551b6cb9c5d3369a4b4f38",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/876b845d1622989ddd551b6cb9c5d3369a4b4f38"
+      }
+    ]
+  },
+  {
+    "sha": "27270a5781c93ea7d14f169d73dfa89f38076110",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MToyNzI3MGE1NzgxYzkzZWE3ZDE0ZjE2OWQ3M2RmYTg5ZjM4MDc2MTEw",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-04-24T19:33:24Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-04-24T19:33:24Z"
+      },
+      "message": "Spine Runtimes license update.\n\nMinor update to fix \"SOFTARE\" typo and clairfy how to get permission.",
+      "tree": {
+        "sha": "c414d4314eb56240988f7fe9e35457c704d755a6",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/c414d4314eb56240988f7fe9e35457c704d755a6"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/27270a5781c93ea7d14f169d73dfa89f38076110",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/27270a5781c93ea7d14f169d73dfa89f38076110",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/27270a5781c93ea7d14f169d73dfa89f38076110",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/27270a5781c93ea7d14f169d73dfa89f38076110/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dee4d7f8012a154533cd8d1ee560b591985c5087",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/dee4d7f8012a154533cd8d1ee560b591985c5087",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/dee4d7f8012a154533cd8d1ee560b591985c5087"
+      }
+    ]
+  },
+  {
+    "sha": "f8a76c645586f0a487efb64748ab587de4b48edc",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpmOGE3NmM2NDU1ODZmMGE0ODdlZmI2NDc0OGFiNTg3ZGU0YjQ4ZWRj",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-04-02T12:20:20Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-04-02T12:20:20Z"
+      },
+      "message": "Blend modes for all runtimes.",
+      "tree": {
+        "sha": "10f0950cfbc3440ce34f38cda8309e0c13c0abcb",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/10f0950cfbc3440ce34f38cda8309e0c13c0abcb"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/f8a76c645586f0a487efb64748ab587de4b48edc",
+      "comment_count": 2,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f8a76c645586f0a487efb64748ab587de4b48edc",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/f8a76c645586f0a487efb64748ab587de4b48edc",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f8a76c645586f0a487efb64748ab587de4b48edc/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "142e770e5b4b42395a3a0a68ff3c8a21ba2774eb",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/142e770e5b4b42395a3a0a68ff3c8a21ba2774eb",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/142e770e5b4b42395a3a0a68ff3c8a21ba2774eb"
+      }
+    ]
+  },
+  {
+    "sha": "142e770e5b4b42395a3a0a68ff3c8a21ba2774eb",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MToxNDJlNzcwZTViNGI0MjM5NWEzYTBhNjhmZjNjOGEyMWJhMjc3NGVi",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-03-29T16:36:37Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-03-29T16:36:37Z"
+      },
+      "message": "Don't required a BufferedStream.",
+      "tree": {
+        "sha": "5d09cad07fa065469ac1402e4fcd2aed7c0a5034",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/5d09cad07fa065469ac1402e4fcd2aed7c0a5034"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/142e770e5b4b42395a3a0a68ff3c8a21ba2774eb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/142e770e5b4b42395a3a0a68ff3c8a21ba2774eb",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/142e770e5b4b42395a3a0a68ff3c8a21ba2774eb",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/142e770e5b4b42395a3a0a68ff3c8a21ba2774eb/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "412ec154420ddf51fa519456616e2d2939b39d83",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/412ec154420ddf51fa519456616e2d2939b39d83",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/412ec154420ddf51fa519456616e2d2939b39d83"
+      }
+    ]
+  },
+  {
+    "sha": "d0625e06a0dd34e0dec708b0b7c13f322b7cdd37",
+    "node_id": "MDY6Q29tbWl0ODMwMjE4MTpkMDYyNWUwNmEwZGQzNGUwZGVjNzA4YjBiN2MxM2YzMjJiN2NkZDM3",
+    "commit": {
+      "author": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-03-28T23:49:31Z"
+      },
+      "committer": {
+        "name": "NathanSweet",
+        "email": "nathan.sweet@gmail.com",
+        "date": "2015-03-28T23:49:31Z"
+      },
+      "message": "Added binary format support for C#.\n\nAlso fixed up line endings.",
+      "tree": {
+        "sha": "2f4af39a87666dac7bf94c17df77441abf21fa39",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/trees/2f4af39a87666dac7bf94c17df77441abf21fa39"
+      },
+      "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/git/commits/d0625e06a0dd34e0dec708b0b7c13f322b7cdd37",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/d0625e06a0dd34e0dec708b0b7c13f322b7cdd37",
+    "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/d0625e06a0dd34e0dec708b0b7c13f322b7cdd37",
+    "comments_url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/d0625e06a0dd34e0dec708b0b7c13f322b7cdd37/comments",
+    "author": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NathanSweet",
+      "id": 434010,
+      "node_id": "MDQ6VXNlcjQzNDAxMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NathanSweet",
+      "html_url": "https://github.com/NathanSweet",
+      "followers_url": "https://api.github.com/users/NathanSweet/followers",
+      "following_url": "https://api.github.com/users/NathanSweet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NathanSweet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NathanSweet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NathanSweet/subscriptions",
+      "organizations_url": "https://api.github.com/users/NathanSweet/orgs",
+      "repos_url": "https://api.github.com/users/NathanSweet/repos",
+      "events_url": "https://api.github.com/users/NathanSweet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NathanSweet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9e0e103b88fea9ff9c0ade97d91742e575019d6",
+        "url": "https://api.github.com/repos/EsotericSoftware/spine-runtimes/commits/f9e0e103b88fea9ff9c0ade97d91742e575019d6",
+        "html_url": "https://github.com/EsotericSoftware/spine-runtimes/commit/f9e0e103b88fea9ff9c0ade97d91742e575019d6"
+      }
+    ]
+  }
+]

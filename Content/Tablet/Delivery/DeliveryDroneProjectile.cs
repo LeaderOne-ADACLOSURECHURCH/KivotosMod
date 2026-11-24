@@ -33,23 +33,31 @@ public sealed class DeliveryDroneProjectile : ModProjectile
     private int _gripperFrameTimer = 10;
     private bool _visualsInitialized;
     private bool _gripperOpened;
-    private Vector2 _heldOffset;
+    // Authoritative drop geometry must also exist on a headless server.
+    private Vector2 _heldOffset = new(0f, 25f);
 
-    private static Asset<Texture2D> _spritesheet;
+    private static Asset<Texture2D> _spritesheet, _packageTexture;
 
     private int OrderId => (int)Projectile.ai[0];
     private int PackageType => (int)Projectile.ai[1];
-    private Player Owner => Projectile.owner >= 0 && Projectile.owner < Main.maxPlayers ? Main.player[Projectile.owner] : null;
+    // Multiplayer drones are server-owned (255); singleplayer uses the local owner.
+    // The actual recipient is carried in ai[2] and replicated with projectile AI.
+    private int RecipientIndex => (int)Projectile.ai[2];
+    private Player Owner => RecipientIndex >= 0 && RecipientIndex < Main.maxPlayers ? Main.player[RecipientIndex] : null;
 
     public override void Load()
     {
         if (!Main.dedServ)
-            _spritesheet = ModContent.Request<Texture2D>("KivotosMod/Assets/Tablet/Delivery/DeliveryDroneSpritesheet");
+        {
+            _packageTexture = ModContent.Request<Texture2D>("KivotosMod/Assets/Tablet/Delivery/DeliveryPackage", AssetRequestMode.ImmediateLoad);
+            _spritesheet = ModContent.Request<Texture2D>("KivotosMod/Assets/Tablet/Delivery/DeliveryDroneSpritesheet", AssetRequestMode.ImmediateLoad);
+        }
     }
 
     public override void Unload()
     {
         _spritesheet = null;
+        _packageTexture = null;
     }
 
     public override void SetDefaults()
@@ -68,15 +76,25 @@ public sealed class DeliveryDroneProjectile : ModProjectile
 
     public override void OnSpawn(Terraria.DataStructures.IEntitySource source)
     {
-        Projectile.Center = Projectile.position;
-        if (Owner == null || !Owner.active)
+        if (Main.netMode != NetmodeID.MultiplayerClient && (Owner == null || !Owner.active))
             Projectile.Kill();
     }
 
     public override void AI()
     {
         Projectile.timeLeft = 3;
+        // Client visual playback only; state, navigation, drop and despawn are
+        // exclusively decided on the server and synced to all connected clients.
+        if (Main.netMode == NetmodeID.MultiplayerClient)
+        {
+            UpdateVisualState();
+            Projectile.rotation = Math.Clamp(Projectile.velocity.X / 25f, -MathHelper.PiOver4, MathHelper.PiOver4);
+            return;
+        }
+
         Player player = Owner;
+        if (Main.GameUpdateCount % 30 == 0)
+            Projectile.netUpdate = true;
 
         if (player == null || !player.active)
         {
@@ -121,15 +139,22 @@ public sealed class DeliveryDroneProjectile : ModProjectile
             case DropState:
                 if (!_delivered && Main.netMode != NetmodeID.MultiplayerClient)
                 {
-                    Vector2 dropPosition = Projectile.Center + _heldOffset * Projectile.scale;
+                    Vector2 dropPosition = Projectile.Center + (_heldOffset * Projectile.scale).RotatedBy(Projectile.rotation);
                     _delivered = TabletDeliveryOrderSystem.TryDropPackage(OrderId, dropPosition);
                     Projectile.netUpdate = true;
                 }
 
                 if (_timer > 0)
                     _timer--;
-                else
+                else if (_delivered)
                     EnterDepart();
+                else
+                {
+                    // Do not fly away with an undelivered paid order. Retry near the buyer.
+                    _state = ApproachState;
+                    _timer = 0;
+                    Projectile.netUpdate = true;
+                }
                 break;
 
             case DepartState:
@@ -201,9 +226,9 @@ public sealed class DeliveryDroneProjectile : ModProjectile
         if (Main.dedServ)
             return;
 
-        if (!_visualsInitialized && _state < DropState)
+        if (!_visualsInitialized && !_delivered)
         {
-            Main.GetItemDrawFrame(PackageType, out _, out Rectangle frame);
+            Rectangle frame = _packageTexture.Value.Bounds;
             _heldOffset = new Vector2(0f, frame.Height * 0.5f + Projectile.height * 0.5f + 2f * Projectile.scale);
             _gripperFrame = frame.Width switch
             {
@@ -217,7 +242,7 @@ public sealed class DeliveryDroneProjectile : ModProjectile
             };
             _visualsInitialized = true;
         }
-        else if (_visualsInitialized && _state >= DropState)
+        else if (_visualsInitialized && _delivered)
         {
             if (!_gripperOpened)
             {
@@ -244,13 +269,14 @@ public sealed class DeliveryDroneProjectile : ModProjectile
 
         Texture2D sheet = _spritesheet.Value;
 
-        if (_visualsInitialized && _state < DropState && PackageType > ItemID.None)
+        if (_visualsInitialized && !_delivered && PackageType > ItemID.None)
         {
-            Main.GetItemDrawFrame(PackageType, out Texture2D itemTexture, out Rectangle itemFrame);
+            Texture2D itemTexture = _packageTexture.Value;
+            Rectangle itemFrame = itemTexture.Bounds;
             Vector2 origin = new(itemFrame.Width * 0.5f, itemFrame.Height * 0.5f);
             Main.EntitySpriteDraw(
                 itemTexture,
-                Projectile.Center - Main.screenPosition + _heldOffset * Projectile.scale,
+                Projectile.Center - Main.screenPosition + (_heldOffset * Projectile.scale).RotatedBy(Projectile.rotation),
                 itemFrame,
                 lightColor,
                 Projectile.rotation,

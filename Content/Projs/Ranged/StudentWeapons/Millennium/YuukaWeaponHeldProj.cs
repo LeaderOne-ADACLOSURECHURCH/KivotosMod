@@ -10,6 +10,8 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
 {
     public class YuukaWeaponHeldProj : KivotosRangedWeaponProjectile
     {
+        // Read the live interval directly so previously saved items cannot retain an old cadence.
+        public override int AttackSpeed => Owner.ApplyWeaponAttackSpeed(Owner.HeldItem, YuukaWeapon.ShotIntervalTicks * Projectile.MaxUpdates, MinAttackRate * Projectile.MaxUpdates);
         public override int OriginalItemID => ItemType<YuukaWeapon>();
         public override string Texture => GetInstance<YuukaWeapon>().Texture;
         public override float HoldoutDrawScale => .5f;
@@ -24,7 +26,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
             Vector2 dir = Projectile.rotation.ToRotationVector2();
             Vector2 pos = Projectile.Center + particleOffset + dir * 15;
             float randRot = ToRadians(10.5f);
-            Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), pos, Projectile.rotation.ToRotationVector2() * 16f, ProjectileType<YuukaWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Projectile proj = Fire(pos, Projectile.rotation.ToRotationVector2() * 16f, ProjectileType<YuukaWeaponBullet>());
             for (int i = 0; i < 4; i++)
             {
                 Vector2 pos2 = pos.ToRandCirclePos(8);

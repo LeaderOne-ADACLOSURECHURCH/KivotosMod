@@ -1,0 +1,107 @@
+[
+  {
+    "output": "Assets/Skills/Shield/Idle.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Idle.png",
+    "sha256": "cffc131398786383ef294e4dcf656cc3c70ad495d691141e2e16a19a09dcc82a",
+    "source_sha256": "532e69d5c94f02e5c3447e835d02720e32ee5726721b5cb24a88ebdcdc18be31",
+    "original_rgb_above_alpha": 3206095
+  },
+  {
+    "output": "Assets/Skills/Shield/Spawn.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Spawn.png",
+    "sha256": "b2a025b52c587cdd6ca6dd21a16f909012e8f69bc620d07665239ec37faf10eb",
+    "source_sha256": "ff057152e0166e18bc399b3844eac333f9ea05650103c1cd2574929a405ccfd7",
+    "original_rgb_above_alpha": 72564
+  },
+  {
+    "output": "Assets/Skills/Shield/Break.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Break.png",
+    "sha256": "3e2744443d83e2595d235f171b93f252ae7c7bafeb321a6f12e48ddea1b33cf4",
+    "source_sha256": "3bbd774339fb60cb6dfe25ff5fd716b62bc351c5f54fae7c7ab9f51ebb80167e",
+    "original_rgb_above_alpha": 144696
+  },
+  {
+    "output": "Assets/Skills/Shield/Hit9.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Hit9.png",
+    "sha256": "7b1943c4208a6e43da8d4c500c9ac5a8054a2bde9d404fb687e2c2e5917ec753",
+    "source_sha256": "fc4e3baa0aab18b3e39580d8c8afe7956520c061d2513cca29a4c9fb46385090",
+    "original_rgb_above_alpha": 50448
+  },
+  {
+    "output": "Assets/Skills/Shield/Hit10.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Hit10.png",
+    "sha256": "a36e5f06058fdc97280716c6a8428a9e3bab4d9c747f7edf2761f92827d17888",
+    "source_sha256": "a71fdd0b4cf56b2928d6437b899d84491242e10c72fd0f3fee1cf3b55c5d323b",
+    "original_rgb_above_alpha": 50237
+  },
+  {
+    "output": "Assets/Skills/Shield/Hit11.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Hit11.png",
+    "sha256": "9ba893fc94388e3c2891767e73db7e2d2253b1e161c30da5a0b7ff6c954f0a4d",
+    "source_sha256": "575c7871b9c404af45d34367c3fce5cfb4a3eaffbfe1aff1a44718bb3620bb8b",
+    "original_rgb_above_alpha": 50473
+  },
+  {
+    "output": "Assets/Skills/Shield/Hit12.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Hit12.png",
+    "sha256": "8798e50b4fd3b8f64a2b275ee5022971afaa1449ce997cafd351b05872d3665b",
+    "source_sha256": "0fe21bc029c6b0558a9ff8e4370534bcb52256a899aed1e1093871722dd5542e",
+    "original_rgb_above_alpha": 50654
+  },
+  {
+    "output": "Assets/Skills/Shield/Hit1.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Hit1.png",
+    "sha256": "143c6d2b8518e02383a52e8748ae2e561cea92de49942c65eeb798796157400f",
+    "source_sha256": "e12a7841f9e18adb9366e8d94acfeb34ae28804a42a1671516af9391b97170d4",
+    "original_rgb_above_alpha": 50359
+  },
+  {
+    "output": "Assets/Skills/Shield/Hit2.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Hit2.png",
+    "sha256": "cf9475ff2e684da0782638a25c1f5daa6fdee35a2082d2f9801219bef2386367",
+    "source_sha256": "98312713ee2d3663f789fb9c4bf8764bc8c3a4b210ab8cf14324572652785cf6",
+    "original_rgb_above_alpha": 50213
+  },
+  {
+    "output": "Assets/Skills/Shield/Icon.png",
+    "source": "Tools/ShieldEx/SourceTextures/Shield/Icon.png",
+    "sha256": "fa8b363e169a70691c41e8160e0060c0e23e0d9fe9b28034ce6e2d7afd731a2e",
+    "source_sha256": "7128e74a5df22750958559704fcee37512cf0cf2e61d99a424a89bf9e6f67d5f",
+    "original_rgb_above_alpha": 605
+  },
+  {
+    "output": "Assets/Skills/BlackHole/Spectrum.png",
+    "source": "Tools/ShieldEx/SourceTextures/BlackHole/Spectrum.png",
+    "sha256": "7d022a0e0cd976d9b1e192a2fd4f0ee716824ca85eaa5626c4e956fd297080f2",
+    "source_sha256": "12ea0d97b87a6b4a1a8dccf30212b56c336940fa9ed2ee6a827c937e9069cb0a",
+    "original_rgb_above_alpha": 480933
+  },
+  {
+    "output": "Assets/Skills/BlackHole/Glow.png",
+    "source": "Tools/ShieldEx/SourceTextures/BlackHole/Glow.png",
+    "sha256": "1a4ca92f48e4bbec67e6d9c3b4c1cfda2cb92c4ac5e695578adb38a85f6506ec",
+    "source_sha256": "c8f3a4a78b3ecf2511ba4cc115f4ec7de9f88e2096287e4502c275e8cb4affa9",
+    "original_rgb_above_alpha": 194595
+  },
+  {
+    "output": "Assets/Skills/BlackHole/Core.png",
+    "source": "Tools/ShieldEx/SourceTextures/BlackHole/Core.png",
+    "sha256": "a5f8bfe859b79697857083102a7ded6da9fedbd520e8519d8a12e092fbd8fb68",
+    "source_sha256": "f85a6cfb367f753d0753f78cec23d7e2efd9d6847977ff9137cf1753f37055ff",
+    "original_rgb_above_alpha": 16848
+  },
+  {
+    "output": "Assets/Skills/BlackHole/Band.png",
+    "source": "Tools/ShieldEx/SourceTextures/BlackHole/Band.png",
+    "sha256": "60167388c7632c1343e7e9504f0eb397d943f6ddf6168c2f2c7f1760a4099b9f",
+    "source_sha256": "b4a5cb233d2106b7473f05e2321f026ca4637753af09662f4b8d8be5a46eed7d",
+    "original_rgb_above_alpha": 289446
+  },
+  {
+    "output": "Assets/Skills/BlackHole/GlowMask.png",
+    "source": "Tools/ShieldEx/SourceTextures/BlackHole/GlowMask.png",
+    "sha256": "a34666333af93d65a08d58e44a2ce31f6a62abe4b83a379baaea197106d59f15",
+    "source_sha256": "c16040d1363263123fee35da30f9e5238d2eead50b7d06ab5f8e1b4bf3661dbd",
+    "original_rgb_above_alpha": 1045760
+  }
+]

@@ -1,8 +1,9 @@
-﻿using KivotosMod.Globals.Database.Paths;
+using KivotosMod.Globals.Database.Paths;
 using KivotosMod.Globals.Graphics;
 using KivotosMod.Globals.Methods;
 using Terraria;
 using Terraria.ModLoader;
+using Terraria.ID;
 
 namespace KivotosMod.Globals.Classes
 {
@@ -15,6 +16,8 @@ namespace KivotosMod.Globals.Classes
     {
         private Vector2 _lastSyncedAim;
         private int _lastSyncedDirection;
+        private int _ammoProjectile;
+        private float _shotKnockback;
 
         public Player Owner => Main.player[Projectile.owner];
         public override string LocalizationCategory => LocalizationsDatabase.Projs.StudentWeapons;
@@ -105,14 +108,13 @@ namespace KivotosMod.Globals.Classes
                 UpdateWeaponUsing();
                 if (Timer >= AttackSpeed && Projectile.IsMe())
                 {
-                    if (Owner.channel)
+                    if (Owner.channel && PrepareShot())
                     {
                         PreAttack();
                         OnAttack();
                         PostAttack();
                     }
-                    else
-                    if (Owner.controlUseTile)
+                    else if (!Owner.channel && Owner.controlUseTile && HasAlternateShot && PrepareShot())
                     {
                         PreRightAttack();
                         OnRightAttack();
@@ -126,6 +128,46 @@ namespace KivotosMod.Globals.Classes
             }
             UpdateGlobalReset();
 
+        }
+        protected virtual bool HasAlternateShot => false;
+
+        private bool PrepareShot()
+        {
+            Item item = Owner.HeldItem;
+            int weaponDamage = Owner.GetWeaponDamage(item);
+            int damage = weaponDamage;
+            _ammoProjectile = 0;
+            _shotKnockback = Owner.GetWeaponKnockback(item);
+            if (item.useAmmo != AmmoID.None && item.ModItem is StudentWeaponClass weapon)
+            {
+                weapon.FiringHeldShot = true;
+                try
+                {
+                    if (!Owner.PickAmmo(item, out _ammoProjectile, out _, out int combined, out _shotKnockback, out int ammoItem))
+                        return false;
+                    if (item.useAmmo == AmmoID.Rocket)
+                        _ammoProjectile = StudentAmmoProjectile.RocketType(ammoItem);
+                    else if (item.useAmmo == AmmoID.Gel)
+                        _ammoProjectile = 0;
+                    damage += (int)System.MathF.Round((combined - weaponDamage) * .5f);
+                }
+                finally
+                {
+                    weapon.FiringHeldShot = false;
+                }
+            }
+            Projectile.originalDamage = System.Math.Max(1, damage);
+            Projectile.CritChance = Owner.GetWeaponCrit(item);
+            return true;
+        }
+
+        protected Projectile Fire(Vector2 position, Vector2 velocity, int type, float ai0 = 0, float ai1 = 0, float ai2 = 0)
+        {
+            var shot = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), position, velocity,
+                type, Projectile.originalDamage, _shotKnockback, Projectile.owner, ai0, ai1, ai2);
+            shot.CritChance = Projectile.CritChance;
+            shot.GetGlobalProjectile<StudentAmmoProjectile>().SetAmmo(shot, _ammoProjectile, Owner.HeldItem.useAmmo);
+            return shot;
         }
         /// <summary>
         /// 在执行<see cref="OnRightAttack"/>前执行

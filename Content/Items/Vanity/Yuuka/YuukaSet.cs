@@ -12,13 +12,13 @@ namespace KivotosMod.Content.Items.Vanity.Yuuka;
 public static class YuukaVanitySet
 {
     public static bool HeadVisible(Player player)
-        => player.head == ModContent.GetInstance<YuukaHead>().Item.headSlot;
+        => player.head == ModContent.GetInstance<YuukaHead>().Item.headSlot || player.head == ModContent.GetInstance<Yuuka2x2Head>().Item.headSlot;
 
     public static bool BodyVisible(Player player)
-        => player.body == ModContent.GetInstance<YuukaBody>().Item.bodySlot;
+        => player.body == ModContent.GetInstance<YuukaBody>().Item.bodySlot || player.body == ModContent.GetInstance<Yuuka2x2Body>().Item.bodySlot;
 
     public static bool BootsVisible(Player player)
-        => player.legs == ModContent.GetInstance<YuukaBoots>().Item.legSlot;
+        => player.legs == ModContent.GetInstance<YuukaBoots>().Item.legSlot || player.legs == ModContent.GetInstance<Yuuka2x2Boots>().Item.legSlot;
 
     public static bool FullSetVisible(Player player)
         => HeadVisible(player) && BodyVisible(player) && BootsVisible(player);
@@ -27,6 +27,7 @@ public static class YuukaVanitySet
 [AutoloadEquip(EquipType.Head)]
 public sealed class YuukaHead : ModItem
 {
+
     public override void SetStaticDefaults()
     {
         // YuukaHead_Head contains the complete custom head/front-hair drawing.
@@ -50,6 +51,7 @@ public sealed class YuukaHead : ModItem
 [AutoloadEquip(EquipType.Body)]
 public sealed class YuukaBody : ModItem
 {
+
     public override void SetStaticDefaults()
     {
         // The native body equip texture is the supplied 360x224 composite arm sheet.
@@ -73,6 +75,7 @@ public sealed class YuukaBody : ModItem
 [AutoloadEquip(EquipType.Legs)]
 public sealed class YuukaBoots : ModItem
 {
+
     public override void SetStaticDefaults()
     {
         // Hide vanilla leg skin. Do not set OverridesLegs: visible shoe/boot accessories

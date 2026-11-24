@@ -28,7 +28,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Trinity
             float randRot = ToRadians(2.5f);
             Vector2 bulletPos = Projectile.Center + bulletPosOffset;
             Vector2 randomVelocity = dir.RotatedByRandom(randRot) * Main.rand.NextFloat(0.88f, 1.12f);
-            Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), bulletPos, randomVelocity * 16f, ProjectileType<SeiaWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Projectile proj = Fire(bulletPos, randomVelocity * 16f, ProjectileType<SeiaWeaponBullet>());
             Vector2 pos = Projectile.Center + particleOffset + dir * 5;
             for (int i = 0; i < 10; i++)
             {

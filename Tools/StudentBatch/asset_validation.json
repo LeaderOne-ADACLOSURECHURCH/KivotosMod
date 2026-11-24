@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "sourcePixelComparisons": 47,
+  "nativeScale": 1,
+  "oldIdsPreserved": true,
+  "newIds": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "sevenFormationOutfits": true,
+  "nativeCompositeHandsAndBothGenderTorso": true,
+  "nozomiBorrowsHikariUniform": true,
+  "localizedNewItems": 12,
+  "allLayerAssetsPresent": true
+}

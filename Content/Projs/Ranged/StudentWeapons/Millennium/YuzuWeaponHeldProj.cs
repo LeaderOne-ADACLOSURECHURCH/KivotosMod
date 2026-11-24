@@ -45,7 +45,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
             float randRot = ToRadians(4.5f);
             Vector2 bulletPos = Projectile.Center + bulletPosOffset;
             Vector2 randomVelocity = dir.RotatedByRandom(randRot) * Main.rand.NextFloat(0.88f, 1.12f);
-            Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), bulletPos, randomVelocity * 16f, ProjectileType<YuzuWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Projectile proj = Fire(bulletPos, randomVelocity * 16f, ProjectileType<YuzuWeaponBullet>());
             Vector2 pos = Projectile.Center + particleOffset + dir * 35;
             for (int i = 0; i < 38; i++)
             {

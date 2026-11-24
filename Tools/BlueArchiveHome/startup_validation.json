@@ -1,0 +1,32 @@
+[
+  {
+    "passed": true,
+    "fps": 30,
+    "activeTriangles": 7,
+    "totalTriangles": 70,
+    "waitsForTap": true,
+    "fadeSeconds": 1,
+    "repeatedTapDoesNotRestart": true,
+    "reopenResets": true
+  },
+  {
+    "passed": true,
+    "fps": 60,
+    "activeTriangles": 7,
+    "totalTriangles": 70,
+    "waitsForTap": true,
+    "fadeSeconds": 1,
+    "repeatedTapDoesNotRestart": true,
+    "reopenResets": true
+  },
+  {
+    "passed": true,
+    "fps": 144,
+    "activeTriangles": 7,
+    "totalTriangles": 70,
+    "waitsForTap": true,
+    "fadeSeconds": 1,
+    "repeatedTapDoesNotRestart": true,
+    "reopenResets": true
+  }
+]

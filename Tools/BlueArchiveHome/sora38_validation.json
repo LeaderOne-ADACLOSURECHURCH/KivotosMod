@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "version": "3.8.75",
+  "frames": 3600,
+  "blinks": 12,
+  "minGap": 3.3667116,
+  "maxGap": 5.8832436,
+  "meshes": 64800,
+  "blinkDuration": 0.4333334,
+  "bodyIdleUnchanged": true,
+  "eyesCloseAndRestore": true,
+  "originalTimelinesPreserved": true,
+  "uiClockChecks": [
+    {
+      "passed": true,
+      "fps": 60,
+      "simulationSeconds": 30,
+      "hostElapsedZero": true,
+      "clickCount": 0,
+      "autoBlinks": 5,
+      "bodyMotion": 18.492523
+    },
+    {
+      "passed": true,
+      "fps": 144,
+      "simulationSeconds": 30,
+      "hostElapsedZero": true,
+      "clickCount": 0,
+      "autoBlinks": 5,
+      "bodyMotion": 18.492516
+    }
+  ],
+  "tracking": {
+    "passed": true,
+    "model": "sora",
+    "right": 2.5,
+    "left": -2.5,
+    "up": 1.3999939,
+    "down": -1.3999939,
+    "nonPupilMeshesUnchanged": true,
+    "blinkGazeChecks": 4,
+    "blinkGazePreserved": true,
+    "pupilRemainsOpaque": true,
+    "smoothResume": true,
+    "boundedWithoutAccumulation": true
+  }
+}

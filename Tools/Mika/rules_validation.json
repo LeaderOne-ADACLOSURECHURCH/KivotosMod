@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "productionHooks": true,
+  "engineDependenciesStubbed": true,
+  "mikaSkinOnlyAndLiveSwitch": true,
+  "physicalVanityAndFormationSelection": true,
+  "usesExistingWingStats": true,
+  "fiveFlightFrames": true,
+  "idleFallingMountedAndUnequippedDecorative": true,
+  "exhaustedWingTimeStopsFlapping": true,
+  "referenceCanvasOffsets": true,
+  "staticAndFlightWingsAligned": true,
+  "horizontalAndVerticalFlipPivots": true,
+  "flightFrameTicks": 4,
+  "haloBobAmplitude": 1.25,
+  "haloBobPeriodSeconds": 2.4,
+  "voiceCooldownTicks": 45,
+  "voiceReplacesOldWithoutOverlap": true,
+  "vanillaHurtAlwaysMutedIncludingCooldown": true,
+  "heavyHitBoundaryAndRandomPools": true,
+  "noRemoteOrServerVoice": true
+}

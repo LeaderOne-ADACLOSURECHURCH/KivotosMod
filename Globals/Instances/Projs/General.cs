@@ -9,6 +9,9 @@ namespace KivotosMod.Globals.Instances.Projs
         public bool FirstFrame = false;
         public override void AI(Projectile projectile)
         {
+            if (!Main.dedServ && projectile.friendly && projectile.DamageType.CountsAsClass<RangedDamageClass>()
+                && projectile.ModProjectile is global::KivotosMod.Globals.Classes.KivotosPlayerProjs)
+                Lighting.AddLight(projectile.Center, .35f, .35f, .45f);
             if (!FirstFrame)
             {
                 FirstFrame = true;

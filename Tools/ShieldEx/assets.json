@@ -1,0 +1,46 @@
+[
+  {
+    "source": "光谱.png",
+    "output": "Assets\\Skills\\BlackHole\\Spectrum.png",
+    "size": [
+      1280,
+      817
+    ],
+    "sha256": "7d022a0e0cd976d9b1e192a2fd4f0ee716824ca85eaa5626c4e956fd297080f2",
+    "source_sha256": "12ea0d97b87a6b4a1a8dccf30212b56c336940fa9ed2ee6a827c937e9069cb0a",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "图层 10.png",
+    "output": "Assets\\Skills\\BlackHole\\Glow.png",
+    "size": [
+      1252,
+      526
+    ],
+    "sha256": "1a4ca92f48e4bbec67e6d9c3b4c1cfda2cb92c4ac5e695578adb38a85f6506ec",
+    "source_sha256": "c8f3a4a78b3ecf2511ba4cc115f4ec7de9f88e2096287e4502c275e8cb4affa9",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "图层 2.png",
+    "output": "Assets\\Skills\\BlackHole\\Core.png",
+    "size": [
+      287,
+      632
+    ],
+    "sha256": "a5f8bfe859b79697857083102a7ded6da9fedbd520e8519d8a12e092fbd8fb68",
+    "source_sha256": "f85a6cfb367f753d0753f78cec23d7e2efd9d6847977ff9137cf1753f37055ff",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "图层 9.png",
+    "output": "Assets\\Skills\\BlackHole\\Band.png",
+    "size": [
+      1282,
+      594
+    ],
+    "sha256": "60167388c7632c1343e7e9504f0eb397d943f6ddf6168c2f2c7f1760a4099b9f",
+    "source_sha256": "b4a5cb233d2106b7473f05e2321f026ca4637753af09662f4b8d8be5a46eed7d",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  }
+]

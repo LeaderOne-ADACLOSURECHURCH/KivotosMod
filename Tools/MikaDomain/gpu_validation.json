@@ -1,0 +1,25 @@
+{
+  "backend": "FNA D3D11",
+  "hiddenWindow": true,
+  "matteDrawnIntoResult": false,
+  "results": [
+    {
+      "name": "center",
+      "maxAlphaError": 1,
+      "visiblePixels": 24711,
+      "emptyMatteHidesSource": true
+    },
+    {
+      "name": "moving",
+      "maxAlphaError": 1,
+      "visiblePixels": 27968,
+      "emptyMatteHidesSource": true
+    },
+    {
+      "name": "right",
+      "maxAlphaError": 1,
+      "visiblePixels": 22215,
+      "emptyMatteHidesSource": true
+    }
+  ]
+}

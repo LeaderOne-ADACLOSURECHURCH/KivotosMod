@@ -27,7 +27,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Abydos
             for (int i = 0; i < 5; i++)
             {
                 Vector2 randomVelocity = dir.RotatedByRandom(randRot) * Main.rand.NextFloat(0.88f, 1.12f);
-                Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), pos, randomVelocity * 16f, ProjectileType<HoshinoWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+                Projectile proj = Fire(pos, randomVelocity * 16f, ProjectileType<HoshinoWeaponBullet>());
             }
             for (int i = 0; i < 28; i++)
             {

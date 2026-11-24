@@ -8,6 +8,8 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Gehenna
 {
     public class HinaWeapon : StudentWeaponClass
     {
+        public override float[] DamageUpgradeSteps { get; } = { 0, 0, 0, 0, 0, -.75f, 0, 0, 0, 0, 0 };
+        public override int[] CritUpgradeSteps { get; } = { 0, 0, 0, 0, 0, -5, 0, 0, 0, 0, 0 };
         protected override void SetUpTextboxSettings(ref Color backgroundColor, ref Color backgroundEdgeColor, ref Color textColor, ref Color textEdgeColor)
         {
             backgroundColor = Color.Black * .44f;
@@ -25,7 +27,7 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Gehenna
         {
             base.SetDefaults();
             Item.useTime = Item.useAnimation = 6;
-            Item.damage = 45;
+            Item.damage = 17;
             Item.knockBack = 1;
             Item.shootSpeed = 10f;
             Item.shoot = ProjectileType<HinaWeaponHeldProj>();

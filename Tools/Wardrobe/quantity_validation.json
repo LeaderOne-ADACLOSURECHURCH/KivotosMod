@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "productionInputMethods": true,
+  "engineInputStubbed": true,
+  "typedAndPastedDigits": true,
+  "quantityBounds": "1..9999",
+  "enterCommits": true,
+  "escapeCancels": true,
+  "pageChangeAndCloseReleaseKeyboard": true
+}

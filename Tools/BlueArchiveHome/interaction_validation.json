@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "stem": "arona_spr",
+      "frames": 780,
+      "touches": 2,
+      "minVisible": 68,
+      "idleMotionBone": "B_L_Hair_5",
+      "idleRotationRange": 13.405048548350916,
+      "bodyPreserved": true,
+      "overlaysCleared": true
+    },
+    {
+      "stem": "arona_workpage_daytime",
+      "frames": 780,
+      "touches": 2,
+      "minVisible": 39,
+      "idleMotionBone": "A_01_T_B_Ribborn_2",
+      "idleRotationRange": 13.333333333333371,
+      "bodyPreserved": true,
+      "overlaysCleared": true
+    }
+  ]
+}

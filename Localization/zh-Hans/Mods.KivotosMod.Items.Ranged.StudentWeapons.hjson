@@ -13,6 +13,19 @@ HoshinoWeapon: {
 		'''
 }
 
+ArisuWeapon: {
+	DisplayName: 光之剑·超新星
+	Tooltip:
+		'''
+		左键发射轨道弹，每 5 发填充一层能量。两层能量时，普通射击造成 135% 伤害。
+		两层能量时按住右键 2 秒，发射贯穿地形的超新星炮弹。提前松手会取消蓄力。
+		魔力不足时，自动消耗背包里的魔力药水。
+		'''
+	FlavorTooltip: 工程部交给爱丽丝的超大型轨道炮。
+	Growth: 当前 Boss 进度基础伤害加成：{0}
+	Energy: 能量填充：{0}/2
+}
+
 HinaWeapon: {
 	DisplayName: 终幕·毁灭者
 	Tooltip: 攻击时间越长，发射的子弹越多

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "originalScale": 1,
+  "spritePixelComparisons": 8,
+  "completeTwentyPoseSheets": true,
+  "flightFrames": 5,
+  "compositeArmPoses": 28,
+  "originalPcmVoices": 4,
+  "validPcmFrames": true,
+  "oldStudentIdsPreserved": true,
+  "formationAndAppearanceSaveAndNetworkIds": true,
+  "itemIconsAndThumbnailAndLocalization": true,
+  "sharedReferenceCanvasOrigin": true,
+  "standaloneWingItemRemoved": true,
+  "haloFullBrightAndBob": true
+}

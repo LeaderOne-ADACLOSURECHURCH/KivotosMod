@@ -86,12 +86,13 @@ public sealed partial class TabletUiSystem
             }
             else
             {
-                _classroomWaterShader.UseColor(Color.White);
-                _classroomWaterShader.UseShaderSpecificData(new Vector4(20, 0.1f, 8, 35));
-                _classroomWaterShader.UseImage0(_classroomLayers[2]);
+                Asset<Texture2D> ground = (_lobbyDayTime ? _classroomLayers : _nightClassroomLayers)[2];
+                _classroomWaterShader.UseColor(_lobbyDayTime ? Color.White : new Color(90, 110, 170));
+                _classroomWaterShader.UseShaderSpecificData(new Vector4(20, 0.1f, 8, _lobbyDayTime ? 35 : 18));
+                _classroomWaterShader.UseImage0(ground);
                 _classroomWaterShader.UseOpacity(1);
                 _classroomWaterShader.Apply();
-                sb.Draw(_classroomLayers[2].Value, screen, new Rectangle(250, 0, DisplayRect.Width, DisplayRect.Height), Color.White);
+                sb.Draw(ground.Value, screen, ClassroomSourceRect, Color.White);
             }
         }
         finally

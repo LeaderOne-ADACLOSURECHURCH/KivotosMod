@@ -1,0 +1,2284 @@
+[
+  {
+    "stem": "arona_spr",
+    "animations": [
+      {
+        "name": "02",
+        "duration": 3.3333334922790527,
+        "timelines": {
+          "AttachmentTimeline": 23,
+          "TranslateTimeline": 1,
+          "ScaleTimeline": 1
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "Despressed_Line_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Flush_01",
+            "names": [
+              "Flush_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00",
+            "names": [
+              "halo_normal_00"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00_ad",
+            "names": [
+              "halo_normal_00_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_B_Eyebrows_01",
+            "names": [
+              "L_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eyebrows_01",
+            "names": [
+              "L_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_01",
+            "names": [
+              "L_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_PP",
+            "names": [
+              "L_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01",
+            "names": [
+              "L_Eye_P_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01_0",
+            "names": [
+              "L_Eye_P_01_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_White_01",
+            "names": [
+              "L_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Tears_00",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Mouse_01",
+            "names": [
+              "Mouse_04"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_B_Eyebrows_01",
+            "names": [
+              "R_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_01",
+            "names": [
+              "R_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_PP",
+            "names": [
+              "R_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01",
+            "names": [
+              "R_Eye_P_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01_0",
+            "names": [
+              "R_Eye_P_01_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_White_01",
+            "names": [
+              "R_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Tears_00",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Sweat_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_L_eyebrow_01",
+            "names": [
+              "T_L_eyebrow_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_R_eyebrow_01",
+            "names": [
+              "T_R_eyebrow_01"
+            ],
+            "frames": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "04",
+        "duration": 3.3333334922790527,
+        "timelines": {
+          "AttachmentTimeline": 32,
+          "RGBATimeline": 4,
+          "TranslateTimeline": 6,
+          "ScaleTimeline": 1
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "Despressed_Line_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Flush_01",
+            "names": [
+              "Flush_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00",
+            "names": [
+              "halo_suprise_00"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00_ad",
+            "names": [
+              "halo_suprise_00_ad1"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00_ad2",
+            "names": [
+              "halo_suprise_00_ad1"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_00",
+            "names": [
+              "halo_suprise_P_00"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_00_ad",
+            "names": [
+              "halo_suprise_P_00_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_01",
+            "names": [
+              "halo_suprise_P_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_01_ad",
+            "names": [
+              "halo_suprise_P_01_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_02",
+            "names": [
+              "halo_suprise_P_02"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_02_ad",
+            "names": [
+              "halo_suprise_P_02_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_03",
+            "names": [
+              "halo_suprise_P_03"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_suprise_P_03_ad",
+            "names": [
+              "halo_suprise_P_03_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_B_Eyebrows_01",
+            "names": [
+              "L_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eyebrows_01",
+            "names": [
+              "L_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_01",
+            "names": [
+              "L_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_PP",
+            "names": [
+              "L_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01",
+            "names": [
+              "L_Eye_P_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01_0",
+            "names": [
+              "L_Eye_P_01_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_White_01",
+            "names": [
+              "L_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Tears_00",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Mouse_01",
+            "names": [
+              "Mouse_05"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_B_Eyebrows_01",
+            "names": [
+              "R_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_01",
+            "names": [
+              "R_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_PP",
+            "names": [
+              "R_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01",
+            "names": [
+              "R_Eye_P_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01_0",
+            "names": [
+              "R_Eye_P_01_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_White_01",
+            "names": [
+              "R_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Tears_00",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Sweat_01",
+            "names": [
+              "Sweat_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_L_eyebrow_01",
+            "names": [
+              "T_L_eyebrow_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_R_eyebrow_01",
+            "names": [
+              "T_R_eyebrow_01"
+            ],
+            "frames": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "06",
+        "duration": 3.3333334922790527,
+        "timelines": {
+          "AttachmentTimeline": 25,
+          "TranslateTimeline": 9,
+          "ScaleTimeline": 9
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "Despressed_Line_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Flush_01",
+            "names": [
+              "Flush_02"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00",
+            "names": [
+              "halo_angry"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00_ad",
+            "names": [
+              "halo_angry_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_B_Eyebrows_01",
+            "names": [
+              "L_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eyebrows_01",
+            "names": [
+              "L_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_01",
+            "names": [
+              "L_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_PP",
+            "names": [
+              "L_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01",
+            "names": [
+              "L_Eye_P_02"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01_0",
+            "names": [
+              "L_Eye_P_02_1"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_02_0",
+            "names": [
+              "L_Eye_P_02_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_White_01",
+            "names": [
+              "L_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Tears_00",
+            "names": [
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00",
+              "L_Tears_00"
+            ],
+            "frames": [
+              0,
+              0.3333333432674408,
+              0.6666666865348816,
+              1,
+              1.3333333730697632,
+              1.6666667461395264,
+              2,
+              2.3333334922790527,
+              2.6666667461395264,
+              3.000000238418579
+            ]
+          },
+          {
+            "slot": "Mouse_01",
+            "names": [
+              "Mouse_07"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_B_Eyebrows_01",
+            "names": [
+              "R_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_01",
+            "names": [
+              "R_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_PP",
+            "names": [
+              "R_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01",
+            "names": [
+              "R_Eye_P_02"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01_0",
+            "names": [
+              "R_Eye_P_02_1"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_02_0",
+            "names": [
+              "R_Eye_P_02_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_White_01",
+            "names": [
+              "R_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Tears_00",
+            "names": [
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00",
+              "R_Tears_00"
+            ],
+            "frames": [
+              0,
+              0.3333333432674408,
+              0.6666666865348816,
+              1,
+              1.3333333730697632,
+              1.6666667461395264,
+              2,
+              2.3333334922790527,
+              2.6666667461395264,
+              3.000000238418579
+            ]
+          },
+          {
+            "slot": "Sweat_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_L_eyebrow_01",
+            "names": [
+              "T_L_eyebrow_2"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_R_eyebrow_01",
+            "names": [
+              "T_R_eyebrow_2"
+            ],
+            "frames": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "08",
+        "duration": 0,
+        "timelines": {
+          "AttachmentTimeline": 25,
+          "TranslateTimeline": 1
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "Despressed_Line_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Face_Shadow_01",
+            "names": [
+              "Face_Shadow_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Flush_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00",
+            "names": [
+              "halo_depressed2_00"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00_ad",
+            "names": [
+              "halo_depressed2_00_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "halo_normal_00_ad2",
+            "names": [
+              "halo_depressed2_00_ad"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_B_Eyebrows_01",
+            "names": [
+              "L_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eyebrows_01",
+            "names": [
+              "L_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_01",
+            "names": [
+              "L_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_PP",
+            "names": [
+              "L_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01_0",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_White_01",
+            "names": [
+              "L_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Tears_00",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Mouse_01",
+            "names": [
+              "Mouse_02"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_B_Eyebrows_01",
+            "names": [
+              "R_B_Eyebrows_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_01",
+            "names": [
+              "R_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_PP",
+            "names": [
+              "R_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01_0",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_White_01",
+            "names": [
+              "R_Eye_White_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Tears_00",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Sweat_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_L_eyebrow_01",
+            "names": [
+              "T_L_eyebrow_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "T_R_eyebrow_01",
+            "names": [
+              "T_R_eyebrow_01"
+            ],
+            "frames": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Idle_01",
+        "duration": 3.3333334922790527,
+        "timelines": {
+          "RGBATimeline": 26,
+          "RotateTimeline": 104,
+          "TranslateTimeline": 24,
+          "ScaleTimeline": 1
+        },
+        "attachmentTimeline": []
+      },
+      {
+        "name": "Eye_Close_01",
+        "duration": 0.13333334028720856,
+        "timelines": {
+          "AttachmentTimeline": 4,
+          "TranslateTimeline": 6
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "L_Eyebrows_01",
+            "names": [
+              "L_Eyebrows_03",
+              "L_Eyebrows_01"
+            ],
+            "frames": [
+              0.03333333507180214,
+              0.10000000894069672
+            ]
+          },
+          {
+            "slot": "L_Eye_Cover_01",
+            "names": [
+              "L_Eye_Cover_01",
+              null
+            ],
+            "frames": [
+              0.03333333507180214,
+              0.10000000894069672
+            ]
+          },
+          {
+            "slot": "R_eyebrows_01",
+            "names": [
+              "R_eyebrows_03",
+              "R_eyebrows_01"
+            ],
+            "frames": [
+              0.03333333507180214,
+              0.10000000894069672
+            ]
+          },
+          {
+            "slot": "R_Eye_Cover_01",
+            "names": [
+              "R_Eye_Cover_01",
+              null
+            ],
+            "frames": [
+              0.03333333507180214,
+              0.10000000894069672
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pat_01_A",
+        "duration": 0,
+        "timelines": {
+          "AttachmentTimeline": 7
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "L_B_Eyebrows_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eyebrows_01",
+            "names": [
+              "L_Eyebrows_02"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_Cover_01",
+            "names": [
+              "L_Eye_Cover_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Mouse_01",
+            "names": [
+              "Mouse_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_B_Eyebrows_01",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_eyebrows_01",
+            "names": [
+              "R_eyebrows_02"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_Cover_01",
+            "names": [
+              "R_Eye_Cover_01"
+            ],
+            "frames": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Look_01_A",
+        "duration": 0,
+        "timelines": {
+          "AttachmentTimeline": 11
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "L_Eye_01",
+            "names": [
+              "L_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_PP",
+            "names": [
+              "L_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01",
+            "names": [
+              "L_Eye_P_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_01_0",
+            "names": [
+              "L_Eye_P_01_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "L_Eye_P_02_0",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "Mouse_01",
+            "names": [
+              "Mouse_04"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_01",
+            "names": [
+              "R_Eye_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_PP",
+            "names": [
+              "R_Eye_PP"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01",
+            "names": [
+              "R_Eye_P_01"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_01_0",
+            "names": [
+              "R_Eye_P_01_0"
+            ],
+            "frames": [
+              0
+            ]
+          },
+          {
+            "slot": "R_Eye_P_02_0",
+            "names": [
+              null
+            ],
+            "frames": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "track0": [
+      {
+        "time": 0.016666666666666666,
+        "visible": 80,
+        "lost": [],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 0.16666666666666666,
+        "visible": 79,
+        "lost": [
+          "Torso_Pattern_01"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 0.5,
+        "visible": 79,
+        "lost": [
+          "Torso_Pattern_01"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 1,
+        "visible": 79,
+        "lost": [
+          "Torso_Pattern_01"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 1.5,
+        "visible": 79,
+        "lost": [
+          "Torso_Pattern_01"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      }
+    ],
+    "track2": [
+      {
+        "time": 0.016666666666666666,
+        "visible": 76,
+        "lost": [],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 0.16666666666666666,
+        "visible": 76,
+        "lost": [
+          "F_Ribborn_Pattern_01"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 0.5,
+        "visible": 74,
+        "lost": [
+          "F_L_B_Ribborn_Pattern_01",
+          "F_R_B_Ribborn_Pattern_02",
+          "F_Ribborn_Pattern_01"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 1,
+        "visible": 74,
+        "lost": [
+          "R_B_Hair_Pattern_02",
+          "L_Arm_Pattern_01",
+          "F_L_B_Ribborn_Pattern_01",
+          "F_R_B_Ribborn_Pattern_02",
+          "F_Ribborn_Pattern_01"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      },
+      {
+        "time": 1.5,
+        "visible": 71,
+        "lost": [
+          "R_B_Hair_Pattern_02",
+          "R_Acc_Pattern_01",
+          "R_Arm_Pattern_02",
+          "L_Arm_Pattern_01",
+          "Torso_Original2",
+          "Torso_Pattern_01",
+          "F_L_B_Ribborn_Pattern_01",
+          "F_R_B_Ribborn_Pattern_02",
+          "T_Ribborn_Pattern_02",
+          "Hair_L_Halo_Light"
+        ],
+        "changedAttachments": [
+          "Mouse_01=Mouse_04",
+          "Flush_01=Flush_01"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "arona_workpage_daytime",
+    "animations": [
+      {
+        "name": "Idle_01",
+        "duration": 10.000000953674316,
+        "timelines": {
+          "AttachmentTimeline": 32,
+          "RGBATimeline": 9,
+          "RotateTimeline": 23,
+          "TranslateTimeline": 8,
+          "ShearTimeline": 1,
+          "ScaleTimeline": 1
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "A_01_B_Forearm",
+            "names": [
+              "A_01_B_Forearm",
+              "A_01_B_Forearm"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_B_F_Hair_01",
+            "names": [
+              "A_01_B_F_Hair_01",
+              "A_01_B_F_Hair_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_B_Hand_01",
+            "names": [
+              "A_01_B_Hand_01",
+              "A_01_B_Hand_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_B_L_Hair_01",
+            "names": [
+              "A_01_B_L_Hair_01",
+              "A_01_B_L_Hair_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_B_R_Hair_01",
+            "names": [
+              "A_01_B_R_Hair_01",
+              "A_01_B_R_Hair_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_B_Skirt_01",
+            "names": [
+              "A_01_B_Skirt_01",
+              "A_01_B_Skirt_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_B_Torso_01",
+            "names": [
+              "A_01_B_Torso_01",
+              "A_01_B_Torso_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_B_UpperArm_01",
+            "names": [
+              "A_01_B_UpperArm_01",
+              "A_01_B_UpperArm_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_Emotion_01",
+            "names": [
+              "A_01_Emotion_01",
+              "A_01_Emotion_02",
+              "A_01_Emotion_01",
+              "A_01_Emotion_01"
+            ],
+            "frames": [
+              0,
+              4,
+              8.333333969116211,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_Flush_01",
+            "names": [
+              "A_01_Flush_01",
+              "A_01_Flush_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_Arm",
+            "names": [
+              "A_01_F_Arm",
+              "A_01_F_Arm"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_Arm_01",
+            "names": [
+              "A_01_F_Arm",
+              "A_01_F_Arm"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_Arm_02",
+            "names": [
+              "A_01_F_Arm",
+              "A_01_F_Arm"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_B_Ribborn_01",
+            "names": [
+              "A_01_F_B_Ribborn_01",
+              "A_01_F_B_Ribborn_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_Skirt_01",
+            "names": [
+              "A_01_F_Skirt_01",
+              "A_01_F_Skirt_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_Torso",
+            "names": [
+              "A_01_F_Torso",
+              "A_01_F_Torso"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_Torso_2",
+            "names": [
+              "A_01_F_Torso",
+              "A_01_F_Torso"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_F_Torso_02",
+            "names": [
+              "A_01_F_Torso",
+              "A_01_F_Torso"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_Hair_01",
+            "names": [
+              "A_01_Hair_01",
+              "A_01_Hair_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_halo",
+            "names": [
+              "A_01_halo",
+              "A_01_halo"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_halo_ad",
+            "names": [
+              "A_01_halo_ad",
+              "A_01_halo_ad"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_Head_01",
+            "names": [
+              "A_01_Head_01",
+              "A_01_Head_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_lag",
+            "names": [
+              "A_01_lag",
+              "A_01_lag"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_Pattern_01",
+            "names": [
+              "A_01_B_Forearm",
+              "A_01_B_Forearm"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_Pattern_02",
+            "names": [
+              "A_01_B_Forearm",
+              "A_01_B_Forearm"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_R_Keyring",
+            "names": [
+              "A_01_R_Keyring_01",
+              "A_01_R_Keyring_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_R_Keyring_01",
+            "names": [
+              "A_01_R_Keyring_01",
+              "A_01_R_Keyring_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_R_Keyring_02",
+            "names": [
+              "A_01_R_Keyring_01",
+              "A_01_R_Keyring_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_R_Keyring_String",
+            "names": [
+              "A_01_R_Keyring_String",
+              "A_01_R_Keyring_String"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_T_B_Ribborn_01",
+            "names": [
+              "A_01_T_B_Ribborn_01",
+              "A_01_T_B_Ribborn_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_T_Hairband",
+            "names": [
+              "A_01_T_Hairband",
+              "A_01_T_Hairband"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          },
+          {
+            "slot": "A_01_T_Ribborn_01",
+            "names": [
+              "A_01_T_Ribborn_01",
+              "A_01_T_Ribborn_01"
+            ],
+            "frames": [
+              0,
+              10.000000953674316
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Idle_01_Touch_A",
+        "duration": 1.1666667461395264,
+        "timelines": {
+          "AttachmentTimeline": 13
+        },
+        "attachmentTimeline": [
+          {
+            "slot": "A_01_Emotion_01",
+            "names": [
+              "A_01_Emotion_03",
+              "A_01_Emotion_03"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo",
+            "names": [
+              "A_01_halo_happy",
+              "A_01_halo_happy"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_ad",
+            "names": [
+              "A_01_halo_happy_ad",
+              "A_01_halo_happy_ad"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_00",
+            "names": [
+              "A_01_halo_happy_P_00",
+              "A_01_halo_happy_P_00"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_1",
+            "names": [
+              "A_01_halo_happy_P_01",
+              "A_01_halo_happy_P_01"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_01",
+            "names": [
+              "A_01_halo_happy_P_01",
+              "A_01_halo_happy_P_01"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_2",
+            "names": [
+              "A_01_halo_happy_P_02",
+              "A_01_halo_happy_P_02"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_02",
+            "names": [
+              "A_01_halo_happy_P_02",
+              "A_01_halo_happy_P_02"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_03",
+            "names": [
+              "A_01_halo_happy_P_03",
+              "A_01_halo_happy_P_03"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_4",
+            "names": [
+              "A_01_halo_happy_P_04",
+              "A_01_halo_happy_P_04"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_04",
+            "names": [
+              "A_01_halo_happy_P_04",
+              "A_01_halo_happy_P_04"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_05",
+            "names": [
+              "A_01_halo_happy_P_05",
+              "A_01_halo_happy_P_05"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          },
+          {
+            "slot": "A_01_halo_happy_P_06",
+            "names": [
+              "A_01_halo_happy_P_06",
+              "A_01_halo_happy_P_06"
+            ],
+            "frames": [
+              0,
+              1.1666667461395264
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Idle_01_Touch_M",
+        "duration": 1.1666667461395264,
+        "timelines": {
+          "RGBATimeline": 43,
+          "RotateTimeline": 8,
+          "TranslateTimeline": 13,
+          "ScaleTimeline": 1
+        },
+        "attachmentTimeline": []
+      }
+    ],
+    "track0": [
+      {
+        "time": 0.016666666666666666,
+        "visible": 24,
+        "lost": [
+          "A_01_B_Skirt_01",
+          "A_01_B_Torso_01",
+          "A_01_lag",
+          "A_01_F_Skirt_01",
+          "A_01_B_UpperArm_01",
+          "A_01_B_Forearm",
+          "A_01_Pattern_01",
+          "A_01_B_Hand_01",
+          "A_01_F_B_Ribborn_01",
+          "A_01_F_Torso",
+          "A_01_F_Torso_02",
+          "A_01_T_B_Ribborn_01",
+          "A_01_B_R_Hair_01",
+          "A_01_B_F_Hair_01",
+          "A_01_B_L_Hair_01",
+          "A_01_Head_01",
+          "A_01_Flush_01",
+          "A_01_T_Hairband",
+          "A_01_Hair_01",
+          "A_01_T_Ribborn_01",
+          "A_01_F_Arm",
+          "A_01_F_Arm_01",
+          "A_01_R_Keyring",
+          "A_01_R_Keyring_01",
+          "A_01_R_Keyring_String"
+        ],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 0.16666666666666666,
+        "visible": 24,
+        "lost": [
+          "A_01_B_Skirt_01",
+          "A_01_B_Torso_01",
+          "A_01_lag",
+          "A_01_F_Skirt_01",
+          "A_01_B_UpperArm_01",
+          "A_01_B_Forearm",
+          "A_01_Pattern_01",
+          "A_01_B_Hand_01",
+          "A_01_F_B_Ribborn_01",
+          "A_01_F_Torso",
+          "A_01_F_Torso_02",
+          "A_01_T_B_Ribborn_01",
+          "A_01_B_R_Hair_01",
+          "A_01_B_F_Hair_01",
+          "A_01_B_L_Hair_01",
+          "A_01_Head_01",
+          "A_01_Flush_01",
+          "A_01_T_Hairband",
+          "A_01_Hair_01",
+          "A_01_T_Ribborn_01",
+          "A_01_F_Arm",
+          "A_01_F_Arm_01",
+          "A_01_R_Keyring",
+          "A_01_R_Keyring_01",
+          "A_01_R_Keyring_String"
+        ],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 0.5,
+        "visible": 24,
+        "lost": [
+          "A_01_B_Skirt_01",
+          "A_01_B_Torso_01",
+          "A_01_lag",
+          "A_01_F_Skirt_01",
+          "A_01_B_UpperArm_01",
+          "A_01_B_Forearm",
+          "A_01_Pattern_01",
+          "A_01_B_Hand_01",
+          "A_01_F_B_Ribborn_01",
+          "A_01_F_Torso",
+          "A_01_F_Torso_02",
+          "A_01_T_B_Ribborn_01",
+          "A_01_B_R_Hair_01",
+          "A_01_B_F_Hair_01",
+          "A_01_B_L_Hair_01",
+          "A_01_Head_01",
+          "A_01_Flush_01",
+          "A_01_T_Hairband",
+          "A_01_Hair_01",
+          "A_01_T_Ribborn_01",
+          "A_01_F_Arm",
+          "A_01_F_Arm_01",
+          "A_01_R_Keyring",
+          "A_01_R_Keyring_01",
+          "A_01_R_Keyring_String"
+        ],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 1,
+        "visible": 24,
+        "lost": [
+          "A_01_B_Skirt_01",
+          "A_01_B_Torso_01",
+          "A_01_lag",
+          "A_01_F_Skirt_01",
+          "A_01_B_UpperArm_01",
+          "A_01_B_Forearm",
+          "A_01_Pattern_01",
+          "A_01_B_Hand_01",
+          "A_01_F_B_Ribborn_01",
+          "A_01_F_Torso",
+          "A_01_F_Torso_02",
+          "A_01_T_B_Ribborn_01",
+          "A_01_B_R_Hair_01",
+          "A_01_B_F_Hair_01",
+          "A_01_B_L_Hair_01",
+          "A_01_Head_01",
+          "A_01_Flush_01",
+          "A_01_T_Hairband",
+          "A_01_Hair_01",
+          "A_01_T_Ribborn_01",
+          "A_01_F_Arm",
+          "A_01_F_Arm_01",
+          "A_01_R_Keyring",
+          "A_01_R_Keyring_01",
+          "A_01_R_Keyring_String"
+        ],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 1.5,
+        "visible": 24,
+        "lost": [
+          "A_01_B_Skirt_01",
+          "A_01_B_Torso_01",
+          "A_01_lag",
+          "A_01_F_Skirt_01",
+          "A_01_B_UpperArm_01",
+          "A_01_B_Forearm",
+          "A_01_Pattern_01",
+          "A_01_B_Hand_01",
+          "A_01_F_B_Ribborn_01",
+          "A_01_F_Torso",
+          "A_01_F_Torso_02",
+          "A_01_T_B_Ribborn_01",
+          "A_01_B_R_Hair_01",
+          "A_01_B_F_Hair_01",
+          "A_01_B_L_Hair_01",
+          "A_01_Head_01",
+          "A_01_Flush_01",
+          "A_01_T_Hairband",
+          "A_01_Hair_01",
+          "A_01_T_Ribborn_01",
+          "A_01_F_Arm",
+          "A_01_F_Arm_01",
+          "A_01_R_Keyring",
+          "A_01_R_Keyring_01",
+          "A_01_R_Keyring_String"
+        ],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      }
+    ],
+    "track2": [
+      {
+        "time": 0.016666666666666666,
+        "visible": 49,
+        "lost": [],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 0.16666666666666666,
+        "visible": 49,
+        "lost": [],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 0.5,
+        "visible": 49,
+        "lost": [],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 1,
+        "visible": 49,
+        "lost": [
+          "A_01_Pattern_01",
+          "A_01_F_Torso_02",
+          "A_01_F_Arm_01",
+          "A_01_R_Keyring_01"
+        ],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      },
+      {
+        "time": 1.5,
+        "visible": 49,
+        "lost": [
+          "A_01_Pattern_01",
+          "A_01_F_Torso_02",
+          "A_01_F_Arm_01",
+          "A_01_R_Keyring_01"
+        ],
+        "changedAttachments": [
+          "A_01_Emotion_01=A_01_Emotion_03",
+          "A_01_halo_ad=A_01_halo_happy_ad",
+          "A_01_halo=A_01_halo_happy",
+          "A_01_halo_happy_P_00=A_01_halo_happy_P_00",
+          "A_01_halo_happy_P_01=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_1=A_01_halo_happy_P_01",
+          "A_01_halo_happy_P_02=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_2=A_01_halo_happy_P_02",
+          "A_01_halo_happy_P_03=A_01_halo_happy_P_03",
+          "A_01_halo_happy_P_04=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_4=A_01_halo_happy_P_04",
+          "A_01_halo_happy_P_05=A_01_halo_happy_P_05",
+          "A_01_halo_happy_P_06=A_01_halo_happy_P_06"
+        ]
+      }
+    ]
+  }
+]

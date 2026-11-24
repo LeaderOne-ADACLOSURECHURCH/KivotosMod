@@ -1,0 +1,474 @@
+[
+  {
+    "path": "Combat_Emoji_Think/Ani/1/2",
+    "name": "Item_Icon_Event_Token_1_S18",
+    "width": 304,
+    "height": 240
+  },
+  {
+    "path": "UILobby/Front/Top/AccountInfo/Controller/Container/LevelReward/BG/Btn/Icon_LevelReward",
+    "name": "Icon_Popup_LevelReward",
+    "width": 96,
+    "height": 90
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_3/BlockEntry/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_5/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Formation/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Academy/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_2/ImageFont_Limited",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Academy/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1/BlockEntry/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement1/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Gacha/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/NUITop/Top/Right/Btn_LobbyCharacter/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Cafe/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_3/ImageFont_Limited",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_4/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_2/Image/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/NUITop/Top/Right/Bg/Texture",
+    "name": "Img_Deco_LobbyBottom",
+    "width": 660,
+    "height": 114
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement3/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement2/Able/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/Tutorial_04/01_Dialog/Button/BtnImg",
+    "error": "File cab-8404598a91d76ba0eb82a47c8cc8e1ec not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_4/BlockEntry/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_MomoTalk/Group/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Formation/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Pos_Quest/EventNotice/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Gacha/gacha_tag/tag_first",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement1/Able/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/Tutorial_03/02_Button/Widget/Arrow",
+    "name": "Tutorial_Arrow",
+    "width": 104,
+    "height": 122
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_4/Image/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Pos_Quest/EventNotice/Disable/Able",
+    "name": "Common_Event_Enter_Archive",
+    "width": 171,
+    "height": 130
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement1/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement1/Disable/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/BG",
+    "name": "Common_Square_BgImg",
+    "width": 4,
+    "height": 4
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_Mission/Group/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Academy/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Gacha/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_Mission/Group/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Formation/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_4/ImageFont_Limited",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Pos_Quest/EventNotice/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Pos_Quest/EventNotice/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_MomoTalk/Group/Able/Icon/Birthday/Star",
+    "name": "Icon_Momotalk_Star",
+    "width": 27,
+    "height": 27
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_MomoTalk/Group/Able/Icon/Birthday/Icon",
+    "name": "Icon_Momotalk_Birthday_Noti",
+    "width": 84,
+    "height": 82
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_5/BlockEntry/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Craft/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_MomoTalk/Group/Able/Icon/Birthday/Star",
+    "name": "Icon_Momotalk_Star",
+    "width": 27,
+    "height": 27
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_3/Image/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_5/ImageFont_Limited",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_1/Image/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement3/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_5/Image/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/Tutorial_05/02_Button/Widget/Arrow",
+    "name": "Tutorial_Arrow",
+    "width": 104,
+    "height": 122
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_BattlePass/Able/Icon",
+    "name": "Common_Icon_BattlePass2_Jp",
+    "width": 242,
+    "height": 189
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Shop/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement2/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/Tutorial_01/02_Button/Widget/Arrow",
+    "name": "Tutorial_Arrow",
+    "width": 104,
+    "height": 122
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_MomoTalk/Group/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement1/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Student/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/Tutorial_06/02_Button/Widget/Arrow",
+    "name": "Tutorial_Arrow",
+    "width": 104,
+    "height": 122
+  },
+  {
+    "path": "UILobby/Front/Bottom/Pos_Quest/Quest/Able/Icon",
+    "name": "Lobby_Icon_Work",
+    "width": 329,
+    "height": 232
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Gacha/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Cafe/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Top/AccountInfo/Controller/BG/Deco",
+    "name": "Img_Deco_Poli",
+    "width": 603,
+    "height": 267
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Shop/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_1/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement2/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/Tutorial_04/01_Dialog/Button/Widget/Arrow",
+    "name": "Tutorial_Arrow",
+    "width": 104,
+    "height": 122
+  },
+  {
+    "path": "UILobby/Front/NUITop/Top/Right/Btn_LobbyCharacter/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Social/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement3/Disable/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/TutorialNew/Tutorial_02/02_Button/Widget/Arrow",
+    "name": "Tutorial_Arrow",
+    "width": 104,
+    "height": 122
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_2/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/BG/Deco (1)",
+    "name": "Img_Deco_LobbyBottom",
+    "width": 660,
+    "height": 114
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_Mission/Group/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Left/Btn_MomoTalk/Group/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Pos_Quest/EventNotice/Able",
+    "name": "Common_Event_Enter_Archive",
+    "width": 171,
+    "height": 130
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_1/BlockEntry/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement1/Able",
+    "error": "File cab-c22e7eb193811e5dddaceab982c73024 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Pos_Quest/EventNotice/BlockEntry/Able",
+    "name": "Common_Event_Enter_Archive",
+    "width": 171,
+    "height": 130
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Shop/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement3/Able/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/AronaDeco",
+    "name": "UIWorkAronaSceneBG_DecoColor",
+    "width": 98,
+    "height": 19
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement3/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Gacha/gacha_tag/tag_second",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_2/BlockEntry/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_3/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Social/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Cafe/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1/Image",
+    "name": "Event_Banner_806_Jp",
+    "width": 612,
+    "height": 288
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Social/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement2/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Craft/Disable/FX_UI_Location_Unlock_01/FxRQDummy_2",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1_1/ImageFont_Limited",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Student/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1/Image/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/NUITop/Top/Right/Btn_LobbyCharacter/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/BG/Deco",
+    "name": "Img_Deco_LobbyBottom",
+    "width": 660,
+    "height": 114
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Craft/Disable/FX_UI_Location_Unlock_01/FxRQDummy_1",
+    "error": "File cab-f1ffccb0e6dae324d2fd3f2c0e8e8631 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Btn_Event_Gacha/Target/UILobbyEventBanner/WrapContent/EventElement1/ImageFont_Limited",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Right/Btn_Event/Mask/WrapContent/UIEventbannerElement2/Disable/ImgFont_Comeback",
+    "error": "File cab-d132ceeab56d2b53acb99d3b7f2969e4 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  },
+  {
+    "path": "UILobby/Front/Bottom/Menu/BG/Grid/Student/Disable/FX_UI_Location_Unlock_01/FxRQDummy_0",
+    "error": "File cab-5cb129b0d3e8597cc11ba43385244c60 not found in Z:\\YostarGames\\BlueArchive_JP\\BlueArchive_Data\\StreamingAssets\\AssetBundles"
+  }
+]

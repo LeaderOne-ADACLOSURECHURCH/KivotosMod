@@ -1,0 +1,4792 @@
+{
+  "width": 1559,
+  "height": 1007,
+  "duration": 30,
+  "frames": 901,
+  "layers": [
+    {
+      "index": 2,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 26.966666666666665,
+      "end": 30.03333333333333,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 26.966666666666665,
+      "end": 30.03333333333333,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 4,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 20.0,
+      "end": 65.03333333333333,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 20.0,
+      "end": 65.03333333333333,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 16.966666666666665,
+      "end": 20.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 16.966666666666665,
+      "end": 20.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 10.0,
+      "end": 55.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 10.0,
+      "end": 55.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 12,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 6.966666666666667,
+      "end": 10.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 13,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 6.966666666666667,
+      "end": 10.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 14,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 15,
+      "name": "星光光谱2.png",
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007,
+      "anchor": [
+        1288.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask16",
+      "mask_index": 16,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 23,
+      "name": "光球浅初始 42",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask65",
+      "mask_index": 65,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 24,
+      "name": "光球浅初始 41",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask63",
+      "mask_index": 63,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 25,
+      "name": "光球浅初始 40",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask69",
+      "mask_index": 69,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 26,
+      "name": "光球浅初始 39",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask67",
+      "mask_index": 67,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 27,
+      "name": "光球浅初始 38",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask68",
+      "mask_index": 68,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 28,
+      "name": "光球浅初始 37",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask68",
+      "mask_index": 68,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 29,
+      "name": "光球浅初始 36",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask68",
+      "mask_index": 68,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 30,
+      "name": "光球浅初始 35",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask66",
+      "mask_index": 66,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 31,
+      "name": "光球浅初始 34",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask66",
+      "mask_index": 66,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 32,
+      "name": "光球浅初始 33",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask66",
+      "mask_index": 66,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 33,
+      "name": "光球浅初始 32",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask69",
+      "mask_index": 69,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 34,
+      "name": "光球浅初始 31",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask69",
+      "mask_index": 69,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 35,
+      "name": "光球浅初始 30",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask63",
+      "mask_index": 63,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 36,
+      "name": "光球浅初始 29",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask64",
+      "mask_index": 64,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 38,
+      "name": "光球浅初始 28",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask65",
+      "mask_index": 65,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 39,
+      "name": "光球浅初始 27",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask63",
+      "mask_index": 63,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 40,
+      "name": "光球浅初始 25",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask69",
+      "mask_index": 69,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 41,
+      "name": "光球浅初始 24",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask67",
+      "mask_index": 67,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 42,
+      "name": "光球浅初始 22",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask68",
+      "mask_index": 68,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 43,
+      "name": "光球浅初始 21",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask68",
+      "mask_index": 68,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 44,
+      "name": "光球浅初始 20",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask68",
+      "mask_index": 68,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 45,
+      "name": "光球浅初始 26",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask66",
+      "mask_index": 66,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 46,
+      "name": "光球浅初始 18",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask66",
+      "mask_index": 66,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 47,
+      "name": "光球浅初始 17",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask66",
+      "mask_index": 66,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 48,
+      "name": "光球浅初始 19",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask69",
+      "mask_index": 69,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 49,
+      "name": "光球浅初始 16",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask69",
+      "mask_index": 69,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 50,
+      "name": "光球浅初始 23",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask63",
+      "mask_index": 63,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 51,
+      "name": "光球浅初始 15",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask64",
+      "mask_index": 64,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 53,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask72",
+      "mask_index": 72,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 54,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask72",
+      "mask_index": 72,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 55,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask72",
+      "mask_index": 72,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 56,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask73",
+      "mask_index": 73,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 57,
+      "name": "光球浅",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask73",
+      "mask_index": 73,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 58,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask73",
+      "mask_index": 73,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 59,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask73",
+      "mask_index": 73,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 60,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask72",
+      "mask_index": 72,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 61,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask72",
+      "mask_index": 72,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 62,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask72",
+      "mask_index": 72,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 75,
+      "name": "光谱3.png",
+      "texture": "T23",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask76",
+      "mask_index": 76,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0.0,
+        0.0,
+        0.42,
+        0.0
+      ]
+    },
+    {
+      "index": 77,
+      "name": "光带发光底层.png",
+      "texture": "T18",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.3,
+      "blend": 5223,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 78,
+      "name": "光球浅初始 13",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask107",
+      "mask_index": 107,
+      "mask_opacity": 0.55,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5037056803703308,
+        0.3522491455078125,
+        0.529411792755127,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 79,
+      "name": "光球浅初始 11",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask107",
+      "mask_index": 107,
+      "mask_opacity": 0.55,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5037056803703308,
+        0.3522491455078125,
+        0.529411792755127,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 80,
+      "name": "光球浅初始 14",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5037056803703308,
+        0.3522491455078125,
+        0.529411792755127,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 81,
+      "name": "光球浅初始 12",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5037056803703308,
+        0.3522491455078125,
+        0.529411792755127,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 82,
+      "name": "光球浅初始 10",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5037056803703308,
+        0.3522491455078125,
+        0.529411792755127,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 83,
+      "name": "光球浅初始 8",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5317559838294983,
+        0.40693578124046326,
+        0.5529412031173706,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 84,
+      "name": "光球浅初始 9",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.2664962112903595,
+        0.19617582857608795,
+        0.27843138575553894,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 85,
+      "name": "光球浅初始 7",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5317559838294983,
+        0.40693578124046326,
+        0.5529412031173706,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 86,
+      "name": "光球浅初始 6",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask107",
+      "mask_index": 107,
+      "mask_opacity": 0.55,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.36030879616737366,
+        0.3357323706150055,
+        0.5006535649299622,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 87,
+      "name": "光球浅初始 5",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.36030879616737366,
+        0.3357323706150055,
+        0.5006535649299622,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 88,
+      "name": "光球浅初始 4",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask107",
+      "mask_index": 107,
+      "mask_opacity": 0.55,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.39176690578460693,
+        0.28934675455093384,
+        0.40915024280548096,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 89,
+      "name": "光球浅初始 3",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask107",
+      "mask_index": 107,
+      "mask_opacity": 0.55,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5317559838294983,
+        0.40693578124046326,
+        0.5529412031173706,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 90,
+      "name": "光球浅初始 2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask107",
+      "mask_index": 107,
+      "mask_opacity": 0.55,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5037056803703308,
+        0.3522491455078125,
+        0.529411792755127,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 91,
+      "name": "条带浅.png",
+      "texture": "T37",
+      "width": 1160,
+      "height": 169,
+      "anchor": [
+        580.0,
+        84.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5015,
+      "mask": "Mask106",
+      "mask_index": 106,
+      "mask_opacity": 0.58,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.7690722346305847,
+        0.6137109398841858,
+        0.8222221732139587,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 94,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 95,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.27827757596969604,
+        0.3001030385494232,
+        0.6758170127868652,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 96,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 97,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 98,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 15.0,
+      "end": 60.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 100,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 101,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.27827757596969604,
+        0.3001030385494232,
+        0.6758170127868652,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 102,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 103,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 104,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask108",
+      "mask_index": 108,
+      "mask_opacity": 0.6,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5381113886833191,
+        0.3420684337615967,
+        0.6941176652908325,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 105,
+      "name": "光亮2.png",
+      "texture": "T21",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5223,
+      "matte": 5013,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 110,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5891523361206055,
+        0.5444896221160889,
+        0.7071894407272339,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 111,
+      "name": "光球浅中途补充",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5384789705276489,
+        0.36685889959335327,
+        0.7647058963775635,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 112,
+      "name": "光球浅1_3",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 113,
+      "name": "光球浅2_3",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 114,
+      "name": "光球浅8",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.266666666666666,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.39435943961143494,
+        0.6765737533569336,
+        0.6967319846153259,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 115,
+      "name": "光球浅7_1",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 116,
+      "name": "光球浅6_1",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 117,
+      "name": "光球浅5",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.833333333333336,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5069080591201782,
+        0.3214985430240631,
+        0.6967319846153259,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 118,
+      "name": "光球浅4_2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 119,
+      "name": "光球浅3_2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 120,
+      "name": "光球浅加长2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.39675936102867126,
+        0.34910163283348083,
+        0.5921568870544434,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 121,
+      "name": "光球浅6_2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 122,
+      "name": "光球浅7_2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 123,
+      "name": "光球浅11",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.39435943961143494,
+        0.6765737533569336,
+        0.6967319846153259,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 124,
+      "name": "光球浅10",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.39435943961143494,
+        0.6765737533569336,
+        0.6967319846153259,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 125,
+      "name": "光球浅1_2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.6115948206694551,
+        0.4396365515945494,
+        0.7347519527110018,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 126,
+      "name": "光球浅2_2",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4834158804065497,
+        0.47045207323954086,
+        0.6841059844623241,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 127,
+      "name": "光球浅加长",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4002683162689209,
+        0.44148609042167664,
+        0.6287581920623779,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 128,
+      "name": "光球浅2_1",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 129,
+      "name": "光球浅1_1",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 53.5,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.4220486581325531,
+        0.37623652815818787,
+        0.6836601495742798,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 131,
+      "name": "光球浅20",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 14.966666666666667,
+      "end": 59.96666666666667,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 132,
+      "name": "光球浅19",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 14.966666666666667,
+      "end": 59.96666666666667,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 133,
+      "name": "光球浅18",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 14.966666666666667,
+      "end": 59.96666666666667,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 134,
+      "name": "光球浅17",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 14.966666666666667,
+      "end": 59.96666666666667,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.28124892711639404,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 135,
+      "name": "光球浅16",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 14.966666666666667,
+      "end": 59.96666666666667,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 136,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 14.966666666666667,
+      "end": 59.96666666666667,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.47367775440216064,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 137,
+      "name": "光球浅.png",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.47367775440216064,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 138,
+      "name": "光球浅15",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 139,
+      "name": "光球浅14",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.28124892711639404,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 140,
+      "name": "光球浅13",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 141,
+      "name": "光球浅12",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 142,
+      "name": "光球浅1",
+      "texture": "T25",
+      "width": 380,
+      "height": 385,
+      "anchor": [
+        190.0,
+        192.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.386210173368454,
+        0.24917757511138916,
+        0.6209149360656738,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 144,
+      "name": "光谱2.png",
+      "texture": "T22",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5015,
+      "mask": "Mask160",
+      "mask_index": 160,
+      "mask_opacity": 0.83,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 145,
+      "name": "光带.png",
+      "texture": "T17",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 46.0,
+      "blend": 5212,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 146,
+      "name": "黑洞.png",
+      "texture": "T26",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 46.0,
+      "blend": 5212,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 147,
+      "name": "喷流.png",
+      "texture": "T27",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 46.0,
+      "blend": 5212,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 148,
+      "name": "喷流2.png",
+      "texture": "T28",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 46.0,
+      "blend": 5212,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 149,
+      "name": "喷流3.png",
+      "texture": "T29",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 46.0,
+      "blend": 5212,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 150,
+      "name": "喷流光谱.png",
+      "texture": "T32",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5013,
+      "mask": "Mask151",
+      "mask_index": 151,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 151,
+      "name": "喷流6.png",
+      "texture": "T31",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 153,
+      "name": "光谱3.png",
+      "texture": "T23",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5013,
+      "mask": "Mask155",
+      "mask_index": 155,
+      "mask_opacity": 1.0,
+      "mask_scale": [
+        100.0,
+        100.0
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 154,
+      "name": "边缘光带.png",
+      "texture": "T06",
+      "width": 1559,
+      "height": 1007,
+      "anchor": [
+        779.5,
+        503.5
+      ],
+      "start": 0.0,
+      "end": 45.0,
+      "blend": 5212,
+      "matte": 5012,
+      "mask": null,
+      "mask_index": -1,
+      "mask_opacity": 1,
+      "mask_scale": [
+        100,
+        100
+      ],
+      "tint": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "fx": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "textures": {
+    "白边后.png": {
+      "texture": "T00",
+      "width": 1559,
+      "height": 1007
+    },
+    "白边内1.png": {
+      "texture": "T01",
+      "width": 1559,
+      "height": 1007
+    },
+    "白边内2.png": {
+      "texture": "T02",
+      "width": 1559,
+      "height": 1007
+    },
+    "白边内下.png": {
+      "texture": "T03",
+      "width": 1559,
+      "height": 1007
+    },
+    "白边前.png": {
+      "texture": "T04",
+      "width": 1559,
+      "height": 1007
+    },
+    "白边下.png": {
+      "texture": "T05",
+      "width": 1559,
+      "height": 1007
+    },
+    "边缘光带.png": {
+      "texture": "T06",
+      "width": 1559,
+      "height": 1007
+    },
+    "边缘光带上.png": {
+      "texture": "T07",
+      "width": 1559,
+      "height": 1007
+    },
+    "边缘光带下.png": {
+      "texture": "T08",
+      "width": 1559,
+      "height": 1007
+    },
+    "发光遮罩.png": {
+      "texture": "T09",
+      "width": 1559,
+      "height": 1007
+    },
+    "发光遮罩后.png": {
+      "texture": "T10",
+      "width": 1559,
+      "height": 1007
+    },
+    "发光遮罩前.png": {
+      "texture": "T11",
+      "width": 1559,
+      "height": 1007
+    },
+    "高光后.png": {
+      "texture": "T12",
+      "width": 1559,
+      "height": 1007
+    },
+    "高光前.png": {
+      "texture": "T13",
+      "width": 1559,
+      "height": 1007
+    },
+    "高光全.png": {
+      "texture": "T14",
+      "width": 1559,
+      "height": 1007
+    },
+    "高光全2.png": {
+      "texture": "T15",
+      "width": 1559,
+      "height": 1007
+    },
+    "高光下.png": {
+      "texture": "T16",
+      "width": 1559,
+      "height": 1007
+    },
+    "光带.png": {
+      "texture": "T17",
+      "width": 1559,
+      "height": 1007
+    },
+    "光带发光底层.png": {
+      "texture": "T18",
+      "width": 1559,
+      "height": 1007
+    },
+    "光带下.png": {
+      "texture": "T19",
+      "width": 1559,
+      "height": 1007
+    },
+    "光亮1.png": {
+      "texture": "T20",
+      "width": 1559,
+      "height": 1007
+    },
+    "光亮2.png": {
+      "texture": "T21",
+      "width": 1559,
+      "height": 1007
+    },
+    "光谱2.png": {
+      "texture": "T22",
+      "width": 1559,
+      "height": 1007
+    },
+    "光谱3.png": {
+      "texture": "T23",
+      "width": 1559,
+      "height": 1007
+    },
+    "光球灰.png": {
+      "texture": "T24",
+      "width": 380,
+      "height": 385
+    },
+    "光球浅.png": {
+      "texture": "T25",
+      "width": 380,
+      "height": 385
+    },
+    "黑洞.png": {
+      "texture": "T26",
+      "width": 1559,
+      "height": 1007
+    },
+    "喷流.png": {
+      "texture": "T27",
+      "width": 1559,
+      "height": 1007
+    },
+    "喷流2.png": {
+      "texture": "T28",
+      "width": 1559,
+      "height": 1007
+    },
+    "喷流3.png": {
+      "texture": "T29",
+      "width": 1559,
+      "height": 1007
+    },
+    "喷流5.png": {
+      "texture": "T30",
+      "width": 1559,
+      "height": 1007
+    },
+    "喷流6.png": {
+      "texture": "T31",
+      "width": 1559,
+      "height": 1007
+    },
+    "喷流光谱.png": {
+      "texture": "T32",
+      "width": 1559,
+      "height": 1007
+    },
+    "球发光.png": {
+      "texture": "T33",
+      "width": 259,
+      "height": 252
+    },
+    "球发光底部.png": {
+      "texture": "T34",
+      "width": 259,
+      "height": 252
+    },
+    "条带黑.png": {
+      "texture": "T35",
+      "width": 1160,
+      "height": 169
+    },
+    "条带灰.png": {
+      "texture": "T36",
+      "width": 1160,
+      "height": 169
+    },
+    "条带浅.png": {
+      "texture": "T37",
+      "width": 1160,
+      "height": 169
+    },
+    "心发光.png": {
+      "texture": "T38",
+      "width": 259,
+      "height": 252
+    },
+    "心发光底部.png": {
+      "texture": "T39",
+      "width": 259,
+      "height": 252
+    },
+    "星1.png": {
+      "texture": "T40",
+      "width": 259,
+      "height": 252
+    },
+    "星2.png": {
+      "texture": "T41",
+      "width": 259,
+      "height": 252
+    },
+    "星3.png": {
+      "texture": "T42",
+      "width": 259,
+      "height": 252
+    },
+    "星发光.png": {
+      "texture": "T43",
+      "width": 259,
+      "height": 252
+    },
+    "星发光底部.png": {
+      "texture": "T44",
+      "width": 259,
+      "height": 252
+    },
+    "星光.png": {
+      "texture": "T45",
+      "width": 1559,
+      "height": 1007
+    },
+    "星光2.png": {
+      "texture": "T46",
+      "width": 3000,
+      "height": 500
+    },
+    "星光3.png": {
+      "texture": "T47",
+      "width": 1559,
+      "height": 1007
+    },
+    "星光光谱2.png": {
+      "texture": "T48",
+      "width": 2577,
+      "height": 1007
+    },
+    "星光色谱.png": {
+      "texture": "T49",
+      "width": 2577,
+      "height": 1007
+    },
+    "星光遮罩.png": {
+      "texture": "T50",
+      "width": 1559,
+      "height": 1007
+    },
+    "星空背景.png": {
+      "texture": "T51",
+      "width": 1559,
+      "height": 1007
+    }
+  }
+}

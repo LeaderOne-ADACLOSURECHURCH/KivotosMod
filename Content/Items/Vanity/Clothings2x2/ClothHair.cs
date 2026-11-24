@@ -1,0 +1,7 @@
+using Terraria.ModLoader;
+namespace KivotosMod.Content.Items.Vanity.Clothings2x2;
+public sealed class ClothHairIzayoiNonomiHair:ModHair { public override string Texture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairIzayoiNonomiHair"; public override string AltTexture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairIzayoiNonomiHairAlt";}
+public sealed class ClothHairKuromiSerikaHair:ModHair { public override string Texture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairKuromiSerikaHair"; public override string AltTexture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairKuromiSerikaHairAlt";}
+public sealed class ClothHairTakanashiHoshinoHair:ModHair { public override string Texture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairTakanashiHoshinoHair"; public override string AltTexture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairTakanashiHoshinoHairAlt";}
+public sealed class ClothHairUshioNoaHair:ModHair { public override string Texture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairUshioNoaHair"; public override string AltTexture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairUshioNoaHairAlt";}
+public sealed class ClothHairYuukaHair:ModHair { public override string Texture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairYuukaHair"; public override string AltTexture=>"KivotosMod/Content/Items/Vanity/Clothings2x2/ClothHairYuukaHair";}

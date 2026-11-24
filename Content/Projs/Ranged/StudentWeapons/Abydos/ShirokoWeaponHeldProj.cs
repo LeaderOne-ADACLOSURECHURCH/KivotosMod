@@ -28,7 +28,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Abydos
             Vector2 particleOffset = ((HoldoutOffset + new Vector2(0, -5.5f)) * new Vector2(1, Owner.direction)).RotatedBy(Projectile.rotation);
             Vector2 dir = Projectile.rotation.ToRotationVector2();
             Vector2 pos = Projectile.Center + particleOffset + dir * 5;
-            Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), pos, (Projectile.rotation + Main.rand.NextFloat(ToRadians(-5), ToRadians(5))).ToRotationVector2() * 16f, ProjectileType<ShirokoWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Fire(pos, (Projectile.rotation + Main.rand.NextFloat(ToRadians(-5), ToRadians(5))).ToRotationVector2() * 16f, ProjectileType<ShirokoWeaponBullet>());
             Vector2 particlePos = pos + dir * 40f;
             for (int i = 0; i < 15; i++)
             {

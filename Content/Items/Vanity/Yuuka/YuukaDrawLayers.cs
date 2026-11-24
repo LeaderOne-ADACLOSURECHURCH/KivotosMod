@@ -15,6 +15,7 @@ namespace KivotosMod.Content.Items.Vanity.Yuuka;
 public sealed class YuukaBackHairLayer : PlayerDrawLayer
 {
     private static Asset<Texture2D>? _texture;
+    private static Asset<Texture2D> _texture2x2;
 
     public override bool GetDefaultVisibility(PlayerDrawSet drawInfo)
         => !drawInfo.drawPlayer.dead
@@ -31,6 +32,11 @@ public sealed class YuukaBackHairLayer : PlayerDrawLayer
 
     protected override void Draw(ref PlayerDrawSet drawInfo)
     {
+        if (StudentSpriteVariants.Yuuka2x2(drawInfo.drawPlayer))
+        {
+            StudentSpriteDraw.Strip(ref drawInfo, ref _texture2x2, "KivotosMod/Content/Items/Vanity/Yuuka/Yuuka2x2BackHair", head: true);
+            return;
+        }
         Player player = drawInfo.drawPlayer;
         _texture ??= ModContent.Request<Texture2D>(
             "KivotosMod/Content/Items/Vanity/Yuuka/YuukaBackHair",
@@ -63,18 +69,19 @@ public sealed class YuukaBackHairLayer : PlayerDrawLayer
 
 
 /// <summary>
-/// The revised Yuuka art has a separate, single-frame 40x56 halo.
-/// It uses the same 40px player-frame origin and head transforms as the hair/head,
-/// so it follows the player when looking left, aiming, moving, or flipping.
+/// Single-frame 40x71 halo. Its visible pixels end at row 20; ignore the
+/// transparent bottom padding when positioning it above the head.
 /// </summary>
 [Autoload(Side = ModSide.Client)]
 public sealed class YuukaHaloLayer : PlayerDrawLayer
 {
     private static Asset<Texture2D>? _halo;
+    private static Asset<Texture2D> _halo2x2;
 
     public override bool GetDefaultVisibility(PlayerDrawSet drawInfo)
         => !drawInfo.drawPlayer.dead
            && !drawInfo.drawPlayer.ghost
+           && !drawInfo.drawPlayer.invis
            && YuukaVanitySet.HeadVisible(drawInfo.drawPlayer);
 
     // Draw above Yuuka's custom head/front hair, rather than underneath it.
@@ -85,38 +92,10 @@ public sealed class YuukaHaloLayer : PlayerDrawLayer
 
     protected override void Draw(ref PlayerDrawSet drawInfo)
     {
-        Player player = drawInfo.drawPlayer;
-        _halo ??= ModContent.Request<Texture2D>(
-            "KivotosMod/Content/Items/Vanity/Yuuka/YuukaHalo",
-            AssetRequestMode.ImmediateLoad);
-
-        Texture2D texture = _halo.Value;
-        Vector2 position = drawInfo.helmetOffset
-            + new Vector2(
-                (int)(drawInfo.Position.X - Main.screenPosition.X - player.bodyFrame.Width / 2f + player.width / 2f),
-                (int)(drawInfo.Position.Y - Main.screenPosition.Y + player.height - player.bodyFrame.Height + 4f))
-            + player.headPosition
-            + drawInfo.headVect;
-
-        // The new halo sits a little too close to the head when using the exact same
-        // anchor as the face/hair layer. Raise it slightly so it reads as floating above
-        // the head instead of贴头.
-        position.Y -= 4f;
-
-        DrawData halo = new(
-            texture,
-            position,
-            new Rectangle(0, 0, texture.Width, texture.Height),
-            drawInfo.colorArmorHead,
-            player.headRotation,
-            drawInfo.headVect,
-            1f,
-            drawInfo.playerEffect,
-            0f)
-        {
-            shader = drawInfo.cHead
-        };
-        drawInfo.DrawDataCache.Add(halo);
+        if (StudentSpriteVariants.Yuuka2x2(drawInfo.drawPlayer))
+            StudentSpriteDraw.Halo(ref drawInfo, ref _halo2x2, "KivotosMod/Content/Items/Vanity/Yuuka/Yuuka2x2Halo", 2, 15);
+        else
+            StudentSpriteDraw.Halo(ref drawInfo, ref _halo, "KivotosMod/Content/Items/Vanity/Yuuka/YuukaHalo", 6, 20);
     }
 }
 
@@ -132,7 +111,7 @@ public sealed class YuukaBodyBaseLayer : PlayerDrawLayer
     private static Asset<Texture2D>? _coat;
 
     public override bool GetDefaultVisibility(PlayerDrawSet drawInfo)
-        => !drawInfo.drawPlayer.dead
+        => !StudentSpriteVariants.YuukaBody2x2(drawInfo.drawPlayer) && !drawInfo.drawPlayer.dead
            && !drawInfo.drawPlayer.ghost
            && YuukaVanitySet.BodyVisible(drawInfo.drawPlayer);
 
@@ -179,4 +158,16 @@ public sealed class YuukaBodyBaseLayer : PlayerDrawLayer
 
         drawInfo.DrawDataCache.Add(data);
     }
+}
+
+[Autoload(Side = ModSide.Client)]
+public sealed class Yuuka2x2CoatLayer : PlayerDrawLayer
+{
+    private static Asset<Texture2D> _texture;
+    public override bool GetDefaultVisibility(PlayerDrawSet info)
+        => StudentSpriteVariants.YuukaBody2x2(info.drawPlayer) && !info.drawPlayer.dead && !info.drawPlayer.ghost
+            && YuukaVanitySet.BodyVisible(info.drawPlayer);
+    public override Position GetDefaultPosition() => new Between(PlayerDrawLayers.Head, PlayerDrawLayers.ArmOverItem);
+    protected override void Draw(ref PlayerDrawSet info) => StudentSpriteDraw.Strip(ref info, ref _texture,
+        "KivotosMod/Content/Items/Vanity/Yuuka/Yuuka2x2Coat", legs: true);
 }

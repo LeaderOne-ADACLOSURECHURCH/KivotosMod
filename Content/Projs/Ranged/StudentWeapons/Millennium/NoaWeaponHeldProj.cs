@@ -10,6 +10,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
 {
     public class NoaWeaponHeldProj : KivotosRangedWeaponProjectile
     {
+        protected override bool HasAlternateShot => true;
         public override int OriginalItemID => ItemType<NoaWeapon>();
         public override string Texture => GetInstance<NoaWeapon>().Texture;
         public override float HoldoutDrawScale => 0.85f;
@@ -53,7 +54,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
         protected override void OnRightAttack()
         {
             Vector2 bulletPos = Projectile.Center + BulletOffset;
-            Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), bulletPos, Projectile.rotation.ToRotationVector2() * 16f, ProjectileType<NoaWeaponBulletAlt>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Projectile proj = Fire(bulletPos, Projectile.rotation.ToRotationVector2() * 16f, ProjectileType<NoaWeaponBulletAlt>());
             Vector2 pos = bulletPos + ParticleOffset;
             for (int i = 0; i < 8; i++)
             {
@@ -85,7 +86,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
         protected override void OnAttack()
         {
             Vector2 bulletPos = Projectile.Center + BulletOffset;
-            Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), bulletPos, Projectile.rotation.ToRotationVector2() * 16f, ProjectileType<NoaWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Projectile proj = Fire(bulletPos, Projectile.rotation.ToRotationVector2() * 16f, ProjectileType<NoaWeaponBullet>());
             Vector2 pos = bulletPos + ParticleOffset;
             for (int i = 0; i < 2; i++)
             {

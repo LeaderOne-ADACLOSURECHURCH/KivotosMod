@@ -1,0 +1,12 @@
+{
+  "compiler": "Windows d3dcompiler_47.dll",
+  "profile": "fx_2_0; vs_3_0; ps_3_0",
+  "flags": [
+    "optimization_level_3",
+    "no_preshader"
+  ],
+  "source_sha256": "1760cb0e572f3ecd5fede76a7e458ee26c183348952aa3d7d6c00707602a34fb",
+  "bytes": 1500,
+  "bytecode_sha256": "99f3c0b07481de9dc531365e0eb01dfbabe97c625af348b32888fc4f1a6a79ca",
+  "messages": "warning X4717: Effects deprecated for D3DCompiler_47"
+}

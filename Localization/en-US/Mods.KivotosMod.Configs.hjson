@@ -1,5 +1,15 @@
 KivotosClientConfig: {
+	StudentWeaponDamageMultiplier: {
+		Label: Student weapon damage multiplier
+		Tooltip: Scales level-one base damage from 0.30 to 20.00. Default: 1.00.
+	}
+
 	DisplayName: Kivotos Client Config
+
+	SupernovaVoice: {
+		Label: Supernova voice
+		Tooltip: Choose the language for Aris's charge and energy voice lines.
+	}
 
 	SpecialRarity: {
 		Label: Special Rarity
@@ -23,6 +33,39 @@ KivotosClientConfig: {
 
 	TextboxSize: {
 		Label: Textbox Size
+		Tooltip: ""
+	}
+}
+
+Enums: {
+	SupernovaVoiceLanguage: {
+		None.Label: Off
+		Japanese.Label: Japanese
+		Chinese.Label: Chinese
+		Korean.Label: Korean
+	}
+}
+
+SupernovaVoiceLanguage: {
+	Tooltip: ""
+
+	None: {
+		Label: None
+		Tooltip: ""
+	}
+
+	Japanese: {
+		Label: Japanese
+		Tooltip: ""
+	}
+
+	Chinese: {
+		Label: Chinese
+		Tooltip: ""
+	}
+
+	Korean: {
+		Label: Korean
 		Tooltip: ""
 	}
 }

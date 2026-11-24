@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "screenshotCrop": [
+    810,
+    150,
+    1340,
+    750
+  ],
+  "editorPixelScale": 7.7,
+  "nativeBodyOffset": [
+    13,
+    18
+  ],
+  "decorativeWingOffsetFromBody": [
+    -13,
+    -18
+  ],
+  "flightWingOffsetFromBody": [
+    -13,
+    -12
+  ],
+  "perChannelColorTolerance": 20,
+  "headMatchingFraction": 1.0,
+  "haloMatchingFraction": 1.0,
+  "wingMatchingFraction": 0.8607594936708861,
+  "previousWrongWingMatchingFraction": 0.1308016877637131
+}

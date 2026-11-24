@@ -1,0 +1,1662 @@
+[
+  {
+    "stem": "arona_spr",
+    "version": "4.2.33",
+    "bones": 202,
+    "slots": [
+      {
+        "name": "L_B_Hair_Original",
+        "attachment": "L_B_Hair_Original"
+      },
+      {
+        "name": "L_B_Hair_Pattern_01",
+        "attachment": "L_B_Hair_Original"
+      },
+      {
+        "name": "L_B_Hair_Pattern_02",
+        "attachment": "L_B_Hair_Original"
+      },
+      {
+        "name": "R_B_Hair_Originall",
+        "attachment": "R_B_Hair_Originall"
+      },
+      {
+        "name": "R_B_Hair_Pattern_01",
+        "attachment": "R_B_Hair_Originall"
+      },
+      {
+        "name": "R_B_Hair_Pattern_02",
+        "attachment": "R_B_Hair_Pattern_02"
+      },
+      {
+        "name": "R_Acc_Original",
+        "attachment": "R_Acc_Original"
+      },
+      {
+        "name": "R_Acc_Pattern_01",
+        "attachment": "R_Acc_Pattern_01"
+      },
+      {
+        "name": "R_Acc_Pattern_02",
+        "attachment": "R_Acc_Pattern_02"
+      },
+      {
+        "name": "R_B_Acc_01",
+        "attachment": "R_B_Acc_01"
+      },
+      {
+        "name": "Weapon_01",
+        "attachment": "Weapon_01"
+      },
+      {
+        "name": "R_F_Acc_01",
+        "attachment": "R_F_Acc_01"
+      },
+      {
+        "name": "R_Arm_Original",
+        "attachment": "R_Arm_Original"
+      },
+      {
+        "name": "R_Arm_Original2",
+        "attachment": "R_Arm_Original"
+      },
+      {
+        "name": "R_Arm_Pattern_02",
+        "attachment": "R_Arm_Pattern_02"
+      },
+      {
+        "name": "R_Arm_Pattern_01",
+        "attachment": "R_Arm_Pattern_01"
+      },
+      {
+        "name": "L_Arm_Original",
+        "attachment": "L_Arm_Original"
+      },
+      {
+        "name": "L_Arm_Original2",
+        "attachment": "L_Arm_Original"
+      },
+      {
+        "name": "L_Arm_Pattern_01",
+        "attachment": "L_Arm_Pattern_01"
+      },
+      {
+        "name": "L_Arm_Pattern_02",
+        "attachment": "L_Arm_Pattern_02"
+      },
+      {
+        "name": "R_Thigh_01",
+        "attachment": "R_Thigh_01"
+      },
+      {
+        "name": "L_Thigh_01",
+        "attachment": "L_Thigh_01"
+      },
+      {
+        "name": "Skirt_01",
+        "attachment": "Skirt_01"
+      },
+      {
+        "name": "Torso_Original",
+        "attachment": "Torso_Original"
+      },
+      {
+        "name": "Torso_Original2",
+        "attachment": "Torso_Original"
+      },
+      {
+        "name": "Torso_Pattern_01",
+        "attachment": "Torso_Original_01"
+      },
+      {
+        "name": "Torso_Original3",
+        "attachment": "Torso_Original"
+      },
+      {
+        "name": "Torso_Pattern_02",
+        "attachment": "Torso_Pattern_02"
+      },
+      {
+        "name": "F_B_Ribborn_Shadow",
+        "attachment": "F_B_Ribborn_Shadow"
+      },
+      {
+        "name": "F_L_B_Ribborn_Original",
+        "attachment": "F_L_B_Ribborn_Original"
+      },
+      {
+        "name": "F_L_B_Ribborn_Pattern_01",
+        "attachment": "F_L_B_Ribborn_Pattern_01"
+      },
+      {
+        "name": "F_L_B_Ribborn_Pattern_02",
+        "attachment": "F_L_B_Ribborn_Pattern_02"
+      },
+      {
+        "name": "F_R_B_Ribborn_Original",
+        "attachment": "F_R_B_Ribborn_Original"
+      },
+      {
+        "name": "F_R_B_Ribborn_Pattern_01",
+        "attachment": "F_R_B_Ribborn_Pattern_01"
+      },
+      {
+        "name": "F_R_B_Ribborn_Pattern_02",
+        "attachment": "F_R_B_Ribborn_Pattern_02"
+      },
+      {
+        "name": "F_Ribborn_Original",
+        "attachment": "F_Ribborn_Original"
+      },
+      {
+        "name": "F_Ribborn_Pattern_01",
+        "attachment": "F_Ribborn_Pattern_01"
+      },
+      {
+        "name": "F_Ribborn_Pattern_02",
+        "attachment": "F_Ribborn_Pattern_02"
+      },
+      {
+        "name": "B_L_Hair_03",
+        "attachment": "B_L_Hair_03"
+      },
+      {
+        "name": "B_R_Hair_01",
+        "attachment": "B_R_Hair_01"
+      },
+      {
+        "name": "L_Ear_01",
+        "attachment": "L_Ear_01"
+      },
+      {
+        "name": "B_L_Hair_02",
+        "attachment": "B_L_Hair_02"
+      },
+      {
+        "name": "B_L_Hair_01",
+        "attachment": "B_L_Hair_01"
+      },
+      {
+        "name": "L_Eye_White_01",
+        "attachment": "L_Eye_White_01"
+      },
+      {
+        "name": "R_Eye_White_01",
+        "attachment": "R_Eye_White_01"
+      },
+      {
+        "name": "L_Eye_01",
+        "attachment": "L_Eye_01"
+      },
+      {
+        "name": "R_Eye_01",
+        "attachment": "R_Eye_01"
+      },
+      {
+        "name": "L_Eye_PP",
+        "attachment": "L_Eye_PP"
+      },
+      {
+        "name": "R_Eye_PP",
+        "attachment": "R_Eye_PP"
+      },
+      {
+        "name": "L_Eye_P_01",
+        "attachment": "L_Eye_P_01"
+      },
+      {
+        "name": "R_Eye_P_01",
+        "attachment": "R_Eye_P_01"
+      },
+      {
+        "name": "L_Eye_P_01_0",
+        "attachment": "L_Eye_P_01_0"
+      },
+      {
+        "name": "R_Eye_P_01_0",
+        "attachment": "R_Eye_P_01_0"
+      },
+      {
+        "name": "L_Eye_P_02_0",
+        "attachment": null
+      },
+      {
+        "name": "R_Eye_P_02_0",
+        "attachment": null
+      },
+      {
+        "name": "Head_01",
+        "attachment": "Head_01"
+      },
+      {
+        "name": "L_Eye_Cover_01",
+        "attachment": null
+      },
+      {
+        "name": "R_Eye_Cover_01",
+        "attachment": null
+      },
+      {
+        "name": "Head_Hair_01",
+        "attachment": "Head_Hair_01"
+      },
+      {
+        "name": "Head_Hair_03",
+        "attachment": "Head_Hair_03"
+      },
+      {
+        "name": "Head_Hair_02",
+        "attachment": "Head_Hair_02"
+      },
+      {
+        "name": "L_B_Eyebrows_01",
+        "attachment": "L_B_Eyebrows_01"
+      },
+      {
+        "name": "R_B_Eyebrows_01",
+        "attachment": "R_B_Eyebrows_01"
+      },
+      {
+        "name": "L_Eyebrows_01",
+        "attachment": "L_Eyebrows_01"
+      },
+      {
+        "name": "R_eyebrows_01",
+        "attachment": "R_eyebrows_01"
+      },
+      {
+        "name": "Mouse_01",
+        "attachment": "Mouse_01"
+      },
+      {
+        "name": "Nose_01",
+        "attachment": "Nose_01"
+      },
+      {
+        "name": "Flush_01",
+        "attachment": null
+      },
+      {
+        "name": "Face_Shadow_01",
+        "attachment": null
+      },
+      {
+        "name": "Sweat_01",
+        "attachment": null
+      },
+      {
+        "name": "Sweat_1",
+        "attachment": null
+      },
+      {
+        "name": "Sweat_2",
+        "attachment": null
+      },
+      {
+        "name": "L_Tears_00",
+        "attachment": null
+      },
+      {
+        "name": "R_Tears_00",
+        "attachment": null
+      },
+      {
+        "name": "Despressed_Line_01",
+        "attachment": null
+      },
+      {
+        "name": "F_Hair_Shadow",
+        "attachment": "F_Hair_Shadow"
+      },
+      {
+        "name": "T_R_eyebrow_01",
+        "attachment": "T_R_eyebrow_01"
+      },
+      {
+        "name": "T_L_eyebrow_01",
+        "attachment": "T_L_eyebrow_01"
+      },
+      {
+        "name": "F_Hair_01",
+        "attachment": "F_Hair_01"
+      },
+      {
+        "name": "F_Hair_02_shadow_01",
+        "attachment": "F_Hair_02_shadow_01"
+      },
+      {
+        "name": "F_Hair_02_shadow_00",
+        "attachment": "F_Hair_02_shadow_00"
+      },
+      {
+        "name": "F_Hair_02",
+        "attachment": "F_Hair_02"
+      },
+      {
+        "name": "T_Hairband_01",
+        "attachment": "T_Hairband_01"
+      },
+      {
+        "name": "R_Hair_01",
+        "attachment": "R_Hair_01"
+      },
+      {
+        "name": "L_Hair_01",
+        "attachment": "L_Hair_01"
+      },
+      {
+        "name": "T_Ribborn_Original",
+        "attachment": "T_Ribborn_Original_0"
+      },
+      {
+        "name": "T_Ribborn_Pattern_01",
+        "attachment": "T_Ribborn_Pattern_01"
+      },
+      {
+        "name": "T_Ribborn_Pattern_02",
+        "attachment": "T_Ribborn_Pattern_02"
+      },
+      {
+        "name": "Hair_L_Halo_Light",
+        "attachment": "Hair_L_Halo_Light"
+      },
+      {
+        "name": "Hair_L_Halo_01",
+        "attachment": "Hair_L_Halo_01"
+      },
+      {
+        "name": "halo_normal_00_ad",
+        "attachment": "halo_normal_00_ad"
+      },
+      {
+        "name": "halo_normal_00_ad2",
+        "attachment": null
+      },
+      {
+        "name": "halo_normal_00_adnomal",
+        "attachment": null
+      },
+      {
+        "name": "halo_normal_00",
+        "attachment": "halo_normal_00"
+      },
+      {
+        "name": "halo_happy_P_06_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_06_ad2",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_06",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_6",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_05_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_05",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_04_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_04_ad2",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_04",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_4",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_03_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_03",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_02_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_02",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_01_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_01",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_00_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_00_ad3",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_00_ad2",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_00",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_1",
+        "attachment": null
+      },
+      {
+        "name": "halo_happy_P_0",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_00_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_00",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_01_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_01",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_02_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_02",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_03_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_suprise_P_03",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_00_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_00_ad2",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_oo",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_oo2",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_01_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_01_ad2",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_01_ad3",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_01",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_1",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_2",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_02_ad",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_02_ad2",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_02",
+        "attachment": null
+      },
+      {
+        "name": "halo_love_p_3",
+        "attachment": null
+      }
+    ],
+    "animations": [
+      {
+        "name": "00",
+        "duration": 0
+      },
+      {
+        "name": "01",
+        "duration": 0
+      },
+      {
+        "name": "02",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "03",
+        "duration": 0
+      },
+      {
+        "name": "04",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "05",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "06",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "07",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "08",
+        "duration": 0
+      },
+      {
+        "name": "09",
+        "duration": 0
+      },
+      {
+        "name": "10",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "11",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "12",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "13",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "14",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "15",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "16",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "17",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "18",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "19",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "20",
+        "duration": 0
+      },
+      {
+        "name": "21",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "22",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "23",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "24",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "25",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "26",
+        "duration": 0
+      },
+      {
+        "name": "27",
+        "duration": 0
+      },
+      {
+        "name": "28",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "29",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "30",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "31",
+        "duration": 0
+      },
+      {
+        "name": "32",
+        "duration": 0
+      },
+      {
+        "name": "99",
+        "duration": 0
+      },
+      {
+        "name": "Eye_Close_01",
+        "duration": 0.13333334028720856
+      },
+      {
+        "name": "Idle_01",
+        "duration": 3.3333334922790527
+      },
+      {
+        "name": "LookEnd_01_A",
+        "duration": 0.13333334028720856
+      },
+      {
+        "name": "LookEnd_01_M",
+        "duration": 0.13333334028720856
+      },
+      {
+        "name": "Look_01_A",
+        "duration": 0
+      },
+      {
+        "name": "Look_01_M",
+        "duration": 0
+      },
+      {
+        "name": "PatEnd_01_A",
+        "duration": 0.06666667014360428
+      },
+      {
+        "name": "PatEnd_01_M",
+        "duration": 0.06666667014360428
+      },
+      {
+        "name": "Pat_01_A",
+        "duration": 0
+      },
+      {
+        "name": "Pat_01_M",
+        "duration": 0
+      }
+    ],
+    "bounds": {
+      "x": -544.9083038271815,
+      "y": -796.5027347193491,
+      "width": 1077.4888753155135,
+      "height": 2129.77938891786
+    },
+    "idle": "Idle_01"
+  },
+  {
+    "stem": "arona_workpage_daytime",
+    "version": "4.2.33",
+    "bones": 271,
+    "slots": [
+      {
+        "name": "Black_Floor",
+        "attachment": "Black_Floor"
+      },
+      {
+        "name": "Black_Floor_02",
+        "attachment": "Black_Floor_02"
+      },
+      {
+        "name": "Black_Waterlight_01",
+        "attachment": "Black_Waterlight_01"
+      },
+      {
+        "name": "Black00_Head",
+        "attachment": null
+      },
+      {
+        "name": "Black00_F_Hair",
+        "attachment": null
+      },
+      {
+        "name": "Black00_L_Hair",
+        "attachment": null
+      },
+      {
+        "name": "Black00_emotion",
+        "attachment": null
+      },
+      {
+        "name": "Black00_emotion_00",
+        "attachment": null
+      },
+      {
+        "name": "Black00_emotion 01",
+        "attachment": null
+      },
+      {
+        "name": "R_Ribbon_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "L_Ribbon _Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "Black00_F_Ribbon",
+        "attachment": null
+      },
+      {
+        "name": "Black00__base1",
+        "attachment": null
+      },
+      {
+        "name": "Black00__base2",
+        "attachment": null
+      },
+      {
+        "name": "Black_class_room",
+        "attachment": "Black_class_room"
+      },
+      {
+        "name": "Black_class_room_00",
+        "attachment": "Black_class_room_00"
+      },
+      {
+        "name": "A_01_Character_Shadow",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_Skirt_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_Torso_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_lag",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_Skirt_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_UpperArm_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_Forearm",
+        "attachment": null
+      },
+      {
+        "name": "A_01_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_Hand_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_B_Ribborn_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_Torso",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_Torso_02",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_Torso_2",
+        "attachment": null
+      },
+      {
+        "name": "A_01_T_B_Ribborn_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_R_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_F_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_B_L_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_Head_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_Flush_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_Emotion_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_T_Hairband",
+        "attachment": null
+      },
+      {
+        "name": "A_01_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_ad",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_00",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_1",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_02",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_2",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_03",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_04",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_4",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_05",
+        "attachment": null
+      },
+      {
+        "name": "A_01_halo_happy_P_06",
+        "attachment": null
+      },
+      {
+        "name": "A_01_T_Ribborn_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_Arm",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_Arm_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_F_Arm_02",
+        "attachment": null
+      },
+      {
+        "name": "A_01_R_Keyring",
+        "attachment": null
+      },
+      {
+        "name": "A_01_R_Keyring_01",
+        "attachment": null
+      },
+      {
+        "name": "A_01_R_Keyring_02",
+        "attachment": null
+      },
+      {
+        "name": "A_01_R_Keyring_String",
+        "attachment": null
+      },
+      {
+        "name": "Black01_chair_07_cover",
+        "attachment": "Black01_chair_07_cover"
+      },
+      {
+        "name": "Black01_Shadow",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Desk_07_2",
+        "attachment": "Black01_Desk_07_2"
+      },
+      {
+        "name": "Black01_chair_07_defualt",
+        "attachment": "Black01_chair_07_defualt"
+      },
+      {
+        "name": "Black01_chair_07",
+        "attachment": null
+      },
+      {
+        "name": "Black01_base1",
+        "attachment": null
+      },
+      {
+        "name": "Black01_base2",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_Hair_03",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_L_Coat",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_Coat",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Leg",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Skirt_Pattern_Original",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Skirt_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Skirt_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Torso_04",
+        "attachment": null
+      },
+      {
+        "name": "Black01_R_Coat",
+        "attachment": null
+      },
+      {
+        "name": "Black01_L_Arm",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Torso_03",
+        "attachment": null
+      },
+      {
+        "name": "Black01_R_Arm",
+        "attachment": null
+      },
+      {
+        "name": "Black01_R_Ribborn_Original",
+        "attachment": null
+      },
+      {
+        "name": "Black01_R_Black01_Ribborn_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_R_Ribborn_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_L_Ribborn_Original",
+        "attachment": null
+      },
+      {
+        "name": "Black01_L_Ribborn_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_L_Ribborn_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Torso_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Torso_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Head_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Neck",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_R_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_L_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_L_Hair_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Head_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_L_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_F_Hair_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Hairband",
+        "attachment": null
+      },
+      {
+        "name": "Black01_F_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_R_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_Ribborn_Original",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_Ribborn_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_B_Ribborn_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_F_Ribborn_Original",
+        "attachment": null
+      },
+      {
+        "name": "Black01_F_Ribborn_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_F_Black01_Ribborn_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Emotion_01",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Emotion_02",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Emotion_03",
+        "attachment": null
+      },
+      {
+        "name": "Black01_Desk_07_1",
+        "attachment": "Black01_Desk_07_1"
+      },
+      {
+        "name": "A_00_Shadow_00",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Shadow_01",
+        "attachment": "A_00_Shadow_01"
+      },
+      {
+        "name": "A_00_Hip",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Torso",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Torso_P_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Torso_P_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Desk",
+        "attachment": "A_00_Desk"
+      },
+      {
+        "name": "A_00_Desk_shadow",
+        "attachment": null
+      },
+      {
+        "name": "A_00_B_Arm",
+        "attachment": null
+      },
+      {
+        "name": "A_00_B_Arm_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_B_Arm_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_B_R_Hair_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_B_R_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Head",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Nose_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Emotion_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Flush_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_F_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Flush_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Ribborn_Original",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Ribborn_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Ribborn_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_F_Ribborn_Original",
+        "attachment": null
+      },
+      {
+        "name": "A_00_F_Ribborn_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_F_Ribborn_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_Hands_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_F_Arm",
+        "attachment": null
+      },
+      {
+        "name": "A_00_F_Arm_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_F_Arm_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_normal_AD",
+        "attachment": null
+      },
+      {
+        "name": "A_00_normal",
+        "attachment": null
+      },
+      {
+        "name": "A_00_suprise_halo_light2",
+        "attachment": null
+      },
+      {
+        "name": "A_00_suprise_p_L_00",
+        "attachment": null
+      },
+      {
+        "name": "A_00_suprise_p_L_01",
+        "attachment": null
+      },
+      {
+        "name": "A_00_suprise_p_L_02",
+        "attachment": null
+      },
+      {
+        "name": "A_00_suprise_p_L_03",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Character_Shadow",
+        "attachment": null
+      },
+      {
+        "name": "A_02_B_UpperArm_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02B_Skirt_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_back_leg",
+        "attachment": null
+      },
+      {
+        "name": "A_02_L_Calf_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_R_Thigh_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_R_Calf_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_F_Skirt_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_B_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Torso",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Torso_p_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Torso_p_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_F_B_Ribborn_Shadow",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Ribborn_L",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Ribborn_L_P_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Ribborn_L_P_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Ribborn_R",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Ribborn_R_P_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Ribborn_R_P_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_F_Ribborn",
+        "attachment": null
+      },
+      {
+        "name": "A_02_F_Ribborn_p_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_F_Ribborn_p_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_R_UpperArm",
+        "attachment": null
+      },
+      {
+        "name": "A_02_R_UpperArm_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_R_UpperArm_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_B_L_Hair_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_B_L_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_L_Halo_Light",
+        "attachment": null
+      },
+      {
+        "name": "A_02_L_Halo_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Head_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Flush_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_01_T_Eyebrows",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_01_Mouse",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_L_Eye_white_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_R_Eye_white_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_R_Eye_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_R_Eye_P_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_L_Eye_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_L_Eye_P_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_L_B_Eyebrows",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_R_B_Eyebrows",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_L_Eyebrows_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Emotion_02_R_Eyebrows_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_Nose_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_F_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_T_Hairband_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_R_Hair_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_T_Ribborn_Original",
+        "attachment": null
+      },
+      {
+        "name": "A_02_T_Ribborn_Pattern_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_T_Ribborn_Pattern_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_halo_normal2",
+        "attachment": null
+      },
+      {
+        "name": "A_02_halo_normal",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_00",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_01",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_1",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_02",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_2",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_03",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_04",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_05",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_5",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_06",
+        "attachment": null
+      },
+      {
+        "name": "A_02_happy_P_6",
+        "attachment": null
+      }
+    ],
+    "animations": [
+      {
+        "name": "Dummy",
+        "duration": 0.03333333507180214
+      },
+      {
+        "name": "Idle_00",
+        "duration": 10.000000953674316
+      },
+      {
+        "name": "Idle_00_Touch_A",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_00_Touch_M",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_01",
+        "duration": 10.000000953674316
+      },
+      {
+        "name": "Idle_01_Touch_A",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_01_Touch_M",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_02",
+        "duration": 6.6666669845581055
+      },
+      {
+        "name": "Idle_02_Touch_A",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_02_Touch_M",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_11",
+        "duration": 6.6666669845581055
+      },
+      {
+        "name": "Idle_11_Touch_A",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_11_Touch_M",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_12",
+        "duration": 6.6666669845581055
+      },
+      {
+        "name": "Idle_12_Touch_A",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_12_Touch_M",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "Idle_background_00",
+        "duration": 6.6666669845581055
+      }
+    ],
+    "bounds": {
+      "x": -1600.9998899883853,
+      "y": -158.01987941204777,
+      "width": 3194.0003991739204,
+      "height": 2233.2432680839215
+    },
+    "idle": "Idle_background_00"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "spine": [
+    {
+      "stem": "arona_spr",
+      "version": "4.2.33",
+      "atlasPages": 1,
+      "animations": [
+        "Idle_01",
+        "Eye_Close_01",
+        "02"
+      ],
+      "poses": 9,
+      "meshes": 725
+    },
+    {
+      "stem": "arona_workpage_daytime",
+      "version": "4.2.33",
+      "atlasPages": 2,
+      "animations": [
+        "Idle_background_00",
+        "Idle_01",
+        "Idle_01_Touch_A",
+        "Idle_01_Touch_M"
+      ],
+      "poses": 12,
+      "meshes": 267
+    }
+  ],
+  "uiTextures": 29,
+  "passed": true
+}

@@ -25,6 +25,8 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.height = 10;
             Projectile.friendly = true;
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = -1;
             Projectile.MaxUpdates = 3;
             Projectile.penetrate = 4;
             Projectile.timeLeft = 600;

@@ -1,0 +1,404 @@
+{
+  "Haruka": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\春香 (1).zip",
+    "zipSha256": "91633e9e3e71b3d9f0f4cda6ed5d1021e898f66f69c5acbb8cc00da367e9d482",
+    "haloSource": "C:\\Users\\Sunbinbin\\Downloads\\光环.png",
+    "headTop": 5,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "247381c05dfe585362e20d1e99f12be39a88e82d7b3effded87f984e49215b43"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "ac77028fba384b154aa6b6847325a3dc4015e1acae068a97a4bc8d226bb70627"
+      },
+      "Torso": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "2a9f9c26a5ad53093832b05fb8f1f43a801c10ae93da2db271f25d17dac26726"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "b2ba9bb5e06849fe3d294b71b1b9ec56767997a7101fae1e631effb33f710117"
+      },
+      "SideLocks": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "4beac118909c67a65bfa04be47bb37ad6d2ed904e8cb2314d690c63bf1878447"
+      },
+      "Halo": {
+        "size": [
+          24,
+          15
+        ],
+        "sha256": "509338c1509439afedf56342e45f65a0eb759199b9e4cb902c079803c1e04f6c"
+      }
+    },
+    "headOverrideSource": "Tools/CostumeRevision/HarukaHead.png",
+    "headOverrideSha256": "31b451b8acd8676871a4c4949cae4a416f094ce95800f9706a5d4f227cf941bf"
+  },
+  "Kayoko": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\佳代子.zip",
+    "zipSha256": "59998e449177ecdbfed7dcc33b008d2ddef7cf484118b036f306c0c51d4385ab",
+    "haloSource": "C:\\Users\\Sunbinbin\\Downloads\\光环佳代子.png",
+    "headTop": 6,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "eb1af0b3e8b3a2f1600c25ea728140aecfddcc8999c9bf6cd94f223b26d46788"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "c33ec5577d0d1f768d95f1dd0fcd70fa6d98ae988bbf55aaf8098593e79ead83"
+      },
+      "Torso": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "91d606f4277bbc6087abcd8ac6fe223fac754ee1c1b67e470d72ea0601c7ef40"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "48d5f67b280ace37b513e4c454f4fe9197c1abac1434344817148d82923b360c"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "9c85c279b449fabe5dbeb7e4df1c31253afcc8aff7639f382cf62d54db9fc9d2"
+      },
+      "SideLocks": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "fc14b0d8a694faae868b1a39651741dd731a4c0400686ef0ae835d464d1a1b09"
+      },
+      "Halo": {
+        "size": [
+          21,
+          19
+        ],
+        "sha256": "41f69ac647504c31a266ef38d2f30f45fd0ace1c413723cb841d655778d0db28"
+      }
+    }
+  },
+  "Mutsuki": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\睦月.zip",
+    "zipSha256": "d7439162ce813a234d8decdb8e9b6b42bf5bcbb8d843826a077162e3f0a9f489",
+    "haloSource": "C:\\Users\\Sunbinbin\\Downloads\\光环睦月.png",
+    "headTop": 9,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "beaf790868aeee0aca4e7f5b494a2c8ccfc99435e2c63e1f2aff5c22e85d7590"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "20a1f133614661a4de62e0b097ec9892f33951517d8584889fd80191c1b133c0"
+      },
+      "Torso": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "a4942d8ccf3aafdfff298a2fa8abaf78c40824f5b51b849b16103b7585dbe4d7"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "3f2c96add6f98c020d7f2523cde3de92a9af5484a28408651de647d3d58dcbac"
+      },
+      "BackHair": {
+        "size": [
+          56,
+          1120
+        ],
+        "sha256": "d342ac407bb6ac40075405161c15fb91a0a126dc247310012c0db1e0ec018aea"
+      },
+      "Halo": {
+        "size": [
+          30,
+          18
+        ],
+        "sha256": "0ca8985d4e97680a2e2e92a3c330d6f3fbc88d5b3adde93d5c9a5e3a325eef91"
+      }
+    }
+  },
+  "Ibuki": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\伊吹 (1).zip",
+    "zipSha256": "6d1ccf0ab1d30e660a3e84b4c1024d8fa4f93704c229f8581c7aef720c4a0092",
+    "haloSource": "zip:光环.png",
+    "headTop": 6,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "9bf881d04dd24b637efb964dd79cd440fd9ff39e616f05860ddc43b2d8a6d5e1"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "e16b284a736a2f6fed95ddeb58405977bf18da0f2e7ae47fc1996c25b0e0fa03"
+      },
+      "Torso": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "3a6fcc806e7ddd6965ab370c0706bc79baff616e33107dacf3c6395020b478a6"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "5063c6db9a47c305b09a04151d6ccb6e60712b33ca27d63fd9d33005e375bf48"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "bc910828fe25977ca23b7145a75a24fd1437b36f4387a19f5ff1686d0bcc0d85"
+      },
+      "Tail": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "a5f1e52c3f2d2a3589d30d21592f09a56d629a8d03c33f0f12c5d0bde444d18d"
+      },
+      "Wings": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "b7d32a7eb529d56560513c3f546fbc9cce1d156c9ed1f8e7904569637fcfca49"
+      },
+      "Coat": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "95021356077b7ea1782fec3ea7eea36dffb761215d0bac2d4e41256e791e1a4c"
+      },
+      "Halo": {
+        "size": [
+          30,
+          18
+        ],
+        "sha256": "2f99240a3076f97e162fe05b4745ce22e543783d46db1d2a1b85962d1611c50c"
+      }
+    }
+  },
+  "Iroha": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\1伊吕波.zip",
+    "zipSha256": "e70534c240065bd98900c711c3d52406efcfe95fe96840c63b73adba34d98181",
+    "haloSource": "zip:光环.png",
+    "headTop": 4,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "27c1b24c0b12314a4bc0ef773a342e5147ff0b5c3afbaa35864bb9fcc00f9191"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "8076e6bd78c0150803176999ce4def46951cbe579f876fc65f95a0aad5baed7e"
+      },
+      "Torso": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "b1b7d1975d9ed47f61768734d2ab6873028937e930a0eb715dc38004c14ded88"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "add7a713341bb74a3e396e84fa6e414587922f287cf84fe67545360e2ff2eea6"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "643afd7affd115853060881f03778d0e519a7b4b099a25455653f37c450dc30d"
+      },
+      "Coat": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "982b657c39434de66610c203f9589a9e166973446a577fc94302080c3de16bea"
+      },
+      "Halo": {
+        "size": [
+          30,
+          21
+        ],
+        "sha256": "649d3fcd2ef867068d642a25fc836482aea06fad4acb298474f1b9cf3b4c2a2c"
+      }
+    }
+  },
+  "Hikari": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\小光 (1).zip",
+    "zipSha256": "eaa0eb8a70b7cb4cc1aaee152d0ab06d1ef9c725c9df1245d34576270114ea57",
+    "haloSource": "C:\\Users\\Sunbinbin\\Downloads\\光环（小光）.png",
+    "headTop": 4,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "42bf48847321581c3ea26618652312b5015b8e04023ea9512044b21823134479"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "56ff3f80833a743a9e65c8ebc8282fa98eef89abd7073dc7c2309773f81a225b"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "a7d1d8a63d936be84bf4bd9136e536961c46e65f5d4fcca9cdd63f49edb30f32"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "aa1d20697ac54c37532ddebccbf22dc454448f233094e643acfb439658e97886"
+      },
+      "Tail": {
+        "size": [
+          56,
+          1120
+        ],
+        "sha256": "0267acffc26d5c1c9df3ed6687dfd868c25e1c5e28a39e36a4ce1ff26b9f6efa"
+      },
+      "SideLocks": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "885682ec9eccd095a7357d27d516bc5cac62822c81eb636e0052c7bdb522506e"
+      },
+      "Halo": {
+        "size": [
+          40,
+          20
+        ],
+        "sha256": "83f11d3960aaeb15eae845a7b85d8d3d36cf99310499359556de420fea9304a4"
+      }
+    },
+    "tailSource": "小望.zip/尾巴.png (shared with Nozomi)"
+  },
+  "Nozomi": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\小望.zip",
+    "zipSha256": "9f47267f515bffd5a3232e4c7132761e6e2594917135673ac47aaad4bdef40a2",
+    "haloSource": "C:\\Users\\Sunbinbin\\Downloads\\小望光环.png",
+    "headTop": 4,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "a2220a3928ad271724e1eb379b079d154cb99b95dd2ebef85858f5927b9d0dcc"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "7dee8e0cdb4a5352c33d81a6829c84d2af9609c08bc2479dc25ea4c77d16f4d2"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "17ba0c3e7ba20d5116194c86e01669345b727d965949e55d522cc298834be515"
+      },
+      "BackHair": {
+        "size": [
+          56,
+          1120
+        ],
+        "sha256": "7ea64125db3a8b8a56f68be676f5aa5c3d911e825d01c8c757b0bf811d1f8d19"
+      },
+      "Tail": {
+        "size": [
+          56,
+          1120
+        ],
+        "sha256": "0267acffc26d5c1c9df3ed6687dfd868c25e1c5e28a39e36a4ce1ff26b9f6efa"
+      },
+      "SideLocks": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "183e0a8db600f6a9b2bd8d9b33a40f62824b12db176fec333e39a06819e85045"
+      },
+      "Halo": {
+        "size": [
+          40,
+          20
+        ],
+        "sha256": "0d9bc9fc547816cc4eccd3bc07f4ae31682515fe0e124fd60c3913370598ae6a"
+      }
+    }
+  }
+}

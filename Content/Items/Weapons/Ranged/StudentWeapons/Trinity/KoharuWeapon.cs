@@ -22,7 +22,7 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Trinity
         {
             base.SetDefaults();
             Item.useTime = Item.useAnimation = 35;
-            Item.damage = 45;
+            Item.damage = 22;
             Item.knockBack = 1;
             Item.shootSpeed = 10f;
             Item.shoot = ProjectileType<KoharuWeaponHeldProj>();

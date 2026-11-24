@@ -1,0 +1,171 @@
+{
+  "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC",
+  "texturesPremultipliedOnce": true,
+  "files": [
+    {
+      "path": "Assets/Tablet/UI/Classroom/Board.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "a3127facc98a799906755261614f410d84298f706a8fb5e2a35bac09e5e2dc46",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Board.png",
+      "sourceSha256": "e0788cc3de14ddb1d8279b18f2f998032d56aad0a4b17cff3b05c8678e5ef4e4"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/ChairBack.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "d827f8e1f6fc3439032f9fd1653fd6315f996d2e599e26d463b30b9b66226803",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\ChairBack.png",
+      "sourceSha256": "705ddf3e34ac2bcfdab9c658400a0c699d315721cb5c98187792dff783d8aa25"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/ChairFront.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "0b0f934a8ce658226b537bea574a21854b14ab0afda5aa9157cf24688bc79952",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\ChairFront.png",
+      "sourceSha256": "b592444d44d608ca9096c04e4d7f2eafe4728f58030751c5b06bec3d8adca515"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/ChairMid.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "3db159fd48998a70225bb99b9bce6826b58e6c4344d9901f27f955d41848954c",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\ChairMid.png",
+      "sourceSha256": "384be53e1a9e1f73cf7a94c1e76da473a9a51a90bdbf984773d82070da37d8f1"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/Ground.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "dff6713b7b0a3aac673241855be68bc5eb5bee942c965593201af26f34eab588",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Ground.png",
+      "sourceSha256": "00d52db1b4ee5bdc41fe560cc12d1053e8f1d5006d3570b3f568abdb525280cb"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/Light.png",
+      "pixels": 410080,
+      "translucentPixels": 13932,
+      "sha256": "7d71d9b0f8361a44f066a138ee948ac4a69f63b9538b0a97362350d6d4a12f10",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Light.png",
+      "sourceSha256": "ac5ef95a030c65f5b49ad7be934bd687660a5e5da1a83c2ad9f5d919e0a662fa"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/Lockers.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "f57b267f9c7a915c40b665866724d3ae853dffc004a31e51d998bef157c1cb2c",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Lockers.png",
+      "sourceSha256": "0ec3b39801fe2e3cdcca7e3ab29a868ca2956b140fdc15401439cb99609399e8"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/Sea.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "d499e8926da209a3f2ce26af1c007b8bc618623ac6e558db4f31b0ab5d1de492",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Sea.png",
+      "sourceSha256": "c8124a1cecfd51a13cf653c5987feaa76df0537ec5614781c27d46784223f22b"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/Sky.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "3250c1e5d25c59ef528de6bd0312bb61b2876a5910d9035f1be8c53021ba4be3",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Sky.png",
+      "sourceSha256": "5e9ff9981ba16d35bbe364694eb6dfd35a9e17ce3330610ce305ac670136b6d9"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/TableBack.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "06a556c4f9db9841c2820aef756d8ed659380ca5e1a5c501389b390e851eff43",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\TableBack.png",
+      "sourceSha256": "f2ebcc8a7b078c355ddcff0b7a1f09d5ec9fad0ea8ed6a68dc82e80ff4412fe6"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/TableFront.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "35965a6b38dfc9ea6be94a2324eca3c9b6208c678d45e84b02070e751da76f38",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\TableFront.png",
+      "sourceSha256": "f46dab7dbd316a775da54eaf567a02cbb9473eb059e610f3202672d9cb720b29"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/TableMid.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "7a5e40db3b721acdc97e0a2c5675a814d59dc7acef281f4f5c057d067a790e91",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\TableMid.png",
+      "sourceSha256": "916974afc76929614ff97b6344c393a5be8ce610f7a37000ef61ba9b22dcb910"
+    },
+    {
+      "path": "Assets/Tablet/UI/Classroom/Wall.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "ef6a08c137c5530ffa21d5774b8e10600a4681f64bc9366629026a2b477e10ad",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Wall.png",
+      "sourceSha256": "0b51d26a9327e517d800542d36441196b2a065999cf490d45014faa6b5fc9ce0"
+    },
+    {
+      "path": "Assets/Tablet/UI/Startup/Background.png",
+      "pixels": 205668,
+      "translucentPixels": 0,
+      "sha256": "6dbac8fa7555131744a840d9d79da9c095c3a749e624c4dfb968ac37c7b68a13",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\UnlockLayer\\UnlockLayer_Background.png",
+      "sourceSha256": "8cdf7d71ed1920d475bf64f245614acdce088e6d47bc5da988ac3fb35a498633"
+    },
+    {
+      "path": "Assets/Tablet/UI/Startup/Logo.png",
+      "pixels": 205668,
+      "translucentPixels": 0,
+      "sha256": "b084e61cff32d56e09f8fbf8bc659da0d8ddc5c46e71b9b70c4ede078d086507",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\UnlockLayer\\UnlockLayer_Logo.png",
+      "sourceSha256": "2c5d699d6381722a249460bbfddb64518945bd391ad82447dea1657d1119bbae"
+    },
+    {
+      "path": "Assets/Tablet/UI/Startup/Triangle.png",
+      "pixels": 4512,
+      "translucentPixels": 0,
+      "sha256": "71f2c85ecf676483948dcab012cd824781b410dcdf398a249b51d796ecfdc2a3",
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\UnlockLayer\\UnlockLayer_Triangle.png",
+      "sourceSha256": "da11a275dff7985bb0682fa24ad3555ea8d53bf9acd4542bbc0f62fa62fbf0df"
+    },
+    {
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\Effects\\WaterCaustic.xnb",
+      "path": "Assets/Effects/TabletWaterCaustic.xnb",
+      "sha256": "12a47587fb6dab492e6615584aeac1ead3eb77a426bf965f8d34540beea8ecc9"
+    },
+    {
+      "source": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\Effects\\Glitch.xnb",
+      "path": "Assets/Effects/TabletGlitch.xnb",
+      "sha256": "5e05355597df13423565c957cb3a712a6b6516a8e357239ea53f1fadc3496fb2"
+    }
+  ],
+  "codeSources": [
+    {
+      "path": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\BackgroundLayer\\Classroom\\Background_Classroom.cs",
+      "sha256": "e5a1f867555dba12c68009e3438719aa5cafa3fc169d8f3c2b37e6793f7cbf4a"
+    },
+    {
+      "path": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\UnlockLayer\\UnlockLayer.cs",
+      "sha256": "9411b52a48927ee7c341af4f5b14ee5f5d3e4928bc358aa7c37bc33930b1b0f6"
+    },
+    {
+      "path": "Z:\\GPT-SoVITS-v2pro-20250604\\Kivotos-StudentNPC\\UI\\ShittimChestUI\\PowerLayer\\PowerLayer.cs",
+      "sha256": "e221280489f8d74860ce926eb7c485880e2a8a32973d5eef8dffbdd24005c172"
+    }
+  ],
+  "backgroundCrop": [
+    250,
+    0,
+    514,
+    386
+  ],
+  "startupTextureCrop": [
+    4,
+    4,
+    514,
+    386
+  ],
+  "startupInteraction": "Tap display to fade out over one second; shown on each tablet open."
+}

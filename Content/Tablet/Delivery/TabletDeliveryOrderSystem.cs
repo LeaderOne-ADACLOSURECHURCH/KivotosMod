@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -15,12 +15,14 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
         public Item Package;
         public int Cooldown;
         public bool InFlight;
+        public Player Recipient;
+        public Action OnDelivered;
     }
 
     private static readonly Dictionary<int, DeliveryOrder> Orders = new();
     private static int _nextOrderId = 1;
 
-    public static int Enqueue(Player player, List<Item> contents)
+    public static int Enqueue(Player player, List<Item> contents, Action onDelivered = null)
     {
         if (Main.netMode == NetmodeID.MultiplayerClient)
             return -1;
@@ -35,12 +37,15 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
         if (_nextOrderId <= 0)
             _nextOrderId = 1;
 
+        global::KivotosMod.KivotosMod.Instance.Logger.Info($"[TabletDelivery] queued order={id} buyer={player.whoAmI} stacks={ContentCount(package)} mode={Main.netMode}");
         Orders[id] = new DeliveryOrder
         {
             Owner = player.whoAmI,
             Package = package,
             Cooldown = 30,
             InFlight = false,
+            Recipient = player,
+            OnDelivered = onDelivered,
         };
         return id;
     }
@@ -55,6 +60,13 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
         {
             if (!Orders.TryGetValue(id, out DeliveryOrder order))
                 continue;
+            if (order.InFlight && !HasLiveDrone(id, order.Owner))
+            {
+                // Some engine/mod removals deactivate projectiles without OnKill.
+                // A paid order must not remain marked in-flight forever.
+                order.InFlight = false;
+                order.Cooldown = 90;
+            }
             if (order.Cooldown > 0)
                 order.Cooldown--;
         }
@@ -66,14 +78,27 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
                 continue;
 
             int droneType = ModContent.ProjectileType<DeliveryDroneProjectile>();
-            if (player.ownedProjectileCounts[droneType] > 0)
+            // Multiplayer server-owned drone projectiles are owner=255, so the vanilla
+            // ownedProjectileCounts per player cannot determine active deliveries.
+            bool hasDrone = false;
+            for (int i = 0; i < Main.maxProjectiles; i++)
+            {
+                Projectile existing = Main.projectile[i];
+                if (existing.active && existing.type == droneType && (int)existing.ai[2] == playerIndex)
+                {
+                    hasDrone = true;
+                    break;
+                }
+            }
+            if (hasDrone)
                 continue;
 
             int chosenId = -1;
             foreach (KeyValuePair<int, DeliveryOrder> pair in Orders)
             {
                 DeliveryOrder order = pair.Value;
-                if (order.Owner != playerIndex || order.Cooldown > 0 || order.InFlight)
+                if (order.Owner != playerIndex || !ReferenceEquals(order.Recipient, player)
+                    || order.Cooldown > 0 || order.InFlight)
                     continue;
                 if (chosenId == -1 || pair.Key < chosenId)
                     chosenId = pair.Key;
@@ -86,20 +111,52 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
             spawn.X = Math.Clamp(spawn.X, Main.leftWorld + 64f, Main.rightWorld - 64f);
             spawn.Y = Math.Clamp(spawn.Y, Main.topWorld + 64f, Main.bottomWorld - 64f);
 
-            Projectile.NewProjectile(
+            int projectileIndex = Projectile.NewProjectile(
                 player.GetSource_Misc("KivotosTabletDroneDelivery"),
                 spawn,
                 Vector2.Zero,
                 droneType,
                 0,
                 0f,
-                player.whoAmI,
+                Main.netMode == NetmodeID.SinglePlayer ? playerIndex : Main.maxPlayers, // local in SP; server-owned in MP
                 chosenId,
                 chosen.Package.type,
-                0f);
+                playerIndex); // ai[2] identifies the recipient on every machine
 
-            chosen.InFlight = true;
+            if (projectileIndex >= 0 && projectileIndex < Main.maxProjectiles
+                && Main.projectile[projectileIndex].active)
+            {
+                global::KivotosMod.KivotosMod.Instance.Logger.Info($"[TabletDelivery] drone order={chosenId} projectile={projectileIndex} buyer={playerIndex}");
+                // NewProjectile ignores ai arguments when owner != Main.myPlayer.
+                // Set the authoritative delivery identity explicitly before sending it.
+                Projectile drone = Main.projectile[projectileIndex];
+                drone.ai[0] = chosenId;
+                drone.ai[1] = chosen.Package.type;
+                drone.ai[2] = playerIndex;
+                chosen.InFlight = true;
+                Main.projectile[projectileIndex].netUpdate = true;
+                if (Main.netMode == NetmodeID.Server)
+                    NetMessage.SendData(MessageID.SyncProjectile, -1, -1, null, projectileIndex);
+            }
+            else
+            {
+                chosen.Cooldown = 90; // retry instead of permanently losing the paid order
+            }
         }
+    }
+
+    private static int ContentCount(Item item) => item.ModItem is DeliveryPackage package ? package.Contents.Count : 0;
+
+    private static bool HasLiveDrone(int orderId, int recipient)
+    {
+        int type = ModContent.ProjectileType<DeliveryDroneProjectile>();
+        for (int i = 0; i < Main.maxProjectiles; i++)
+        {
+            Projectile drone = Main.projectile[i];
+            if (drone.active && drone.type == type && (int)drone.ai[0] == orderId && (int)drone.ai[2] == recipient)
+                return true;
+        }
+        return false;
     }
 
     public static bool TryDropPackage(int orderId, Vector2 position)
@@ -112,7 +169,11 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
             return false;
 
         Player player = Main.player[order.Owner];
-        if (player == null)
+        if (player == null || !ReferenceEquals(order.Recipient, player))
+            return false;
+
+        // NewItem returns 0 during world generation without creating an item.
+        if (WorldGen.gen)
             return false;
 
         int worldItem = Item.NewItem(
@@ -120,10 +181,25 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
             position,
             order.Package);
 
-        if (worldItem >= 0 && worldItem < Main.maxItems)
-            Main.item[worldItem].velocity = Vector2.Zero;
+        if (worldItem < 0 || worldItem >= Main.maxItems)
+            return false; // leave the order queued for another attempt
+        Item spawned = Main.item[worldItem];
+        if (!spawned.active || spawned.type != order.Package.type || spawned.stack != 1
+            || ContentCount(spawned) == 0 || ContentCount(spawned) != ContentCount(order.Package))
+        {
+            global::KivotosMod.KivotosMod.Instance.Logger.Warn($"[TabletDelivery] drop rejected order={orderId} slot={worldItem} active={spawned.active} type={spawned.type} contents={ContentCount(spawned)}");
+            return false;
+        }
+        global::KivotosMod.KivotosMod.Instance.Logger.Info($"[TabletDelivery] dropped order={orderId} slot={worldItem} contents={ContentCount(spawned)} position={position} mode={Main.netMode}");
+
+        Main.item[worldItem].velocity = Vector2.Zero;
+        // DeliveryPackage stores its purchased items in ModItem.NetSend.
+        // An explicit SyncItem is needed for late/update packets in multiplayer.
+        if (Main.netMode == NetmodeID.Server)
+            NetMessage.SendData(MessageID.SyncItem, -1, -1, null, worldItem);
 
         Orders.Remove(orderId);
+        order.OnDelivered?.Invoke();
         return true;
     }
 
@@ -138,6 +214,12 @@ public sealed class TabletDeliveryOrderSystem : ModSystem
 
         order.InFlight = false;
         order.Cooldown = 90;
+    }
+
+    internal static void CancelMailOrder(int id, Player player)
+    {
+        if (Orders.TryGetValue(id,out var order) && ReferenceEquals(order.Recipient,player) && order.OnDelivered != null)
+            Orders.Remove(id);
     }
 
     public override void OnWorldUnload()

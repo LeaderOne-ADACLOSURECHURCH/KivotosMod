@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "productionOrderSystem": true,
+  "engineAndNetworkStubbed": true,
+  "singlePlayerOwnerGatedAiRegression": true,
+  "independentBuyerDrones": true,
+  "serverOwnerAndRecipientAi": true,
+  "immediateSpawnAndPackageSync": true,
+  "directDeactivationRecoversPaidOrder": true,
+  "allocationAndOnSpawnFailureRetry": true,
+  "atMostOncePackage": true,
+  "reusedPlayerSlotRejected": true,
+  "clientCannotCreateOrdersOrDrones": true
+}

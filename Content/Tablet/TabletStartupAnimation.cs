@@ -8,6 +8,12 @@ internal sealed class TabletStartupAnimation
 {
     private readonly Random _random;
     private float _fadeRemaining;
+    private float _elapsed;
+    // Opening sequence ends by itself: 2.0 s boot/glitch, 1.0 s success hold,
+    // 0.35 s fade. Closing this splash must NOT close the tablet UI itself.
+    private const float StartupSequenceSeconds = 2.0f;
+    private const float SuccessHoldSeconds = 1.0f;
+    private const float FadeSeconds = 0.35f;
     public bool Visible { get; private set; }
     public bool Fading { get; private set; }
     public float Opacity => !Visible ? 0 : Fading ? _fadeRemaining : 1;
@@ -32,6 +38,7 @@ internal sealed class TabletStartupAnimation
     {
         Visible = Fading = false;
         _fadeRemaining = 0;
+        _elapsed = 0f;
         foreach (Triangle triangle in Triangles) triangle.Remaining = 0;
     }
 
@@ -46,6 +53,11 @@ internal sealed class TabletStartupAnimation
     {
         if (!Visible) return;
         seconds = Math.Clamp(seconds, 0, 0.1f);
+        _elapsed += seconds;
+        // After the startup S/glitch presentation succeeds, hold its completed
+        // image for a second and then dismiss automatically. Taps still skip.
+        if (!Fading && _elapsed >= StartupSequenceSeconds + SuccessHoldSeconds)
+            Tap();
         int active = 0;
         foreach (Triangle triangle in Triangles)
         {
@@ -61,7 +73,7 @@ internal sealed class TabletStartupAnimation
         }
         if (Fading)
         {
-            _fadeRemaining = Math.Max(0, _fadeRemaining - seconds);
+            _fadeRemaining = Math.Max(0, _fadeRemaining - seconds / FadeSeconds);
             if (_fadeRemaining <= 0.00001f) Reset();
         }
     }

@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "version": "3.8.75",
+  "frames": 3600,
+  "blinks": 12,
+  "minGap": 3.3667116,
+  "maxGap": 5.8832436,
+  "meshes": 75600,
+  "blinkDuration": 0.39999998,
+  "bodyIdleUnchanged": true,
+  "eyesCloseAndRestore": true,
+  "originalTimelinesPreserved": true,
+  "uiClockChecks": [
+    {
+      "passed": true,
+      "fps": 60,
+      "simulationSeconds": 30,
+      "hostElapsedZero": true,
+      "clickCount": 0,
+      "autoBlinks": 5,
+      "bodyMotion": 10.98
+    },
+    {
+      "passed": true,
+      "fps": 144,
+      "simulationSeconds": 30,
+      "hostElapsedZero": true,
+      "clickCount": 0,
+      "autoBlinks": 5,
+      "bodyMotion": 10.979997
+    }
+  ],
+  "tracking": {
+    "passed": true,
+    "model": "arona",
+    "right": 2.499909,
+    "left": -2.4985888,
+    "up": 1.3997803,
+    "down": -1.3989868,
+    "nonPupilMeshesUnchanged": true,
+    "blinkGazeChecks": 4,
+    "blinkGazePreserved": true,
+    "pupilRemainsOpaque": true,
+    "smoothResume": true,
+    "boundedWithoutAccumulation": true
+  },
+  "headTracking": {
+    "passed": true,
+    "model": "arona",
+    "controlBone": "bone18",
+    "drivenControlCount": 1,
+    "responseSeconds": 0.18,
+    "minX": -32.42096,
+    "maxX": 83.14729,
+    "minY": -107.52103,
+    "maxY": 15.345032,
+    "followsPointerDirection": true,
+    "bodyIdleUnchanged": true,
+    "finiteMeshes": true,
+    "singleFilteredFocus": true,
+    "pupilRemainsOpaque": true,
+    "movements": [
+      {
+        "mouseX": 10000,
+        "mouseY": 0,
+        "deltaX": 0.3297062,
+        "deltaY": 0.1385498
+      },
+      {
+        "mouseX": -10000,
+        "mouseY": 0,
+        "deltaX": -0.84981346,
+        "deltaY": 0.12817383
+      },
+      {
+        "mouseX": 0,
+        "mouseY": 10000,
+        "deltaX": -0.0016479492,
+        "deltaY": 1.0974731
+      },
+      {
+        "mouseX": 0,
+        "mouseY": -10000,
+        "deltaX": 0.009353638,
+        "deltaY": -0.15655518
+      }
+    ],
+    "rateChecks": [
+      {
+        "fps": 30,
+        "responseAtHalfSecond": 0.9145745,
+        "maxSpeed": 3.9381623,
+        "maxOscillation": 0.11203018
+      },
+      {
+        "fps": 60,
+        "responseAtHalfSecond": 0.91529787,
+        "maxSpeed": 3.9506078,
+        "maxOscillation": 0.08693534
+      },
+      {
+        "fps": 144,
+        "responseAtHalfSecond": 0.91571254,
+        "maxSpeed": 3.9570007,
+        "maxOscillation": 0.07212459
+      }
+    ]
+  }
+}

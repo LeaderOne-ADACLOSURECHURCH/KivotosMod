@@ -1,0 +1,2103 @@
+[
+  {
+    "name": "Contents_Image_Mission",
+    "width": 504,
+    "height": 389,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -9220524253917163068,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_Mission.png"
+  },
+  {
+    "name": "Contents_Image_EliminateRaid",
+    "width": 353,
+    "height": 346,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -8842050104067919092,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_EliminateRaid.png"
+  },
+  {
+    "name": "Contents_Image_Arena",
+    "width": 353,
+    "height": 346,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -8609086008158947837,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_Arena.png"
+  },
+  {
+    "name": "Contents_Image_SchoolA",
+    "width": 1368,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -8233383079512267442,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_SchoolA.png"
+  },
+  {
+    "name": "Location_Image_15",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -7927509188352568488,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_15.png"
+  },
+  {
+    "name": "Contents_Image_MultiFloorRaid",
+    "width": 353,
+    "height": 346,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -7857245859608465295,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_MultiFloorRaid.png"
+  },
+  {
+    "name": "Contents_Image_TimeAttack",
+    "width": 353,
+    "height": 346,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -7337939123713216500,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_TimeAttack.png"
+  },
+  {
+    "name": "Contents_Image_Week",
+    "width": 396,
+    "height": 228,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -7178477108723458028,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_Week.png"
+  },
+  {
+    "name": "Layer_Image_Formation",
+    "width": 735,
+    "height": 406,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -6429732349346052853,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Layer_Image_Formation.png"
+  },
+  {
+    "name": "Location_Image_13",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -5333819515790577183,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_13.png"
+  },
+  {
+    "name": "Contents_Image_School",
+    "width": 396,
+    "height": 228,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -5217217042312669790,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_School.png"
+  },
+  {
+    "name": "Location_Image_04",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -4981111788284372380,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_04.png"
+  },
+  {
+    "name": "Contents_Image_ChaserA",
+    "width": 1368,
+    "height": 285,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -3041187543754070669,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_ChaserA.png"
+  },
+  {
+    "name": "Location_Image_17",
+    "width": 1358,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -2338996773989750508,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_17.png"
+  },
+  {
+    "name": "Location_Image_01",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -1528915006089430161,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_01.png"
+  },
+  {
+    "name": "Location_Image_18",
+    "width": 1358,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -717020976240901644,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_18.png"
+  },
+  {
+    "name": "Contents_Image_SchoolB",
+    "width": 1368,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -648910948186743348,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_SchoolB.png"
+  },
+  {
+    "name": "Layer_Image_Assistant",
+    "width": 735,
+    "height": 406,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -564062883762872813,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Layer_Image_Assistant.png"
+  },
+  {
+    "name": "Location_Image_11",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": -429161804487712914,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_11.png"
+  },
+  {
+    "name": "Location_Image_19",
+    "width": 1358,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 37093439514980392,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_19.png"
+  },
+  {
+    "name": "Location_Image_12",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 147397729180671218,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_12.png"
+  },
+  {
+    "name": "Location_Image_14",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 191669367324874832,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_14.png"
+  },
+  {
+    "name": "Contents_Image_SchoolC",
+    "width": 1368,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 452808213295454937,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_SchoolC.png"
+  },
+  {
+    "name": "Contents_Image_ChaserC",
+    "width": 1368,
+    "height": 287,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 1680691034891745080,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_ChaserC.png"
+  },
+  {
+    "name": "Location_Image_07",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 1906757240201643841,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_07.png"
+  },
+  {
+    "name": "Contents_Image_Story",
+    "width": 504,
+    "height": 389,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 2534441204848963588,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_Story.png"
+  },
+  {
+    "name": "Contents_Image_FindGift",
+    "width": 1368,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 3161781560479855257,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_FindGift.png"
+  },
+  {
+    "name": "Location_Image_16",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 3788555694885044326,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_16.png"
+  },
+  {
+    "name": "Layer_Image_Students",
+    "width": 735,
+    "height": 406,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 5515136993212813479,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Layer_Image_Students.png"
+  },
+  {
+    "name": "Contents_Image_Raid",
+    "width": 353,
+    "height": 346,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 5600047913777421351,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_Raid.png"
+  },
+  {
+    "name": "Location_Image_02",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 6057279095693519728,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_02.png"
+  },
+  {
+    "name": "Contents_Image_ChaserB",
+    "width": 1368,
+    "height": 285,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 6219486756438862820,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_ChaserB.png"
+  },
+  {
+    "name": "Contents_Image_Chaser",
+    "width": 396,
+    "height": 228,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 6233113563246241027,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_Chaser.png"
+  },
+  {
+    "name": "Layer_Image_Clan",
+    "width": 735,
+    "height": 406,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 6996383670626807714,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Layer_Image_Clan.png"
+  },
+  {
+    "name": "Location_Image_05",
+    "width": 1024,
+    "height": 256,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 8231380846458713051,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_05.png"
+  },
+  {
+    "name": "Contents_Image_Blood",
+    "width": 1368,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 8670815728606478265,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_Blood.png"
+  },
+  {
+    "name": "Layer_Image_Friends",
+    "width": 735,
+    "height": 406,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-07-02_assets_all_114609497.bundle",
+    "path_id": 9172337536710139025,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Layer_Image_Friends.png"
+  },
+  {
+    "name": "Location_Image_20",
+    "width": 1358,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2025-08-26_assets_all_22269479.bundle",
+    "path_id": -1236511057984031029,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Location_Image_20.png"
+  },
+  {
+    "name": "Contents_Image_TacticalC",
+    "width": 1298,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2026-07-01_assets_all_2195843775.bundle",
+    "path_id": -2306384913902612423,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_TacticalC.png"
+  },
+  {
+    "name": "Contents_Image_TacticalD",
+    "width": 1298,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2026-07-01_assets_all_2195843775.bundle",
+    "path_id": 122412306359912043,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_TacticalD.png"
+  },
+  {
+    "name": "Contents_Image_TacticalB",
+    "width": 1298,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2026-07-01_assets_all_2195843775.bundle",
+    "path_id": 880247874212290027,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_TacticalB.png"
+  },
+  {
+    "name": "Contents_Image_TacticalRelay",
+    "width": 454,
+    "height": 389,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2026-07-01_assets_all_2195843775.bundle",
+    "path_id": 5925947364341009042,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_TacticalRelay.png"
+  },
+  {
+    "name": "Contents_Image_TacticalA",
+    "width": 1298,
+    "height": 250,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2026-07-01_assets_all_2195843775.bundle",
+    "path_id": 7378741804285731908,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_TacticalA.png"
+  },
+  {
+    "name": "Contents_Image_ChaserD",
+    "width": 1368,
+    "height": 287,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2026-08-28_assets_all_2755326540.bundle",
+    "path_id": -9021890477002755364,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_ChaserD.png"
+  },
+  {
+    "name": "Contents_Image_ChaserE",
+    "width": 1368,
+    "height": 288,
+    "bundle": "uis-00_images-bigbtn-_mxload-textures-2026-08-28_assets_all_2755326540.bundle",
+    "path_id": 6760117300060525242,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Contents_Image_ChaserE.png"
+  },
+  {
+    "name": "Bg_Public_Sky",
+    "width": 1892,
+    "height": 1284,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2025-07-02_assets_all_3727321762.bundle",
+    "path_id": -6741685196763981451,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Sky.png"
+  },
+  {
+    "name": "Bg_Public_Light",
+    "width": 2048,
+    "height": 1438,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2025-07-02_assets_all_3727321762.bundle",
+    "path_id": -5598901282665166210,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Light.png"
+  },
+  {
+    "name": "Bg_Public_Halo_1",
+    "width": 739,
+    "height": 133,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2025-07-02_assets_all_3727321762.bundle",
+    "path_id": -3463797945280159257,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Halo_1.png"
+  },
+  {
+    "name": "Bg_Public_Front",
+    "width": 2048,
+    "height": 1439,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2025-07-02_assets_all_3727321762.bundle",
+    "path_id": 1783359155400867838,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Front.png"
+  },
+  {
+    "name": "Bg_Public_Cloud_2",
+    "width": 2048,
+    "height": 767,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2025-07-02_assets_all_3727321762.bundle",
+    "path_id": 4328362861886265741,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Cloud_2.png"
+  },
+  {
+    "name": "Bg_Public_Cloud",
+    "width": 1860,
+    "height": 1327,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2025-07-02_assets_all_3727321762.bundle",
+    "path_id": 6949266569905399653,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Cloud.png"
+  },
+  {
+    "name": "Bg_Public_Halo_2",
+    "width": 1892,
+    "height": 649,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2025-07-02_assets_all_3727321762.bundle",
+    "path_id": 8208168838354610158,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Halo_2.png"
+  },
+  {
+    "name": "Bg_Public_Halo_0",
+    "width": 981,
+    "height": 349,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2026-03-24_assets_all_1006739725.bundle",
+    "path_id": -4650891337800910925,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Halo_0.png"
+  },
+  {
+    "name": "Bg_Public_Front_Night",
+    "width": 2048,
+    "height": 1439,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2026-03-24_assets_all_1006739725.bundle",
+    "path_id": -4030020364460874001,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Front_Night.png"
+  },
+  {
+    "name": "Bg_Public_Light_Night",
+    "width": 2048,
+    "height": 1443,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2026-03-24_assets_all_1006739725.bundle",
+    "path_id": -356770201438193555,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Light_Night.png"
+  },
+  {
+    "name": "Bg_Public_Light2_Night",
+    "width": 2048,
+    "height": 1370,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2026-03-24_assets_all_1006739725.bundle",
+    "path_id": 901916675717535879,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Light2_Night.png"
+  },
+  {
+    "name": "Bg_Public_Sky_Night",
+    "width": 1892,
+    "height": 1284,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2026-03-24_assets_all_1006739725.bundle",
+    "path_id": 6504943256253878803,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Sky_Night.png"
+  },
+  {
+    "name": "Bg_Public_Cloud_Night",
+    "width": 2048,
+    "height": 942,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2026-03-24_assets_all_1006739725.bundle",
+    "path_id": 7472387129670834812,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Cloud_Night.png"
+  },
+  {
+    "name": "Bg_Public_Star_Night",
+    "width": 1255,
+    "height": 864,
+    "bundle": "uis-00_images-lobby-_mxload-textures-2026-03-24_assets_all_1006739725.bundle",
+    "path_id": 7716288348164593244,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Bg_Public_Star_Night.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -9201602822072964480,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -9163433694448205386,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8988060587885583807,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8827025533361924831,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8802192675133600531,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8749691702408917294,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8572518403713254883,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8359827733910659478,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthA_2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8281928189247975608,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthA_2.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8114624972436847410,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthZ_3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -8086412378362016932,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthZ_3.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7901648490790095198,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthB_2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7646758058157139868,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthB_2.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7597836955242771860,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7518828980852963797,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7297148820616163125,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7256941886860496074,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7193684825013508178,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7147372292209798595,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthB_1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7090947673699772348,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthB_1.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -7081020999857117458,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -6879164597388737399,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -6347846366413538462,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -6213335223901930908,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -6078627040903679035,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthA_3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -6053274310742848222,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthA_3.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -6052007970932655482,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -5913661619005481210,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -5778313752263631186,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -5744805689781935978,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthB_0",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -5700171887992986014,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthB_0.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -5666236513002529364,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -5570164007348907639,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -5046278488434909963,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4991486957270107875,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4918298385977346082,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4901021635490573269,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Exp_0",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4660399775938515244,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Exp_0.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4446725906436971739,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4341025617958482916,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4306342463127163180,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4263681850402106015,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4179809003182274853,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -4166338327862522511,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3979811826126170562,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3944752063580085607,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3891788320416949479,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3809284317578187849,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3746703041365671349,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3704728356787528272,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3701517952103914617,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3680139947695077119,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3617681984770000079,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3562513790129573629,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3195667131113505925,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3175836364113715405,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3097615998791935813,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -3070041680549282150,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -2659245885300972276,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthZ_0",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -2364441281689489011,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthZ_0.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -2265897622039177240,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -2155753851872304837,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Exp_1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -2154329633544330130,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Exp_1.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -2069161707392006212,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1911415465532509551,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1887681684715666841,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1876718282566961797,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1799973925199408631,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1751568755819355523,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1750759126197272744,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1723174156638379619,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1687886333631834608,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1600728203532303910,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1541386575707652427,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1468654690100436951,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1389398845500551486,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1275033065755894135,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1042970755048532210,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -1013988055258826768,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -975460174993627869,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthA_1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -948185467851697298,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthA_1.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthA_0",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -916647266235740352,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthA_0.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -799129689667965952,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthC_2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -793816666652534098,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthC_2.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -756037503324451144,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -704828304479644037,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -703425900240473071,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -648823118147590290,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -593907789580462329,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -579062005189841757,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthC_0",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -567507729572633768,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthC_0.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -557361548204732977,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -394728135622096803,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -186698096606749374,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": -101938799877494293,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 187164997067826474,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 207505173013633440,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 386623659240495127,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 435457369326354130,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 480394659862185815,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 554555251311091624,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 770193614480877015,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 773082275612223500,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1044901742173976717,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1162033355210302530,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1163250995145627129,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Error",
+    "width": 128,
+    "height": 128,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1239465701470134491,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Error.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1354129335277031057,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1405715879157300268,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1426147799003824675,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1643357866719431756,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1764610987965802252,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1897811808140376662,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 1904667059906353035,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2082764274758028247,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2142221438166016844,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2251699284899752421,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2387877033346086568,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2445846383785223798,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthB_3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2484672764539599728,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthB_3.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2494019286692841365,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2518068835958786364,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Exp_3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 2673925976093514897,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Exp_3.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3119241573000698246,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3149893494718913595,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Exp_2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3310163791181819249,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Exp_2.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3380199267469308979,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3417131693137842997,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3496194428814438899,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3870193804468027300,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3884149177004069022,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3945615055450164147,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3952923504429770088,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthZ_2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 3996808352237183980,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthZ_2.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4077443685949176936,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4109563899929875086,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthC_1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4167664147552692755,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthC_1.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4174993183201281442,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4311709451800331622,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4392152098441201533,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4510055295766508117,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4520269012722584079,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4615293127563235341,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4686828704962562990,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4749458363773045885,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthZ_1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4767718361685787311,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthZ_1.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4906359069638779571,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier2",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 4929191938578884035,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier2.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5078975614894569232,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5237607871824873281,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5428014808617797799,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5438008626640353427,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5500303546461856141,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier5",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5574122962118168530,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier5.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5698747848721014488,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5748672845491001070,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier8",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5889205733042278991,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier8.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier1",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 5949179739121563393,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier1.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6010194416933218158,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6094675535667582937,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier10_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6128435680479830748,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier10_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6182289471814565566,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6375657893462460099,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6382354767616194489,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6403463382901095873,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6407193515113888570,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6545167381513458327,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 6916452088355162899,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier9",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7096715536100461538,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier9.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7232828420062858083,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7246812770716539358,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7325315720693966235,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7511996040811277042,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7762647114204940574,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier6_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7780150141152654471,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier6_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 7915490912864652912,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8049393936239017759,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier2_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8075090642068300672,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier2_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Tier4_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8078811255135522016,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Tier4_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier4",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8155458099039306687,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier4.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier7_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8164858011224693923,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier7_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Tier8_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8195884682198333897,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Tier8_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier6",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8301733573150607107,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier6.png"
+  },
+  {
+    "name": "Equipment_Icon_WeaponExpGrowthC_3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8498270541380903426,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_WeaponExpGrowthC_3.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Tier5_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8588965488495070128,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Tier5_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8641346833343855977,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier7",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8687752310273459123,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier7.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8730840404460333649,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Tier3_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8823909458619731844,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Tier3_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Tier10",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 8960206157410445224,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Tier10.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier3",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 9075712915916837662,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier3.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Tier9_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2025-07-02_assets_all_3078770153.bundle",
+    "path_id": 9129959000210266894,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Tier9_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Badge_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": -8165341946018699159,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Badge_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Gloves_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": -6480777268283775767,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Gloves_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Watch_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": -5481601012624173224,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Watch_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Charm_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": -5293876106204080398,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Charm_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hairpin_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": -5125618532302646952,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hairpin_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Bag_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": -3834612608768359231,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Bag_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Necklace_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": 221521086482432130,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Necklace_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Shoes_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": 5511753165154244373,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Shoes_Useall_Piece.png"
+  },
+  {
+    "name": "Equipment_Icon_Hat_Useall_Piece",
+    "width": 304,
+    "height": 240,
+    "bundle": "uis-01_common-02_equipment-_mxload-textures-2026-03-24_assets_all_1862770784.bundle",
+    "path_id": 6077464993762264312,
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Tools\\BlueArchiveHome\\ExtractedUI\\Equipment_Icon_Hat_Useall_Piece.png"
+  },
+  {
+    "name": "arona_spr",
+    "width": 2048,
+    "height": 2048,
+    "bundle": "prologdepengroup-assets-_mx-spinecharacters-arona_spr-_mxprolog-2025-07-02_assets_all_703196431.bundle",
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Assets\\Tablet\\Home\\Arona\\arona_spr.png"
+  },
+  {
+    "name": "arona_workpage_daytime",
+    "width": 2048,
+    "height": 2048,
+    "bundle": "assets-_mx-spinebackground-arona_workpage_daytime-_mxdependency-textures-2025-07-02_assets_all_2327728809.bundle",
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Assets\\Tablet\\Home\\Classroom\\arona_workpage_daytime.png"
+  },
+  {
+    "name": "arona_workpage_daytime2",
+    "width": 2048,
+    "height": 2048,
+    "bundle": "assets-_mx-spinebackground-arona_workpage_daytime-_mxdependency-textures-2025-07-02_assets_all_2327728809.bundle",
+    "file": "C:\\Users\\Sunbinbin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\KivotosMod\\Assets\\Tablet\\Home\\Classroom\\arona_workpage_daytime2.png"
+  }
+]

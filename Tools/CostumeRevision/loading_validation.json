@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "productionDrawHelper": true,
+  "engineDependenciesStubbed": true,
+  "originalOnePixelPlaceholderCrashReproduced": true,
+  "firstDrawWaitsForRealTexture": true,
+  "pendingAsyncRequestCompleted": true,
+  "loadedTextureCacheReused": true,
+  "standardAndSixtyPixelFrames": true,
+  "haloUsesRealDimensions": true
+}

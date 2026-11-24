@@ -1,0 +1,177 @@
+{
+  "Nagisa": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\渚.zip",
+    "sha256": "318ee139005fad22842d4c2d26e300ebfe0f7a036da30c8bb86c8c165f372e85",
+    "headTop": 4,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "d325a0702c77695d54ceef9cb3c822f5558f8d9f6b5617ea3a3632cf05624104"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "2a9e52f9c3c69947fa2eb132dd4b3ebc5d8479852bfdae9e3d2a4085624aaa48"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "71b4e09351f3b5a2329f1cb42a483bbce2fffd38aa229056653a19842e4abdbb"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "883846036f24f394e5ad2e83e365dca6d6cfd8d7d1c8d83796e3fca70869eb49"
+      },
+      "Wings": {
+        "size": [
+          52,
+          1120
+        ],
+        "sha256": "12bf423746dd73962f6da615e2776e33f848ebbf07f02a3e84f0bf2c0027405b"
+      }
+    }
+  },
+  "Seia": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\圣娅.zip",
+    "sha256": "8ccd9f2b97baa6acf8f8a8789a08e867ad26dc1aff82182c3f82312459abf4a7",
+    "headTop": 6,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "3f15ebdcaf219b973c2a366c6efd259e3ebdb150ffdb6bb810b4dde042e0dd7c"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "2a8a9a7cc4992744b87912d601922891a3e851811a8dedd179c785cfcb5ddf1a"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "a1d39d03ac7f3d6980c60df16ea0959d44f0a398d226a7b76e2152254a226c9f"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "b0e08bb3f5270762f13c47ebe0c2a4aaf50c3d31f0bfc38540597c7b6ec4ab92"
+      },
+      "Ears": {
+        "size": [
+          50,
+          1200
+        ],
+        "sha256": "675d6a25d511fde88126ae64296a6518edbd9a8ffd37084d42447457caad5fb8"
+      },
+      "Tail": {
+        "size": [
+          50,
+          1200
+        ],
+        "sha256": "601dd906193a2681cfed874bfbee948a40bcd4f4d514b16e5fce3089c6a86951"
+      }
+    }
+  },
+  "Mika2x2": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\未花 (1).zip",
+    "sha256": "2bf3a63506bb95f17f312ace5c7dcc7696ce99d95ef3d7bc360a09b3640917f7",
+    "headTop": 4,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "34ca5146996b8c988c005854ff92908ab3c7d537b6d6ab4b097ac63786888d8c"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "ada742db8dc744af7a46c26ab67cf60fb370d5b88742ea95a8ca32c8cc43805b"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "c1554e5e9cb887ba1185a64ebbcd4fd7a6ca1fd94ba9b18e21a3c0fed155e2d2"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "e8010063843a143d9f28b5efaa86c4f3b7ed2065ca84c86dd16782d70e3c14f9"
+      },
+      "Wings": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "e552ddafc11cf203c0429f5fb6aa06c92ae03b21b6e0e7543da579ad98cd8228"
+      }
+    }
+  },
+  "Yuuka2x2": {
+    "sourceZip": "C:\\Users\\Sunbinbin\\Downloads\\优香2X2 2.zip",
+    "sha256": "5841f105434d2e78634200be608659004eb0779227677252b9669445d8d4ae70",
+    "headTop": 2,
+    "assets": {
+      "Head_Head": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "f37c483e007f21b12fac2b543100cbccee2c9b2b49903a079efa28934fa2cc04"
+      },
+      "Body_Body": {
+        "size": [
+          360,
+          224
+        ],
+        "sha256": "c75ba05f3f55e3b8bd1237ccf073489e78099884dc9282337e8053f1f8c52943"
+      },
+      "Boots_Legs": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "fe9bd0f72274a1b59c35c7bcdec8fc3c463535a5d229dabf726ad54af7f59843"
+      },
+      "BackHair": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "4c16897b63ce95a7e1e6f1e5e4beaabf21b4bcb15e0886fba844192ddf3a1df7"
+      },
+      "Coat": {
+        "size": [
+          40,
+          1120
+        ],
+        "sha256": "70810b4eb57de90b375760df29b044a569f2c64e63b02cf92f262a1c48ae0c96"
+      }
+    }
+  }
+}

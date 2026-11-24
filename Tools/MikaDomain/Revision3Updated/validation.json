@@ -1,0 +1,24 @@
+{
+  "pairs": 65,
+  "reversed_source_pairs": [
+    {
+      "comp": "星光带后",
+      "body": 1,
+      "glow": 0
+    }
+  ],
+  "unique_bottom_type_checked": true,
+  "positions_match_ae": true,
+  "joint_rotation_preserves_offsets": true,
+  "white_highlights_neutral": true,
+  "saturation_default": 25,
+  "period_seconds": [
+    16,
+    24
+  ],
+  "rotation_degrees_per_second": [
+    9,
+    22.5
+  ],
+  "rear_delay_removed": true
+}

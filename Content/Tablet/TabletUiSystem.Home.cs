@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using Microsoft.Xna.Framework;
@@ -18,7 +18,7 @@ public sealed partial class TabletUiSystem
     // UILobby.prefab's Top / Left / Bottom groups, adapted to the tablet's 4:3 glass.
     // Sprites are the original NGUI atlas crops, with their aspect ratio preserved.
     private static readonly string[] LobbyIcons = { "Cafe", "SchaleBilding", "Student", "Edit", "Social", "Craft", "Shop", "Gacha" };
-    private static readonly string[] LobbyLabels = { "咖啡厅", "日程", "学生", "编队", "社交", "制造", "商店", "招募" };
+    private static readonly string[] LobbyLabels = { "咖啡厅", "日程", "学生", "代理战斗", "社交", "武器升级", "商店", "招募" };
     private static readonly string[] LobbyShortcutIcons = { "Common_Icon_Notice", "Common_Icon_MoMoTalk", "School_Icon_Schedule", "Common_Icon_Gembag" };
     private static readonly string[] LobbyShortcutLabels = { "公告", "MomoTalk", "任务", "青辉石购买" };
     private static readonly string[] LobbyBanners = { "Lobby_Gacha_Banner_210204_1", "Event_Banner_841_Jp", "Event_Banner_842_Jp" };
@@ -40,6 +40,7 @@ public sealed partial class TabletUiSystem
     private static bool _lobbyHidden;
     private static bool _lobbyCharactersOpen;
     private static bool _lobbyMemoryScene;
+    private static bool _lobbyDayTime;
     private static string _lobbyNotice;
     private static float _lobbyBannerTime;
     private static readonly Color LobbyInk = new(21, 55, 87);
@@ -57,6 +58,16 @@ public sealed partial class TabletUiSystem
         if (!LobbyTextures.TryGetValue(name, out Asset<Texture2D> asset))
             LobbyTextures[name] = asset = ModContent.Request<Texture2D>("KivotosMod/Assets/Tablet/Home/UI/" + name, AssetRequestMode.ImmediateLoad);
         return asset.Value;
+    }
+
+    private static void OpenLobby()
+    {
+        // Capture the pair once per opening; dawn/dusk must not replace an
+        // active scene or a manual selection while the tablet remains open.
+        _lobbyDayTime = Main.dayTime;
+        Main.LocalPlayer.GetModPlayer<TabletCompanionPlayer>().SetCompanion(
+            _lobbyDayTime ? TabletStudentId.Arona : TabletStudentId.Plana);
+        ResetLobbyMemoryScene();
     }
 
     private static void UpdateLobby(float seconds)
@@ -87,6 +98,7 @@ public sealed partial class TabletUiSystem
         _lobbyLoadFailed = _lobbyHidden = _lobbyCharactersOpen = _lobbyMemoryScene = false;
         _lobbyNotice = null;
         _lobbyBannerTime = 0;
+        _lobbyDayTime = false;
     }
 
     private static void DrawLobbyBackground(SpriteBatch sb, Layout layout) => DrawClassroomBackground(sb, layout);
@@ -102,6 +114,11 @@ public sealed partial class TabletUiSystem
                     _lobbyArona.Draw(sb, layout.ToScreen(LobbyAronaAnchor), LobbyAronaScale * layout.Scale, layout.ToScreen(DisplayRect));
                 else DrawTabletPortrait(sb, student, LobbyPortraitRect, layout, mouse, 1.10f, HomePortraitRootOffset, DisplayRect);
             }
+        }
+        else if (student.Id == TabletStudentId.Plana)
+        {
+            if (!TabletDynamicPortraitRenderer.DrawPlana38(sb, layout.ToScreen, layout.Scale, new Vector2(287, 82), 620f, DisplayRect, mouse))
+                DrawTabletPortrait(sb, student, LobbyPortraitRect, layout, mouse, 1.10f, HomePortraitRootOffset, DisplayRect);
         }
         else if (student.Id != TabletStudentId.Arona || _lobbyArona == null)
             DrawTabletPortrait(sb, student, LobbyPortraitRect, layout, mouse, 1.10f, HomePortraitRootOffset, DisplayRect);
@@ -123,8 +140,9 @@ public sealed partial class TabletUiSystem
             LobbyCurrency(sb, "Gold", credits.ToString("N0"), new Rectangle(265, 40, 102, 25), layout);
             LobbyCurrency(sb, "Diamond", (credits / TabletWallet.CreditsPerPyroxene).ToString("N0"), new Rectangle(374, 40, 82, 25), layout, true);
             LobbyPanel(sb, new Rectangle(464, 40, 74, 25), layout, LobbyWhite, LobbyIncline);
-            LobbyIcon(sb, "Common_Icon_SpecialLobby", new Rectangle(468, 46, 17, 15), layout, LobbyInk);
+            LobbyIcon(sb, "Common_Icon_SpecialLobby", new Rectangle(468, 46, 17, 15), layout, new Color(131, 147, 159));
             LobbyIcon(sb, "Common_Icon_Mail", new Rectangle(493, 46, 17, 15), layout, LobbyInk);
+            if (Mailbox.HasUnread) DrawUnreadDot(sb, 510, 46, layout);
             LobbyIcon(sb, "Common_Icon_Menu_Small", new Rectangle(519, 46, 15, 15), layout, LobbyInk);
             for (int i = 0; i < LobbyShortcutIcons.Length; i++)
             {
@@ -132,12 +150,6 @@ public sealed partial class TabletUiSystem
                 LobbyIconButton(sb, LobbyShortcutIcons[i], rect, LobbyShortcutLabels[i], mouse, layout, true);
             }
             int banner = (int)(_lobbyBannerTime / 4f);
-            DrawTextureFit(sb, LobbyTexture(LobbyBanners[1 + banner % 2]), LobbyBannerRect, layout);
-            DrawTextureFit(sb, LobbyTexture(LobbyBanners[0]), LobbyPickupRect, layout);
-            LobbyText(sb, "活动", new Vector2(LobbyBannerRect.Center.X, 108), Color.White, 9f, layout);
-            LobbyPanel(sb, new Rectangle(480, 170, 32, 7), layout, LobbyWhite);
-            for (int i = 0; i < 2; i++)
-                DrawSolid(sb, new Rectangle(491 + i * 8, 172, 2, 2), i == banner ? new Color(72, 187, 236) : LobbyInk, layout);
             LobbyPanel(sb, new Rectangle(39, 392, 407, 23), layout, LobbyWhite, LobbyIncline);
             for (int i = 0; i < LobbyIcons.Length; i++)
                 LobbyIconButton(sb, "Common_Icon_" + LobbyIcons[i], LobbyNavRect(i), LobbyLabels[i], mouse, layout, false);
@@ -147,8 +159,6 @@ public sealed partial class TabletUiSystem
             LobbyText(sb, "工作", new Vector2(494, 393), Color.White, 13f, layout);
             LobbyPanel(sb, LobbyRotateRect, layout, new Color(205, 214, 221) * (220f / 255f), LobbyIncline);
             LobbyIcon(sb, "Common_Icon_Change_Count", new Rectangle(470, 81, 24, 17), layout, new Color(131, 147, 159));
-            LobbyIcon(sb, "Cafe_Icon_Arrow", LobbyPreviousRect, layout, Color.White);
-            LobbyIcon(sb, "Cafe_Icon_Arrow", LobbyNextRect, layout, Color.White, SpriteEffects.FlipHorizontally);
         }
         LobbyPanel(sb, LobbyHideRect, layout, LobbyWhite, LobbyIncline);
         LobbyIcon(sb, "Common_UIHide_Icon2", new Rectangle(510, 81, 19, 17), layout, LobbyInk);
@@ -189,8 +199,11 @@ public sealed partial class TabletUiSystem
 
     private static void LobbyIconButton(SpriteBatch sb, string icon, Rectangle rect, string label, Vector2 mouse, Layout layout, bool panel)
     {
-        if (rect.Contains(mouse.ToPoint())) DrawSolid(sb, rect, new Color(88, 207, 255) * (60f / 255f), layout);
-        DrawTextureFit(sb, LobbyTexture(icon), new Rectangle(rect.X + 6, rect.Y + 1, rect.Width - 12, panel ? 34 : 39), layout);
+        bool disabled = icon == "Common_Icon_Student";
+        if (!disabled && rect.Contains(mouse.ToPoint())) DrawSolid(sb, rect, new Color(88, 207, 255) * (60f / 255f), layout);
+        if (icon == "Common_Icon_Craft") DrawAnvilIcon(sb, new Rectangle(rect.X + 8, rect.Y + 9, rect.Width - 16, 26), layout);
+        else DrawTextureFit(sb, LobbyTexture(icon), new Rectangle(rect.X + 6, rect.Y + 1, rect.Width - 12, panel ? 34 : 39), layout);
+        if (disabled) DrawSolid(sb, new Rectangle(rect.X + 6, rect.Y + 1, rect.Width - 12, panel ? 34 : 39), new Color(135, 145, 155) * .60f, layout);
         Vector2 labelPosition = new(rect.Center.X, rect.Y + (panel ? 37 : 40));
         if (panel)
         {
@@ -198,7 +211,7 @@ public sealed partial class TabletUiSystem
                 LobbyText(sb, label, labelPosition + offset, LobbyInk, 9f, layout, maxWidth: rect.Width);
             LobbyText(sb, label, labelPosition, Color.White, 9f, layout, maxWidth: rect.Width);
         }
-        else LobbyText(sb, label, labelPosition, LobbyInk, 10f, layout, maxWidth: rect.Width - 2);
+        else LobbyText(sb, label, labelPosition, disabled ? new Color(131, 147, 159) : LobbyInk, 10f, layout, maxWidth: rect.Width - 2);
     }
 
     private static void LobbyIcon(SpriteBatch sb, string name, Rectangle rect, Layout layout, Color tint, SpriteEffects effects = SpriteEffects.None)
@@ -285,42 +298,36 @@ public sealed partial class TabletUiSystem
     {
         if (_lobbyNotice != null) { _lobbyNotice = null; SoundEngine.PlaySound(SoundID.MenuClose); return; }
         if (LobbyHideRect.Contains(point)) { _lobbyHidden = !_lobbyHidden; _lobbyCharactersOpen = false; return; }
-        if (!_lobbyHidden && LobbyCharacterRect.Contains(point)) { _lobbyCharactersOpen = !_lobbyCharactersOpen; return; }
-        if (_lobbyCharactersOpen && !_lobbyHidden)
-        {
-            var students = TabletStudentCatalog.CompanionStudents;
-            for (int i = 0; i < students.Count; i++)
-                if (new Rectangle(325 + i % 3 * 68, 140 + i / 3 * 57, 65, 53).Contains(point))
-                { player.GetModPlayer<TabletCompanionPlayer>().SetCompanion(students[i].Id); _lobbyCharactersOpen = false; ResetLobbyMemoryScene(); SoundEngine.PlaySound(SoundID.MenuTick); return; }
-            _lobbyCharactersOpen = false;
-            return;
-        }
+
         if (!_lobbyHidden)
         {
-            if (LobbyPreviousRect.Contains(point) || LobbyNextRect.Contains(point))
-            {
-                CycleLobbyCompanion(player, LobbyPreviousRect.Contains(point) ? -1 : 1);
-                return;
-            }
+            if (LobbyCharacterRect.Contains(point)) return; // Reserved; temporarily disabled.
             if (LobbyRotateRect.Contains(point))
             {
                 // Temporarily disabled: our own Arona is the active portrait.
                 return;
             }
-            if (LobbyBannerRect.Contains(point)) { _lobbyNotice = "活动"; return; }
-            if (LobbyPickupRect.Contains(point)) { _lobbyNotice = "招募"; return; }
             for (int i = 0; i < LobbyIcons.Length; i++)
             {
                 if (!LobbyNavRect(i).Contains(point)) continue;
+                if (i == 2) return; // Student icon is temporarily disabled.
                 if (i == 6)
                 {
                     _shopScrollRow = 0; _selectedCategory = TabletShopCategory.All; _showingCart = false;
                     RequestPage(TabletPage.Shop);
                 }
-                else if (i == 3 || i == 2)
+                else if (i == 5)
+                {
+                    _weaponSlot = -1; _weaponScroll = 0; _weaponScrollVisual = 0;
+                    RequestPage(TabletPage.WeaponUpgrade);
+                }
+                else if (i == 3)
                 {
                     TabletStudentAppearancePlayer appearance = player.GetModPlayer<TabletStudentAppearancePlayer>();
                     _selectedStudentIndex = appearance.HasSelection ? TabletStudentCatalog.FormationIndexOf(appearance.SelectedStudent) : 0;
+                    RefreshFormationOrder();
+                    _formationScrollRow = Math.Max(0, FormationPosition(_selectedStudentIndex) / 3 - 1);
+                    _formationScrollVisual = _formationScrollRow * 106;
                     RequestPage(TabletPage.Formation);
                 }
                 else _lobbyNotice = LobbyLabels[i];
@@ -329,13 +336,15 @@ public sealed partial class TabletUiSystem
             }
             for (int i = 0; i < LobbyShortcutIcons.Length; i++)
                 if (LobbyShortcutRect(i).Contains(point)) { _lobbyNotice = LobbyShortcutLabels[i]; return; }
-            if (LobbyMailRect.Contains(point)) { _lobbyNotice = "邮件"; return; }
+            if (LobbyMailRect.Contains(point)) { _mailScroll = _mailBodyScroll = 0; RequestPage(TabletPage.Mail); return; }
             if (LobbyCombatRect.Contains(point)) { _lobbyNotice = "工作"; return; }
         }
         if (LobbyPortraitRect.Contains(point) && player.GetModPlayer<TabletCompanionPlayer>().Companion == TabletStudentId.Arona)
         {
             if (!TabletDynamicPortraitRenderer.BlinkArona38()) _lobbyArona?.Touch();
         }
+        else if (LobbyPortraitRect.Contains(point) && player.GetModPlayer<TabletCompanionPlayer>().Companion == TabletStudentId.Plana)
+            TabletDynamicPortraitRenderer.BlinkPlana38();
     }
 
     private static void CycleLobbyCompanion(Player player, int direction)

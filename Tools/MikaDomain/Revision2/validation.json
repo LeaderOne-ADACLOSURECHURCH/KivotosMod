@@ -1,0 +1,30 @@
+{
+  "front": 25,
+  "back": 40,
+  "front_speed_range": [
+    0.5,
+    1.2
+  ],
+  "rear_mask_scale": [
+    141.05195638229634,
+    141.05195638229634
+  ],
+  "bloom_energy": {
+    "Bloom00N": [
+      3009329,
+      9925261
+    ],
+    "Bloom01N": [
+      1858333,
+      7270542
+    ],
+    "Bloom02N": [
+      1845276,
+      5678653
+    ]
+  },
+  "hidden_mask_opacity_imported": true,
+  "preload_phase": "PostSetupContent",
+  "gpu_report": "../gpu_validation.json",
+  "game_tested": false
+}

@@ -38,7 +38,7 @@ public static class TabletCart
 
     public static void Add(int itemType, int quantity)
     {
-        if (quantity <= 0 || !TabletShopCatalog.TryGetByItemType(itemType, out _))
+        if (quantity <= 0 || !TabletShopCatalog.TryGetByItemType(itemType, out var product) || !product.Available)
             return;
 
         int current = GetQuantity(itemType);

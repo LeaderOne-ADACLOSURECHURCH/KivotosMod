@@ -1,4 +1,14 @@
 Projectiles: {
 	EyeofHorusHeldProj.DisplayName: Eyeof Horus Held Proj
 	DeliveryDroneProjectile.DisplayName: Delivery Drone Projectile
+	MikaFallingStar.DisplayName: Mika Falling Star
+	ArisuRailBeam.DisplayName: Arisu Rail Beam
+	ArisuRailBurst.DisplayName: Arisu Rail Burst
+	ArisuRailShot.DisplayName: Arisu Rail Shot
+	ArisuRailFlash.DisplayName: Arisu Rail Flash
+	ArisuRailHeld.DisplayName: Arisu Rail Held
+	ArisuRailNormalBlast.DisplayName: Arisu Rail Normal Blast
+	ArisuRailRecoil.DisplayName: Arisu Rail Recoil
+	ArisuRailShade.DisplayName: Arisu Rail Shade
+	ArisuRailStorage.DisplayName: Arisu Rail Storage
 }

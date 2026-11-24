@@ -29,16 +29,16 @@ internal sealed class TabletSpine38Scene : IDisposable
     private VertexPositionColorTexture[] _drawVertices = new VertexPositionColorTexture[512];
     public Rectangle Bounds { get; }
 
-    public TabletSpine38Scene(Mod mod, bool sora = false)
+    public TabletSpine38Scene(Mod mod, bool sora = false, bool plana = false)
     {
-        string assetRoot = sora ? "Assets/Tablet/Home/Sora38/" : "Assets/Tablet/Home/Arona38/";
-        string stem = sora ? "sora" : "arona";
+        string assetRoot = plana ? "Assets/Tablet/Home/Plana38/" : sora ? "Assets/Tablet/Home/Sora38/" : "Assets/Tablet/Home/Arona38/";
+        string stem = plana ? "plana" : sora ? "sora" : "arona";
         var atlas = new Atlas(new StringReader(System.Text.Encoding.UTF8.GetString(mod.GetFileBytes(assetRoot + stem + ".atlas.bin"))),
             assetRoot, new ModTextureLoader(mod));
         // Opt-in is limited to this inspected asset. No editor/version header is altered.
         var binary = new SkeletonBinary(atlas) { AllowLegacy3875 = true };
         using (var stream = new MemoryStream(mod.GetFileBytes(assetRoot + stem + ".skel.bin")))
-            _animation = new TabletSpine38Animation(binary.ReadSkeletonData(stream), sora: sora);
+            _animation = new TabletSpine38Animation(binary.ReadSkeletonData(stream), sora: sora, plana: plana);
         float[] buffer = null;
         _skeleton.GetBounds(out float x, out float y, out float w, out float h, ref buffer);
         Bounds = new Rectangle((int)MathF.Floor(x), (int)MathF.Floor(y), (int)MathF.Ceiling(w), (int)MathF.Ceiling(h));

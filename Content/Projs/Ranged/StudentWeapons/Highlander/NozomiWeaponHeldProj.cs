@@ -28,7 +28,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Highlander
             float randRot = ToRadians(4.5f);
             Vector2 bulletPos = Projectile.Center + bulletPosOffset;
             Vector2 randomVelocity = dir.RotatedByRandom(randRot) * Main.rand.NextFloat(0.88f, 1.12f);
-            Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), bulletPos, randomVelocity * 16f, ProjectileType<NozomiWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Projectile proj = Fire(bulletPos, randomVelocity * 16f, ProjectileType<NozomiWeaponBullet>());
             Vector2 pos = Projectile.Center + particleOffset + dir * 10;
             for (int i = 0; i < 15; i++)
             {

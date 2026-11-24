@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using Terraria;
 using Terraria.ID;
+using Terraria.ModLoader.IO;
 using KivotosMod.Content.Tablet.Delivery;
 
 namespace KivotosMod.Content.Tablet;
@@ -10,6 +12,9 @@ public static class TabletCheckoutService
 {
     public const int MaxLines = 32;
     public const int MaxQuantityPerLine = 9999;
+    // Leave room for the enclosing item sync packet and its other fields.
+    private const int MaxPackageBytes = 32768;
+    private const int MaxPackageStacks = 128;
 
     public static void RequestCheckout(IReadOnlyList<TabletCartLine> lines)
     {
@@ -67,6 +72,11 @@ public static class TabletCheckoutService
                 message = "购物车里有已经下架的商品。";
                 return false;
             }
+            if (!product.Available)
+            {
+                message = "购物车里有尚未解锁的弹药。";
+                return false;
+            }
 
             try
             {
@@ -92,6 +102,11 @@ public static class TabletCheckoutService
             Item template = new();
             template.SetDefaults(product.ItemType);
             int maxStack = Math.Max(1, template.maxStack);
+            if (totalStack <= 0 || (long)contents.Count + ((long)totalStack + maxStack - 1) / maxStack > MaxPackageStacks)
+            {
+                message = "订单物品过多，请分批购买。";
+                return false;
+            }
             int remaining = totalStack;
             while (remaining > 0)
             {
@@ -106,6 +121,21 @@ public static class TabletCheckoutService
         {
             message = "没有可配送的商品。";
             return false;
+        }
+
+        using (MemoryStream payload = new())
+        using (BinaryWriter writer = new(payload))
+        {
+            writer.Write(contents.Count);
+            foreach (Item item in contents)
+            {
+                ItemIO.Send(item, writer, true);
+                if (payload.Length > MaxPackageBytes)
+                {
+                    message = "订单物品过多，请分批购买。";
+                    return false;
+                }
+            }
         }
 
         if (!TabletWallet.TrySpend(player, totalCredits))

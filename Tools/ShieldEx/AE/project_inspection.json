@@ -1,0 +1,869 @@
+{
+  "file": "C:\\Users\\Sunbinbin\\Downloads\\黑洞.aep",
+  "sha256": "8d576f4573f826027a259cbf708003f638303717f9063a99e5454fbf79b793ee",
+  "parser": "py-aep 0.18.2; no AE render performed",
+  "project": {
+    "bits_per_channel": 32,
+    "working_space": "None",
+    "linear_blending": false,
+    "linearize_working_space": false,
+    "working_gamma": 2.4
+  },
+  "comp": {
+    "width": 1280,
+    "height": 817,
+    "frame_rate": 30.0,
+    "duration": 30.0
+  },
+  "layers": [
+    {
+      "index_top_first": 0,
+      "source_identified_by_dimensions": "光谱.png",
+      "width": 1280,
+      "height": 817,
+      "enabled": true,
+      "blending_mode": "NORMAL",
+      "track_matte_type": "ALPHA",
+      "track_matte_layer_index": 3,
+      "is_track_matte": false,
+      "parent_index": null,
+      "in_point": 9.533333333333333,
+      "out_point": 30.0,
+      "properties": [
+        {
+          "match_name": "ADBE Anchor Point",
+          "value": [
+            640.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position",
+          "value": [
+            -516.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": [
+            {
+              "time": 9.533333333333333,
+              "frame_time": 286,
+              "value": [
+                -516.0,
+                408.5,
+                0.0
+              ],
+              "in_interpolation": "LINEAR",
+              "out_interpolation": "LINEAR",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 16.666666666666668
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 198.1714285714284,
+                  "influence": 16.666666666666668
+                }
+              ]
+            },
+            {
+              "time": 15.366666666666667,
+              "frame_time": 461,
+              "value": [
+                640.0,
+                408.5,
+                0.0
+              ],
+              "in_interpolation": "LINEAR",
+              "out_interpolation": "LINEAR",
+              "in_ease": [
+                {
+                  "speed": 198.1714285714284,
+                  "influence": 16.666666666666668
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 16.666666666666668
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "match_name": "ADBE Position_0",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_1",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_2",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Scale",
+          "value": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Orientation",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate X",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Y",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Z",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Opacity",
+          "value": 100.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Envir Appear in Reflect",
+          "value": 1.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        }
+      ],
+      "effects": [],
+      "masks_count": 0
+    },
+    {
+      "index_top_first": 1,
+      "source_identified_by_dimensions": "光谱.png",
+      "width": 1280,
+      "height": 817,
+      "enabled": true,
+      "blending_mode": "NORMAL",
+      "track_matte_type": "ALPHA",
+      "track_matte_layer_index": 3,
+      "is_track_matte": false,
+      "parent_index": null,
+      "in_point": 3.4,
+      "out_point": 30.0,
+      "properties": [
+        {
+          "match_name": "ADBE Anchor Point",
+          "value": [
+            640.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position",
+          "value": [
+            -506.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": [
+            {
+              "time": 3.533333333333333,
+              "frame_time": 106,
+              "value": [
+                -506.0,
+                408.5,
+                0.0
+              ],
+              "in_interpolation": "LINEAR",
+              "out_interpolation": "LINEAR",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 16.666666666666668
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 229.54703832752594,
+                  "influence": 16.666666666666668
+                }
+              ]
+            },
+            {
+              "time": 13.1,
+              "frame_time": 393,
+              "value": [
+                1690.0,
+                408.5,
+                0.0
+              ],
+              "in_interpolation": "LINEAR",
+              "out_interpolation": "LINEAR",
+              "in_ease": [
+                {
+                  "speed": 229.54703832752594,
+                  "influence": 16.666666666666668
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 16.666666666666668
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "match_name": "ADBE Position_0",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_1",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_2",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Scale",
+          "value": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Orientation",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate X",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Y",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Z",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Opacity",
+          "value": 100.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Envir Appear in Reflect",
+          "value": 1.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        }
+      ],
+      "effects": [],
+      "masks_count": 0
+    },
+    {
+      "index_top_first": 2,
+      "source_identified_by_dimensions": "光谱.png",
+      "width": 1280,
+      "height": 817,
+      "enabled": true,
+      "blending_mode": "NORMAL",
+      "track_matte_type": "ALPHA",
+      "track_matte_layer_index": 3,
+      "is_track_matte": false,
+      "parent_index": null,
+      "in_point": 0.0,
+      "out_point": 30.0,
+      "properties": [
+        {
+          "match_name": "ADBE Anchor Point",
+          "value": [
+            640.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position",
+          "value": [
+            640.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": [
+            {
+              "time": 0.0,
+              "frame_time": 0,
+              "value": [
+                640.0,
+                408.5,
+                0.0
+              ],
+              "in_interpolation": "LINEAR",
+              "out_interpolation": "LINEAR",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 16.666666666666668
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 116.8106312292358,
+                  "influence": 16.666666666666668
+                }
+              ]
+            },
+            {
+              "time": 10.033333333333333,
+              "frame_time": 301,
+              "value": [
+                1812.0,
+                408.5,
+                0.0
+              ],
+              "in_interpolation": "LINEAR",
+              "out_interpolation": "LINEAR",
+              "in_ease": [
+                {
+                  "speed": 116.8106312292358,
+                  "influence": 16.666666666666668
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 16.666666666666668
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "match_name": "ADBE Position_0",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_1",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_2",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Scale",
+          "value": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Orientation",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate X",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Y",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Z",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Opacity",
+          "value": 100.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Envir Appear in Reflect",
+          "value": 1.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        }
+      ],
+      "effects": [],
+      "masks_count": 0
+    },
+    {
+      "index_top_first": 3,
+      "source_identified_by_dimensions": "图层 10.png",
+      "width": 1252,
+      "height": 526,
+      "enabled": true,
+      "blending_mode": "LINEAR_DODGE",
+      "track_matte_type": "NO_TRACK_MATTE",
+      "track_matte_layer_index": null,
+      "is_track_matte": true,
+      "parent_index": null,
+      "in_point": 0.0,
+      "out_point": 30.0,
+      "properties": [
+        {
+          "match_name": "ADBE Anchor Point",
+          "value": [
+            626.0,
+            263.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position",
+          "value": [
+            618.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_0",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_1",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_2",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Scale",
+          "value": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Orientation",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate X",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Y",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Z",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Opacity",
+          "value": 100.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Envir Appear in Reflect",
+          "value": 1.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        }
+      ],
+      "effects": [],
+      "masks_count": 0
+    },
+    {
+      "index_top_first": 4,
+      "source_identified_by_dimensions": "图层 9.png",
+      "width": 1282,
+      "height": 594,
+      "enabled": true,
+      "blending_mode": "NORMAL",
+      "track_matte_type": "NO_TRACK_MATTE",
+      "track_matte_layer_index": null,
+      "is_track_matte": false,
+      "parent_index": null,
+      "in_point": 0.0,
+      "out_point": 30.0,
+      "properties": [
+        {
+          "match_name": "ADBE Anchor Point",
+          "value": [
+            641.0,
+            297.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position",
+          "value": [
+            618.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_0",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_1",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_2",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Scale",
+          "value": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Orientation",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate X",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Y",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Z",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Opacity",
+          "value": 100.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Envir Appear in Reflect",
+          "value": 1.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        }
+      ],
+      "effects": [],
+      "masks_count": 0
+    },
+    {
+      "index_top_first": 5,
+      "source_identified_by_dimensions": "图层 2.png",
+      "width": 287,
+      "height": 632,
+      "enabled": true,
+      "blending_mode": "NORMAL",
+      "track_matte_type": "NO_TRACK_MATTE",
+      "track_matte_layer_index": null,
+      "is_track_matte": false,
+      "parent_index": null,
+      "in_point": 0.0,
+      "out_point": 30.0,
+      "properties": [
+        {
+          "match_name": "ADBE Anchor Point",
+          "value": [
+            143.5,
+            316.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position",
+          "value": [
+            640.0,
+            408.5,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_0",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_1",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Position_2",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Scale",
+          "value": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Orientation",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate X",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Y",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Rotate Z",
+          "value": 0.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Opacity",
+          "value": 100.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        },
+        {
+          "match_name": "ADBE Envir Appear in Reflect",
+          "value": 1.0,
+          "expression": "",
+          "expression_enabled": false,
+          "keyframes": []
+        }
+      ],
+      "effects": [],
+      "masks_count": 0
+    }
+  ]
+}

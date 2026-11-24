@@ -1,0 +1,4972 @@
+{
+  "velocity": [
+    114.66666666666667,
+    41.333333333333336
+  ],
+  "mask": "T22",
+  "maskScale": [
+    141.05195638229634,
+    141.05195638229634
+  ],
+  "stars": [
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        196.5,
+        682.5
+      ],
+      "scale": [
+        104.47602817927664,
+        104.47602817927664
+      ],
+      "angle": -12.92726592587542,
+      "glowPosition": [
+        196.5,
+        683.5
+      ],
+      "glowScale": [
+        104.47602817927664,
+        104.47602817927664
+      ],
+      "glowAngle": -12.92726592587542,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 0,
+      "glow_layer": 1,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        1260.5,
+        826.5
+      ],
+      "scale": [
+        78.37837837837841,
+        78.37837837837841
+      ],
+      "angle": -10.53162925546879,
+      "glowPosition": [
+        1260.5,
+        827.5
+      ],
+      "glowScale": [
+        78.37837837837841,
+        78.37837837837841
+      ],
+      "glowAngle": -10.53162925546879,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 2,
+      "glow_layer": 3,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        130.5,
+        482.5
+      ],
+      "scale": [
+        64.64173165192092,
+        64.64173165192092
+      ],
+      "angle": 15.379970386988978,
+      "glowPosition": [
+        130.5,
+        483.5
+      ],
+      "glowScale": [
+        64.64173165192092,
+        64.64173165192092
+      ],
+      "glowAngle": 15.379970386988978,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 4,
+      "glow_layer": 5,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        520.5,
+        658.5
+      ],
+      "scale": [
+        64.82065005922814,
+        64.82065005922814
+      ],
+      "angle": 69.2411423717286,
+      "glowPosition": [
+        520.5,
+        659.5
+      ],
+      "glowScale": [
+        64.82065005922814,
+        64.82065005922814
+      ],
+      "glowAngle": 69.2411423717286,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 6,
+      "glow_layer": 7,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        1684.5,
+        826.5
+      ],
+      "scale": [
+        69.78811057901586,
+        69.78811057901586
+      ],
+      "angle": 31.734481392465895,
+      "glowPosition": [
+        1684.5,
+        827.5
+      ],
+      "glowScale": [
+        69.78811057901586,
+        69.78811057901586
+      ],
+      "glowAngle": 31.734481392465895,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 8,
+      "glow_layer": 9,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        -116.5,
+        594.5
+      ],
+      "scale": [
+        50.33389374912689,
+        50.33389374912689
+      ],
+      "angle": 34.49436486848642,
+      "glowPosition": [
+        -116.5,
+        594.5
+      ],
+      "glowScale": [
+        50.33389374912689,
+        50.33389374912689
+      ],
+      "glowAngle": 34.49436486848642,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 10,
+      "glow_layer": 11,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        979.5,
+        718.5
+      ],
+      "scale": [
+        50.33389374912689,
+        50.33389374912689
+      ],
+      "angle": 34.49436486848642,
+      "glowPosition": [
+        979.5,
+        718.5
+      ],
+      "glowScale": [
+        50.33389374912689,
+        50.33389374912689
+      ],
+      "glowAngle": 34.49436486848642,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 12,
+      "glow_layer": 13,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        377.5,
+        633.5
+      ],
+      "scale": [
+        65.07936507936505,
+        65.07936507936505
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        377.5,
+        633.5
+      ],
+      "glowScale": [
+        65.07936507936505,
+        65.07936507936505
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 14,
+      "glow_layer": 15,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        -187.5,
+        369.5
+      ],
+      "scale": [
+        36.67953667953666,
+        33.03303303303305
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        -187.5,
+        369.5
+      ],
+      "glowScale": [
+        36.67953667953666,
+        33.03303303303305
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 16,
+      "glow_layer": 17,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        734.5,
+        815.5
+      ],
+      "scale": [
+        36.67953667953666,
+        33.03303303303305
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        734.5,
+        815.5
+      ],
+      "glowScale": [
+        36.67953667953666,
+        33.03303303303305
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 18,
+      "glow_layer": 19,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1462.5,
+        795.5
+      ],
+      "scale": [
+        36.67953667953666,
+        33.03303303303305
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1462.5,
+        795.5
+      ],
+      "glowScale": [
+        36.67953667953666,
+        33.03303303303305
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 20,
+      "glow_layer": 21,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1359.5,
+        931.5
+      ],
+      "scale": [
+        34.362934362934446,
+        34.362934362934446
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1359.5,
+        931.5
+      ],
+      "glowScale": [
+        34.362934362934446,
+        34.362934362934446
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 22,
+      "glow_layer": 23,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        17.5,
+        262.5
+      ],
+      "scale": [
+        55.169455169455176,
+        55.169455169455176
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        17.5,
+        262.5
+      ],
+      "glowScale": [
+        55.169455169455176,
+        55.169455169455176
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 24,
+      "glow_layer": 25,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        997.5,
+        901.5
+      ],
+      "scale": [
+        25.225225225225245,
+        27.391677391677405
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        997.5,
+        901.5
+      ],
+      "glowScale": [
+        25.225225225225245,
+        27.391677391677405
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 26,
+      "glow_layer": 27,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        209.5,
+        537.5
+      ],
+      "scale": [
+        25.225225225225245,
+        27.391677391677405
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        209.5,
+        537.5
+      ],
+      "glowScale": [
+        25.225225225225245,
+        27.391677391677405
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 28,
+      "glow_layer": 29,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        465.5,
+        480.5
+      ],
+      "scale": [
+        32.947232947232955,
+        32.947232947232955
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        465.5,
+        480.5
+      ],
+      "glowScale": [
+        32.947232947232955,
+        32.947232947232955
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 30,
+      "glow_layer": 31,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        806.5,
+        606.5
+      ],
+      "scale": [
+        48.967978940181865,
+        48.967978940181865
+      ],
+      "angle": -7.041586132202239,
+      "glowPosition": [
+        806.5,
+        607.5
+      ],
+      "glowScale": [
+        48.967978940181865,
+        48.967978940181865
+      ],
+      "glowAngle": -7.041586132202239,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 32,
+      "glow_layer": 33,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        644.5,
+        282.5
+      ],
+      "scale": [
+        29.165841439900248,
+        29.165841439900248
+      ],
+      "angle": 15.379970386988978,
+      "glowPosition": [
+        644.5,
+        283.5
+      ],
+      "glowScale": [
+        29.165841439900248,
+        29.165841439900248
+      ],
+      "glowAngle": 15.379970386988978,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 34,
+      "glow_layer": 35,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        776.5,
+        912.5
+      ],
+      "scale": [
+        44.86673227814656,
+        44.86673227814656
+      ],
+      "angle": 117.83063911256679,
+      "glowPosition": [
+        776.5,
+        913.5
+      ],
+      "glowScale": [
+        44.86673227814656,
+        44.86673227814656
+      ],
+      "glowAngle": 117.83063911256679,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 36,
+      "glow_layer": 37,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        146.5,
+        358.5
+      ],
+      "scale": [
+        41.31274131274139,
+        41.31274131274139
+      ],
+      "angle": 49.821648801016,
+      "glowPosition": [
+        146.5,
+        359.5
+      ],
+      "glowScale": [
+        41.31274131274139,
+        41.31274131274139
+      ],
+      "glowAngle": 49.821648801016,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 38,
+      "glow_layer": 39,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        -21.5,
+        495.5
+      ],
+      "scale": [
+        47.46327911006388,
+        49.12283432370247
+      ],
+      "angle": -29.944862113463223,
+      "glowPosition": [
+        -21.5,
+        496.5
+      ],
+      "glowScale": [
+        47.46327911006388,
+        49.12283432370247
+      ],
+      "glowAngle": -29.944862113463223,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 40,
+      "glow_layer": 41,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        1062.5,
+        833.5
+      ],
+      "scale": [
+        47.46327911006388,
+        49.12283432370247
+      ],
+      "angle": 29.821334814105214,
+      "glowPosition": [
+        1062.5,
+        834.5
+      ],
+      "glowScale": [
+        47.46327911006388,
+        49.12283432370247
+      ],
+      "glowAngle": 29.821334814105214,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 42,
+      "glow_layer": 43,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        1608.5,
+        976.5
+      ],
+      "scale": [
+        44.4015444015444,
+        44.4015444015444
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1608.5,
+        977.5
+      ],
+      "glowScale": [
+        44.4015444015444,
+        44.4015444015444
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 44,
+      "glow_layer": 45,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        1570.5,
+        698.5
+      ],
+      "scale": [
+        44.4015444015444,
+        44.4015444015444
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1570.5,
+        699.5
+      ],
+      "glowScale": [
+        44.4015444015444,
+        44.4015444015444
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 46,
+      "glow_layer": 47,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": false,
+      "texture": "T40",
+      "glow": "T44",
+      "position": [
+        1234.5,
+        478.5
+      ],
+      "scale": [
+        44.4015444015444,
+        44.4015444015444
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1234.5,
+        479.5
+      ],
+      "glowScale": [
+        44.4015444015444,
+        44.4015444015444
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8313725490196079,
+      "radius": 66.0,
+      "intensity": 0.97,
+      "bloom": "Bloom00N",
+      "bloomBurst": "Bloom00B",
+      "padding": 132,
+      "kind": 2,
+      "highlight": "Bloom00H",
+      "body_layer": 48,
+      "glow_layer": 49,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 212.0,
+          "ADBE Glo2-0003": 66.0,
+          "ADBE Glo2-0004": 0.97,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {
+        "ADBE Gaussian Blur 2": {
+          "ADBE Gaussian Blur 2-0001": 30.399999999999995,
+          "ADBE Gaussian Blur 2-0002": 1,
+          "ADBE Gaussian Blur 2-0003": 1
+        }
+      }
+    },
+    {
+      "back": true,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        -141.5,
+        -22.5
+      ],
+      "scale": [
+        14.266649329437278,
+        15.137008038280023
+      ],
+      "angle": -28.168476475463514,
+      "glowPosition": [
+        -141.5,
+        -22.5
+      ],
+      "glowScale": [
+        14.266649329437278,
+        15.137008038280023
+      ],
+      "glowAngle": -28.168476475463514,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 1,
+      "glow_layer": 0,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        100.5,
+        125.5
+      ],
+      "scale": [
+        20.634920634920633,
+        20.634920634920633
+      ],
+      "angle": 25.300198469303353,
+      "glowPosition": [
+        100.5,
+        125.5
+      ],
+      "glowScale": [
+        20.634920634920633,
+        20.634920634920633
+      ],
+      "glowAngle": 25.300198469303353,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 2,
+      "glow_layer": 3,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        1692.5,
+        671.5
+      ],
+      "scale": [
+        18.531649428755454,
+        18.531649428755454
+      ],
+      "angle": 17.690361311751417,
+      "glowPosition": [
+        1692.5,
+        671.5
+      ],
+      "glowScale": [
+        18.531649428755454,
+        18.531649428755454
+      ],
+      "glowAngle": 17.690361311751417,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 4,
+      "glow_layer": 5,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        942.5,
+        301.5
+      ],
+      "scale": [
+        20.634920634920633,
+        20.634920634920633
+      ],
+      "angle": -27.309638688248583,
+      "glowPosition": [
+        942.5,
+        301.5
+      ],
+      "glowScale": [
+        20.634920634920633,
+        20.634920634920633
+      ],
+      "glowAngle": -27.309638688248583,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 6,
+      "glow_layer": 7,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        1534.5,
+        594.5
+      ],
+      "scale": [
+        13.026588135147938,
+        13.026588135147938
+      ],
+      "angle": 50.27526375747834,
+      "glowPosition": [
+        1534.5,
+        594.5
+      ],
+      "glowScale": [
+        13.026588135147938,
+        13.026588135147938
+      ],
+      "glowAngle": 50.27526375747834,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 8,
+      "glow_layer": 9,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        999.5,
+        348.5
+      ],
+      "scale": [
+        22.779922779922785,
+        19.96996996996997
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        999.5,
+        348.5
+      ],
+      "glowScale": [
+        22.779922779922785,
+        19.96996996996997
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 10,
+      "glow_layer": 11,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1481.5,
+        655.5
+      ],
+      "scale": [
+        23.144573144573133,
+        23.144573144573133
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1481.5,
+        655.5
+      ],
+      "glowScale": [
+        23.144573144573133,
+        23.144573144573133
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 12,
+      "glow_layer": 13,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1437.5,
+        506.5
+      ],
+      "scale": [
+        25.096525096525145,
+        25.096525096525145
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1437.5,
+        506.5
+      ],
+      "glowScale": [
+        25.096525096525145,
+        25.096525096525145
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 14,
+      "glow_layer": 15,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1441.5,
+        613.5
+      ],
+      "scale": [
+        19.176319176319193,
+        19.176319176319193
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1441.5,
+        613.5
+      ],
+      "glowScale": [
+        19.176319176319193,
+        19.176319176319193
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 16,
+      "glow_layer": 17,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        397.5,
+        153.5
+      ],
+      "scale": [
+        15.594165594165574,
+        15.401115401115387
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        397.5,
+        153.5
+      ],
+      "glowScale": [
+        15.594165594165574,
+        15.401115401115387
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 18,
+      "glow_layer": 19,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        434.5,
+        232.5
+      ],
+      "scale": [
+        22.543972543972536,
+        22.543972543972536
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        434.5,
+        232.5
+      ],
+      "glowScale": [
+        22.543972543972536,
+        22.543972543972536
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 20,
+      "glow_layer": 21,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        270.0,
+        169.0
+      ],
+      "scale": [
+        13.813813813813805,
+        13.813813813813805
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        270.0,
+        169.0
+      ],
+      "glowScale": [
+        13.813813813813805,
+        13.813813813813805
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 22,
+      "glow_layer": 23,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        336.5,
+        136.5
+      ],
+      "scale": [
+        22.543972543972536,
+        22.543972543972536
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        336.5,
+        136.5
+      ],
+      "glowScale": [
+        22.543972543972536,
+        22.543972543972536
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 24,
+      "glow_layer": 25,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        698.5,
+        202.5
+      ],
+      "scale": [
+        18.575718575718668,
+        18.575718575718668
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        698.5,
+        202.5
+      ],
+      "glowScale": [
+        18.575718575718668,
+        18.575718575718668
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 26,
+      "glow_layer": 27,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        497.5,
+        138.5
+      ],
+      "scale": [
+        16.259116259116308,
+        16.259116259116308
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        497.5,
+        138.5
+      ],
+      "glowScale": [
+        16.259116259116308,
+        16.259116259116308
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 28,
+      "glow_layer": 29,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        556.5,
+        223.5
+      ],
+      "scale": [
+        23.98112398112404,
+        23.98112398112404
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        556.5,
+        223.5
+      ],
+      "glowScale": [
+        23.98112398112404,
+        23.98112398112404
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 30,
+      "glow_layer": 31,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        716.5,
+        287.5
+      ],
+      "scale": [
+        16.151866151866237,
+        15.079365079365168
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        716.5,
+        287.5
+      ],
+      "glowScale": [
+        16.151866151866237,
+        15.079365079365168
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 32,
+      "glow_layer": 33,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        824.25,
+        168.75
+      ],
+      "scale": [
+        10.746460746460746,
+        10.746460746460746
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        824.25,
+        168.75
+      ],
+      "glowScale": [
+        10.746460746460746,
+        10.746460746460746
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 34,
+      "glow_layer": 35,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        733.25,
+        354.75
+      ],
+      "scale": [
+        10.746460746460746,
+        10.746460746460746
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        733.25,
+        354.75
+      ],
+      "glowScale": [
+        10.746460746460746,
+        10.746460746460746
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 36,
+      "glow_layer": 37,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        798.5,
+        334.5
+      ],
+      "scale": [
+        15.379665379665461,
+        15.379665379665461
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        798.5,
+        334.5
+      ],
+      "glowScale": [
+        15.379665379665461,
+        15.379665379665461
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 38,
+      "glow_layer": 39,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        181.5,
+        119.5
+      ],
+      "scale": [
+        15.079365079365154,
+        15.079365079365154
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        181.5,
+        119.5
+      ],
+      "glowScale": [
+        15.079365079365154,
+        15.079365079365154
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 40,
+      "glow_layer": 41,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        19.5,
+        92.5
+      ],
+      "scale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        19.5,
+        92.5
+      ],
+      "glowScale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 42,
+      "glow_layer": 43,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        -84.5,
+        -37.5
+      ],
+      "scale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        -84.5,
+        -37.5
+      ],
+      "glowScale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 44,
+      "glow_layer": 45,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1628.5,
+        601.5
+      ],
+      "scale": [
+        21.55727155727161,
+        24.603174603174708
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1628.5,
+        601.5
+      ],
+      "glowScale": [
+        21.55727155727161,
+        24.603174603174708
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 46,
+      "glow_layer": 47,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        77.5,
+        48.5
+      ],
+      "scale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        77.5,
+        48.5
+      ],
+      "glowScale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 48,
+      "glow_layer": 49,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        597.5,
+        272.5
+      ],
+      "scale": [
+        17.69626769626779,
+        17.69626769626779
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        597.5,
+        272.5
+      ],
+      "glowScale": [
+        17.69626769626779,
+        17.69626769626779
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 50,
+      "glow_layer": 51,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        -52.5,
+        51.5
+      ],
+      "scale": [
+        18.468468468468547,
+        18.468468468468547
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        -52.5,
+        51.5
+      ],
+      "glowScale": [
+        18.468468468468547,
+        18.468468468468547
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 52,
+      "glow_layer": 53,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        703.5,
+        341.5
+      ],
+      "scale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        703.5,
+        341.5
+      ],
+      "glowScale": [
+        26.190476190476275,
+        26.190476190476275
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 54,
+      "glow_layer": 55,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T42",
+      "glow": "T39",
+      "position": [
+        1185.5,
+        467.5
+      ],
+      "scale": [
+        29.236379236379335,
+        29.236379236379335
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1185.5,
+        467.5
+      ],
+      "glowScale": [
+        29.236379236379335,
+        29.236379236379335
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8627450980392157,
+      "radius": 65.0,
+      "intensity": 1.3100000000000003,
+      "bloom": "Bloom01N",
+      "bloomBurst": "Bloom01B",
+      "padding": 130,
+      "kind": 1,
+      "highlight": "Bloom01H",
+      "body_layer": 56,
+      "glow_layer": 57,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 220.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.3100000000000003,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        972.5,
+        438.5
+      ],
+      "scale": [
+        15.1437151437151,
+        14.04976404976401
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        972.0,
+        440.5
+      ],
+      "glowScale": [
+        15.1437151437151,
+        14.04976404976401
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 58,
+      "glow_layer": 59,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        315.5,
+        42.5
+      ],
+      "scale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        315.0,
+        44.5
+      ],
+      "glowScale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 60,
+      "glow_layer": 61,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1652.5,
+        724.5
+      ],
+      "scale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1652.0,
+        726.5
+      ],
+      "glowScale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 62,
+      "glow_layer": 63,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1541.5,
+        485.5
+      ],
+      "scale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1541.0,
+        487.5
+      ],
+      "glowScale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 64,
+      "glow_layer": 65,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1580.5,
+        688.5
+      ],
+      "scale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1580.0,
+        690.5
+      ],
+      "glowScale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 66,
+      "glow_layer": 67,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1306.5,
+        431.5
+      ],
+      "scale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1306.0,
+        433.5
+      ],
+      "glowScale": [
+        12.054912054912053,
+        12.054912054912053
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 68,
+      "glow_layer": 69,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1238.5,
+        512.5
+      ],
+      "scale": [
+        14.371514371514419,
+        14.371514371514419
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1238.0,
+        514.5
+      ],
+      "glowScale": [
+        14.371514371514419,
+        14.371514371514419
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 70,
+      "glow_layer": 71,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1104.5,
+        392.5
+      ],
+      "scale": [
+        19.00471900471906,
+        19.00471900471906
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1104.0,
+        394.5
+      ],
+      "glowScale": [
+        19.00471900471906,
+        19.00471900471906
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 72,
+      "glow_layer": 73,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1019.5,
+        453.5
+      ],
+      "scale": [
+        25.954525954525927,
+        25.954525954525927
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1019.0,
+        455.5
+      ],
+      "glowScale": [
+        25.954525954525927,
+        25.954525954525927
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 74,
+      "glow_layer": 75,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1567.5,
+        633.5
+      ],
+      "scale": [
+        25.954525954525927,
+        25.954525954525927
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1567.5,
+        633.5
+      ],
+      "glowScale": [
+        25.954525954525927,
+        25.954525954525927
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 76,
+      "glow_layer": 77,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    },
+    {
+      "back": true,
+      "texture": "T41",
+      "glow": "T34",
+      "position": [
+        1343.5,
+        557.5
+      ],
+      "scale": [
+        25.954525954525927,
+        25.954525954525927
+      ],
+      "angle": 0.0,
+      "glowPosition": [
+        1343.5,
+        557.5
+      ],
+      "glowScale": [
+        25.954525954525927,
+        25.954525954525927
+      ],
+      "glowAngle": 0.0,
+      "hue": 0.0,
+      "saturation": 0.0,
+      "threshold": 0.8196078431372549,
+      "radius": 65.0,
+      "intensity": 1.05,
+      "bloom": "Bloom02N",
+      "bloomBurst": "Bloom02B",
+      "padding": 130,
+      "kind": 0,
+      "highlight": "Bloom02H",
+      "body_layer": 78,
+      "glow_layer": 79,
+      "effects": {
+        "ADBE HUE SATURATION": {
+          "ADBE HUE SATURATION-0002": 1,
+          "ADBE HUE SATURATION-0003": null,
+          "ADBE HUE SATURATION-0004": 0,
+          "ADBE HUE SATURATION-0005": 0,
+          "ADBE HUE SATURATION-0006": 0,
+          "ADBE HUE SATURATION-0007": 0,
+          "ADBE HUE SATURATION-0008": 0,
+          "ADBE HUE SATURATION-0009": 25,
+          "ADBE HUE SATURATION-0010": 0
+        },
+        "ADBE Glo2": {
+          "ADBE Glo2-0001": 2,
+          "ADBE Glo2-0002": 209.0,
+          "ADBE Glo2-0003": 65.0,
+          "ADBE Glo2-0004": 1.05,
+          "ADBE Glo2-0005": 2,
+          "ADBE Glo2-0006": 3,
+          "ADBE Glo2-0007": 1,
+          "ADBE Glo2-0008": 3,
+          "ADBE Glo2-0009": 1,
+          "ADBE Glo2-0010": 0,
+          "ADBE Glo2-0011": 0.5,
+          "ADBE Glo2-0012": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "ADBE Glo2-0013": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ADBE Glo2-0014": 1
+        }
+      },
+      "glow_effects": {}
+    }
+  ]
+}

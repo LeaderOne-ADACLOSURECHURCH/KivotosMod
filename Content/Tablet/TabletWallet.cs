@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -14,10 +14,13 @@ public static class TabletWallet
     public const long CreditsPerPyroxene = 10000;
     public const long CreditsPerPlatinum = 1000000;
 
+    internal static Item[][] Storages(Player player) => new[] { player.inventory, player.bank.item };
+
     public static long GetTotalCredits(Player player)
     {
         long total = 0;
-        foreach (Item item in player.inventory)
+        foreach (Item[] storage in Storages(player))
+        foreach (Item item in storage)
             total += GetUnitValue(item.type) * item.stack;
         return total;
     }
@@ -44,10 +47,10 @@ public static class TabletWallet
         int[] denominationTypes =
         {
             ModContent.ItemType<UnionCredit>(),
+            ModContent.ItemType<Pyroxene>(),
             ItemID.CopperCoin,
             ItemID.SilverCoin,
             ItemID.GoldCoin,
-            ModContent.ItemType<Pyroxene>(),
             ItemID.PlatinumCoin,
         };
 
@@ -56,13 +59,15 @@ public static class TabletWallet
             long value = GetUnitValue(type);
             if (value <= 0) continue;
 
-            for (int i = 0; i < player.inventory.Length && paid < amount; i++)
+            bool convertRemainder = type == ModContent.ItemType<UnionCredit>() || type == ModContent.ItemType<Pyroxene>();
+            foreach (Item[] storage in Storages(player))
+            for (int i = 0; i < storage.Length && (paid < amount || convertRemainder); i++)
             {
-                Item item = player.inventory[i];
+                Item item = storage[i];
                 if (item.type != type || item.stack <= 0) continue;
 
                 long remaining = amount - paid;
-                long needed = (remaining + value - 1) / value;
+                long needed = convertRemainder ? item.stack : (remaining + value - 1) / value;
                 int take = (int)Math.Min(item.stack, needed);
                 if (take <= 0) continue;
 
@@ -88,26 +93,18 @@ public static class TabletWallet
 
     private static void GiveUnionCreditChange(Player player, long change)
     {
-        // Return large change as Pyroxene and the remainder as Union Credits.
-        // Example: paying 1 gold (10,000) for a 5,000-credit order returns 5,000 Union Credits.
-        int pyroxeneType = ModContent.ItemType<Pyroxene>();
-        int creditType = ModContent.ItemType<UnionCredit>();
-
-        long pyroxene = change / CreditsPerPyroxene;
-        long credits = change % CreditsPerPyroxene;
-
-        while (pyroxene > 0)
+        int[] types = { ItemID.PlatinumCoin, ItemID.GoldCoin, ItemID.SilverCoin, ItemID.CopperCoin };
+        foreach (int type in types)
         {
-            int stack = (int)Math.Min(pyroxene, 9999);
-            player.QuickSpawnItem(player.GetSource_Misc("KivotosTabletChange"), pyroxeneType, stack);
-            pyroxene -= stack;
-        }
-
-        while (credits > 0)
-        {
-            int stack = (int)Math.Min(credits, 9999);
-            player.QuickSpawnItem(player.GetSource_Misc("KivotosTabletChange"), creditType, stack);
-            credits -= stack;
+            long value = GetUnitValue(type);
+            long count = change / value;
+            change %= value;
+            while (count > 0)
+            {
+                int stack = (int)Math.Min(count, 9999);
+                player.QuickSpawnItem(player.GetSource_Misc("KivotosTabletChange"), type, stack);
+                count -= stack;
+            }
         }
     }
 }

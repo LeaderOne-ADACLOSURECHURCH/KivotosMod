@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "exactAtlasByteComparisons": 60,
+  "outfits": 20,
+  "newStableIds": 19,
+  "oldIdsUnchanged": true,
+  "saveAndNetworkWhitelist": true,
+  "excludedCharactersAbsent": true
+}

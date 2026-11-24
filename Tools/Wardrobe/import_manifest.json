@@ -1,0 +1,53 @@
+{
+  "Ibuki": {
+    "source": "伊吹.zip",
+    "headTop": 2,
+    "haloBottom": 60
+  },
+  "Iroha": {
+    "source": "伊吕波.zip",
+    "headTop": 6,
+    "haloBottom": 48
+  },
+  "Hikari": {
+    "source": "小光.zip",
+    "headTop": 4,
+    "haloBottom": 44
+  },
+  "Mika": {
+    "newHalo": {
+      "size": [
+        52,
+        26
+      ],
+      "bottom": 24
+    }
+  },
+  "Yuuka": {
+    "newHalo": {
+      "size": [
+        40,
+        21
+      ],
+      "bottom": 15
+    }
+  },
+  "Nagisa": {
+    "newHalo": {
+      "size": [
+        38,
+        44
+      ],
+      "bottom": 40
+    }
+  },
+  "Seia": {
+    "newHalo": {
+      "size": [
+        26,
+        26
+      ],
+      "bottom": 24
+    }
+  }
+}

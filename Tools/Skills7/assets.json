@@ -1,0 +1,101 @@
+[
+  {
+    "source": "护盾底部（横着读取）.png",
+    "output": "Assets\\Skills\\Shield\\Idle.png",
+    "size": [
+      2400,
+      2300
+    ],
+    "sha256": "cffc131398786383ef294e4dcf656cc3c70ad495d691141e2e16a19a09dcc82a",
+    "source_sha256": "532e69d5c94f02e5c3447e835d02720e32ee5726721b5cb24a88ebdcdc18be31",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "护盾生成.png",
+    "output": "Assets\\Skills\\Shield\\Spawn.png",
+    "size": [
+      100,
+      1500
+    ],
+    "sha256": "b2a025b52c587cdd6ca6dd21a16f909012e8f69bc620d07665239ec37faf10eb",
+    "source_sha256": "ff057152e0166e18bc399b3844eac333f9ea05650103c1cd2574929a405ccfd7",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "破碎.png",
+    "output": "Assets\\Skills\\Shield\\Break.png",
+    "size": [
+      250,
+      5500
+    ],
+    "sha256": "3e2744443d83e2595d235f171b93f252ae7c7bafeb321a6f12e48ddea1b33cf4",
+    "source_sha256": "3bbd774339fb60cb6dfe25ff5fd716b62bc351c5f54fae7c7ab9f51ebb80167e",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "9点.png",
+    "output": "Assets\\Skills\\Shield\\Hit9.png",
+    "size": [
+      100,
+      1500
+    ],
+    "sha256": "7b1943c4208a6e43da8d4c500c9ac5a8054a2bde9d404fb687e2c2e5917ec753",
+    "source_sha256": "fc4e3baa0aab18b3e39580d8c8afe7956520c061d2513cca29a4c9fb46385090",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "10点.png",
+    "output": "Assets\\Skills\\Shield\\Hit10.png",
+    "size": [
+      100,
+      1500
+    ],
+    "sha256": "a36e5f06058fdc97280716c6a8428a9e3bab4d9c747f7edf2761f92827d17888",
+    "source_sha256": "a71fdd0b4cf56b2928d6437b899d84491242e10c72fd0f3fee1cf3b55c5d323b",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "11点.png",
+    "output": "Assets\\Skills\\Shield\\Hit11.png",
+    "size": [
+      100,
+      1500
+    ],
+    "sha256": "9ba893fc94388e3c2891767e73db7e2d2253b1e161c30da5a0b7ff6c954f0a4d",
+    "source_sha256": "575c7871b9c404af45d34367c3fce5cfb4a3eaffbfe1aff1a44718bb3620bb8b",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "12点.png",
+    "output": "Assets\\Skills\\Shield\\Hit12.png",
+    "size": [
+      100,
+      1500
+    ],
+    "sha256": "8798e50b4fd3b8f64a2b275ee5022971afaa1449ce997cafd351b05872d3665b",
+    "source_sha256": "0fe21bc029c6b0558a9ff8e4370534bcb52256a899aed1e1093871722dd5542e",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "1点.png",
+    "output": "Assets\\Skills\\Shield\\Hit1.png",
+    "size": [
+      100,
+      1500
+    ],
+    "sha256": "143c6d2b8518e02383a52e8748ae2e561cea92de49942c65eeb798796157400f",
+    "source_sha256": "e12a7841f9e18adb9366e8d94acfeb34ae28804a42a1671516af9391b97170d4",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  },
+  {
+    "source": "2点.png",
+    "output": "Assets\\Skills\\Shield\\Hit2.png",
+    "size": [
+      100,
+      1500
+    ],
+    "sha256": "cf9475ff2e684da0782638a25c1f5daa6fdee35a2082d2f9801219bef2386367",
+    "source_sha256": "98312713ee2d3663f789fb9c4bf8764bc8c3a4b210ab8cf14324572652785cf6",
+    "alpha_format": "premultiplied RGBA8 for tML rawimg"
+  }
+]

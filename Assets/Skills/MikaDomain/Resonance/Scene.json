@@ -1,0 +1,6088 @@
+{
+  "comps": {
+    "冲击后段": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "白色气流",
+          "enabled": true,
+          "index": 0,
+          "inTime": 2.533333333333333,
+          "outTime": 12.533333333333333,
+          "sourceStart": 2.533333333333333,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": true,
+          "adjustment": false,
+          "comp": "白色气流",
+          "openScope": false,
+          "motion": 0,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "白色气流",
+          "enabled": true,
+          "index": 1,
+          "inTime": 2.2666666666666666,
+          "outTime": 12.266666666666666,
+          "sourceStart": 2.2666666666666666,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": true,
+          "adjustment": false,
+          "comp": "白色气流",
+          "openScope": false,
+          "motion": 75125,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "紫色带",
+          "enabled": true,
+          "index": 2,
+          "inTime": 3.966666666666667,
+          "outTime": 13.966666666666667,
+          "sourceStart": 3.966666666666667,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": true,
+          "adjustment": false,
+          "comp": "紫色带",
+          "openScope": false,
+          "motion": 90150,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星",
+          "enabled": true,
+          "index": 3,
+          "inTime": 3.4,
+          "outTime": 13.4,
+          "sourceStart": 3.4,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": true,
+          "adjustment": false,
+          "comp": "流星",
+          "openScope": false,
+          "motion": 180300,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流光环2",
+          "enabled": true,
+          "index": 4,
+          "inTime": 3.933333333333333,
+          "outTime": 13.933333333333334,
+          "sourceStart": 3.933333333333333,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": true,
+          "adjustment": false,
+          "comp": "流光环2",
+          "openScope": false,
+          "motion": 300500,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流光环2",
+          "enabled": true,
+          "index": 5,
+          "inTime": 2.5,
+          "outTime": 3.9,
+          "sourceStart": 2.5,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": true,
+          "adjustment": false,
+          "comp": "流光环2",
+          "openScope": false,
+          "motion": 420700,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "纯白.png",
+          "enabled": true,
+          "index": 6,
+          "inTime": 4.066666666666666,
+          "outTime": 9.866666666666667,
+          "sourceStart": -0.13333333333333333,
+          "stretch": 1.0,
+          "size": [
+            2224,
+            1668
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R11",
+          "paint": [],
+          "motion": 435725,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "纯粉.png",
+          "enabled": true,
+          "index": 7,
+          "inTime": 4.066666666666666,
+          "outTime": 9.866666666666667,
+          "sourceStart": -0.13333333333333333,
+          "stretch": 1.0,
+          "size": [
+            2224,
+            1668
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R12",
+          "paint": [],
+          "motion": 450750,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击前段",
+          "enabled": true,
+          "index": 8,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "冲击前段",
+          "openScope": true,
+          "motion": 465775,
+          "remap": true,
+          "warp": false
+        }
+      ]
+    },
+    "白色气流": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "调整图层 13",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": true,
+          "motion": 15025,
+          "remap": false,
+          "warp": true
+        },
+        {
+          "name": "白色气流色彩.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 2,
+          "matteMode": 1,
+          "texture": "R00",
+          "paint": [],
+          "motion": 30050,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "白色气流.png",
+          "enabled": true,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R01",
+          "paint": [],
+          "motion": 45075,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "白色气流底部.png",
+          "enabled": true,
+          "index": 3,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R02",
+          "paint": [],
+          "motion": 60100,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "紫色带": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "调整图层 11",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": true,
+          "motion": 105175,
+          "remap": false,
+          "warp": true
+        },
+        {
+          "name": "紫色带预合成",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "紫色带预合成",
+          "openScope": false,
+          "motion": 120200,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "紫色带预合成": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "调整图层 12",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": true,
+          "motion": 135225,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "紫带高光.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1164
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 2,
+          "matteMode": 1,
+          "texture": "R03",
+          "paint": [],
+          "motion": 150250,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "紫色带.png",
+          "enabled": true,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R04",
+          "paint": [],
+          "motion": 165275,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "流星": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "调整图层 9",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": true,
+          "motion": 195325,
+          "remap": false,
+          "warp": true
+        },
+        {
+          "name": "流星预合成",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "流星预合成",
+          "openScope": false,
+          "motion": 210350,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "流星预合成": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "流星高光3.png",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 4,
+          "matteMode": 1,
+          "texture": "R05",
+          "paint": [],
+          "motion": 225375,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星高光3.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 4,
+          "matteMode": 1,
+          "texture": "R05",
+          "paint": [],
+          "motion": 240400,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星底3.png",
+          "enabled": true,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R06",
+          "paint": [],
+          "motion": 255425,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星模糊3.png",
+          "enabled": true,
+          "index": 3,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R07",
+          "paint": [],
+          "motion": 270450,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星模糊3.png",
+          "enabled": false,
+          "index": 4,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R07",
+          "paint": [],
+          "motion": 285475,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "流光环2": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "调整图层 7",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": true,
+          "motion": 315525,
+          "remap": false,
+          "warp": true
+        },
+        {
+          "name": "流光环",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "流光环",
+          "openScope": false,
+          "motion": 330550,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "流光环": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "流星高光.png",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 4,
+          "matteMode": 1,
+          "texture": "R08",
+          "paint": [],
+          "motion": 345575,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星高光.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 4,
+          "matteMode": 1,
+          "texture": "R08",
+          "paint": [],
+          "motion": 360600,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星底.png",
+          "enabled": true,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R09",
+          "paint": [],
+          "motion": 375625,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星模糊.png",
+          "enabled": true,
+          "index": 3,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R10",
+          "paint": [],
+          "motion": 390650,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "流星模糊.png",
+          "enabled": false,
+          "index": 4,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            5000
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R10",
+          "paint": [],
+          "motion": 405675,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "冲击前段": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "调整图层 8",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": true,
+          "motion": 480800,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "彩虹光晕2.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1164
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R13",
+          "paint": [],
+          "motion": 495825,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "曝光3.png",
+          "enabled": true,
+          "index": 4,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1705,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R14",
+          "paint": [],
+          "motion": 510850,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "曝光4.png",
+          "enabled": true,
+          "index": 5,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R15",
+          "paint": [],
+          "motion": 525875,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "曝光2.png",
+          "enabled": true,
+          "index": 6,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1705,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R16",
+          "paint": [],
+          "motion": 540900,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "曝光1.png",
+          "enabled": true,
+          "index": 7,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1705,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R17",
+          "paint": [],
+          "motion": 555925,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击前亮2.png",
+          "enabled": true,
+          "index": 9,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R18",
+          "paint": [],
+          "motion": 570950,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击前亮1.png",
+          "enabled": true,
+          "index": 10,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R19",
+          "paint": [],
+          "motion": 585975,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击前亮2.png",
+          "enabled": true,
+          "index": 11,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R18",
+          "paint": [],
+          "motion": 601000,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击前高光",
+          "enabled": true,
+          "index": 12,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 14,
+          "matteMode": 1,
+          "texture": "R20",
+          "paint": [],
+          "motion": 616025,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击前高光2",
+          "enabled": true,
+          "index": 13,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 14,
+          "matteMode": 1,
+          "texture": "R21",
+          "paint": [],
+          "motion": 631050,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击前2.png",
+          "enabled": true,
+          "index": 14,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            3130,
+            2016
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R22",
+          "paint": [
+            [
+              0.23333,
+              "R23"
+            ],
+            [
+              9.999996666666668,
+              "R22"
+            ]
+          ],
+          "motion": 646075,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击中高光蒙",
+          "enabled": true,
+          "index": 15,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 16,
+          "matteMode": 1,
+          "texture": "R21",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            0.0,
+            0.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              0,
+              147
+            ],
+            [
+              1,
+              735,
+              147
+            ],
+            [
+              2,
+              1470,
+              147
+            ],
+            [
+              3,
+              2205,
+              147
+            ],
+            [
+              4,
+              2940,
+              147
+            ],
+            [
+              5,
+              3675,
+              147
+            ],
+            [
+              6,
+              4410,
+              147
+            ],
+            [
+              7,
+              5145,
+              147
+            ],
+            [
+              8,
+              5880,
+              147
+            ],
+            [
+              9,
+              6615,
+              147
+            ],
+            [
+              10,
+              7350,
+              147
+            ],
+            [
+              11,
+              8085,
+              144
+            ],
+            [
+              12,
+              8805,
+              144
+            ],
+            [
+              13,
+              9525,
+              144
+            ],
+            [
+              14,
+              10245,
+              144
+            ],
+            [
+              15,
+              10965,
+              144
+            ],
+            [
+              16,
+              11685,
+              144
+            ],
+            [
+              17,
+              12405,
+              144
+            ],
+            [
+              18,
+              13125,
+              144
+            ],
+            [
+              19,
+              13845,
+              144
+            ],
+            [
+              20,
+              14565,
+              144
+            ],
+            [
+              21,
+              15285,
+              144
+            ],
+            [
+              22,
+              16005,
+              144
+            ],
+            [
+              23,
+              16725,
+              144
+            ],
+            [
+              24,
+              17445,
+              144
+            ],
+            [
+              25,
+              18165,
+              144
+            ],
+            [
+              26,
+              18885,
+              144
+            ],
+            [
+              27,
+              19605,
+              144
+            ],
+            [
+              28,
+              20325,
+              144
+            ],
+            [
+              29,
+              21045,
+              144
+            ],
+            [
+              30,
+              21765,
+              144
+            ],
+            [
+              31,
+              22485,
+              144
+            ],
+            [
+              32,
+              23205,
+              144
+            ],
+            [
+              33,
+              23925,
+              144
+            ],
+            [
+              34,
+              24645,
+              144
+            ],
+            [
+              35,
+              25365,
+              144
+            ],
+            [
+              36,
+              26085,
+              144
+            ],
+            [
+              37,
+              26805,
+              144
+            ],
+            [
+              38,
+              27525,
+              144
+            ],
+            [
+              39,
+              28245,
+              144
+            ],
+            [
+              40,
+              28965,
+              144
+            ],
+            [
+              41,
+              29685,
+              144
+            ],
+            [
+              42,
+              30405,
+              144
+            ],
+            [
+              43,
+              31125,
+              144
+            ],
+            [
+              44,
+              31845,
+              144
+            ],
+            [
+              45,
+              32565,
+              144
+            ],
+            [
+              46,
+              33285,
+              144
+            ],
+            [
+              47,
+              34005,
+              144
+            ],
+            [
+              48,
+              34725,
+              144
+            ],
+            [
+              49,
+              35445,
+              144
+            ],
+            [
+              50,
+              36165,
+              144
+            ],
+            [
+              51,
+              36885,
+              144
+            ],
+            [
+              52,
+              37605,
+              144
+            ],
+            [
+              53,
+              38325,
+              144
+            ],
+            [
+              54,
+              39045,
+              144
+            ],
+            [
+              55,
+              39765,
+              144
+            ],
+            [
+              56,
+              40485,
+              144
+            ],
+            [
+              57,
+              41205,
+              144
+            ],
+            [
+              58,
+              41925,
+              144
+            ],
+            [
+              59,
+              42645,
+              144
+            ],
+            [
+              60,
+              43365,
+              144
+            ],
+            [
+              61,
+              44085,
+              144
+            ],
+            [
+              62,
+              44805,
+              144
+            ],
+            [
+              63,
+              45525,
+              144
+            ],
+            [
+              64,
+              46245,
+              144
+            ],
+            [
+              65,
+              46965,
+              144
+            ],
+            [
+              66,
+              47685,
+              144
+            ],
+            [
+              67,
+              48405,
+              144
+            ],
+            [
+              68,
+              49125,
+              144
+            ],
+            [
+              69,
+              49845,
+              144
+            ],
+            [
+              70,
+              50565,
+              144
+            ],
+            [
+              71,
+              51285,
+              144
+            ],
+            [
+              72,
+              52005,
+              144
+            ],
+            [
+              73,
+              52725,
+              144
+            ],
+            [
+              74,
+              53445,
+              144
+            ],
+            [
+              75,
+              54165,
+              144
+            ],
+            [
+              76,
+              54885,
+              144
+            ],
+            [
+              77,
+              55605,
+              144
+            ],
+            [
+              78,
+              56325,
+              144
+            ],
+            [
+              79,
+              57045,
+              144
+            ],
+            [
+              80,
+              57765,
+              144
+            ],
+            [
+              81,
+              58485,
+              144
+            ]
+          ],
+          "motion": 661100,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击中2.png",
+          "enabled": true,
+          "index": 16,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            3130,
+            2016
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 17,
+          "matteMode": 2,
+          "texture": "R24",
+          "paint": [],
+          "motion": 676125,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "喷流3.png",
+          "enabled": false,
+          "index": 17,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R25",
+          "paint": [
+            [
+              -3.333333333333333e-06,
+              "R26"
+            ],
+            [
+              9.999996666666666,
+              "R25"
+            ]
+          ],
+          "motion": 691150,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击下高光",
+          "enabled": true,
+          "index": 18,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 19,
+          "matteMode": 1,
+          "texture": "R27",
+          "paint": [],
+          "motion": 706175,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击下2.png",
+          "enabled": true,
+          "index": 19,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            3130,
+            2016
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 20,
+          "matteMode": 2,
+          "texture": "R28",
+          "paint": [],
+          "motion": 721200,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "喷流3.png",
+          "enabled": false,
+          "index": 20,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R25",
+          "paint": [
+            [
+              -3.333333333333333e-06,
+              "R26"
+            ],
+            [
+              9.999996666666666,
+              "R25"
+            ]
+          ],
+          "motion": 736225,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上高光",
+          "enabled": true,
+          "index": 24,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 25,
+          "matteMode": 2,
+          "texture": "R29",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            10.0,
+            10.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              59205,
+              147
+            ],
+            [
+              43,
+              59940,
+              147
+            ],
+            [
+              44,
+              60675,
+              147
+            ],
+            [
+              45,
+              61410,
+              144
+            ],
+            [
+              46,
+              62130,
+              144
+            ],
+            [
+              47,
+              62850,
+              144
+            ],
+            [
+              48,
+              63570,
+              144
+            ],
+            [
+              49,
+              64290,
+              144
+            ],
+            [
+              50,
+              65010,
+              144
+            ],
+            [
+              51,
+              65730,
+              144
+            ],
+            [
+              52,
+              66450,
+              144
+            ],
+            [
+              53,
+              67170,
+              144
+            ],
+            [
+              54,
+              67890,
+              144
+            ],
+            [
+              55,
+              68610,
+              144
+            ],
+            [
+              56,
+              69330,
+              144
+            ],
+            [
+              57,
+              70050,
+              144
+            ],
+            [
+              58,
+              70770,
+              144
+            ],
+            [
+              59,
+              71490,
+              144
+            ],
+            [
+              60,
+              72210,
+              144
+            ],
+            [
+              61,
+              72930,
+              144
+            ],
+            [
+              62,
+              73650,
+              144
+            ],
+            [
+              63,
+              74370,
+              144
+            ],
+            [
+              64,
+              75090,
+              144
+            ],
+            [
+              65,
+              75810,
+              144
+            ],
+            [
+              66,
+              76530,
+              144
+            ],
+            [
+              67,
+              77250,
+              144
+            ],
+            [
+              68,
+              77970,
+              144
+            ],
+            [
+              69,
+              78690,
+              144
+            ],
+            [
+              70,
+              79410,
+              144
+            ],
+            [
+              71,
+              80130,
+              144
+            ],
+            [
+              72,
+              80850,
+              144
+            ],
+            [
+              73,
+              81570,
+              144
+            ],
+            [
+              74,
+              82290,
+              144
+            ],
+            [
+              75,
+              83010,
+              144
+            ],
+            [
+              76,
+              83730,
+              144
+            ],
+            [
+              77,
+              84450,
+              144
+            ],
+            [
+              78,
+              85170,
+              144
+            ],
+            [
+              79,
+              85890,
+              144
+            ],
+            [
+              80,
+              86610,
+              144
+            ],
+            [
+              81,
+              87330,
+              144
+            ],
+            [
+              82,
+              88050,
+              144
+            ],
+            [
+              83,
+              88770,
+              144
+            ],
+            [
+              84,
+              89490,
+              144
+            ],
+            [
+              85,
+              90210,
+              144
+            ],
+            [
+              86,
+              90930,
+              144
+            ],
+            [
+              87,
+              91650,
+              144
+            ],
+            [
+              88,
+              92370,
+              144
+            ],
+            [
+              89,
+              93090,
+              144
+            ],
+            [
+              90,
+              93810,
+              144
+            ],
+            [
+              91,
+              94530,
+              144
+            ],
+            [
+              92,
+              95250,
+              144
+            ],
+            [
+              93,
+              95970,
+              144
+            ],
+            [
+              94,
+              96690,
+              144
+            ]
+          ],
+          "motion": 751250,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上遮罩.png",
+          "enabled": false,
+          "index": 25,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R30",
+          "paint": [],
+          "motion": 766275,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上.png",
+          "enabled": true,
+          "index": 26,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 27,
+          "matteMode": 2,
+          "texture": "R29",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            10.0,
+            10.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              97410,
+              147
+            ],
+            [
+              43,
+              98145,
+              147
+            ],
+            [
+              44,
+              98880,
+              147
+            ],
+            [
+              45,
+              99615,
+              144
+            ],
+            [
+              46,
+              100335,
+              144
+            ],
+            [
+              47,
+              101055,
+              144
+            ],
+            [
+              48,
+              101775,
+              144
+            ],
+            [
+              49,
+              102495,
+              144
+            ],
+            [
+              50,
+              103215,
+              144
+            ],
+            [
+              51,
+              103935,
+              144
+            ],
+            [
+              52,
+              104655,
+              144
+            ],
+            [
+              53,
+              105375,
+              144
+            ],
+            [
+              54,
+              106095,
+              144
+            ],
+            [
+              55,
+              106815,
+              144
+            ],
+            [
+              56,
+              107535,
+              144
+            ],
+            [
+              57,
+              108255,
+              144
+            ],
+            [
+              58,
+              108975,
+              144
+            ],
+            [
+              59,
+              109695,
+              144
+            ],
+            [
+              60,
+              110415,
+              144
+            ],
+            [
+              61,
+              111135,
+              144
+            ],
+            [
+              62,
+              111855,
+              144
+            ],
+            [
+              63,
+              112575,
+              144
+            ],
+            [
+              64,
+              113295,
+              144
+            ],
+            [
+              65,
+              114015,
+              144
+            ],
+            [
+              66,
+              114735,
+              144
+            ],
+            [
+              67,
+              115455,
+              144
+            ],
+            [
+              68,
+              116175,
+              144
+            ],
+            [
+              69,
+              116895,
+              144
+            ],
+            [
+              70,
+              117615,
+              144
+            ],
+            [
+              71,
+              118335,
+              144
+            ],
+            [
+              72,
+              119055,
+              144
+            ],
+            [
+              73,
+              119775,
+              144
+            ],
+            [
+              74,
+              120495,
+              144
+            ],
+            [
+              75,
+              121215,
+              144
+            ],
+            [
+              76,
+              121935,
+              144
+            ],
+            [
+              77,
+              122655,
+              144
+            ],
+            [
+              78,
+              123375,
+              144
+            ],
+            [
+              79,
+              124095,
+              144
+            ],
+            [
+              80,
+              124815,
+              144
+            ],
+            [
+              81,
+              125535,
+              144
+            ],
+            [
+              82,
+              126255,
+              144
+            ],
+            [
+              83,
+              126975,
+              144
+            ],
+            [
+              84,
+              127695,
+              144
+            ],
+            [
+              85,
+              128415,
+              144
+            ],
+            [
+              86,
+              129135,
+              144
+            ],
+            [
+              87,
+              129855,
+              144
+            ],
+            [
+              88,
+              130575,
+              144
+            ],
+            [
+              89,
+              131295,
+              144
+            ],
+            [
+              90,
+              132015,
+              144
+            ],
+            [
+              91,
+              132735,
+              144
+            ],
+            [
+              92,
+              133455,
+              144
+            ],
+            [
+              93,
+              134175,
+              144
+            ],
+            [
+              94,
+              134895,
+              144
+            ]
+          ],
+          "motion": 781300,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上遮罩.png",
+          "enabled": false,
+          "index": 27,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R30",
+          "paint": [],
+          "motion": 796325,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下2高光",
+          "enabled": true,
+          "index": 28,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 29,
+          "matteMode": 2,
+          "texture": "R31",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            10.0,
+            10.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              135615,
+              123
+            ],
+            [
+              34,
+              136230,
+              123
+            ],
+            [
+              35,
+              136845,
+              123
+            ],
+            [
+              36,
+              137460,
+              123
+            ],
+            [
+              37,
+              138075,
+              123
+            ],
+            [
+              38,
+              138690,
+              123
+            ],
+            [
+              39,
+              139305,
+              120
+            ],
+            [
+              40,
+              139905,
+              120
+            ],
+            [
+              41,
+              140505,
+              120
+            ],
+            [
+              42,
+              141105,
+              120
+            ],
+            [
+              43,
+              141705,
+              120
+            ],
+            [
+              44,
+              142305,
+              120
+            ],
+            [
+              45,
+              142905,
+              120
+            ],
+            [
+              46,
+              143505,
+              120
+            ],
+            [
+              47,
+              144105,
+              120
+            ],
+            [
+              48,
+              144705,
+              120
+            ],
+            [
+              49,
+              145305,
+              120
+            ],
+            [
+              50,
+              145905,
+              120
+            ],
+            [
+              51,
+              146505,
+              120
+            ],
+            [
+              52,
+              147105,
+              120
+            ],
+            [
+              53,
+              147705,
+              120
+            ],
+            [
+              54,
+              148305,
+              120
+            ],
+            [
+              55,
+              148905,
+              120
+            ],
+            [
+              56,
+              149505,
+              120
+            ],
+            [
+              57,
+              150105,
+              120
+            ],
+            [
+              58,
+              150705,
+              120
+            ],
+            [
+              59,
+              151305,
+              120
+            ],
+            [
+              60,
+              151905,
+              120
+            ],
+            [
+              61,
+              152505,
+              120
+            ],
+            [
+              62,
+              153105,
+              120
+            ],
+            [
+              63,
+              153705,
+              120
+            ],
+            [
+              64,
+              154305,
+              120
+            ],
+            [
+              65,
+              154905,
+              120
+            ],
+            [
+              66,
+              155505,
+              120
+            ],
+            [
+              67,
+              156105,
+              120
+            ],
+            [
+              68,
+              156705,
+              120
+            ],
+            [
+              69,
+              157305,
+              120
+            ],
+            [
+              70,
+              157905,
+              120
+            ],
+            [
+              71,
+              158505,
+              120
+            ],
+            [
+              72,
+              159105,
+              120
+            ],
+            [
+              73,
+              159705,
+              120
+            ],
+            [
+              74,
+              160305,
+              120
+            ],
+            [
+              75,
+              160905,
+              120
+            ],
+            [
+              76,
+              161505,
+              120
+            ],
+            [
+              77,
+              162105,
+              120
+            ],
+            [
+              78,
+              162705,
+              120
+            ],
+            [
+              79,
+              163305,
+              120
+            ],
+            [
+              80,
+              163905,
+              120
+            ],
+            [
+              81,
+              164505,
+              120
+            ],
+            [
+              82,
+              165105,
+              120
+            ],
+            [
+              83,
+              165705,
+              120
+            ],
+            [
+              84,
+              166305,
+              120
+            ],
+            [
+              85,
+              166905,
+              120
+            ],
+            [
+              86,
+              167505,
+              120
+            ],
+            [
+              87,
+              168105,
+              120
+            ],
+            [
+              88,
+              168705,
+              120
+            ],
+            [
+              89,
+              169305,
+              120
+            ],
+            [
+              90,
+              169905,
+              120
+            ]
+          ],
+          "motion": 811350,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下遮罩.png",
+          "enabled": false,
+          "index": 29,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R32",
+          "paint": [],
+          "motion": 826375,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下2.png",
+          "enabled": true,
+          "index": 30,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 31,
+          "matteMode": 2,
+          "texture": "R31",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            10.0,
+            10.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              170505,
+              123
+            ],
+            [
+              34,
+              171120,
+              123
+            ],
+            [
+              35,
+              171735,
+              123
+            ],
+            [
+              36,
+              172350,
+              123
+            ],
+            [
+              37,
+              172965,
+              123
+            ],
+            [
+              38,
+              173580,
+              123
+            ],
+            [
+              39,
+              174195,
+              120
+            ],
+            [
+              40,
+              174795,
+              120
+            ],
+            [
+              41,
+              175395,
+              120
+            ],
+            [
+              42,
+              175995,
+              120
+            ],
+            [
+              43,
+              176595,
+              120
+            ],
+            [
+              44,
+              177195,
+              120
+            ],
+            [
+              45,
+              177795,
+              120
+            ],
+            [
+              46,
+              178395,
+              120
+            ],
+            [
+              47,
+              178995,
+              120
+            ],
+            [
+              48,
+              179595,
+              120
+            ],
+            [
+              49,
+              180195,
+              120
+            ],
+            [
+              50,
+              180795,
+              120
+            ],
+            [
+              51,
+              181395,
+              120
+            ],
+            [
+              52,
+              181995,
+              120
+            ],
+            [
+              53,
+              182595,
+              120
+            ],
+            [
+              54,
+              183195,
+              120
+            ],
+            [
+              55,
+              183795,
+              120
+            ],
+            [
+              56,
+              184395,
+              120
+            ],
+            [
+              57,
+              184995,
+              120
+            ],
+            [
+              58,
+              185595,
+              120
+            ],
+            [
+              59,
+              186195,
+              120
+            ],
+            [
+              60,
+              186795,
+              120
+            ],
+            [
+              61,
+              187395,
+              120
+            ],
+            [
+              62,
+              187995,
+              120
+            ],
+            [
+              63,
+              188595,
+              120
+            ],
+            [
+              64,
+              189195,
+              120
+            ],
+            [
+              65,
+              189795,
+              120
+            ],
+            [
+              66,
+              190395,
+              120
+            ],
+            [
+              67,
+              190995,
+              120
+            ],
+            [
+              68,
+              191595,
+              120
+            ],
+            [
+              69,
+              192195,
+              120
+            ],
+            [
+              70,
+              192795,
+              120
+            ],
+            [
+              71,
+              193395,
+              120
+            ],
+            [
+              72,
+              193995,
+              120
+            ],
+            [
+              73,
+              194595,
+              120
+            ],
+            [
+              74,
+              195195,
+              120
+            ],
+            [
+              75,
+              195795,
+              120
+            ],
+            [
+              76,
+              196395,
+              120
+            ],
+            [
+              77,
+              196995,
+              120
+            ],
+            [
+              78,
+              197595,
+              120
+            ],
+            [
+              79,
+              198195,
+              120
+            ],
+            [
+              80,
+              198795,
+              120
+            ],
+            [
+              81,
+              199395,
+              120
+            ],
+            [
+              82,
+              199995,
+              120
+            ],
+            [
+              83,
+              200595,
+              120
+            ],
+            [
+              84,
+              201195,
+              120
+            ],
+            [
+              85,
+              201795,
+              120
+            ],
+            [
+              86,
+              202395,
+              120
+            ],
+            [
+              87,
+              202995,
+              120
+            ],
+            [
+              88,
+              203595,
+              120
+            ],
+            [
+              89,
+              204195,
+              120
+            ],
+            [
+              90,
+              204795,
+              120
+            ]
+          ],
+          "motion": 841400,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下遮罩.png",
+          "enabled": false,
+          "index": 31,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R32",
+          "paint": [],
+          "motion": 856425,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上星光 3",
+          "enabled": true,
+          "index": 33,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 36,
+          "matteMode": 1,
+          "texture": "R33",
+          "paint": [],
+          "motion": 871450,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上星光 2",
+          "enabled": true,
+          "index": 34,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 36,
+          "matteMode": 1,
+          "texture": "R33",
+          "paint": [],
+          "motion": 886475,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上星光",
+          "enabled": true,
+          "index": 35,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 36,
+          "matteMode": 1,
+          "texture": "R33",
+          "paint": [],
+          "motion": 901500,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上遮罩",
+          "enabled": false,
+          "index": 36,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "光幕上遮罩",
+          "openScope": false,
+          "motion": 916525,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下星光4",
+          "enabled": true,
+          "index": 37,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 40,
+          "matteMode": 1,
+          "texture": "R35",
+          "paint": [],
+          "motion": 961600,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下星光3",
+          "enabled": true,
+          "index": 38,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 40,
+          "matteMode": 1,
+          "texture": "R35",
+          "paint": [],
+          "motion": 976625,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下星光2",
+          "enabled": true,
+          "index": 39,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 40,
+          "matteMode": 1,
+          "texture": "R35",
+          "paint": [],
+          "motion": 991650,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下遮罩",
+          "enabled": false,
+          "index": 40,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "光幕下遮罩",
+          "openScope": false,
+          "motion": 1006675,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下纹理3",
+          "enabled": true,
+          "index": 41,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 45,
+          "matteMode": 1,
+          "texture": "R36",
+          "paint": [],
+          "motion": 1051750,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下遮罩",
+          "enabled": false,
+          "index": 45,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "光幕下遮罩",
+          "openScope": false,
+          "motion": 1066775,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击波边缘高光",
+          "enabled": true,
+          "index": 47,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 48,
+          "matteMode": 1,
+          "texture": "R37",
+          "paint": [],
+          "motion": 1081800,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击波边缘上",
+          "enabled": true,
+          "index": 48,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R38",
+          "paint": [
+            [
+              -3.333333333333333e-06,
+              "R39"
+            ],
+            [
+              9.999996666666666,
+              "R38"
+            ]
+          ],
+          "motion": 1096825,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击波边缘上",
+          "enabled": true,
+          "index": 49,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R40",
+          "paint": [
+            [
+              -3.333333333333333e-06,
+              "R41"
+            ],
+            [
+              9.999996666666666,
+              "R40"
+            ]
+          ],
+          "motion": 1111850,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击波边缘高光下",
+          "enabled": true,
+          "index": 50,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 51,
+          "matteMode": 1,
+          "texture": "R37",
+          "paint": [],
+          "motion": 1126875,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击波边缘下",
+          "enabled": true,
+          "index": 51,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R38",
+          "paint": [
+            [
+              -3.333333333333333e-06,
+              "R42"
+            ],
+            [
+              9.999996666666666,
+              "R38"
+            ]
+          ],
+          "motion": 1141900,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击波边缘下2",
+          "enabled": true,
+          "index": 52,
+          "inTime": -0.23333333333333334,
+          "outTime": 9.766666666666667,
+          "sourceStart": -0.23333333333333334,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R40",
+          "paint": [
+            [
+              -3.333333333333333e-06,
+              "R43"
+            ],
+            [
+              9.999996666666666,
+              "R40"
+            ]
+          ],
+          "motion": 1156925,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "光幕上遮罩": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "光幕上.png",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 2,
+          "matteMode": 2,
+          "texture": "R29",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            10.0,
+            10.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              205395,
+              147
+            ],
+            [
+              43,
+              206130,
+              147
+            ],
+            [
+              44,
+              206865,
+              147
+            ],
+            [
+              45,
+              207600,
+              144
+            ],
+            [
+              46,
+              208320,
+              144
+            ],
+            [
+              47,
+              209040,
+              144
+            ],
+            [
+              48,
+              209760,
+              144
+            ],
+            [
+              49,
+              210480,
+              144
+            ],
+            [
+              50,
+              211200,
+              144
+            ],
+            [
+              51,
+              211920,
+              144
+            ],
+            [
+              52,
+              212640,
+              144
+            ],
+            [
+              53,
+              213360,
+              144
+            ],
+            [
+              54,
+              214080,
+              144
+            ],
+            [
+              55,
+              214800,
+              144
+            ],
+            [
+              56,
+              215520,
+              144
+            ],
+            [
+              57,
+              216240,
+              144
+            ],
+            [
+              58,
+              216960,
+              144
+            ],
+            [
+              59,
+              217680,
+              144
+            ],
+            [
+              60,
+              218400,
+              144
+            ],
+            [
+              61,
+              219120,
+              144
+            ],
+            [
+              62,
+              219840,
+              144
+            ],
+            [
+              63,
+              220560,
+              144
+            ],
+            [
+              64,
+              221280,
+              144
+            ],
+            [
+              65,
+              222000,
+              144
+            ],
+            [
+              66,
+              222720,
+              144
+            ],
+            [
+              67,
+              223440,
+              144
+            ],
+            [
+              68,
+              224160,
+              144
+            ],
+            [
+              69,
+              224880,
+              144
+            ],
+            [
+              70,
+              225600,
+              144
+            ],
+            [
+              71,
+              226320,
+              144
+            ],
+            [
+              72,
+              227040,
+              144
+            ],
+            [
+              73,
+              227760,
+              144
+            ],
+            [
+              74,
+              228480,
+              144
+            ],
+            [
+              75,
+              229200,
+              144
+            ],
+            [
+              76,
+              229920,
+              144
+            ],
+            [
+              77,
+              230640,
+              144
+            ],
+            [
+              78,
+              231360,
+              144
+            ],
+            [
+              79,
+              232080,
+              144
+            ],
+            [
+              80,
+              232800,
+              144
+            ],
+            [
+              81,
+              233520,
+              144
+            ],
+            [
+              82,
+              234240,
+              144
+            ],
+            [
+              83,
+              234960,
+              144
+            ],
+            [
+              84,
+              235680,
+              144
+            ],
+            [
+              85,
+              236400,
+              144
+            ],
+            [
+              86,
+              237120,
+              144
+            ],
+            [
+              87,
+              237840,
+              144
+            ],
+            [
+              88,
+              238560,
+              144
+            ],
+            [
+              89,
+              239280,
+              144
+            ],
+            [
+              90,
+              240000,
+              144
+            ],
+            [
+              91,
+              240720,
+              144
+            ],
+            [
+              92,
+              241440,
+              144
+            ],
+            [
+              93,
+              242160,
+              144
+            ],
+            [
+              94,
+              242880,
+              144
+            ]
+          ],
+          "motion": 931550,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕上遮罩3.png",
+          "enabled": false,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R34",
+          "paint": [],
+          "motion": 946575,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "光幕下遮罩": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "光幕下2.png",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 1,
+          "matteMode": 2,
+          "texture": "R31",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            10.0,
+            10.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              243600,
+              123
+            ],
+            [
+              34,
+              244215,
+              123
+            ],
+            [
+              35,
+              244830,
+              123
+            ],
+            [
+              36,
+              245445,
+              123
+            ],
+            [
+              37,
+              246060,
+              123
+            ],
+            [
+              38,
+              246675,
+              123
+            ],
+            [
+              39,
+              247290,
+              120
+            ],
+            [
+              40,
+              247890,
+              120
+            ],
+            [
+              41,
+              248490,
+              120
+            ],
+            [
+              42,
+              249090,
+              120
+            ],
+            [
+              43,
+              249690,
+              120
+            ],
+            [
+              44,
+              250290,
+              120
+            ],
+            [
+              45,
+              250890,
+              120
+            ],
+            [
+              46,
+              251490,
+              120
+            ],
+            [
+              47,
+              252090,
+              120
+            ],
+            [
+              48,
+              252690,
+              120
+            ],
+            [
+              49,
+              253290,
+              120
+            ],
+            [
+              50,
+              253890,
+              120
+            ],
+            [
+              51,
+              254490,
+              120
+            ],
+            [
+              52,
+              255090,
+              120
+            ],
+            [
+              53,
+              255690,
+              120
+            ],
+            [
+              54,
+              256290,
+              120
+            ],
+            [
+              55,
+              256890,
+              120
+            ],
+            [
+              56,
+              257490,
+              120
+            ],
+            [
+              57,
+              258090,
+              120
+            ],
+            [
+              58,
+              258690,
+              120
+            ],
+            [
+              59,
+              259290,
+              120
+            ],
+            [
+              60,
+              259890,
+              120
+            ],
+            [
+              61,
+              260490,
+              120
+            ],
+            [
+              62,
+              261090,
+              120
+            ],
+            [
+              63,
+              261690,
+              120
+            ],
+            [
+              64,
+              262290,
+              120
+            ],
+            [
+              65,
+              262890,
+              120
+            ],
+            [
+              66,
+              263490,
+              120
+            ],
+            [
+              67,
+              264090,
+              120
+            ],
+            [
+              68,
+              264690,
+              120
+            ],
+            [
+              69,
+              265290,
+              120
+            ],
+            [
+              70,
+              265890,
+              120
+            ],
+            [
+              71,
+              266490,
+              120
+            ],
+            [
+              72,
+              267090,
+              120
+            ],
+            [
+              73,
+              267690,
+              120
+            ],
+            [
+              74,
+              268290,
+              120
+            ],
+            [
+              75,
+              268890,
+              120
+            ],
+            [
+              76,
+              269490,
+              120
+            ],
+            [
+              77,
+              270090,
+              120
+            ],
+            [
+              78,
+              270690,
+              120
+            ],
+            [
+              79,
+              271290,
+              120
+            ],
+            [
+              80,
+              271890,
+              120
+            ],
+            [
+              81,
+              272490,
+              120
+            ],
+            [
+              82,
+              273090,
+              120
+            ],
+            [
+              83,
+              273690,
+              120
+            ],
+            [
+              84,
+              274290,
+              120
+            ],
+            [
+              85,
+              274890,
+              120
+            ],
+            [
+              86,
+              275490,
+              120
+            ],
+            [
+              87,
+              276090,
+              120
+            ],
+            [
+              88,
+              276690,
+              120
+            ],
+            [
+              89,
+              277290,
+              120
+            ],
+            [
+              90,
+              277890,
+              120
+            ]
+          ],
+          "motion": 1021700,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "光幕下遮罩.png",
+          "enabled": false,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R32",
+          "paint": [],
+          "motion": 1036725,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "裂纹动画": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "纯白.png",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2224,
+            1668
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R11",
+          "paint": [],
+          "motion": 1171950,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹高光.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R44",
+          "paint": [],
+          "motion": 1186975,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹光晕2.png",
+          "enabled": true,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R45",
+          "paint": [],
+          "motion": 1202000,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹光晕.png",
+          "enabled": true,
+          "index": 3,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R46",
+          "paint": [],
+          "motion": 1217025,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹竖细",
+          "enabled": true,
+          "index": 5,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R47",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              278490,
+              156
+            ],
+            [
+              32,
+              279270,
+              327
+            ],
+            [
+              33,
+              280905,
+              429
+            ],
+            [
+              34,
+              283050,
+              726
+            ],
+            [
+              35,
+              286680,
+              717
+            ],
+            [
+              36,
+              290265,
+              720
+            ],
+            [
+              37,
+              293865,
+              732
+            ],
+            [
+              38,
+              297525,
+              762
+            ],
+            [
+              39,
+              301335,
+              858
+            ],
+            [
+              40,
+              305625,
+              1050
+            ],
+            [
+              41,
+              310875,
+              1077
+            ],
+            [
+              42,
+              316260,
+              1101
+            ],
+            [
+              43,
+              321765,
+              1131
+            ],
+            [
+              44,
+              327420,
+              1245
+            ],
+            [
+              45,
+              333645,
+              1278
+            ],
+            [
+              46,
+              340035,
+              1290
+            ],
+            [
+              47,
+              346485,
+              1302
+            ],
+            [
+              48,
+              352995,
+              1335
+            ],
+            [
+              49,
+              359670,
+              1365
+            ],
+            [
+              50,
+              366495,
+              1392
+            ],
+            [
+              51,
+              373455,
+              1569
+            ],
+            [
+              52,
+              381300,
+              1725
+            ],
+            [
+              53,
+              389925,
+              1803
+            ],
+            [
+              54,
+              398940,
+              2139
+            ],
+            [
+              55,
+              409635,
+              2502
+            ],
+            [
+              56,
+              422145,
+              2775
+            ],
+            [
+              57,
+              436020,
+              2781
+            ],
+            [
+              58,
+              449925,
+              3111
+            ],
+            [
+              59,
+              465480,
+              3138
+            ],
+            [
+              60,
+              481170,
+              3174
+            ],
+            [
+              61,
+              497040,
+              3339
+            ],
+            [
+              62,
+              513735,
+              3579
+            ],
+            [
+              63,
+              531630,
+              3675
+            ],
+            [
+              64,
+              550005,
+              3693
+            ],
+            [
+              65,
+              568470,
+              3714
+            ],
+            [
+              66,
+              587040,
+              3726
+            ],
+            [
+              67,
+              605670,
+              3732
+            ],
+            [
+              68,
+              624330,
+              3750
+            ],
+            [
+              69,
+              643080,
+              3822
+            ],
+            [
+              70,
+              662190,
+              4026
+            ],
+            [
+              73,
+              682320,
+              4029
+            ],
+            [
+              74,
+              702465,
+              4029
+            ],
+            [
+              75,
+              722610,
+              4077
+            ]
+          ],
+          "motion": 1232050,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹竖粗",
+          "enabled": true,
+          "index": 6,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 5,
+          "matteMode": 2,
+          "texture": "R47",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              742995,
+              903
+            ],
+            [
+              1,
+              747510,
+              879
+            ],
+            [
+              2,
+              751905,
+              888
+            ],
+            [
+              3,
+              756345,
+              882
+            ],
+            [
+              4,
+              760755,
+              888
+            ],
+            [
+              5,
+              765195,
+              897
+            ],
+            [
+              6,
+              769680,
+              915
+            ],
+            [
+              7,
+              774255,
+              921
+            ],
+            [
+              8,
+              778860,
+              924
+            ],
+            [
+              9,
+              783480,
+              924
+            ],
+            [
+              10,
+              788100,
+              966
+            ],
+            [
+              11,
+              792930,
+              996
+            ],
+            [
+              12,
+              797910,
+              1017
+            ],
+            [
+              13,
+              802995,
+              1068
+            ],
+            [
+              14,
+              808335,
+              1170
+            ],
+            [
+              15,
+              814185,
+              1179
+            ],
+            [
+              16,
+              820080,
+              1194
+            ],
+            [
+              17,
+              826050,
+              1218
+            ],
+            [
+              18,
+              832140,
+              1344
+            ],
+            [
+              19,
+              838860,
+              1359
+            ],
+            [
+              20,
+              845655,
+              1356
+            ],
+            [
+              21,
+              852435,
+              1368
+            ],
+            [
+              22,
+              859275,
+              1395
+            ],
+            [
+              23,
+              866250,
+              1560
+            ],
+            [
+              24,
+              874050,
+              1536
+            ],
+            [
+              25,
+              881730,
+              1551
+            ],
+            [
+              26,
+              889485,
+              1569
+            ],
+            [
+              27,
+              897330,
+              1587
+            ],
+            [
+              28,
+              905265,
+              1605
+            ],
+            [
+              29,
+              913290,
+              1701
+            ],
+            [
+              30,
+              921795,
+              1728
+            ],
+            [
+              31,
+              930435,
+              1734
+            ],
+            [
+              32,
+              939105,
+              1746
+            ],
+            [
+              33,
+              947835,
+              1749
+            ],
+            [
+              34,
+              956580,
+              1752
+            ],
+            [
+              35,
+              965340,
+              1770
+            ],
+            [
+              36,
+              974190,
+              1788
+            ],
+            [
+              37,
+              983130,
+              1800
+            ],
+            [
+              38,
+              992130,
+              1806
+            ],
+            [
+              39,
+              1001160,
+              1914
+            ],
+            [
+              40,
+              1010730,
+              1932
+            ],
+            [
+              41,
+              1020390,
+              1947
+            ],
+            [
+              42,
+              1030125,
+              1971
+            ],
+            [
+              43,
+              1039980,
+              1995
+            ],
+            [
+              44,
+              1049955,
+              2013
+            ],
+            [
+              45,
+              1060020,
+              2022
+            ],
+            [
+              46,
+              1070130,
+              2031
+            ],
+            [
+              47,
+              1080285,
+              2046
+            ],
+            [
+              48,
+              1090515,
+              2064
+            ],
+            [
+              49,
+              1100835,
+              2079
+            ],
+            [
+              50,
+              1111230,
+              2106
+            ],
+            [
+              51,
+              1121760,
+              2124
+            ],
+            [
+              52,
+              1132380,
+              2139
+            ],
+            [
+              53,
+              1143075,
+              2547
+            ]
+          ],
+          "motion": 1247075,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹横内",
+          "enabled": true,
+          "index": 8,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R48",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              1155810,
+              0
+            ],
+            [
+              65,
+              1155810,
+              84
+            ],
+            [
+              68,
+              1156230,
+              123
+            ],
+            [
+              69,
+              1156845,
+              180
+            ],
+            [
+              71,
+              1157745,
+              234
+            ],
+            [
+              76,
+              1158915,
+              315
+            ],
+            [
+              78,
+              1160490,
+              363
+            ],
+            [
+              79,
+              1162305,
+              408
+            ],
+            [
+              80,
+              1164345,
+              486
+            ],
+            [
+              81,
+              1166775,
+              612
+            ],
+            [
+              84,
+              1169835,
+              660
+            ],
+            [
+              85,
+              1173135,
+              723
+            ],
+            [
+              86,
+              1176750,
+              804
+            ],
+            [
+              88,
+              1180770,
+              1008
+            ],
+            [
+              89,
+              1185810,
+              1236
+            ],
+            [
+              90,
+              1191990,
+              1632
+            ],
+            [
+              92,
+              1200150,
+              1890
+            ],
+            [
+              94,
+              1209600,
+              2028
+            ]
+          ],
+          "motion": 1262100,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹横外",
+          "enabled": true,
+          "index": 10,
+          "inTime": -0.2,
+          "outTime": 4.066666666666666,
+          "sourceStart": -0.2,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R49",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              1219740,
+              0
+            ],
+            [
+              98,
+              1219740,
+              207
+            ],
+            [
+              100,
+              1220775,
+              381
+            ],
+            [
+              105,
+              1222680,
+              504
+            ],
+            [
+              106,
+              1225200,
+              750
+            ],
+            [
+              108,
+              1228950,
+              930
+            ],
+            [
+              109,
+              1233600,
+              1017
+            ],
+            [
+              110,
+              1238685,
+              1197
+            ],
+            [
+              113,
+              1244670,
+              1347
+            ],
+            [
+              116,
+              1251405,
+              1578
+            ]
+          ],
+          "motion": 1277125,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "纯粉.png",
+          "enabled": true,
+          "index": 12,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2224,
+            1668
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 13,
+          "matteMode": 1,
+          "texture": "R12",
+          "paint": [],
+          "motion": 1292150,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹模糊",
+          "enabled": true,
+          "index": 13,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": true,
+          "adjustment": false,
+          "comp": "裂纹模糊",
+          "openScope": false,
+          "motion": 1307175,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "纯粉.png",
+          "enabled": true,
+          "index": 14,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2224,
+            1668
+          ],
+          "additive": true,
+          "adjustment": false,
+          "matte": 16,
+          "matteMode": 1,
+          "texture": "R12",
+          "paint": [],
+          "maskInverted": true,
+          "maskFeather": [
+            143.0,
+            143.0
+          ],
+          "maskFrames": [
+            [
+              0,
+              2237670,
+              186
+            ]
+          ],
+          "motion": 1382300,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "纯粉.png",
+          "enabled": true,
+          "index": 15,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2224,
+            1668
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 16,
+          "matteMode": 1,
+          "texture": "R12",
+          "paint": [],
+          "motion": 1397325,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹模糊",
+          "enabled": true,
+          "index": 16,
+          "inTime": 0.0,
+          "outTime": 4.066666666666666,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "裂纹模糊",
+          "openScope": false,
+          "motion": 1412350,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "裂纹模糊": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "裂纹竖模糊细",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R50",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              1259295,
+              156
+            ],
+            [
+              32,
+              1260075,
+              327
+            ],
+            [
+              33,
+              1261710,
+              429
+            ],
+            [
+              34,
+              1263855,
+              726
+            ],
+            [
+              35,
+              1267485,
+              717
+            ],
+            [
+              36,
+              1271070,
+              720
+            ],
+            [
+              37,
+              1274670,
+              732
+            ],
+            [
+              38,
+              1278330,
+              762
+            ],
+            [
+              39,
+              1282140,
+              858
+            ],
+            [
+              40,
+              1286430,
+              1050
+            ],
+            [
+              41,
+              1291680,
+              1077
+            ],
+            [
+              42,
+              1297065,
+              1101
+            ],
+            [
+              43,
+              1302570,
+              1131
+            ],
+            [
+              44,
+              1308225,
+              1245
+            ],
+            [
+              45,
+              1314450,
+              1278
+            ],
+            [
+              46,
+              1320840,
+              1290
+            ],
+            [
+              47,
+              1327290,
+              1302
+            ],
+            [
+              48,
+              1333800,
+              1335
+            ],
+            [
+              49,
+              1340475,
+              1365
+            ],
+            [
+              50,
+              1347300,
+              1392
+            ],
+            [
+              51,
+              1354260,
+              1569
+            ],
+            [
+              52,
+              1362105,
+              1725
+            ],
+            [
+              53,
+              1370730,
+              1803
+            ],
+            [
+              54,
+              1379745,
+              2139
+            ],
+            [
+              55,
+              1390440,
+              2502
+            ],
+            [
+              56,
+              1402950,
+              2775
+            ],
+            [
+              57,
+              1416825,
+              2781
+            ],
+            [
+              58,
+              1430730,
+              3111
+            ],
+            [
+              59,
+              1446285,
+              3138
+            ],
+            [
+              60,
+              1461975,
+              3174
+            ],
+            [
+              61,
+              1477845,
+              3339
+            ],
+            [
+              62,
+              1494540,
+              3579
+            ],
+            [
+              63,
+              1512435,
+              3675
+            ],
+            [
+              64,
+              1530810,
+              3693
+            ],
+            [
+              65,
+              1549275,
+              3714
+            ],
+            [
+              66,
+              1567845,
+              3726
+            ],
+            [
+              67,
+              1586475,
+              3732
+            ],
+            [
+              68,
+              1605135,
+              3750
+            ],
+            [
+              69,
+              1623885,
+              3822
+            ],
+            [
+              70,
+              1642995,
+              4026
+            ],
+            [
+              73,
+              1663125,
+              4029
+            ],
+            [
+              74,
+              1683270,
+              4029
+            ],
+            [
+              75,
+              1703415,
+              4077
+            ]
+          ],
+          "motion": 1322200,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹竖模糊粗",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "matte": 0,
+          "matteMode": 2,
+          "texture": "R50",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              1723800,
+              903
+            ],
+            [
+              1,
+              1728315,
+              879
+            ],
+            [
+              2,
+              1732710,
+              888
+            ],
+            [
+              3,
+              1737150,
+              882
+            ],
+            [
+              4,
+              1741560,
+              888
+            ],
+            [
+              5,
+              1746000,
+              897
+            ],
+            [
+              6,
+              1750485,
+              915
+            ],
+            [
+              7,
+              1755060,
+              921
+            ],
+            [
+              8,
+              1759665,
+              924
+            ],
+            [
+              9,
+              1764285,
+              924
+            ],
+            [
+              10,
+              1768905,
+              966
+            ],
+            [
+              11,
+              1773735,
+              996
+            ],
+            [
+              12,
+              1778715,
+              1017
+            ],
+            [
+              13,
+              1783800,
+              1068
+            ],
+            [
+              14,
+              1789140,
+              1170
+            ],
+            [
+              15,
+              1794990,
+              1179
+            ],
+            [
+              16,
+              1800885,
+              1194
+            ],
+            [
+              17,
+              1806855,
+              1215
+            ],
+            [
+              18,
+              1812930,
+              1341
+            ],
+            [
+              19,
+              1819635,
+              1356
+            ],
+            [
+              20,
+              1826415,
+              1353
+            ],
+            [
+              21,
+              1833180,
+              1365
+            ],
+            [
+              22,
+              1840005,
+              1389
+            ],
+            [
+              23,
+              1846950,
+              1482
+            ],
+            [
+              24,
+              1854360,
+              1518
+            ],
+            [
+              25,
+              1861950,
+              1536
+            ],
+            [
+              26,
+              1869630,
+              1554
+            ],
+            [
+              27,
+              1877400,
+              1563
+            ],
+            [
+              28,
+              1885215,
+              1584
+            ],
+            [
+              29,
+              1893135,
+              1662
+            ],
+            [
+              30,
+              1901445,
+              1689
+            ],
+            [
+              31,
+              1909890,
+              1698
+            ],
+            [
+              32,
+              1918380,
+              1725
+            ],
+            [
+              33,
+              1927005,
+              1731
+            ],
+            [
+              34,
+              1935660,
+              1740
+            ],
+            [
+              35,
+              1944360,
+              1758
+            ],
+            [
+              36,
+              1953150,
+              1776
+            ],
+            [
+              37,
+              1962030,
+              1791
+            ],
+            [
+              38,
+              1970985,
+              1800
+            ],
+            [
+              39,
+              1979985,
+              1908
+            ],
+            [
+              40,
+              1989525,
+              1926
+            ],
+            [
+              41,
+              1999155,
+              1941
+            ],
+            [
+              42,
+              2008860,
+              1965
+            ],
+            [
+              43,
+              2018685,
+              1989
+            ],
+            [
+              44,
+              2028630,
+              2007
+            ],
+            [
+              45,
+              2038665,
+              2016
+            ],
+            [
+              46,
+              2048745,
+              2025
+            ],
+            [
+              47,
+              2058870,
+              2040
+            ],
+            [
+              48,
+              2069070,
+              2058
+            ],
+            [
+              49,
+              2079360,
+              2073
+            ],
+            [
+              50,
+              2089725,
+              2100
+            ],
+            [
+              51,
+              2100225,
+              2118
+            ],
+            [
+              52,
+              2110815,
+              2133
+            ],
+            [
+              53,
+              2121480,
+              2541
+            ]
+          ],
+          "motion": 1337225,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹横外模糊.png",
+          "enabled": true,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R51",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              2134185,
+              0
+            ],
+            [
+              98,
+              2134185,
+              207
+            ],
+            [
+              100,
+              2135220,
+              381
+            ],
+            [
+              105,
+              2137125,
+              504
+            ],
+            [
+              106,
+              2139645,
+              750
+            ],
+            [
+              108,
+              2143395,
+              930
+            ],
+            [
+              109,
+              2148045,
+              1017
+            ],
+            [
+              110,
+              2153130,
+              1197
+            ],
+            [
+              113,
+              2159115,
+              1347
+            ],
+            [
+              116,
+              2165850,
+              1578
+            ]
+          ],
+          "motion": 1352250,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "裂纹横内模糊.png",
+          "enabled": true,
+          "index": 3,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R52",
+          "paint": [],
+          "maskFrames": [
+            [
+              0,
+              2173740,
+              0
+            ],
+            [
+              65,
+              2173740,
+              84
+            ],
+            [
+              68,
+              2174160,
+              123
+            ],
+            [
+              69,
+              2174775,
+              180
+            ],
+            [
+              71,
+              2175675,
+              234
+            ],
+            [
+              76,
+              2176845,
+              315
+            ],
+            [
+              78,
+              2178420,
+              363
+            ],
+            [
+              79,
+              2180235,
+              408
+            ],
+            [
+              80,
+              2182275,
+              486
+            ],
+            [
+              81,
+              2184705,
+              612
+            ],
+            [
+              84,
+              2187765,
+              660
+            ],
+            [
+              85,
+              2191065,
+              723
+            ],
+            [
+              86,
+              2194680,
+              804
+            ],
+            [
+              88,
+              2198700,
+              1008
+            ],
+            [
+              89,
+              2203740,
+              1236
+            ],
+            [
+              90,
+              2209920,
+              1632
+            ],
+            [
+              92,
+              2218080,
+              1890
+            ],
+            [
+              94,
+              2227530,
+              2028
+            ]
+          ],
+          "motion": 1367275,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "时间重映射": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "匀速运动",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "匀速运动",
+          "openScope": false,
+          "motion": 1427375,
+          "remap": true,
+          "warp": false
+        }
+      ]
+    },
+    "匀速运动": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "星3.png",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            259,
+            252
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R53",
+          "paint": [],
+          "motion": 1442400,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "星3.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            259,
+            252
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R53",
+          "paint": [],
+          "motion": 1457425,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "星3.png",
+          "enabled": true,
+          "index": 2,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            259,
+            252
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R53",
+          "paint": [],
+          "motion": 1472450,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "实现极坐标": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "调整图层 1",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": true,
+          "motion": 1487475,
+          "remap": false,
+          "warp": true
+        },
+        {
+          "name": "冲击前亮1.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": false,
+          "adjustment": false,
+          "texture": "R19",
+          "paint": [],
+          "motion": 1502500,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "预合成控制功能": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "发光",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "发光",
+          "openScope": false,
+          "motion": 1517525,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "匀速运动",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            2015,
+            1302
+          ],
+          "additive": false,
+          "adjustment": false,
+          "comp": "匀速运动",
+          "openScope": false,
+          "motion": 1562600,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    },
+    "发光": {
+      "width": 2015,
+      "height": 1302,
+      "duration": 10.0,
+      "layers": [
+        {
+          "name": "冲击波边缘高光.png",
+          "enabled": true,
+          "index": 0,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R37",
+          "paint": [],
+          "motion": 1532550,
+          "remap": false,
+          "warp": false
+        },
+        {
+          "name": "冲击波边缘高光.png",
+          "enabled": true,
+          "index": 1,
+          "inTime": 0.0,
+          "outTime": 10.0,
+          "sourceStart": 0.0,
+          "stretch": 1.0,
+          "size": [
+            1559,
+            1007
+          ],
+          "additive": true,
+          "adjustment": false,
+          "texture": "R37",
+          "paint": [],
+          "motion": 1547575,
+          "remap": false,
+          "warp": false
+        }
+      ]
+    }
+  },
+  "audio": [
+    {
+      "tick": 70,
+      "name": "Cue0",
+      "opening": false
+    },
+    {
+      "tick": 8,
+      "name": "Cue1",
+      "opening": false
+    },
+    {
+      "tick": 96,
+      "name": "Cue2",
+      "opening": true
+    }
+  ],
+  "textures": {
+    "R00": [
+      0,
+      0,
+      1559,
+      5000
+    ],
+    "R01": [
+      130,
+      75,
+      1328,
+      4895
+    ],
+    "R02": [
+      118,
+      72,
+      1353,
+      4900
+    ],
+    "R03": [
+      0,
+      0,
+      1559,
+      577
+    ],
+    "R04": [
+      0,
+      0,
+      1559,
+      5000
+    ],
+    "R05": [
+      0,
+      1885,
+      1559,
+      3115
+    ],
+    "R06": [
+      22,
+      12,
+      1523,
+      4981
+    ],
+    "R07": [
+      15,
+      9,
+      1537,
+      4984
+    ],
+    "R08": [
+      0,
+      3141,
+      1559,
+      1859
+    ],
+    "R09": [
+      43,
+      0,
+      1505,
+      5000
+    ],
+    "R10": [
+      0,
+      6,
+      1559,
+      4994
+    ],
+    "R11": [
+      0,
+      0,
+      2224,
+      1668
+    ],
+    "R12": [
+      0,
+      0,
+      2224,
+      1668
+    ],
+    "R13": [
+      322,
+      74,
+      959,
+      960
+    ],
+    "R14": [
+      5,
+      2,
+      1696,
+      946
+    ],
+    "R15": [
+      86,
+      118,
+      1427,
+      727
+    ],
+    "R16": [
+      100,
+      75,
+      1602,
+      793
+    ],
+    "R17": [
+      206,
+      160,
+      1345,
+      669
+    ],
+    "R18": [
+      0,
+      154,
+      1559,
+      587
+    ],
+    "R19": [
+      0,
+      230,
+      1559,
+      463
+    ],
+    "R20": [
+      106,
+      185,
+      1452,
+      443
+    ],
+    "R21": [
+      0,
+      0,
+      1559,
+      1007
+    ],
+    "R22": [
+      216,
+      582,
+      2562,
+      687
+    ],
+    "R23": [
+      216,
+      582,
+      2562,
+      687
+    ],
+    "R24": [
+      70,
+      297,
+      3060,
+      1387
+    ],
+    "R25": [
+      640,
+      180,
+      298,
+      633
+    ],
+    "R26": [
+      688,
+      180,
+      250,
+      485
+    ],
+    "R27": [
+      411,
+      417,
+      755,
+      507
+    ],
+    "R28": [
+      472,
+      697,
+      2105,
+      1002
+    ],
+    "R29": [
+      153,
+      190,
+      1284,
+      576
+    ],
+    "R30": [
+      183,
+      183,
+      1312,
+      652
+    ],
+    "R31": [
+      501,
+      515,
+      462,
+      215
+    ],
+    "R32": [
+      514,
+      503,
+      428,
+      223
+    ],
+    "R33": [
+      0,
+      0,
+      1559,
+      1007
+    ],
+    "R34": [
+      208,
+      212,
+      1171,
+      527
+    ],
+    "R35": [
+      0,
+      343,
+      1553,
+      664
+    ],
+    "R36": [
+      0,
+      323,
+      1559,
+      684
+    ],
+    "R37": [
+      0,
+      0,
+      1559,
+      1007
+    ],
+    "R38": [
+      92,
+      64,
+      1415,
+      862
+    ],
+    "R39": [
+      92,
+      64,
+      1415,
+      756
+    ],
+    "R40": [
+      80,
+      56,
+      1439,
+      877
+    ],
+    "R41": [
+      80,
+      56,
+      1439,
+      877
+    ],
+    "R42": [
+      174,
+      182,
+      1316,
+      744
+    ],
+    "R43": [
+      86,
+      56,
+      1403,
+      877
+    ],
+    "R44": [
+      30,
+      295,
+      1522,
+      381
+    ],
+    "R45": [
+      483,
+      183,
+      598,
+      616
+    ],
+    "R46": [
+      104,
+      14,
+      1341,
+      987
+    ],
+    "R47": [
+      0,
+      0,
+      1559,
+      1007
+    ],
+    "R48": [
+      258,
+      61,
+      932,
+      825
+    ],
+    "R49": [
+      0,
+      0,
+      1559,
+      1007
+    ],
+    "R50": [
+      0,
+      0,
+      1559,
+      1007
+    ],
+    "R51": [
+      0,
+      0,
+      1559,
+      1007
+    ],
+    "R52": [
+      254,
+      56,
+      940,
+      835
+    ],
+    "R53": [
+      79,
+      88,
+      94,
+      81
+    ]
+  }
+}

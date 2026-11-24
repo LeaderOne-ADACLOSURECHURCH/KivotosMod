@@ -1,0 +1,202 @@
+[
+  {
+    "layer": "白边内2.png",
+    "stroke": "橡皮擦 5",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 2
+  },
+  {
+    "layer": "白边内2.png",
+    "stroke": "橡皮擦 4",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 2
+  },
+  {
+    "layer": "白边内2.png",
+    "stroke": "橡皮擦 3",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 3
+  },
+  {
+    "layer": "白边内2.png",
+    "stroke": "橡皮擦 2",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 41
+  },
+  {
+    "layer": "白边内2.png",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 64
+  },
+  {
+    "layer": "白边前2",
+    "stroke": "橡皮擦 3",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 28.0,
+    "points": 495
+  },
+  {
+    "layer": "白边前2",
+    "stroke": "橡皮擦 2",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 22.0,
+    "points": 10
+  },
+  {
+    "layer": "白边前2",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 19.0,
+    "points": 301
+  },
+  {
+    "layer": "白边后1",
+    "stroke": "橡皮擦 2",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 174
+  },
+  {
+    "layer": "白边后1",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 265
+  },
+  {
+    "layer": "白边前1",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 605
+  },
+  {
+    "layer": "白边内1.png",
+    "stroke": "橡皮擦 2",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 99
+  },
+  {
+    "layer": "白边内1.png",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 57
+  },
+  {
+    "layer": "白边下.png",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 376
+  },
+  {
+    "layer": "白边下2",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 45.0,
+    "diameter": 40.0,
+    "points": 546
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 5.0,
+    "diameter": 82.0,
+    "points": 98
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 2",
+    "start": 0.6666633333333333,
+    "duration": 4.333333333333333,
+    "diameter": 82.0,
+    "points": 41
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 5.0,
+    "diameter": 82.0,
+    "points": 98
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 3",
+    "start": 2.166663333333333,
+    "duration": 2.8333333333333335,
+    "diameter": 82.0,
+    "points": 41
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 2",
+    "start": 0.6666633333333333,
+    "duration": 4.333333333333333,
+    "diameter": 82.0,
+    "points": 41
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 5.0,
+    "diameter": 82.0,
+    "points": 98
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 4",
+    "start": 3.566663333333334,
+    "duration": 1.4333333333333333,
+    "diameter": 13,
+    "points": 96
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 3",
+    "start": 2.166663333333333,
+    "duration": 2.8333333333333335,
+    "diameter": 82.0,
+    "points": 41
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 2",
+    "start": 0.6666633333333333,
+    "duration": 4.333333333333333,
+    "diameter": 82.0,
+    "points": 41
+  },
+  {
+    "layer": "发光遮罩.png",
+    "stroke": "橡皮擦 1",
+    "start": -3.333333333333333e-06,
+    "duration": 5.0,
+    "diameter": 82.0,
+    "points": 98
+  }
+]

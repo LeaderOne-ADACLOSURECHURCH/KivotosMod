@@ -7,6 +7,20 @@ using Terraria.ModLoader;
 
 namespace KivotosMod.Content.Items.Vanity.Noa;
 
+[Autoload(Side = ModSide.Client)]
+public sealed class NoaHaloLayer : PlayerDrawLayer
+{
+    private static Asset<Texture2D> _halo;
+    public override bool GetDefaultVisibility(PlayerDrawSet info)
+        => !info.drawPlayer.dead && !info.drawPlayer.ghost && !info.drawPlayer.invis
+            && NoaVanitySet.HeadVisible(info.drawPlayer);
+    public override Position GetDefaultPosition() => new AfterParent(PlayerDrawLayers.Head);
+    public override bool IsHeadLayer => true;
+    protected override void Draw(ref PlayerDrawSet info)
+        => StudentSpriteDraw.Halo(ref info, ref _halo,
+            "KivotosMod/Content/Items/Vanity/Noa/NoaHalo", headTop: 5, opaqueBottom: 18);
+}
+
 /// <summary>The long rear hair follows head animation and stays BEHIND the body,
 /// wings, coat, and arm atlas, instead of covering the player's held weapon.</summary>
 [Autoload(Side = ModSide.Client)]

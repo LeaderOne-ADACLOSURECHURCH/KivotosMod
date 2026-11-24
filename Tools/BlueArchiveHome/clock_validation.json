@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "clockBoundaryChecks": 11,
+  "syntaxFiles": 3,
+  "clockDoesNotOverlapNavigationOrWork": true,
+  "settingsChoicesWithinPanel": true,
+  "newTexturePmaPixelsMatch": true,
+  "defaultClock": "system local HH:mm",
+  "clockPreferenceSavedWithPlayer": true,
+  "modCompiled": false
+}

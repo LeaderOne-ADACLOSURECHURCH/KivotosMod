@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "version": "3.8.75",
+  "frames": 3600,
+  "blinks": 12,
+  "minGap": 3.3667116,
+  "maxGap": 5.8832436,
+  "meshes": 79200,
+  "blinkDuration": 0.36666667,
+  "bodyIdleUnchanged": true,
+  "eyesCloseAndRestore": true,
+  "originalTimelinesPreserved": true,
+  "uiClockChecks": [
+    {
+      "passed": true,
+      "fps": 60,
+      "simulationSeconds": 30,
+      "hostElapsedZero": true,
+      "clickCount": 0,
+      "autoBlinks": 5,
+      "bodyMotion": 5.4
+    },
+    {
+      "passed": true,
+      "fps": 144,
+      "simulationSeconds": 30,
+      "hostElapsedZero": true,
+      "clickCount": 0,
+      "autoBlinks": 5,
+      "bodyMotion": 5.398103
+    }
+  ],
+  "tracking": {
+    "passed": true,
+    "model": "plana",
+    "right": 2.4999084,
+    "left": -2.4985886,
+    "up": 1.3997803,
+    "down": -1.399231,
+    "nonPupilMeshesUnchanged": true,
+    "blinkGazeChecks": 4,
+    "blinkGazePreserved": true,
+    "pupilRemainsOpaque": true,
+    "smoothResume": true,
+    "boundedWithoutAccumulation": true
+  },
+  "headTracking": {
+    "passed": true,
+    "model": "plana",
+    "controlBone": "face2",
+    "drivenControlCount": 1,
+    "responseSeconds": 0.18,
+    "minX": -45,
+    "maxX": 90,
+    "minY": -60,
+    "maxY": 60,
+    "followsPointerDirection": true,
+    "bodyIdleUnchanged": true,
+    "finiteMeshes": true,
+    "singleFilteredFocus": true,
+    "pupilRemainsOpaque": true,
+    "movements": [
+      {
+        "mouseX": 10000,
+        "mouseY": 0,
+        "deltaX": 2.382554,
+        "deltaY": 0.39709473
+      },
+      {
+        "mouseX": -10000,
+        "mouseY": 0,
+        "deltaX": -4.765107,
+        "deltaY": 0.39709473
+      },
+      {
+        "mouseX": 0,
+        "mouseY": 10000,
+        "deltaX": 0.04595995,
+        "deltaY": 3.1766968
+      },
+      {
+        "mouseX": 0,
+        "mouseY": -10000,
+        "deltaX": 0.045960903,
+        "deltaY": -3.1767578
+      }
+    ],
+    "rateChecks": [
+      {
+        "fps": 30,
+        "responseAtHalfSecond": 0.9145749,
+        "maxSpeed": 3.9381623,
+        "maxOscillation": 0.11203011
+      },
+      {
+        "fps": 60,
+        "responseAtHalfSecond": 0.9152984,
+        "maxSpeed": 3.9506185,
+        "maxOscillation": 0.08693541
+      },
+      {
+        "fps": 144,
+        "responseAtHalfSecond": 0.91571265,
+        "maxSpeed": 3.9569578,
+        "maxOscillation": 0.0721246
+      }
+    ]
+  }
+}

@@ -19,6 +19,8 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Millennium
             //base.SetUpTextboxSettings(ref backgroundColor, ref backgroundEdgeColor, ref textColor, ref textEdgeColor);
         }
 
+        public const int ShotIntervalTicks = 8;
+
         protected override string Owner => "Yuuka";
         public override void SetStaticDefaults()
         {
@@ -29,8 +31,9 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Millennium
         public override void SetDefaults()
         {
             base.SetDefaults();
-            Item.useTime = Item.useAnimation = 10;
-            Item.damage = 45;
+            // Summary7: 0.75 times the previous 6-tick firing rate => 8 ticks.
+            Item.useTime = Item.useAnimation = ShotIntervalTicks;
+            Item.damage = 21;
             Item.knockBack = 1;
             Item.shootSpeed = 10f;
             Item.shoot = ProjectileType<YuukaWeaponHeldProj>();

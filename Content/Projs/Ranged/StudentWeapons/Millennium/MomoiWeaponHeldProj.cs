@@ -28,7 +28,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Millennium
             Vector2 particleOffset = ((HoldoutOffset + new Vector2(0, -3.5f)) * new Vector2(1, Owner.direction)).RotatedBy(Projectile.rotation);
             Vector2 dir = Projectile.rotation.ToRotationVector2();
             Vector2 pos = Projectile.Center + particleOffset + dir * 15;
-            Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), pos, (Projectile.rotation + Main.rand.NextFloat(ToRadians(-5), ToRadians(5))).ToRotationVector2() * 16f, ProjectileType<MomoiWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Fire(pos, (Projectile.rotation + Main.rand.NextFloat(ToRadians(-5), ToRadians(5))).ToRotationVector2() * 16f, ProjectileType<MomoiWeaponBullet>());
             for (int i = 0; i < 12; i++)
             {
                 ECSParticle.SmokeParticle(pos.ToRandCirclePos(3), Projectile.rotation.ToRotationVector2().ToRandVelocity(ToRadians(15), .1f, 26f), RandLerpColor(Color.Pink, Color.LightPink),

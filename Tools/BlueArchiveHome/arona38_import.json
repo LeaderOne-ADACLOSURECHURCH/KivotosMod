@@ -1,0 +1,152 @@
+{
+  "source": "E:\\Spine3.8.75Pro\\arona",
+  "spineEditorVersion": "3.8.75",
+  "project": {
+    "path": "Arona2.spine",
+    "sha256": "4e6b16efa69b87bda7858b03d47f341fc18de26607d5dc8d7eb380aa1561737f"
+  },
+  "sourceFiles": [
+    {
+      "path": "Arona2.spine",
+      "bytes": 62217,
+      "sha256": "4e6b16efa69b87bda7858b03d47f341fc18de26607d5dc8d7eb380aa1561737f"
+    },
+    {
+      "path": "Arona.json",
+      "bytes": 2363,
+      "sha256": "f41f1916a99b5f52d4de347452452d7be067f1b621a053b995d82c32d420c85e"
+    },
+    {
+      "path": "images/Bow.png",
+      "bytes": 2143,
+      "sha256": "a2c31279baca484910c2394201abcdb730d02d07e84c3844f088e992c1d7e24d"
+    },
+    {
+      "path": "images/braid.png",
+      "bytes": 2356,
+      "sha256": "36bbf9af16e5928fd0a36f75b316929d54f094cfc03e4498d85c08859249d21f"
+    },
+    {
+      "path": "images/cheek.png",
+      "bytes": 1870,
+      "sha256": "198eafb572155f0b67212f6cc56762e619aa3ad87fd0cddb338c3cf55d7a1870"
+    },
+    {
+      "path": "images/chest.png",
+      "bytes": 2848,
+      "sha256": "be9aa8adb70ad879cf1674864052dc5b3db454f1186439eb3f161a6d46cac112"
+    },
+    {
+      "path": "images/chestclothes.png",
+      "bytes": 2530,
+      "sha256": "80886287e4f843da91faf8d439517cc2bfecc41267d513f01ad004e37940a4f6"
+    },
+    {
+      "path": "images/dress.png",
+      "bytes": 3286,
+      "sha256": "0c91c772106eeb984172e0c4ac60c1f6c7f32ece8c48d23fd12280f18e372dae"
+    },
+    {
+      "path": "images/Eyebrow.png",
+      "bytes": 1903,
+      "sha256": "37bdd577b1dc883a25b424d36afb37f4c30565466d10d1cee5da0ca474e35063"
+    },
+    {
+      "path": "images/eyelids.png",
+      "bytes": 1804,
+      "sha256": "4c5fc51cd6c2b1842220d41027f5dc4694236625117d1a4c3c8713a1ca56cdb6"
+    },
+    {
+      "path": "images/eyes.png",
+      "bytes": 2217,
+      "sha256": "37c2d295287d75ba5b73f057dcc9049acffc27c3d2a61a1539137a0de477cbfa"
+    },
+    {
+      "path": "images/eyeW.png",
+      "bytes": 1839,
+      "sha256": "ab261f454d5f209cf01577d494cb00b2c256e642e349643634cbb07ee9e025dd"
+    },
+    {
+      "path": "images/face.png",
+      "bytes": 2345,
+      "sha256": "d2d6b363680947ab23c5f39062b12f79370fc76e3a0c452fd6ea31531bb7ecf5"
+    },
+    {
+      "path": "images/hairBack.png",
+      "bytes": 2133,
+      "sha256": "b5fdb65a10622b7267810d8682f980b66c9a0053aa0bfd4b24259bb696c8a502"
+    },
+    {
+      "path": "images/hairM.png",
+      "bytes": 2788,
+      "sha256": "859df205a7fb25c35251faa4230618de60d28e32afb54f4dca305d2abff0aafa"
+    },
+    {
+      "path": "images/halo.png",
+      "bytes": 2044,
+      "sha256": "e2defde92174ef5f582a3be30dbee62f7b46d28932ee56e040f7155890cb4e01"
+    },
+    {
+      "path": "images/handL.png",
+      "bytes": 2566,
+      "sha256": "bc5e41c5aea8dba6650d0a5c3f9f139c065a224ffbd292db71166119ebe4d8fa"
+    },
+    {
+      "path": "images/handR.png",
+      "bytes": 2389,
+      "sha256": "4d57a1c86f27b866362318c1906748557d58b40e6bfcefe4e3fa8e232d3ab1ea"
+    },
+    {
+      "path": "images/headdress.png",
+      "bytes": 2660,
+      "sha256": "c990184bcc45171c87b124099ef09d4070ceb7522b00b36f11508b190c5d7f76"
+    },
+    {
+      "path": "images/headshade.png",
+      "bytes": 2061,
+      "sha256": "7ffbdaa08c52eb3b45bffaea96d6f20b5296a768e8da15ac4e5d7e676aba5532"
+    },
+    {
+      "path": "images/Hitomi.png",
+      "bytes": 2013,
+      "sha256": "6ee12cebb9713bc80b6d278b276b2371c0d72d811a6d25ad342dc974fdaa52c6"
+    },
+    {
+      "path": "images/legD.png",
+      "bytes": 2909,
+      "sha256": "ebb7cdc9888226ceb9b72d6fb1c284cd75ce2360fad396ba53911180b5960e9e"
+    },
+    {
+      "path": "images/legUP.png",
+      "bytes": 2571,
+      "sha256": "c66fb28223194b3e16afa43c9a05db74e7e0ed552d545ae208d503c6e2873fbd"
+    },
+    {
+      "path": "images/liuhai.png",
+      "bytes": 2521,
+      "sha256": "24bb40f88c67dedd935ce161bb26aa8851fd78ea62f51a6e2e400c15d045b1a7"
+    }
+  ],
+  "export": {
+    "method": "Spine 3.8.75 Professional CLI",
+    "skeletonPath": "Arona .skel",
+    "skeletonBytes": 63966,
+    "skeletonSha256": "218b10815da349ff779915d6a82bb84d6e42e6462e2ac795ac04859348e98bf7",
+    "atlasPath": "Atlas/arona.atlas",
+    "texturePath": "Atlas/arona.png",
+    "texturePmaBeforeModConversion": false
+  },
+  "outputFolder": "Assets/Tablet/Home/Arona38",
+  "texture": {
+    "path": "Assets/Tablet/Home/Arona38/arona.png",
+    "pixels": 262144,
+    "translucentPixels": 0,
+    "sha256": "3ac3f6f3b7d8853897d11bd4714b61a1b384b0dd3e8ce30e3242fd3a3f779244"
+  },
+  "animations": [
+    "swing",
+    "blink",
+    "Turning"
+  ],
+  "assetNamesUnchanged": true
+}

@@ -1,9 +1,11 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 using Terraria.Localization;
 using Terraria.ModLoader.Config;
 
 namespace KivotosMod.Globals.Configs
 {
+    public enum SupernovaVoiceLanguage { None, Japanese, Chinese, Korean }
+
     public class KivotosClientConfig : ModConfig
     {
         public static KivotosClientConfig Instance;
@@ -11,6 +13,14 @@ namespace KivotosMod.Globals.Configs
         {
             Instance = this;
         }
+        [Range(.3f, 20f)]
+        [Increment(.01f)]
+        [DefaultValue(1f)]
+        public float StudentWeaponDamageMultiplier { get; set; } = 1f;
+
+        [DefaultValue(SupernovaVoiceLanguage.Japanese)]
+        public SupernovaVoiceLanguage SupernovaVoice { get; set; } = SupernovaVoiceLanguage.Japanese;
+
         public override ConfigScope Mode => ConfigScope.ClientSide;
         public override bool AcceptClientChanges(ModConfig pendingConfig, int whoAmI, ref NetworkText message) => false;
 
@@ -36,5 +46,7 @@ namespace KivotosMod.Globals.Configs
         [Range(0f, 1f)]
         [DefaultValue(1f)]
         public float TextboxSize { get; set; }
+
+
     }
 }

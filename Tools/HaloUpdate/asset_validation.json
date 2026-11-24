@@ -1,0 +1,34 @@
+{
+  "Yuuka": {
+    "sha256": "4a6449430de17af2bd2e5d71e729596214f531b0ea778674b9ba47cec2e7afbb",
+    "size": [
+      40,
+      71
+    ],
+    "opaqueBounds": [
+      10,
+      13,
+      31,
+      20
+    ],
+    "headTop": 6,
+    "visibleGap": 3,
+    "byteIdenticalToAttachment": true
+  },
+  "Noa": {
+    "sha256": "058993e49062249ca175661ba301558375d328035f56fe8e642fde39cff5230e",
+    "size": [
+      40,
+      71
+    ],
+    "opaqueBounds": [
+      9,
+      10,
+      29,
+      18
+    ],
+    "headTop": 5,
+    "visibleGap": 3,
+    "byteIdenticalToAttachment": true
+  }
+}

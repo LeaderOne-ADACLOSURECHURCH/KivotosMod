@@ -51,6 +51,12 @@ public sealed class DeliveryPackage : ModItem
         return clone;
     }
 
+    public override bool OnPickup(Player player)
+    {
+        Mod.Logger.Info($"[TabletDelivery] pickup buyer={player.whoAmI} stacks={_contents.Count} mode={Main.netMode}");
+        return true;
+    }
+
     public override bool CanRightClick() => _contents.Count > 0;
 
     public override void RightClick(Player player)
@@ -58,6 +64,7 @@ public sealed class DeliveryPackage : ModItem
         if (player.whoAmI != Main.myPlayer)
             return;
 
+        Mod.Logger.Info($"[TabletDelivery] open buyer={player.whoAmI} stacks={_contents.Count} mode={Main.netMode}");
         foreach (Item item in _contents)
             player.QuickSpawnItem(player.GetSource_OpenItem(Type), item, item.stack);
 

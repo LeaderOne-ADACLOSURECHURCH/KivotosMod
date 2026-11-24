@@ -1,0 +1,105 @@
+{
+  "spriteZipSha256": "474527d6a74d08a83fe14339685ceeb7fddcb8e9617a9e230e14959ef7a729eb",
+  "armsSourceSha256": "45ee1fbd4756366282934f31d530e3ea1f9003fdc4fd2d73cdad6e0b545afcce",
+  "voiceZipSha256": "282a11f84274d0b4ede2f4b9ae293470d9d50a4ec40fe2ebcbef7819f493e8db",
+  "sourceScale": 1,
+  "assets": {
+    "MikaHead_Head": {
+      "size": [
+        40,
+        1120
+      ],
+      "sha256": "76cc51098f741e4e8dbc234866d224cf8f69929854c65b28eff46d07cca279d7"
+    },
+    "MikaBoots_Legs": {
+      "size": [
+        40,
+        1120
+      ],
+      "sha256": "301c3811133a16b851c3d06625de7acf993fc4eef0843ec989f97101d4d6decd"
+    },
+    "MikaTorso": {
+      "size": [
+        40,
+        1120
+      ],
+      "sha256": "d230cfad5334f588d11486af414d42450aeecc94bf179cca695ddb6efde9120c"
+    },
+    "MikaBackHair": {
+      "size": [
+        40,
+        1120
+      ],
+      "sha256": "d5a1e47d09ea0fd7a00b4e1547044e442b20bb838442ebfa675a8013d3741f6c"
+    },
+    "MikaSideLocks": {
+      "size": [
+        40,
+        1120
+      ],
+      "sha256": "b322a4df4e185279231c852106ffe1482b0586b5269792dc4f16d22ca7b3d91b"
+    },
+    "MikaHalo": {
+      "size": [
+        63,
+        74
+      ],
+      "sha256": "84e8347b6a06fe59b2fa9681bb34c33faba94f75c2cf6fad5595f9d6d3e3beee"
+    },
+    "MikaDecorWings": {
+      "size": [
+        63,
+        1480
+      ],
+      "sha256": "598e27c66f76fddeb62b862f55fcf5465e8ebbe5ef6600a319d9c7818d0d2936"
+    },
+    "MikaFlight": {
+      "size": [
+        63,
+        340
+      ],
+      "sha256": "434569f98405cd242f617848985165e57afc916dee39487876f378de9d05f8d5"
+    },
+    "MikaBody_Body": {
+      "size": [
+        360,
+        224
+      ],
+      "sha256": "07a9312db00366d4f66363f82bc61099ba68385c8c5a7704fffa7d6bac568e34"
+    }
+  },
+  "voices": [
+    {
+      "path": "Assets/Sounds/Students/Mika/Hurt1.wav",
+      "seconds": 0.4876190476190476,
+      "peakDb": -14.173193267513023,
+      "activeRmsDb": -24.55051214810071,
+      "heavy": false,
+      "sha256": "b0774e29dff4fddbd8af6841cab4e358ab6e443a54301dfb6d4c5f3468c2cbde"
+    },
+    {
+      "path": "Assets/Sounds/Students/Mika/Hurt2.wav",
+      "seconds": 1.0216780045351475,
+      "peakDb": -11.054037632021547,
+      "activeRmsDb": -25.689551431226683,
+      "heavy": true,
+      "sha256": "d1a51ea4df23a9fc146c36a8806383163560063beb26928d1f8a9d3b8ed215af"
+    },
+    {
+      "path": "Assets/Sounds/Students/Mika/Hurt3.wav",
+      "seconds": 1.1377777777777778,
+      "peakDb": -13.805671254063363,
+      "activeRmsDb": -27.717581843227833,
+      "heavy": false,
+      "sha256": "0a390371e47221e8764a593c882ee0f11816b4f63ddf82d3ac8c1bfe9984587a"
+    },
+    {
+      "path": "Assets/Sounds/Students/Mika/Hurt4.wav",
+      "seconds": 0.8359183673469388,
+      "peakDb": -12.649405618448377,
+      "activeRmsDb": -22.710204292920405,
+      "heavy": true,
+      "sha256": "4f184acefbb7df72684e408b88c4be40181a67ba2643d3872a2edfff69ad9817"
+    }
+  ]
+}

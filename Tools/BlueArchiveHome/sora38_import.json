@@ -1,0 +1,37 @@
+{
+  "source": "E:\\Spine3.8.75Pro\\sora2",
+  "skeletonUnmodified": true,
+  "files": [
+    {
+      "name": "Sora.atlas",
+      "bytes": 1757,
+      "sha256": "44c5e55812f85f9813a5cdfd2382a742ead74bd12afc3e812f0f635fc0d733e2"
+    },
+    {
+      "name": "Sora.skel",
+      "bytes": 29929,
+      "sha256": "f6e207ad4ee4c9b3ab10068be44a508a54fb39e2f341853f2ff573334617b84b"
+    },
+    {
+      "name": "Sora.png",
+      "bytes": 14280,
+      "sha256": "a29203465fe00e0aef12af98b8855bdd9d90fc0fcdca0f2527ed9e45bb6374c5"
+    }
+  ],
+  "outputFolder": "Assets/Tablet/Home/Sora38",
+  "atlasPageRename": {
+    "Sora.png": "sora.png"
+  },
+  "runtime": "KivotosMod.Runtime.Spine38",
+  "version": "3.8.75",
+  "animations": [
+    "animation",
+    "blink"
+  ],
+  "texture": {
+    "path": "Assets/Tablet/Home/Sora38/sora.png",
+    "pixels": 158536,
+    "translucentPixels": 0,
+    "sha256": "f4e581688f82fbc8a1d9db78c940a13dd67a2517aaa2e10dd3645d8d6f0c2d96"
+  }
+}

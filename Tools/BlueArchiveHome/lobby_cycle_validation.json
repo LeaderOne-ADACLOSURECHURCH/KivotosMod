@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "actualOpeningAndUpdateMethods": true,
+  "dayToNightHeldUntilReopen": true,
+  "nightToDayHeldUntilReopen": true,
+  "duplicateOpenIgnored": true,
+  "manualCompanionPreservedWhileOpen": true,
+  "backgroundAndWaterUseSameSnapshot": true,
+  "assetAndGpuDependenciesStubbed": true
+}

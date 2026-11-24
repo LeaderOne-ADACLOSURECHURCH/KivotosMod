@@ -1,0 +1,133 @@
+{
+  "backgroundArchive": "C:\\Users\\Sunbinbin\\Downloads\\什厅之箱背景.zip",
+  "backgroundSha256": "b2aef05dbc7726e99e8b51ecf588b694ea0dcc56ac7c8645f8761200ea53bf6a",
+  "planaArchive": "C:\\Users\\Sunbinbin\\Downloads\\Plana.zip",
+  "planaSha256": "15c35325951fd2ad8aac5195d19707f8cad55b21ee8b6522814e99e151463d0c",
+  "excluded": [
+    "Plana/images/123.png",
+    "skeleton slot 123",
+    "skin attachment 123"
+  ],
+  "filteredSkeletonSha256": "cd385a3b5119d9ceb4ff82db94c0233957db71399491eb98d0b3d54290d357f2",
+  "files": [
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/Wall.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "ef3549acdca7aa664e4c5f53db9c10fdbd4e503ac6cec9afcf09e86da5c1a73e",
+      "zipEntry": "什厅之箱背景/墙面.png",
+      "sourceSha256": "8a53756dd817759a4c2f04c4039959604a0a929248240c6ec9628c50fff02b2b"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/Ground.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "cc4a090b2adbc227473240e17a04b6a98f505bb55e536a5634487d01453f6467",
+      "zipEntry": "什厅之箱背景/地面.png",
+      "sourceSha256": "95f602756127e48734156f11cb1c4ba6d44b896613aaabbda291e12498a1207c"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/Lockers.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "d246072d07fae58cf232778802d362b29eae394b5ed2f2f90fca1a2ca9fa2fe7",
+      "zipEntry": "什厅之箱背景/柜子.png",
+      "sourceSha256": "e9ae2032053e46f7fb7f3ad10d6c5ebb85e7fa5a1b8e06b0fab9c6a6072fc99c"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/Light.png",
+      "pixels": 410080,
+      "translucentPixels": 13908,
+      "sha256": "317578eb6437a04ca7431615a3993fabe63629775a17875bcf126b4794dc6577",
+      "zipEntry": "什厅之箱背景/光.png",
+      "sourceSha256": "5d772974b1112313f4cc4d01168c73071237cd6853ba6e672e0fe004087e0b8e"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/ChairBack.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "094f818802631d58025c32d51d9b3dce141890de2340c54343aa21bfca3fa409",
+      "zipEntry": "什厅之箱背景/椅子后面.png",
+      "sourceSha256": "4dd13ed155a993ad18d9387077060d7300c459f402bde00182a28202af3ae5c3"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/Sky.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "b437542379c97242c8bc42ddb105c6719308f552a4d49843f941f8d320132ebf",
+      "zipEntry": "什厅之箱背景/天空.png",
+      "sourceSha256": "79f58a49bd29cf179d58b3c84f72584e3205b1e70b1a6a56cead406976b0588e"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/ChairFront.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "2ac8e52770ab0b6f4c4665de8a834ce66789b70c548f2904476016aca6a6e423",
+      "zipEntry": "什厅之箱背景/椅子前.png",
+      "sourceSha256": "5894a0626f23d1503ce05d7c7c88384ed8b1d749359298010af6ebf763738118"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/TableBack.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "9b4f33d81331270ab99bafb0f1b96c2dc9982b4110bf97ac98189473e2b2572f",
+      "zipEntry": "什厅之箱背景/桌子后面.png",
+      "sourceSha256": "04988e7e4de98743bd18adc32f095d03e583a4a7a27e1ec076a9725069a355ff"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/ChairMid.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "ace84340cd7223e73f3d14210ef7cad9c2afff1f8e32fe15afc5d0f0eb1e0ddf",
+      "zipEntry": "什厅之箱背景/椅子中.png",
+      "sourceSha256": "d7cfbda25cd8d486a05e5c811060a0ff2081466d71b746683c1c9b9759f258dd"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/Sea.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "1cb90eba9b0ec3ecc75ed1f87e033cdc1ed8169b7faad74ea1ea8e126e4ab7e1",
+      "zipEntry": "什厅之箱背景/海面.png",
+      "sourceSha256": "6de7ab5b2094aff0289bf58161b122b1eaa03e1a90cdbf1326ba719e73a16197"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/Board.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "3d2d21b0252875d222b84db6b1172b2729f257edaf3ce7c8de78d99605ece9d4",
+      "zipEntry": "什厅之箱背景/黑板.png",
+      "sourceSha256": "fb70a2f5c9d273bc865df6ef8d889e66a9d1709333a469950e915a86e3f7656c"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/TableMid.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "e5dd6631f0aecf01d9fab6d2178d21e6a280c546da04b305b1505e6ff620d8b6",
+      "zipEntry": "什厅之箱背景/桌子中.png",
+      "sourceSha256": "96a9ad3f164e04083442a71a47220d540962bc39c2aad2e78873925b526cb461"
+    },
+    {
+      "path": "Assets/Tablet/UI/ClassroomNight/TableFront.png",
+      "pixels": 410080,
+      "translucentPixels": 0,
+      "sha256": "f17daa9ffceb21e124aaf7da0533ea89d881351ed2b0326e23bb32a99b7543cb",
+      "zipEntry": "什厅之箱背景/桌子前.png",
+      "sourceSha256": "d837247e8d909151c2253a7bd736dfb117d24709505de3b9a3987861b4590569"
+    },
+    {
+      "path": "Assets/Tablet/Home/Plana38/plana.png",
+      "pixels": 524288,
+      "translucentPixels": 0,
+      "sha256": "b5792dca1cd4776a7c1be81ff0be89a644e43467b3f2fae5633f2b7fd8793b0b"
+    }
+  ],
+  "runtime": "KivotosMod.Runtime.Spine38",
+  "skeletonBones": 62,
+  "skeletonSlots": 22,
+  "animations": [
+    "animation",
+    "blink"
+  ],
+  "filteredSource": "PlanaExport/Plana.filtered.json",
+  "regeneration": "Export source Plana.spine as JSON; remove 123 slot and skin; import filtered JSON as Plana.filtered.spine and export binary with Spine 3.8.75. Pack only PlanaSource/images excluding 123.png, then run import_night_tablet.py."
+}

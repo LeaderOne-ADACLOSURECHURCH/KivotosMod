@@ -10,7 +10,7 @@ namespace KivotosMod.Content.Items.Vanity.Hina;
 [Autoload(Side = ModSide.Client)]
 public sealed class HinaWingLayer : PlayerDrawLayer
 {
-    private static Asset<Texture2D>? _wings;
+    private static Asset<Texture2D>? _wings, _flight;
 
     public override bool GetDefaultVisibility(PlayerDrawSet drawInfo)
         => !drawInfo.drawPlayer.dead
@@ -23,13 +23,14 @@ public sealed class HinaWingLayer : PlayerDrawLayer
     protected override void Draw(ref PlayerDrawSet drawInfo)
     {
         Player player = drawInfo.drawPlayer;
-        _wings ??= ModContent.Request<Texture2D>(
-            "KivotosMod/Content/Items/Vanity/Hina/HinaWings",
-            AssetRequestMode.ImmediateLoad);
-
-        Texture2D texture = _wings.Value;
-        int frameHeight = texture.Height / 20;
-        Rectangle source = new(0, player.bodyFrame.Y, texture.Width, frameHeight);
+        var state = player.GetModPlayer<HinaVanityPlayer>();
+        bool flying = state.Flapping;
+        var asset = flying
+            ? (_flight ??= ModContent.Request<Texture2D>("KivotosMod/Content/Items/Vanity/Hina/HinaFlight", AssetRequestMode.ImmediateLoad))
+            : (_wings ??= ModContent.Request<Texture2D>("KivotosMod/Content/Items/Vanity/Hina/HinaWings", AssetRequestMode.ImmediateLoad));
+        Texture2D texture = asset.Value;
+        int frameHeight = player.bodyFrame.Height;
+        Rectangle source = new(0, flying ? state.FlightFrame * frameHeight : player.bodyFrame.Y, texture.Width, frameHeight);
         Vector2 position = new(
             (int)(drawInfo.Position.X - Main.screenPosition.X - player.bodyFrame.Width / 2f + player.width / 2f),
             (int)(drawInfo.Position.Y - Main.screenPosition.Y + player.height - player.bodyFrame.Height + 4f));
@@ -62,6 +63,31 @@ public sealed class HinaWingLayer : PlayerDrawLayer
         };
 
         drawInfo.DrawDataCache.Add(data);
+    }
+}
+
+[Autoload(Side = ModSide.Client)]
+public sealed class HinaDressHaloLayer : PlayerDrawLayer
+{
+    private static Asset<Texture2D> _halo;
+    public override bool GetDefaultVisibility(PlayerDrawSet info)
+        => !info.drawPlayer.dead && !info.drawPlayer.ghost && HinaVanitySet.HeadVisible(info.drawPlayer);
+    public override Position GetDefaultPosition() => new AfterParent(PlayerDrawLayers.Head);
+    public override bool IsHeadLayer => true;
+
+    protected override void Draw(ref PlayerDrawSet info)
+    {
+        Player player = info.drawPlayer;
+        _halo ??= ModContent.Request<Texture2D>("KivotosMod/Content/Items/Vanity/Hina/HinaDressHalo", AssetRequestMode.ImmediateLoad);
+        var texture = _halo.Value;
+        // The 58x77 source canvas extends the native player frame 21 pixels upward.
+        Vector2 origin = info.headVect + new Vector2(9, player.gravDir > 0 ? 21 : 0);
+        Vector2 position = info.helmetOffset + new Vector2(
+            (int)(info.Position.X - Main.screenPosition.X - player.bodyFrame.Width / 2f + player.width / 2f),
+            (int)(info.Position.Y - Main.screenPosition.Y + player.height - player.bodyFrame.Height + 4f))
+            + player.headPosition + info.headVect;
+        info.DrawDataCache.Add(new DrawData(texture, position, null, Color.White * (1f - info.shadow),
+            player.headRotation, origin, 1f, info.playerEffect, 0f) { shader = info.cHead });
     }
 }
 

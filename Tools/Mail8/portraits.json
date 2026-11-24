@@ -1,0 +1,62 @@
+[
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Aru.png",
+    "output": "Assets\\Tablet\\Mail\\Aru.png",
+    "sha256": "84f55fd89b748515c0fe500195f8212b9f03909be726c44dee6b2bc7d57b3022"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Haruka.png",
+    "output": "Assets\\Tablet\\Mail\\Haruka.png",
+    "sha256": "1625e76f44fc6c7091a9b47c4670c95bce16614114a8f4e88d95a3f12cead916"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Hikari.png",
+    "output": "Assets\\Tablet\\Mail\\Hikari.png",
+    "sha256": "0ead47ea743b103ec1b9b9fcd9af0f4cab9f872701787b5fd1c1d9fcbc001e55"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Hina_dress.png",
+    "output": "Assets\\Tablet\\Mail\\Hina_dress.png",
+    "sha256": "680edc95f37ddd60f372bbd3758951ed686e851b324b883054f8a60aca9858a3"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Hoshino.png",
+    "output": "Assets\\Tablet\\Mail\\Hoshino.png",
+    "sha256": "15969db787df4c63984492739da4fc3084c4f5ed3a51e1cf78a660760bd12c96"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Ibuki.png",
+    "output": "Assets\\Tablet\\Mail\\Ibuki.png",
+    "sha256": "97bb7e5f0256f1569664578576f6a47ee661104c3828c6370321da13e7dd6695"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Iroha.png",
+    "output": "Assets\\Tablet\\Mail\\Iroha.png",
+    "sha256": "110f00c7ee9f1cb9eb8c2b6efb05c144ab3ec199e528fd6b88e6df58566b501a"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Kayoko.png",
+    "output": "Assets\\Tablet\\Mail\\Kayoko.png",
+    "sha256": "195d16aad31063df2620ab6b716ded4d6c2481173a88b59d52c1270f681d407e"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Mutsuki.png",
+    "output": "Assets\\Tablet\\Mail\\Mutsuki.png",
+    "sha256": "17df872b3752815ec92c7a0578d4496766f291d82431c575bee16421516d05d5"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Nozomi.png",
+    "output": "Assets\\Tablet\\Mail\\Nozomi.png",
+    "sha256": "c99f3d3fa39036f5df2cb8d229299f3fd6084fc672dc2b9b29405d098f728fd4"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Shiroko.png",
+    "output": "Assets\\Tablet\\Mail\\Shiroko.png",
+    "sha256": "d290503a5da6af38ba3bb4ec6f9ad91736c4566e99d186d946b3811a12e81680"
+  },
+  {
+    "source": "╤º╘▒╝╝─▄═╖╧±/╡┌╥╗┤╬/Yuuka.png",
+    "output": "Assets\\Tablet\\Mail\\Yuuka.png",
+    "sha256": "3ef5030e73cccd3b365da212991fad13f90a93fecec8119a01f196536fe42fac"
+  }
+]

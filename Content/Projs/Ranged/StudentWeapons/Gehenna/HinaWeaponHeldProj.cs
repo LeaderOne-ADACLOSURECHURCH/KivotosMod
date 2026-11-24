@@ -39,7 +39,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Gehenna
             for (int i = 0; i < 3; i++)
             {
                 Vector2 randomVelocity = dir.RotatedByRandom(randRot) * Main.rand.NextFloat(0.88f, 1.12f);
-                Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), pos, randomVelocity * 16f, ProjectileType<HinaWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+                Projectile proj = Fire(pos, randomVelocity * 16f, ProjectileType<HinaWeaponBullet>());
             }
             for (int i = 0; i < 14; i++)
             {

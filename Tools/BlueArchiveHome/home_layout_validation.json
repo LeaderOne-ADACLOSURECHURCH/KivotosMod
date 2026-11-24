@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "hitRegionsWithinGlass": 32,
+  "navigationDoesNotOverlapWork": true,
+  "clockDoesNotOverlapNavigation": true,
+  "pmaTexturesCompared": 32,
+  "nativeInclineDegrees": 10,
+  "uiFont": "existing tablet Noto Sans / Noto Sans Bold",
+  "verification": "offline syntax, geometry, assets and animation; no tML compilation or launch",
+  "aronaCallname": "cancelled by user"
+}

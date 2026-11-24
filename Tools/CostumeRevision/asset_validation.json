@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "variantPixelComparisons": 21,
+  "nativePixelScale": true,
+  "specialSixtyPixelFrames": true,
+  "newHarukaHeadAndSingleRearLocks": true,
+  "sharedHikariNozomiTail": true,
+  "referencePonytailOffset": [
+    -16,
+    0
+  ],
+  "coatAboveHeadAndBelowFrontArm": true,
+  "perPlayerWardrobeInsteadOfSwitches": true,
+  "originalPcmVoices": 20,
+  "voiceStudents": 5
+}

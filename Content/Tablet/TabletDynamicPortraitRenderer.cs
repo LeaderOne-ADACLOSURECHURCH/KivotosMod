@@ -71,6 +71,8 @@ internal static class TabletDynamicPortraitRenderer
     private static bool _arona38LoadFailed;
     private static TabletSpine38Scene _sora38;
     private static bool _sora38LoadFailed;
+    private static TabletSpine38Scene _plana38;
+    private static bool _plana38LoadFailed;
 
     public static void UpdateSpine38(Mod mod, float seconds)
     {
@@ -94,11 +96,25 @@ internal static class TabletDynamicPortraitRenderer
         }
         _arona38?.Update(seconds);
         _sora38?.Update(seconds);
+        if (_plana38 == null && !_plana38LoadFailed)
+        {
+            try { _plana38 = new TabletSpine38Scene(mod, plana: true); }
+            catch (Exception exception)
+            {
+                _plana38LoadFailed = true;
+                mod.Logger.Error("Unable to load the supplied Plana Spine 3.8 asset.", exception);
+            }
+        }
+        _plana38?.Update(seconds);
     }
 
     public static bool DrawArona38(SpriteBatch sb, Func<Vector2, Vector2> toScreen, float uiScale,
         Vector2 centerTop, float fullHeight, Rectangle clip, Vector2 mouseTablet)
         => DrawSpine38(_arona38, sb, toScreen, uiScale, centerTop, fullHeight, clip, mouseTablet);
+
+    public static bool DrawPlana38(SpriteBatch sb, Func<Vector2, Vector2> toScreen, float uiScale,
+        Vector2 centerTop, float fullHeight, Rectangle clip, Vector2 mouseTablet)
+        => DrawSpine38(_plana38, sb, toScreen, uiScale, centerTop, fullHeight, clip, mouseTablet);
 
     private static bool DrawSpine38(TabletSpine38Scene scene, SpriteBatch sb, Func<Vector2, Vector2> toScreen,
         float uiScale, Vector2 centerTop, float fullHeight, Rectangle clip, Vector2 mouseTablet)
@@ -126,6 +142,8 @@ internal static class TabletDynamicPortraitRenderer
         return true;
     }
 
+    public static void BlinkPlana38() => _plana38?.Blink();
+
     public static void Unload()
     {
         Assets.Clear();
@@ -136,7 +154,10 @@ internal static class TabletDynamicPortraitRenderer
         TabletSpine38Scene sora = _sora38;
         _sora38 = null;
         _sora38LoadFailed = false;
-        Main.QueueMainThreadAction(() => { arona?.Dispose(); sora?.Dispose(); });
+        TabletSpine38Scene plana = _plana38;
+        _plana38 = null;
+        _plana38LoadFailed = false;
+        Main.QueueMainThreadAction(() => { arona?.Dispose(); sora?.Dispose(); plana?.Dispose(); });
     }
 
     public static bool Draw(
@@ -166,6 +187,9 @@ internal static class TabletDynamicPortraitRenderer
                         tabletBounds.Height * 1.8f * portraitScale, clipBounds ?? tabletBounds, mouseTablet)) return true;
                     DrawSora(sb, toScreen, uiScale, tabletBounds, mouseTablet, portraitScale, rootYOffset);
                     return true;
+                case TabletStudentId.Plana:
+                    return DrawPlana38(sb, toScreen, uiScale, new Vector2(tabletBounds.Center.X, tabletBounds.Top),
+                        tabletBounds.Height * 1.8f * portraitScale, clipBounds ?? tabletBounds, mouseTablet);
                 default:
                     return false;
             }

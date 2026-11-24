@@ -1,4 +1,4 @@
-﻿using KivotosMod.Globals.Database.Lists;
+using KivotosMod.Globals.Database.Lists;
 using KivotosMod.Globals.Database.Paths;
 using KivotosMod.Globals.Methods;
 using KivotosMod.Globals.Methods.Textbox;
@@ -17,6 +17,9 @@ namespace KivotosMod.Globals.Classes
     /// </summary>
     public abstract class StudentWeaponClass : ModItem, ILocalizedModType
     {
+        internal bool FiringHeldShot;
+        public override bool CanConsumeAmmo(Item ammo, Player player) =>
+            FiringHeldShot;
         public override string LocalizationCategory => LocalizationsDatabase.Items.StudentWeapons;
         public override string Texture => KivotosContent.GetAsset(KivotosContent.StudentWeapons, GetType().Name);
         /// <summary>
@@ -24,6 +27,11 @@ namespace KivotosMod.Globals.Classes
         /// <br>需要与本地化文件的名字对应，且只考虑名字（不考虑姓氏）</br>
         /// </summary>
         protected virtual string Owner => "None";
+        // Target-level indices 2..10, additive percentages; each weapon owns a zero-filled table.
+        public virtual float[] DamageUpgradeSteps { get; } = new float[11];
+        public virtual int[] CritUpgradeSteps { get; } = new int[11];
+        public virtual global::KivotosMod.Content.Tablet.WeaponUpgradeMaterial[] UpgradeMaterials(int targetLevel)
+            => global::KivotosMod.Content.Tablet.TabletWeaponUpgrade.CommonMaterials(targetLevel);
         /// <summary>
         /// 设置文本框的样式
         /// <br>这个才是你应该复写的东西</br>
@@ -117,7 +125,7 @@ namespace KivotosMod.Globals.Classes
                 return;
             if (player.HasProj(Item.shoot))
                 return;
-            int projDamage = (int)player.GetTotalDamage<RangedDamageClass>().ApplyTo(Item.damage);
+            int projDamage = player.GetWeaponDamage(Item);
             Projectile proj = Projectile.NewProjectileDirect(player.GetSource_ItemUse(Item), player.Center, Vector2.Zero, Item.shoot, 0, Item.knockBack, player.whoAmI);
             proj.originalDamage = projDamage;
             proj.netUpdate = true;

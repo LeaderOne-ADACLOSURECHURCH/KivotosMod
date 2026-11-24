@@ -23,7 +23,7 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Gehenna
         {
             base.SetDefaults();
             Item.useTime = Item.useAnimation = 35;
-            Item.damage = 45;
+            Item.damage = 38;
             Item.knockBack = 1;
             Item.shootSpeed = 10f;
             Item.shoot = ProjectileType<KayokoWeaponHeldProj>();

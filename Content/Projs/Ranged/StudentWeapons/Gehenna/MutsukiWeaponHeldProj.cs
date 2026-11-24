@@ -25,7 +25,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Gehenna
             Vector2 pos = Projectile.Center + particleOffset + dir * 15;
             float randRot = ToRadians(3.5f);
             Vector2 randomVelocity = dir.RotatedByRandom(randRot) * Main.rand.NextFloat(0.88f, 1.12f);
-            Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), pos, randomVelocity * 16f, ProjectileType<MutsukiWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+            Projectile proj = Fire(pos, randomVelocity * 16f, ProjectileType<MutsukiWeaponBullet>());
             for (int i = 0; i < 10; i++)
             {
                 Vector2 pos2 = pos.ToRandCirclePos(8);

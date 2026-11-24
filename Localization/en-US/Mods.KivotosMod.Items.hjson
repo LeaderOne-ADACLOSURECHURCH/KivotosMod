@@ -1,6 +1,56 @@
+BlackHolePreviewItem: {
+	DisplayName: Black Hole Background Tester
+	Tooltip: Use to toggle the local shimmer starfield and black hole; resets on leaving the world
+}
+
+MikaDomainScatterSword: {
+	DisplayName: Mika Starlight Scatter Test Sword
+	Tooltip: Use in the domain to scatter active stars after 2 seconds and 17 frames at 30 FPS.
+}
+
+MikaDomainTuningFlower: {
+	DisplayName: Mika Domain Tuning Flower
+	Tooltip: Adjust matte opacity, spectrum saturation, and foreground and background bloom.
+}
+
+MikaDomainTuningApple: {
+	DisplayName: Mika Domain Viewport Apple
+	Tooltip: Adjust the fixed viewport, aspect ratio lock, and resonance shake.
+}
+
+MikaDomainCrystal: {
+	DisplayName: Mika Resonance Test Crystal
+	Tooltip: Cast one-stack Resonance in your domain without spending stored energy. 10 second cooldown.
+}
+
+MikaShatterPeach: {
+	DisplayName: Mika Shatter Tuning Peach
+	Tooltip: Adjust the thickness, force, motion and reflections of the glass shards.
+}
+
+MikaOpeningGrenade: {
+	DisplayName: Mika Opening Test Grenade
+	Tooltip: Begin the crack and shatter sequence and open the domain with its music.
+}
+
 TestItem: {
 	DisplayName: Test Item
 	Tooltip: ""
+}
+
+MikaHead: {
+	DisplayName: Mika Hairstyle
+	Tooltip: Vanity: Mika's head, rear hair, and halo.
+}
+
+MikaBody: {
+	DisplayName: Mika Uniform
+	Tooltip: Vanity: Mika's uniform. The full outfit includes decorative wings.
+}
+
+MikaBoots: {
+	DisplayName: Mika Boots
+	Tooltip: Vanity: Mika's skirt and boots.
 }
 
 YuukaHead: {
@@ -34,8 +84,8 @@ UnionCredit: {
 }
 
 DeliveryPackage: {
-	DisplayName: Delivery Package
-	Tooltip: ""
+	DisplayName: Drone Delivery Package
+	Tooltip: Right-click to claim every item in this order
 }
 
 ShittimTablet: {
@@ -71,4 +121,1345 @@ NoaBoots: {
 NoaBody: {
 	Tooltip: ""
 	DisplayName: Noa Body
+}
+
+HikariBoots: {
+	DisplayName: Hikari Boots
+	Tooltip: ""
+}
+
+HikariBody: {
+	Tooltip: ""
+	DisplayName: Hikari Body
+}
+
+HikariHead: {
+	DisplayName: Hikari Head
+	Tooltip: ""
+}
+
+HoshinoBody: {
+	DisplayName: Hoshino Body
+	Tooltip: ""
+}
+
+HoshinoBoots: {
+	DisplayName: Hoshino Boots
+	Tooltip: ""
+}
+
+HoshinoHead: {
+	DisplayName: Hoshino Head
+	Tooltip: ""
+}
+
+IbukiBody: {
+	DisplayName: Ibuki Body
+	Tooltip: ""
+}
+
+IbukiBoots: {
+	DisplayName: Ibuki Boots
+	Tooltip: ""
+}
+
+IbukiHead: {
+	DisplayName: Ibuki Head
+	Tooltip: ""
+}
+
+IrohaBody: {
+	DisplayName: Iroha Body
+	Tooltip: ""
+}
+
+IrohaBoots: {
+	DisplayName: Iroha Boots
+	Tooltip: ""
+}
+
+IrohaHead: {
+	DisplayName: Iroha Head
+	Tooltip: ""
+}
+
+HarukaHead: {
+	DisplayName: Haruka Head
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+HarukaBody: {
+	DisplayName: Haruka Body
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+HarukaBoots: {
+	DisplayName: Haruka Boots
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+KayokoHead: {
+	DisplayName: Kayoko Head
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+KayokoBody: {
+	DisplayName: Kayoko Body
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+KayokoBoots: {
+	DisplayName: Kayoko Boots
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+MutsukiHead: {
+	DisplayName: Mutsuki Head
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+MutsukiBody: {
+	DisplayName: Mutsuki Body
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+MutsukiBoots: {
+	DisplayName: Mutsuki Boots
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+NozomiHead: {
+	DisplayName: Nozomi Head
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+NozomiBody: {
+	DisplayName: Nozomi Body
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+NozomiBoots: {
+	DisplayName: Nozomi Boots
+	Tooltip: Vanity: also available through the tablet Formation outfit selector.
+}
+
+NagisaHead: {
+	DisplayName: Nagisa Head
+	Tooltip: Vanity: also available in tablet Formation.
+}
+
+NagisaBody: {
+	DisplayName: Nagisa Body
+	Tooltip: Vanity: also available in tablet Formation.
+}
+
+NagisaBoots: {
+	DisplayName: Nagisa Boots
+	Tooltip: Vanity: also available in tablet Formation.
+}
+
+SeiaHead: {
+	DisplayName: Seia Head
+	Tooltip: Vanity: also available in tablet Formation.
+}
+
+SeiaBody: {
+	DisplayName: Seia Body
+	Tooltip: Vanity: also available in tablet Formation.
+}
+
+SeiaBoots: {
+	DisplayName: Seia Boots
+	Tooltip: Vanity: also available in tablet Formation.
+}
+
+Mika2x2Head: {
+	DisplayName: Mika Head (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Mika2x2Body: {
+	DisplayName: Mika Body (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Mika2x2Boots: {
+	DisplayName: Mika Boots (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Yuuka2x2Head: {
+	DisplayName: Yuuka Head (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Yuuka2x2Body: {
+	DisplayName: Yuuka Body (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Yuuka2x2Boots: {
+	DisplayName: Yuuka Boots (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Ibuki2x2Head: {
+	DisplayName: Ibuki Head (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Ibuki2x2Body: {
+	DisplayName: Ibuki Body (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Ibuki2x2Boots: {
+	DisplayName: Ibuki Boots (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Iroha2x2Head: {
+	DisplayName: Iroha Head (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Iroha2x2Body: {
+	DisplayName: Iroha Body (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Iroha2x2Boots: {
+	DisplayName: Iroha Boots (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Hikari2x2Head: {
+	DisplayName: Hikari Head (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Hikari2x2Body: {
+	DisplayName: Hikari Body (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+Hikari2x2Boots: {
+	DisplayName: Hikari Boots (2x2)
+	Tooltip: Select this outfit in tablet Formation.
+}
+
+PackHimari2x2Head: {
+	DisplayName: 日鞠 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackHimari2x2Body: {
+	DisplayName: 日鞠 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackHimari2x2Boots: {
+	DisplayName: 日鞠 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackAko2x2Head: {
+	DisplayName: 亚子 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackAko2x2Body: {
+	DisplayName: 亚子 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackAko2x2Boots: {
+	DisplayName: 亚子 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackMutsuki2x2Head: {
+	DisplayName: 睦月 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackMutsuki2x2Body: {
+	DisplayName: 睦月 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackMutsuki2x2Boots: {
+	DisplayName: 睦月 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackGehennaStudent2x2Head: {
+	DisplayName: 格黑娜学生 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackGehennaStudent2x2Body: {
+	DisplayName: 格黑娜学生 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackGehennaStudent2x2Boots: {
+	DisplayName: 格黑娜学生 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackHaruka2x2Head: {
+	DisplayName: 春香 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackHaruka2x2Body: {
+	DisplayName: 春香 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackHaruka2x2Boots: {
+	DisplayName: 春香 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackNonomi2x2Head: {
+	DisplayName: 野乃美 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackNonomi2x2Body: {
+	DisplayName: 野乃美 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackNonomi2x2Boots: {
+	DisplayName: 野乃美 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackSerika2x2Head: {
+	DisplayName: 芹香 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackSerika2x2Body: {
+	DisplayName: 芹香 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackSerika2x2Boots: {
+	DisplayName: 芹香 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackKoyuki2x2Head: {
+	DisplayName: 小雪 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackKoyuki2x2Body: {
+	DisplayName: 小雪 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackKoyuki2x2Boots: {
+	DisplayName: 小雪 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackIroha2x2Head: {
+	DisplayName: 伊吕波 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackIroha2x2Body: {
+	DisplayName: 伊吕波 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackIroha2x2Boots: {
+	DisplayName: 伊吕波 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackKayoko2x2Head: {
+	DisplayName: 佳代子 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackKayoko2x2Body: {
+	DisplayName: 佳代子 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackKayoko2x2Boots: {
+	DisplayName: 佳代子 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackAru2x2Head: {
+	DisplayName: 阿露 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackAru2x2Body: {
+	DisplayName: 阿露 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackAru2x2Boots: {
+	DisplayName: 阿露 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackMegu2x2Head: {
+	DisplayName: 惠 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackMegu2x2Body: {
+	DisplayName: 惠 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackMegu2x2Boots: {
+	DisplayName: 惠 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackHina2x2Head: {
+	DisplayName: 日奈 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackHina2x2Body: {
+	DisplayName: 日奈 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackHina2x2Boots: {
+	DisplayName: 日奈 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackShiroko2x2Head: {
+	DisplayName: 白子 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackShiroko2x2Body: {
+	DisplayName: 白子 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackShiroko2x2Boots: {
+	DisplayName: 白子 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackHikari2x2Head: {
+	DisplayName: 小光 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackHikari2x2Body: {
+	DisplayName: 小光 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackHikari2x2Boots: {
+	DisplayName: 小光 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackNozomi2x2Head: {
+	DisplayName: 小望 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackNozomi2x2Body: {
+	DisplayName: 小望 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackNozomi2x2Boots: {
+	DisplayName: 小望 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackHoshino2x2Head: {
+	DisplayName: 星野 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackHoshino2x2Body: {
+	DisplayName: 星野 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackHoshino2x2Boots: {
+	DisplayName: 星野 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackNoa2x2Head: {
+	DisplayName: 诺亚 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackNoa2x2Body: {
+	DisplayName: 诺亚 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackNoa2x2Boots: {
+	DisplayName: 诺亚 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackAkari2x2Head: {
+	DisplayName: 明里 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackAkari2x2Body: {
+	DisplayName: 明里 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackAkari2x2Boots: {
+	DisplayName: 明里 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+PackMeguSauna2x2Head: {
+	DisplayName: 惠·桑拿 2×2 头饰
+	Tooltip: 2×2 外观
+}
+
+PackMeguSauna2x2Body: {
+	DisplayName: 惠·桑拿 2×2 上衣
+	Tooltip: 2×2 外观
+}
+
+PackMeguSauna2x2Boots: {
+	DisplayName: 惠·桑拿 2×2 鞋子
+	Tooltip: 2×2 外观
+}
+
+ClothArmorMillenniumSeminarHeadbandHead: {
+	DisplayName: SeminarHeadband_Head · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothArmorMillenniumSeminarLabcoatBody: {
+	DisplayName: SeminarLabcoat_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothArmorMillenniumSeminarLeggingsFemale: {
+	DisplayName: SeminarLeggings_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothArmorMillenniumSeminarLeggingsLegs: {
+	DisplayName: SeminarLeggings_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityAsagiMutsukiMutsukiDress: {
+	DisplayName: Mutsuki Dress · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityAsagiMutsukiMutsukiShoesF: {
+	DisplayName: Mutsuki Shoes F · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityAsagiMutsukiMutsukiShoesM: {
+	DisplayName: Mutsuki Shoes M · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityAsagiMutsukiMutsukiTop: {
+	DisplayName: Mutsuki Top · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityGenericSeminarSeminarBodyBody: {
+	DisplayName: SeminarBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityGenericSeminarSeminarHeadHead: {
+	DisplayName: SeminarHead_Head · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityGenericSeminarSeminarLegsFemale: {
+	DisplayName: SeminarLegs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityGenericSeminarSeminarLegsLegs: {
+	DisplayName: SeminarLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityGenericSeminarSeminarLegsShoes: {
+	DisplayName: SeminarLegs_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityGenericSeminarSeminarLegsShoesFemale: {
+	DisplayName: SeminarLegs_Shoes_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIgusaHarukaHarukaChest: {
+	DisplayName: Haruka Chest · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIgusaHarukaHarukaHat: {
+	DisplayName: Haruka Hat · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIgusaHarukaHarukaShoesF: {
+	DisplayName: Haruka Shoes F · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIgusaHarukaHarukaShoesM: {
+	DisplayName: Haruka Shoes M · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIgusaHarukaHarukaSkirt: {
+	DisplayName: Haruka Skirt · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiBodyAlt2Body: {
+	DisplayName: IzayoiNonomiBody_Alt2Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiBodyAltBody: {
+	DisplayName: IzayoiNonomiBody_AltBody · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiBodyBody: {
+	DisplayName: IzayoiNonomiBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsAlt2Legs: {
+	DisplayName: IzayoiNonomiLegs_Alt2Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsAlt2LegsFemale: {
+	DisplayName: IzayoiNonomiLegs_Alt2Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsAltLegs: {
+	DisplayName: IzayoiNonomiLegs_AltLegs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsAltLegsFemale: {
+	DisplayName: IzayoiNonomiLegs_AltLegs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsLegs: {
+	DisplayName: IzayoiNonomiLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsLegsFemale: {
+	DisplayName: IzayoiNonomiLegs_Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsShoes: {
+	DisplayName: IzayoiNonomiLegs_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityIzayoiNonomiIzayoiNonomiLegsShoesFemale: {
+	DisplayName: IzayoiNonomiLegs_Shoes_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKayokoVanitiesKayokoChest: {
+	DisplayName: Kayoko Chest · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKayokoVanitiesKayokoHorns: {
+	DisplayName: Kayoko Horns · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKayokoVanitiesKayokoShoesF: {
+	DisplayName: Kayoko Shoes F · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKayokoVanitiesKayokoShoesM: {
+	DisplayName: Kayoko Shoes M · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKayokoVanitiesKayokoSkirt: {
+	DisplayName: Kayoko Skirt · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKinugawaKasumiKinugawaKasumiBodyBody: {
+	DisplayName: KinugawaKasumiBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKinugawaKasumiKinugawaKasumiHeadHead: {
+	DisplayName: KinugawaKasumiHead_Head · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKinugawaKasumiKinugawaKasumiLegsLegs: {
+	DisplayName: KinugawaKasumiLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaBodyAlt2Body: {
+	DisplayName: KuromiSerikaBody_Alt2Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaBodyAltBody: {
+	DisplayName: KuromiSerikaBody_AltBody · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaBodyBody: {
+	DisplayName: KuromiSerikaBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsAlt2Legs: {
+	DisplayName: KuromiSerikaLegs_Alt2Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsAlt2LegsFemale: {
+	DisplayName: KuromiSerikaLegs_Alt2Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsAltLegs: {
+	DisplayName: KuromiSerikaLegs_AltLegs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsAltLegsFemale: {
+	DisplayName: KuromiSerikaLegs_AltLegs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsLegs: {
+	DisplayName: KuromiSerikaLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsLegsFemale: {
+	DisplayName: KuromiSerikaLegs_Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsShoes: {
+	DisplayName: KuromiSerikaLegs_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityKuromiSerikaKuromiSerikaLegsShoesFemale: {
+	DisplayName: KuromiSerikaLegs_Shoes_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityRikuhachimaAruAruChest: {
+	DisplayName: Aru Chest · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityRikuhachimaAruAruHorns: {
+	DisplayName: Aru Horns · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityRikuhachimaAruAruShoesF: {
+	DisplayName: Aru Shoes F · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityRikuhachimaAruAruShoesM: {
+	DisplayName: Aru Shoes M · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityRikuhachimaAruAruSkirt: {
+	DisplayName: Aru Skirt · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMidoriMidoriChest: {
+	DisplayName: Midori Chest · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMidoriMidoriHeadpiece: {
+	DisplayName: Midori Headpiece · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMidoriMidoriShoesF: {
+	DisplayName: Midori Shoes F · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMidoriMidoriShoesM: {
+	DisplayName: Midori Shoes M · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMidoriMidoriShortsF: {
+	DisplayName: Midori Shorts F · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMidoriMidoriShortsM: {
+	DisplayName: Midori Shorts M · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMomoiMomoiChestFixedV2: {
+	DisplayName: Momoi Chest Fixed V2 · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMomoiMomoiChest: {
+	DisplayName: Momoi Chest · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMomoiMomoiHeadpieceFixed: {
+	DisplayName: Momoi Headpiece Fixed · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMomoiMomoiHeadpiece: {
+	DisplayName: Momoi Headpiece · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMomoiMomoiShoesFemale: {
+	DisplayName: Momoi Shoes Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMomoiMomoiShoesMale: {
+	DisplayName: Momoi Shoes Male · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySaibaMomoiMomoiSkirtSheet: {
+	DisplayName: Momoi Skirt Sheet · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySenseiSenseiBodyBody: {
+	DisplayName: SenseiBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySenseiSenseiHeadHead: {
+	DisplayName: SenseiHead_Head · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySenseiSenseiLegsLegs: {
+	DisplayName: SenseiLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityShimoeKoharuShimoeKoharuBodyBody: {
+	DisplayName: ShimoeKoharuBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityShimoeKoharuShimoeKoharuHeadHead: {
+	DisplayName: ShimoeKoharuHead_Head · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityShimoeKoharuShimoeKoharuLegsLegs: {
+	DisplayName: ShimoeKoharuLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityShimoeKoharuShimoeKoharuLegsLegsFemale: {
+	DisplayName: ShimoeKoharuLegs_Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityShimoeKoharuShimoeKoharuLegsShoes: {
+	DisplayName: ShimoeKoharuLegs_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityShimoeKoharuShimoeKoharuLegsShoesFemale: {
+	DisplayName: ShimoeKoharuLegs_Shoes_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoBodyAlt2Body: {
+	DisplayName: SunaookamiShirokoBody_Alt2Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoBodyAltBody: {
+	DisplayName: SunaookamiShirokoBody_AltBody · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoBodyBody: {
+	DisplayName: SunaookamiShirokoBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsAlt2Legs: {
+	DisplayName: SunaookamiShirokoLegs_Alt2Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsAlt2LegsFemale: {
+	DisplayName: SunaookamiShirokoLegs_Alt2Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsAltLegs: {
+	DisplayName: SunaookamiShirokoLegs_AltLegs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsAltLegsFemale: {
+	DisplayName: SunaookamiShirokoLegs_AltLegs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsLegs: {
+	DisplayName: SunaookamiShirokoLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsLegsFemale: {
+	DisplayName: SunaookamiShirokoLegs_Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsShoes: {
+	DisplayName: SunaookamiShirokoLegs_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanitySunaookamiShirokoSunaookamiShirokoLegsShoesFemale: {
+	DisplayName: SunaookamiShirokoLegs_Shoes_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoBodyAlt2Body: {
+	DisplayName: TakanashiHoshinoBody_Alt2Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoBodyAltBody: {
+	DisplayName: TakanashiHoshinoBody_AltBody · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoBodyBody: {
+	DisplayName: TakanashiHoshinoBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsAlt2Legs: {
+	DisplayName: TakanashiHoshinoLegs_Alt2Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsAlt2LegsFemale: {
+	DisplayName: TakanashiHoshinoLegs_Alt2Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsAltLegs: {
+	DisplayName: TakanashiHoshinoLegs_AltLegs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsAltLegsFemale: {
+	DisplayName: TakanashiHoshinoLegs_AltLegs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsLegs: {
+	DisplayName: TakanashiHoshinoLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsLegsFemale: {
+	DisplayName: TakanashiHoshinoLegs_Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsShoes: {
+	DisplayName: TakanashiHoshinoLegs_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityTakanashiHoshinoTakanashiHoshinoLegsShoesFemale: {
+	DisplayName: TakanashiHoshinoLegs_Shoes_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaBodyAlt2Body: {
+	DisplayName: UshioNoaBody_Alt2Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaBodyAltBody: {
+	DisplayName: UshioNoaBody_AltBody · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaBodyBody: {
+	DisplayName: UshioNoaBody_Body · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaHeadHead: {
+	DisplayName: UshioNoaHead_Head · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsAlt2Legs: {
+	DisplayName: UshioNoaLegs_Alt2Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsAlt2LegsFemale: {
+	DisplayName: UshioNoaLegs_Alt2Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsAltLegs: {
+	DisplayName: UshioNoaLegs_AltLegs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsAltLegsFemale: {
+	DisplayName: UshioNoaLegs_AltLegs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsLegs: {
+	DisplayName: UshioNoaLegs_Legs · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsLegsFemale: {
+	DisplayName: UshioNoaLegs_Legs_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsShoes: {
+	DisplayName: UshioNoaLegs_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityUshioNoaUshioNoaLegsShoesFemale: {
+	DisplayName: UshioNoaLegs_Shoes_Female · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityYuukaVanitiesYuukaChest: {
+	DisplayName: Yuuka Chest · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityYuukaVanitiesYuukaHead: {
+	DisplayName: Yuuka Head · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityYuukaVanitiesYuukaShoes: {
+	DisplayName: Yuuka_Shoes · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothVanityYuukaVanitiesYuukaShoesFemale1: {
+	DisplayName: Yuuka_Shoes_Female (1) · 2×2
+	Tooltip: 2×2 玩家服装
+}
+
+ClothHaloMillenniumHalo: {
+	DisplayName: MillenniumHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloAmauAkoHalo: {
+	DisplayName: AmauAkoHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloAsagiMutsukiHalo: {
+	DisplayName: AsagiMutsukiHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloGehennaHalo: {
+	DisplayName: GehennaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloGenericHalo: {
+	DisplayName: GenericHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloHayaseYuukaHalo: {
+	DisplayName: HayaseYuukaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloHinomiyaChinatsuHalo: {
+	DisplayName: HinomiyaChinatsuHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloIgusaHarukaHalo: {
+	DisplayName: IgusaHarukaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloIzayoiNonomiHalo: {
+	DisplayName: IzayoiNonomiHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloKasumiHalo: {
+	DisplayName: KasumiHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloKuromiSerikaHalo: {
+	DisplayName: KuromiSerikaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloKurosakiKoyukiHalo: {
+	DisplayName: KurosakiKoyukiHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloMisonoMikaHalo: {
+	DisplayName: MisonoMikaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloNatsumeIrohaHalo: {
+	DisplayName: NatsumeIrohaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloOkusoraAyaneHalo: {
+	DisplayName: OkusoraAyaneHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloOnikataKayokoHalo: {
+	DisplayName: OnikataKayokoHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloRikuhachimaAruHalo: {
+	DisplayName: RikuhachimaAruHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloShimokuraMeguHalo: {
+	DisplayName: ShimokuraMeguHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloShiromiIoriHalo: {
+	DisplayName: ShiromiIoriHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloSorasakiHinaHalo: {
+	DisplayName: SorasakiHinaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloSunaookamiShirokoHalo: {
+	DisplayName: SunaookamiShirokoHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloTachibanaHikariHalo: {
+	DisplayName: TachibanaHikariHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloTachibanaNozomiHalo: {
+	DisplayName: TachibanaNozomiHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloTakanashiHoshinoHalo: {
+	DisplayName: TakanashiHoshinoHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloUshioNoaHalo: {
+	DisplayName: UshioNoaHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothHaloWanibuchiAkariHalo: {
+	DisplayName: WanibuchiAkariHalo · 2×2
+	Tooltip: 2×2 时装光环
+}
+
+ClothOverlayKuromiSerikaHeadHeadBack: {
+	DisplayName: KuromiSerikaHeadHeadBack · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlayKuromiSerikaHeadHeadFront: {
+	DisplayName: KuromiSerikaHeadHeadFront · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlayMidoriTailSheet: {
+	DisplayName: MidoriTailSheet · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlayMomoiCoatSheet: {
+	DisplayName: MomoiCoatSheet · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlayMomoiTailSheet: {
+	DisplayName: MomoiTailSheet · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlaySunaookamiShirokoHeadHeadBack: {
+	DisplayName: SunaookamiShirokoHeadHeadBack · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlaySunaookamiShirokoHeadHeadFront: {
+	DisplayName: SunaookamiShirokoHeadHeadFront · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlaySunaookamiShirokoNeckNeck: {
+	DisplayName: SunaookamiShirokoNeckNeck · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlaySunaookamiShirokoTailTail: {
+	DisplayName: SunaookamiShirokoTailTail · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlayShimoeKoharuWingsWings: {
+	DisplayName: ShimoeKoharuWingsWings · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+ClothOverlayShimoeKoharuWingsWingsHead: {
+	DisplayName: ShimoeKoharuWingsWingsHead · 2×2
+	Tooltip: 2×2 时装分层饰品
+}
+
+WeaponLevelResetter: {
+	DisplayName: Weapon Level Resetter (Developer)
+	Tooltip:
+		'''
+		Select a student weapon in the hotbar, then right-click this tool in your inventory to reset that weapon to Lv.1.
+		No materials or currency are refunded. The tool is not consumed.
+		'''
+}
+
+WeaponLevelBooster: {
+	DisplayName: Weapon Level Booster (Developer)
+	Tooltip:
+		'''
+		Select a student weapon in the hotbar, then right-click this tool in your inventory to add one level, up to Lv.10.
+		For development testing: ignores boss progress and consumes no materials, currency, or tool.
+		'''
+}
+
+StepByStepMusicBox: {
+	Tooltip:
+		'''
+		播放基沃托斯主界面音乐
+		可装备，或放置后右键及电线开关
+		'''
+	DisplayName: 音乐盒（Step by Step）
+}
+
+HardmodeMailBox: {
+	Tooltip: 右键开启，随机获得本阶段列表中的一件饰品
+	DisplayName: 饰品礼盒（困难模式）
+}
+
+MailOrange: {
+	DisplayName: 橘子
+	Tooltip: ""
+}
+
+MailResetter: {
+	DisplayName: 邮件重置器（开发者）
+	Tooltip: 右键清空自己的邮件及剧情接收记录；现实每日领取日期保留
+}
+
+PlanteraMailBox: {
+	DisplayName: 饰品礼盒（世纪之花后）
+	Tooltip: 右键开启，随机获得本阶段列表中的一件饰品
+}
+
+PreHardmodeMailBox: {
+	DisplayName: 饰品礼盒（肉山前）
+	Tooltip: 右键开启，随机获得本阶段列表中的一件饰品
+}
+
+YuukaApplePie: {
+	DisplayName: 美味的苹果派
+	Tooltip:
+		'''
+		优香亲手制作的苹果派
+		所有属性中幅度提升，并获得生命回复效果，持续3分钟
+		'''
 }

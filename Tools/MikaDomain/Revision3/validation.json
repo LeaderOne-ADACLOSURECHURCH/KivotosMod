@@ -1,0 +1,596 @@
+{
+  "pairs": 65,
+  "all_positions_scales_rotations_match_ae": true,
+  "front_extra_offset_removed": [
+    191,
+    123.5
+  ],
+  "spectrum_saturation_default": 18,
+  "pair_checks": [
+    {
+      "back": false,
+      "body": 0,
+      "glow": 1,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 2,
+      "glow": 3,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 4,
+      "glow": 5,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 6,
+      "glow": 7,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 8,
+      "glow": 9,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 10,
+      "glow": 11,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 12,
+      "glow": 13,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 14,
+      "glow": 15,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 16,
+      "glow": 17,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 18,
+      "glow": 19,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 20,
+      "glow": 21,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 22,
+      "glow": 23,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 24,
+      "glow": 25,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 26,
+      "glow": 27,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 28,
+      "glow": 29,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 30,
+      "glow": 31,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 32,
+      "glow": 33,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 34,
+      "glow": 35,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 36,
+      "glow": 37,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 38,
+      "glow": 39,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 40,
+      "glow": 41,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 42,
+      "glow": 43,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 44,
+      "glow": 45,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 46,
+      "glow": 47,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": false,
+      "body": 48,
+      "glow": 49,
+      "ae_relative_offset": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 1,
+      "glow": 2,
+      "ae_relative_offset": [
+        242.0,
+        148.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 2,
+      "glow": 3,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 4,
+      "glow": 5,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 6,
+      "glow": 7,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 8,
+      "glow": 9,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 10,
+      "glow": 11,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 12,
+      "glow": 13,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 14,
+      "glow": 15,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 16,
+      "glow": 17,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 18,
+      "glow": 19,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 20,
+      "glow": 21,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 22,
+      "glow": 23,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 24,
+      "glow": 25,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 26,
+      "glow": 27,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 28,
+      "glow": 29,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 30,
+      "glow": 31,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 32,
+      "glow": 33,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 34,
+      "glow": 35,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 36,
+      "glow": 37,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 38,
+      "glow": 39,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 40,
+      "glow": 41,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 42,
+      "glow": 43,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 44,
+      "glow": 45,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 46,
+      "glow": 47,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 48,
+      "glow": 49,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 50,
+      "glow": 51,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 52,
+      "glow": 53,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 54,
+      "glow": 55,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 56,
+      "glow": 57,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 58,
+      "glow": 59,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 60,
+      "glow": 61,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 62,
+      "glow": 63,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 64,
+      "glow": 65,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 66,
+      "glow": 67,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 68,
+      "glow": 69,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 70,
+      "glow": 71,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 72,
+      "glow": 73,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 74,
+      "glow": 75,
+      "ae_relative_offset": [
+        -0.5,
+        2.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 76,
+      "glow": 77,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "back": true,
+      "body": 78,
+      "glow": 79,
+      "ae_relative_offset": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

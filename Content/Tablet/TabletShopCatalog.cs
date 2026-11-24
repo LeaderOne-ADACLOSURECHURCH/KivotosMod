@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using KivotosMod.Globals.Classes;
 
 namespace KivotosMod.Content.Tablet;
 
@@ -18,6 +19,7 @@ public enum TabletShopCategory
     Tiles,
     Materials,
     Other,
+    Favorites,
 }
 
 public sealed class TabletShopProduct
@@ -27,14 +29,23 @@ public sealed class TabletShopProduct
     public int PriceCredits { get; }
     public int Stack { get; }
     public TabletShopCategory Category { get; }
+    public int UnlockStage { get; }
+    public bool Available => UnlockStage switch
+    {
+        1 => Main.hardMode,
+        2 => NPC.downedPlantBoss,
+        3 => NPC.downedMoonlord,
+        _ => true
+    };
 
-    public TabletShopProduct(int itemType, string internalName, int priceCredits, TabletShopCategory category, int stack = 1)
+    public TabletShopProduct(int itemType, string internalName, int priceCredits, TabletShopCategory category, int stack = 1, int unlockStage = 0)
     {
         ItemType = itemType;
         InternalName = internalName;
         PriceCredits = Math.Max(1, priceCredits);
         Category = category;
         Stack = Math.Max(1, stack);
+        UnlockStage = unlockStage;
     }
 }
 
@@ -60,40 +71,44 @@ public static class TabletShopCatalog
             if (!ns.StartsWith("KivotosMod.Content.Items.Weapons", StringComparison.Ordinal))
                 continue;
 
-            int price = item.Item.value > 0 ? item.Item.value : 10000;
-            price = Math.Max(10000, price);
+            int price = item.Name switch
+            {
+                "HinaWeapon" or "ArisuWeapon" => 300000,
+                "HarukaWeapon" => 220000,
+                "MeguWeapon" => 250000,
+                "YuzuWeapon" => 230000,
+                "HoshinoWeapon" => 170000,
+                "IbukiWeapon" => 200000,
+                "MikaWeapon" => 150000,
+                "YuukaWeapon" or "NoaWeapon" => 170000,
+                "MomoiWeapon" or "MidoriWeapon" => 180000,
+                "BaseballBat" or "PracticeCricketBat" or "PracticeHockeyClub" => 20000,
+                "MetalBaseballBat" => 30000,
+                _ => item is StudentWeaponClass ? 120000 : 100000
+            };
             Add(new TabletShopProduct(item.Type, item.Name, price, TabletShopCategory.Weapons));
         }
 
-        // Vanilla ammunition only for now, as requested:
-        // - gun bullets (AmmoID.Bullet)
-        // - launcher/rocket ammunition (AmmoID.Rocket; this includes the grenade/rocket family)
-        // - standalone vanilla grenade consumables such as Grenade / StickyGrenade / BouncyGrenade / Beenade.
-        for (int type = 1; type < ItemID.Count; type++)
-        {
-            Item sample = new();
-            sample.SetDefaults(type);
-
-            bool gunAmmo = sample.ammo == AmmoID.Bullet;
-            bool launcherAmmo = sample.ammo == AmmoID.Rocket;
-
-            // Keep this data-driven instead of hard-coding every grenade ID. This catches current
-            // vanilla grenade variants without accidentally adding the Grenade Launcher itself.
-            string internalName = ItemID.Search.GetName(type) ?? string.Empty;
-            bool throwableGrenade = sample.consumable
-                && (internalName.Contains("Grenade", StringComparison.OrdinalIgnoreCase)
-                    || internalName.Contains("Beenade", StringComparison.OrdinalIgnoreCase));
-
-            if (!gunAmmo && !launcherAmmo && !throwableGrenade)
-                continue;
-
-            int price = Math.Max(10, sample.value);
-            Add(new TabletShopProduct(type, internalName, price, TabletShopCategory.Ammunition));
-        }
+        AddAmmo(0, (ItemID.SilverBullet, 15), (ItemID.MusketBall, 7), (ItemID.MeteorShot, 13),
+            (ItemID.TungstenBullet, 18), (ItemID.EndlessMusketPouch, 60000), (ItemID.RocketI, 50),
+            (ItemID.HoneyRocket, 5000), (ItemID.WetRocket, 4000), (ItemID.Grenade, 75),
+            (ItemID.Beenade, 2500), (ItemID.StickyGrenade, 85), (ItemID.BouncyGrenade, 100));
+        AddAmmo(1, (ItemID.IchorBullet, 37), (ItemID.CursedBullet, 33), (ItemID.CrystalBullet, 85),
+            (ItemID.PartyBullet, 10), (ItemID.VenomBullet, 35), (ItemID.ExplodingBullet, 30),
+            (ItemID.GoldenBullet, 40), (ItemID.RocketII, 300), (ItemID.RocketIII, 100),
+            (ItemID.RocketIV, 600), (ItemID.LavaRocket, 5000), (ItemID.PartyGirlGrenade, 250));
+        AddAmmo(2, (ItemID.ChlorophyteBullet, 600), (ItemID.NanoBullet, 35));
+        AddAmmo(3, (ItemID.MoonlordBullet, 180), (ItemID.MiniNukeI, 600), (ItemID.MiniNukeII, 1000));
 
         _products.Sort(CompareProducts);
         foreach (List<TabletShopProduct> list in _productsByCategory.Values)
             list.Sort(CompareProducts);
+    }
+
+    private static void AddAmmo(int stage, params (int Type, int Price)[] items)
+    {
+        foreach (var (type, price) in items)
+            Add(new TabletShopProduct(type, ItemID.Search.GetName(type), price, TabletShopCategory.Ammunition, unlockStage: stage));
     }
 
     private static int CompareProducts(TabletShopProduct a, TabletShopProduct b)

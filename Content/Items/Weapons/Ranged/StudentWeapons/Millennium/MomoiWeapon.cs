@@ -23,7 +23,7 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Millennium
         {
             base.SetDefaults();
             Item.useTime = Item.useAnimation = 7;
-            Item.damage = 45;
+            Item.damage = 18;
             Item.knockBack = 1;
             Item.shootSpeed = 10f;
             Item.shoot = ProjectileType<MomoiWeaponHeldProj>();

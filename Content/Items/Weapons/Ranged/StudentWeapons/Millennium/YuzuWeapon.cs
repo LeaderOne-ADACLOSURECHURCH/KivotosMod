@@ -27,10 +27,11 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Millennium
         {
             base.SetDefaults();
             Item.useTime = Item.useAnimation = 57;
-            Item.damage = 45;
+            Item.damage = 72;
             Item.knockBack = 1;
             Item.shootSpeed = 10f;
             Item.shoot = ProjectileType<YuzuWeaponHeldProj>();
+            Item.useAmmo = Terraria.ID.AmmoID.Rocket;
         }
     }
 

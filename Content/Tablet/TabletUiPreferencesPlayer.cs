@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Terraria.ModLoader.IO;
@@ -24,6 +26,30 @@ public sealed class TabletUiPreferencesPlayer : ModPlayer
         1.30f,
         1.40f,
     };
+
+    public HashSet<int> FavoriteStudents { get; } = new();
+    public HashSet<string> FavoriteWeapons { get; } = new(StringComparer.Ordinal);
+    public bool IsFavoriteWeapon(int itemType) => FavoriteWeapons.Contains(WeaponKey(itemType));
+    private static string WeaponKey(int itemType) => Terraria.ModLoader.ItemLoader.GetItem(itemType)?.FullName ?? string.Empty;
+    public void ToggleWeapon(int itemType)
+    {
+        string key = WeaponKey(itemType);
+        if (key.Length == 0) return;
+        if (!FavoriteWeapons.Add(key)) FavoriteWeapons.Remove(key);
+    }
+
+    public HashSet<string> FavoriteProducts { get; } = new(StringComparer.Ordinal);
+    public bool IsFavorite(TabletShopProduct product) => FavoriteProducts.Contains(ProductKey(product));
+    public static string ProductKey(TabletShopProduct product) => Terraria.ModLoader.ItemLoader.GetItem(product.ItemType)?.FullName ?? "Terraria/" + product.InternalName;
+    public void ToggleStudent(TabletStudentId id)
+    {
+        if (!FavoriteStudents.Add((int)id)) FavoriteStudents.Remove((int)id);
+    }
+    public void ToggleProduct(TabletShopProduct product)
+    {
+        string key = ProductKey(product);
+        if (!FavoriteProducts.Add(key)) FavoriteProducts.Remove(key);
+    }
 
     private const int DefaultScaleIndex = 4;
     private int _scaleIndex = DefaultScaleIndex;
@@ -99,6 +125,9 @@ public sealed class TabletUiPreferencesPlayer : ModPlayer
 
     public override void SaveData(TagCompound tag)
     {
+        tag["FavoriteStudents"] = FavoriteStudents.ToList();
+        tag["FavoriteWeapons"] = FavoriteWeapons.ToList();
+        tag["FavoriteProducts"] = FavoriteProducts.ToList();
         tag[nameof(_scaleIndex)] = _scaleIndex;
         tag[nameof(UseRealTimeClock)] = UseRealTimeClock;
         tag[nameof(_tabletOffsetX)] = _tabletOffsetX;
@@ -112,6 +141,12 @@ public sealed class TabletUiPreferencesPlayer : ModPlayer
 
     public override void LoadData(TagCompound tag)
     {
+        FavoriteStudents.Clear();
+        FavoriteProducts.Clear();
+        FavoriteWeapons.Clear();
+        foreach (string key in tag.GetList<string>("FavoriteWeapons")) FavoriteWeapons.Add(key);
+        foreach (int id in tag.GetList<int>("FavoriteStudents")) FavoriteStudents.Add(id);
+        foreach (string key in tag.GetList<string>("FavoriteProducts")) FavoriteProducts.Add(key);
         _scaleIndex = tag.ContainsKey(nameof(_scaleIndex))
             ? Math.Clamp(tag.GetInt(nameof(_scaleIndex)), 0, ScalePresets.Length - 1)
             : DefaultScaleIndex;

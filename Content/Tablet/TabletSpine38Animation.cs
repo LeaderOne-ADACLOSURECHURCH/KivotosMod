@@ -10,6 +10,10 @@ internal sealed class TabletSpine38Animation
     internal const float MaxBlinkInterval = 6f;
     internal const float TrackingResponseSeconds = 0.18f;
     internal const float MaxTrackingSpeed = 4f;
+    internal const float AronaLeftTurnScale = 0.5f;
+    internal const float PlanaTurnRangeX = 90f;
+    internal const float PlanaTurnRangeY = 60f;
+    internal const float PlanaRightTurnScale = 0.5f;
     private const float BlinkFade = 0.08f;
     private readonly AnimationState _state;
     private readonly Animation _blink;
@@ -17,6 +21,7 @@ internal sealed class TabletSpine38Animation
     private readonly Slot _pupils;
     private readonly float[] _pupilVertices;
     private readonly Bone _headControl;
+    private readonly bool _plana;
     private readonly float _turnMinX, _turnMaxX, _turnMinY, _turnMaxY;
     private float _mouseX, _mouseY, _lookX, _lookY;
     private float _focusX, _focusY;
@@ -27,12 +32,15 @@ internal sealed class TabletSpine38Animation
     public float BlinkDuration => _blink.Duration;
     public bool Blinking => _blinkRemaining > 0;
 
-    public TabletSpine38Animation(SkeletonData data, Random random = null, bool sora = false)
+    public TabletSpine38Animation(SkeletonData data, Random random = null, bool sora = false, bool plana = false)
     {
         Skeleton = new Skeleton(data);
         _random = random ?? Random.Shared;
-        _blink = CreateBlink(data, sora);
-        if (!sora)
+        _blink = CreateBlink(data, sora, plana);
+        _plana = plana;
+        if (plana)
+            _headControl = Skeleton.FindBone("face2") ?? throw new InvalidOperationException("Plana head control 'face2' is missing.");
+        if (!sora && !plana)
         {
             _headControl = Skeleton.FindBone("bone18") ?? throw new InvalidOperationException("Arona head control 'bone18' is missing.");
             Animation turning = data.FindAnimation("Turning") ?? throw new InvalidOperationException("Arona head animation 'Turning' is missing.");
@@ -50,7 +58,7 @@ internal sealed class TabletSpine38Animation
             }
         }
         foreach (Slot slot in Skeleton.Slots)
-            if (slot.Attachment is MeshAttachment mesh && mesh.Name == "Hitomi")
+            if (slot.Attachment is MeshAttachment mesh && mesh.Name == (plana ? "pupil" : "Hitomi"))
             {
                 _pupils = slot;
                 _pupilVertices = new float[mesh.WorldVerticesLength];
@@ -58,7 +66,7 @@ internal sealed class TabletSpine38Animation
             }
         if (_pupils == null) throw new InvalidOperationException("Portrait pupil mesh 'Hitomi' is missing.");
         _state = new AnimationState(new AnimationStateData(data));
-        _state.SetAnimation(0, data.FindAnimation(sora ? "animation" : "swing") ?? throw new InvalidOperationException("Portrait idle animation is missing."), true);
+        _state.SetAnimation(0, data.FindAnimation(sora || plana ? "animation" : "swing") ?? throw new InvalidOperationException("Portrait idle animation is missing."), true);
         _blinkTimer = NextInterval();
         Update(0);
     }
@@ -93,12 +101,28 @@ internal sealed class TabletSpine38Animation
         }
         if (_headControl != null)
         {
-            // The authored negative "change" constraint moves face details
-            // opposite bone18. Invert both axes, within the Turning key ranges.
-            float turnX = _focusX >= 0 ? _focusX * _turnMinX : -_focusX * _turnMaxX;
-            float turnY = _focusY >= 0 ? _focusY * _turnMinY : -_focusY * _turnMaxY;
-            _headControl.X = _headControl.Data.X + turnX;
-            _headControl.Y = _headControl.Data.Y + turnY;
+            if (_plana)
+            {
+                // Plana's negative "change" constraint drives face3 from face2.
+                // Its parent is rotated, so convert the opposite world-space
+                // offset to parent-local coordinates rather than swapping axes.
+                Bone parent = _headControl.Parent;
+                parent.LocalToWorld(_headControl.Data.X, _headControl.Data.Y, out float baseX, out float baseY);
+                float horizontalRange = PlanaTurnRangeX * (_focusX > 0 ? PlanaRightTurnScale : 1f);
+                parent.WorldToLocal(baseX - _focusX * horizontalRange, baseY - _focusY * PlanaTurnRangeY,
+                    out float controlX, out float controlY);
+                _headControl.X = controlX;
+                _headControl.Y = controlY;
+            }
+            else
+            {
+                // Arona's negative constraint moves opposite bone18. Invert
+                // both axes, within the authored Turning key ranges.
+                float turnX = _focusX >= 0 ? _focusX * _turnMinX : -_focusX * _turnMaxX * AronaLeftTurnScale;
+                float turnY = _focusY >= 0 ? _focusY * _turnMinY : -_focusY * _turnMaxY;
+                _headControl.X = _headControl.Data.X + turnX;
+                _headControl.Y = _headControl.Data.Y + turnY;
+            }
             Skeleton.UpdateWorldTransform();
         }
         // Head tracking continues through blinking; hold the pupil gaze until
@@ -135,11 +159,13 @@ internal sealed class TabletSpine38Animation
 
     private float NextInterval() => MinBlinkInterval + (float)_random.NextDouble() * (MaxBlinkInterval - MinBlinkInterval);
 
-    internal static bool IsEyeBone(string name, bool sora) => sora
+    internal static bool IsEyeBone(string name, bool sora, bool plana = false) => plana
+        ? name.StartsWith("eyelash", StringComparison.Ordinal) || name.StartsWith("eyelids", StringComparison.Ordinal) || name.StartsWith("pupil", StringComparison.Ordinal)
+        : sora
         ? name.StartsWith("eye", StringComparison.Ordinal) || name == "face3" || name == "face4"
         : name.StartsWith("eyes", StringComparison.Ordinal);
 
-    private static Animation CreateBlink(SkeletonData data, bool sora)
+    private static Animation CreateBlink(SkeletonData data, bool sora, bool plana)
     {
         Animation original = data.FindAnimation("blink") ?? throw new InvalidOperationException("Portrait animation 'blink' is missing.");
         float start = float.PositiveInfinity, end = 0;
@@ -147,7 +173,7 @@ internal sealed class TabletSpine38Animation
         // export includes static keys at 0/end, outside its actual 1.167–1.6 blink.
         foreach (Timeline timeline in original.Timelines)
         {
-            if (timeline is not IBoneTimeline bone || !IsEyeBone(data.Bones.Items[bone.BoneIndex].Name, sora)) continue;
+            if (timeline is not IBoneTimeline bone || !IsEyeBone(data.Bones.Items[bone.BoneIndex].Name, sora, plana)) continue;
             float[] frames = timeline is RotateTimeline r ? r.Frames : ((TranslateTimeline)timeline).Frames;
             int stride = timeline is RotateTimeline ? 2 : 3;
             float setup = timeline is ScaleTimeline ? 1 : 0;
@@ -164,7 +190,7 @@ internal sealed class TabletSpine38Animation
         var timelines = new ExposedList<Timeline>();
         foreach (Timeline timeline in original.Timelines)
         {
-            if (timeline is not IBoneTimeline bone || !IsEyeBone(data.Bones.Items[bone.BoneIndex].Name, sora)) continue;
+            if (timeline is not IBoneTimeline bone || !IsEyeBone(data.Bones.Items[bone.BoneIndex].Name, sora, plana)) continue;
             float[] source = timeline is RotateTimeline r ? r.Frames : ((TranslateTimeline)timeline).Frames;
             int stride = timeline is RotateTimeline ? 2 : 3;
             int first = 0, last = source.Length - stride;

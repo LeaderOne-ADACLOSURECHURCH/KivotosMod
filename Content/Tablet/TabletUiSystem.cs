@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.Xna.Framework;
@@ -24,6 +24,8 @@ public sealed partial class TabletUiSystem : ModSystem
         Home,
         Shop,
         Formation,
+        WeaponUpgrade,
+        Mail,
     }
 
     private const int TabletWidth = 610;
@@ -38,6 +40,7 @@ public sealed partial class TabletUiSystem : ModSystem
     private const int PageTransitionTicks = PageFadeTicks * 2 + PageHoldTicks;
 
     private static readonly Rectangle DisplayRect = new(32, 32, 514, 386);
+    private static readonly Rectangle ClassroomSourceRect = new(210, 20, 594, 446);
 
     private static readonly Rectangle ReturnRect = new(50, 48, 36, 34);
     private static readonly Rectangle HomeButtonRect = new(556, 207, 36, 36);
@@ -158,6 +161,8 @@ public sealed partial class TabletUiSystem : ModSystem
     private static bool _savedInventoryLeftRelease;
     private static bool _savedInventoryRightRelease;
     private static int _selectedStudentIndex;
+    // 3 columns x 2 visible rows; more students are browsed with mouse wheel.
+    private static int _formationScrollRow;
 
     // 0 = fully put away, OpenCloseTicks = fully presented.  Keeping the timer when the
     // player changes slots lets a quick re-select reverse the motion instead of snapping.
@@ -236,6 +241,7 @@ public sealed partial class TabletUiSystem : ModSystem
     private static Asset<DynamicSpriteFont> _uiFontBold;
     private static Asset<Texture2D> _digitsSmall;
     private static readonly Asset<Texture2D>[] _classroomLayers = new Asset<Texture2D>[13];
+    private static readonly Asset<Texture2D>[] _nightClassroomLayers = new Asset<Texture2D>[13];
     private static readonly Asset<Texture2D>[] _categoryIcons = new Asset<Texture2D>[10];
 
     public override void Load()
@@ -320,8 +326,12 @@ public sealed partial class TabletUiSystem : ModSystem
             "ChairBack", "TableBack", "ChairMid", "TableMid", "ChairFront", "TableFront"
         };
         for (int i = 0; i < classroomNames.Length; i++)
+        {
             _classroomLayers[i] = ModContent.Request<Texture2D>($"KivotosMod/Assets/Tablet/UI/Classroom/{classroomNames[i]}", mode);
+            _nightClassroomLayers[i] = ModContent.Request<Texture2D>($"KivotosMod/Assets/Tablet/UI/ClassroomNight/{classroomNames[i]}", mode);
+        }
         LoadLegacyPresentation();
+        LoadUpgradeSkin();
 
         string[] categoryNames =
         {
@@ -335,6 +345,7 @@ public sealed partial class TabletUiSystem : ModSystem
 
     public override void Unload()
     {
+        EndQuantityInput(false);
         Visible = false;
         _holdTimer = 0;
         _openedFromInventory = false;
@@ -376,6 +387,7 @@ public sealed partial class TabletUiSystem : ModSystem
         TabletDynamicPortraitRenderer.Unload();
         UnloadLobby();
         UnloadLegacyPresentation();
+        UnloadUpgradeSkin();
         _studentThumbnails = Array.Empty<Asset<Texture2D>>();
         _studentPortraitBase.Clear();
         _studentPortraitFace.Clear();
@@ -383,7 +395,10 @@ public sealed partial class TabletUiSystem : ModSystem
         _uiFont = _uiFontBold = null;
         _digitsSmall = null;
         for (int i = 0; i < _classroomLayers.Length; i++)
+        {
             _classroomLayers[i] = null;
+            _nightClassroomLayers[i] = null;
+        }
         for (int i = 0; i < _categoryIcons.Length; i++)
             _categoryIcons[i] = null;
     }
@@ -403,6 +418,7 @@ public sealed partial class TabletUiSystem : ModSystem
 
         Visible = true;
         Startup.Start();
+        OpenLobby();
         _previousUiAnimationTimestamp = 0;
         _holdTimer = 0;
         _instance?._tabletInterface?.SetState(_instance._tabletState);
@@ -456,6 +472,7 @@ public sealed partial class TabletUiSystem : ModSystem
 
     private static void FinishClose()
     {
+        EndQuantityInput(true);
         Startup.Reset();
         _previousUiAnimationTimestamp = 0;
         _draggingTablet = false;
@@ -512,7 +529,8 @@ public sealed partial class TabletUiSystem : ModSystem
         }
 
         Player player = Main.LocalPlayer;
-        bool escapeDown = Main.keyState.IsKeyDown(Keys.Escape);
+        if (!Main.keyState.IsKeyDown(Keys.Escape)) _quantityEscapeHeld = false;
+        bool escapeDown = Main.keyState.IsKeyDown(Keys.Escape) && _quantityItem < 0 && !_quantityEscapeHeld;
 
         // Terraria may process Esc before ModSystem.UpdateUI. For the inventory shortcut,
         // the first Esc MUST return to the still-open backpack instead of closing it.
@@ -588,6 +606,7 @@ public sealed partial class TabletUiSystem : ModSystem
         }
 
         UpdatePageTransition();
+        SmoothLists();
         long timestamp = Stopwatch.GetTimestamp();
         float animationSeconds = UiAnimationDelta(_previousUiAnimationTimestamp, timestamp);
         _previousUiAnimationTimestamp = timestamp;
@@ -606,6 +625,7 @@ public sealed partial class TabletUiSystem : ModSystem
         Point p = mouseTablet.ToPoint();
         bool insideTablet = new Rectangle(0, 0, TabletWidth, TabletHeight).Contains(p);
         bool inputEnabled = wantsTablet && FullyOpened && !PageTransitionActive;
+        if (!inputEnabled) EndQuantityInput(true);
 
         // Right mouse button drags the entire opened tablet, from ANY point on its body.
         // This works both when held as an item and when opened beside the vanilla backpack.
@@ -690,6 +710,22 @@ public sealed partial class TabletUiSystem : ModSystem
         {
             _draggingScrollbar = false;
             return;
+        }
+
+        if (_page == TabletPage.WeaponUpgrade && !_settingsOpen) HandleUpgradeInput(p);
+        if (_page == TabletPage.Mail && !_settingsOpen) HandleMailInput(p);
+
+        if (_page == TabletPage.Formation && !_settingsOpen && FormationListClip.Contains(p))
+        {
+            int wheel = PlayerInput.ScrollWheelDeltaForUI;
+            if (wheel != 0)
+            {
+                // Advance by one ROW (three student tiles) while retaining selection.
+                int maximumScrollRow = Math.Max(0, (TabletStudentCatalog.FormationStudents.Count + 2) / 3 - 2);
+                _formationScrollRow = Math.Clamp(_formationScrollRow + (wheel > 0 ? -1 : 1), 0, maximumScrollRow);
+                SoundEngine.PlaySound(SoundID.MenuTick);
+                PlayerInput.LockVanillaMouseScroll("KivotosMod:FormationScroll");
+            }
         }
 
         if (_page == TabletPage.Shop && insideTablet && !_checkoutOpen && !_settingsOpen)
@@ -794,12 +830,33 @@ public sealed partial class TabletUiSystem : ModSystem
             return;
         }
 
+        if (_page == TabletPage.Mail) { HandleMailClick(p); return; }
+        if (_page == TabletPage.WeaponUpgrade) { HandleUpgradeClick(p); return; }
+
         if (_page == TabletPage.Formation)
         {
+            if (StudentFavoriteRect.Contains(p))
+            {
+                Preferences.ToggleStudent(TabletStudentCatalog.FormationStudents[_selectedStudentIndex].Id);
+                RefreshFormationOrder();
+                _formationScrollRow = 0;
+                SoundEngine.PlaySound(SoundID.MenuTick);
+                return;
+            }
+            if (FormationOutfitButtonRect.Contains(p))
+            {
+                TabletStudentId current = TabletStudentCatalog.FormationStudents[_selectedStudentIndex].Id;
+                TabletStudentId next = global::KivotosMod.Content.Items.Vanity.StudentSpriteVariants.OtherOutfit(current);
+                _selectedStudentIndex = TabletStudentCatalog.FormationIndexOf(next);
+                _formationScrollRow = Math.Max(0, (FormationPosition(_selectedStudentIndex) / 3) - 1);
+                player.GetModPlayer<TabletStudentAppearancePlayer>().Select(next);
+                SoundEngine.PlaySound(SoundID.MenuTick);
+                return;
+            }
             // The old selection header is present for visual parity. Queue/team mode remains
             // disabled in this branch, so these controls intentionally do not open another page.
             if (FormationSortRect.Contains(p) || FormationSwitchRect.Contains(p) || FormationFilterRect.Contains(p)
-                || FormationStudentButtonRect.Contains(p) || FormationOutfitButtonRect.Contains(p))
+                || FormationStudentButtonRect.Contains(p))
             {
                 SoundEngine.PlaySound(SoundID.MenuTick);
                 return;
@@ -807,7 +864,7 @@ public sealed partial class TabletUiSystem : ModSystem
 
             for (int i = 0; i < TabletStudentCatalog.FormationStudents.Count; i++)
             {
-                if (!GetFormationTileRect(i).Contains(p))
+                if (!FormationListClip.Contains(p) || !IsFormationTileVisible(i) || !GetFormationTileRect(i).Contains(p))
                     continue;
 
                 _selectedStudentIndex = i;
@@ -840,11 +897,12 @@ public sealed partial class TabletUiSystem : ModSystem
             if (!categoryRect.Contains(p))
                 continue;
 
-            _selectedCategory = (TabletShopCategory)i;
+            _selectedCategory = i == 2 ? TabletShopCategory.Favorites : (TabletShopCategory)i;
             _showingCart = false;
             _checkoutOpen = false;
             _checkoutPending = false;
             _shopScrollRow = 0;
+            _shopScrollVisual = 0;
             SoundEngine.PlaySound(SoundID.MenuTick);
             return;
         }
@@ -914,7 +972,7 @@ public sealed partial class TabletUiSystem : ModSystem
             _showingCart = false;
             return;
         }
-        if (_page == TabletPage.Shop || _page == TabletPage.Formation)
+        if (_page == TabletPage.Shop || _page == TabletPage.Formation || _page == TabletPage.WeaponUpgrade || _page == TabletPage.Mail)
         {
             // Formation selection is persistent player state. Returning home must never clear it.
             RequestPage(TabletPage.Home);
@@ -1012,21 +1070,35 @@ public sealed partial class TabletUiSystem : ModSystem
 
     private static void HandleProductClick(Point p)
     {
-        IReadOnlyList<TabletShopProduct> products = TabletShopCatalog.GetProducts(_selectedCategory);
-        int start = _shopScrollRow * 2;
-        for (int i = 0; i < 4; i++)
+        IReadOnlyList<TabletShopProduct> products = VisibleProducts();
+        for (int i = 0; i < products.Count; i++)
         {
-            int index = start + i;
+            int index = i;
             if (index >= products.Count)
                 break;
 
             TabletShopProduct product = products[index];
             Rectangle card = GetShopCardRect(i);
-            Rectangle minus = new(card.X + 8, card.Y + 82, 14, 16);
-            Rectangle plus = new(card.X + 86, card.Y + 82, 14, 16);
-            Rectangle add = new(card.X + 8, card.Y + 100, 92, 20);
+            if (!ShopListClip.Contains(p) || !card.Contains(p)) continue;
+            if (ProductFavoriteRect(card).Contains(p))
+            {
+                Preferences.ToggleProduct(product);
+                SoundEngine.PlaySound(SoundID.MenuTick);
+                return;
+            }
+            Rectangle minus = new(card.X + 8, card.Y + 106, 14, 16);
+            Rectangle plus = new(card.X + 86, card.Y + 106, 14, 16);
+            Rectangle add = new(card.X + 8, card.Y + 124, 92, 20);
 
             int quantity = GetSelectedQuantity(product.ItemType);
+            Rectangle quantityField = new(card.X + 24, card.Y + 104, 60, 20);
+            if (quantityField.Contains(p))
+            {
+                BeginQuantityInput(product.ItemType);
+                SoundEngine.PlaySound(SoundID.MenuTick);
+                return;
+            }
+            if (_quantityItem >= 0) EndQuantityInput(true);
             if (minus.Contains(p))
             {
                 ProductQuantities[product.ItemType] = Math.Max(1, quantity - 1);
@@ -1059,15 +1131,15 @@ public sealed partial class TabletUiSystem : ModSystem
     private static void HandleCartClick(Point p)
     {
         List<TabletCartLine> lines = TabletCart.Snapshot();
-        int start = _cartScrollIndex;
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < lines.Count; i++)
         {
-            int index = start + i;
+            int index = i;
             if (index >= lines.Count)
                 break;
 
             TabletCartLine line = lines[index];
             Rectangle row = GetCartRowRect(i);
+            if (!ShopListClip.Contains(p) || !row.Contains(p)) continue;
             Rectangle remove = new(row.X + 200, row.Y + 6, 14, 16);
             Rectangle minus = new(row.X + 124, row.Y + 28, 14, 16);
             Rectangle plus = new(row.X + 184, row.Y + 28, 14, 16);
@@ -1373,6 +1445,8 @@ public sealed partial class TabletUiSystem : ModSystem
         if (!Visible || Main.gameMenu)
             return;
 
+        UpdateQuantityInput(FullyOpened && !PageTransitionActive);
+
         Layout layout = GetLayout();
         Vector2 mouseTablet = layout.ToTablet(GetUiMousePosition());
 
@@ -1384,8 +1458,10 @@ public sealed partial class TabletUiSystem : ModSystem
 
         if (_page == TabletPage.Shop)
             DrawTexture(sb, _shopBackground.Value, DisplayRect, layout);
-        else if (_page == TabletPage.Formation)
+        else if (_page == TabletPage.Formation || _page == TabletPage.Mail)
             DrawNativeCentered(sb, _formationBackground.Value, DisplayRect, layout, new Rectangle(130, 2, 514, 386));
+        else if (_page == TabletPage.WeaponUpgrade)
+            DrawCraftingBackground(sb, layout);
         else
             DrawLobbyBackground(sb, layout);
 
@@ -1393,14 +1469,18 @@ public sealed partial class TabletUiSystem : ModSystem
             DrawLobbyHome(sb, layout, mouseTablet);
         else if (_page == TabletPage.Shop)
             DrawShop(sb, layout, mouseTablet);
-        else
+        else if (_page == TabletPage.Formation)
             DrawFormation(sb, layout, mouseTablet);
+        else if (_page == TabletPage.Mail)
+            DrawMailbox(sb, layout, mouseTablet);
+        else
+            DrawWeaponUpgrades(sb, layout, mouseTablet);
 
         if (_page != TabletPage.Home)
             DrawTopBar(sb, layout, mouseTablet);
 
         // Return sits above the top bar so the bar can never cover it.
-        if (_page == TabletPage.Shop || _page == TabletPage.Formation)
+        if (_page == TabletPage.Shop || _page == TabletPage.Formation || _page == TabletPage.WeaponUpgrade || _page == TabletPage.Mail)
             DrawReturnButton(sb, layout, mouseTablet);
 
         if (_settingsOpen)
@@ -1429,8 +1509,16 @@ public sealed partial class TabletUiSystem : ModSystem
 
         DrawNativeCentered(sb, _formationSelectionBackground.Value, FormationSelectionBackgroundRect, layout);
 
-        for (int i = 0; i < TabletStudentCatalog.FormationStudents.Count; i++)
-            DrawFormationStudentTile(sb, i, layout, mouseTablet);
+        DrawClippedList(sb, layout, FormationListClip, () =>
+        {
+            for (int i = 0; i < TabletStudentCatalog.FormationStudents.Count; i++)
+                if (IsFormationTileVisible(i)) DrawFormationStudentTile(sb, i, layout, mouseTablet);
+        });
+
+        int formationPageCount = Math.Max(1, (TabletStudentCatalog.FormationStudents.Count + 2) / 3 - 1);
+        DrawCenteredText(sb, $"{Math.Min(_formationScrollRow + 1, formationPageCount)}/{formationPageCount}  滚轮浏览",
+            new Vector2(FormationSelectionBackgroundRect.Center.X, 359f),
+            Color.White, 0.29f, layout);
 
         TabletStudentInfo selected = TabletStudentCatalog.FormationStudents[
             Math.Clamp(_selectedStudentIndex, 0, TabletStudentCatalog.FormationStudents.Count - 1)];
@@ -1439,9 +1527,13 @@ public sealed partial class TabletUiSystem : ModSystem
             FormationStudentButtonRect.Contains(mouseTablet.ToPoint()), layout);
         DrawLegacyThreeFrameButton(sb, _formationOutfitButton.Value, FormationOutfitButtonRect,
             FormationOutfitButtonRect.Contains(mouseTablet.ToPoint()), layout);
+        if (StudentFavoriteRect.Contains(mouseTablet.ToPoint())) Main.instance.MouseText("收藏学员 / 取消收藏");
+        if (FormationOutfitButtonRect.Contains(mouseTablet.ToPoint()))
+            Main.instance.MouseText("切换该学生的服装（1×1 / 2×2）");
 
         DrawTabletPortrait(sb, selected, FormationPortraitRect, layout, mouseTablet,
             1.0f, FormationPortraitRootOffset, DisplayRect);
+        DrawFavoriteIcon(sb, StudentFavoriteRect, Preferences.FavoriteStudents.Contains((int)selected.Id), true, layout);
 
         DrawNativeCentered(sb, _formationInfoBackground.Value, FormationInfoRect, layout);
         DrawNativeCentered(sb, _formationNameplateBackground.Value, FormationNameplateRect, layout);
@@ -1668,11 +1760,12 @@ public sealed partial class TabletUiSystem : ModSystem
             new Rectangle(frame * frameWidth, 0, frameWidth, texture.Height));
     }
 
+    private static bool IsFormationTileVisible(int index) => GetFormationTileRect(index).Intersects(FormationListClip);
+
     private static Rectangle GetFormationTileRect(int index)
     {
-        int column = index % 3;
-        int row = index / 3;
-        return new Rectangle(44 + column * 76, 104 + row * 106, 72, 102);
+        int position = FormationPosition(index);
+        return new Rectangle(44 + position % 3 * 76, 104 + position / 3 * 106 - (int)_formationScrollVisual, 72, 102);
     }
 
     private static void DrawShop(SpriteBatch sb, Layout layout, Vector2 mouseTablet)
@@ -1696,9 +1789,14 @@ public sealed partial class TabletUiSystem : ModSystem
         for (int i = 0; i < _categoryIcons.Length; i++)
         {
             Rectangle rect = GetCategoryRect(i);
-            bool selected = !_showingCart && (int)_selectedCategory == i;
+            bool selected = !_showingCart && (i == 2 ? _selectedCategory == TabletShopCategory.Favorites : (int)_selectedCategory == i);
             bool hover = rect.Contains(mouseTablet.ToPoint());
-            DrawCategoryIcon(sb, _categoryIcons[i].Value, rect, selected, hover, layout);
+            if (i == 2)
+            {
+                DrawShopFavoriteCategory(sb, rect, selected, hover, layout);
+                if (hover) Main.instance.MouseText("收藏商品");
+            }
+            else DrawCategoryIcon(sb, _categoryIcons[i].Value, rect, selected, hover, layout);
         }
 
         DrawNativeCentered(sb, _shopPanel.Value, ShopPanelRect, layout);
@@ -1729,19 +1827,19 @@ public sealed partial class TabletUiSystem : ModSystem
 
     private static void DrawProducts(SpriteBatch sb, Layout layout, Vector2 mouseTablet)
     {
-        IReadOnlyList<TabletShopProduct> products = TabletShopCatalog.GetProducts(_selectedCategory);
+        IReadOnlyList<TabletShopProduct> products = VisibleProducts();
         int totalRows = Math.Max(0, (products.Count + 1) / 2);
         int maxRow = Math.Max(0, totalRows - 2);
         _shopScrollRow = Math.Clamp(_shopScrollRow, 0, maxRow);
 
-        int start = _shopScrollRow * 2;
-        for (int i = 0; i < 4; i++)
+        DrawClippedList(sb, layout, ShopListClip, () =>
         {
-            int index = start + i;
-            if (index >= products.Count)
-                break;
-            DrawProductCard(sb, products[index], GetShopCardRect(i), mouseTablet, layout);
-        }
+            for (int i = 0; i < products.Count; i++)
+            {
+                Rectangle card = GetShopCardRect(i);
+                if (card.Intersects(ShopListClip)) DrawProductCard(sb, products[i], card, mouseTablet, layout);
+            }
+        });
 
         DrawScrollbar(sb, products.Count, false, layout, mouseTablet);
         if (products.Count == 0)
@@ -1750,30 +1848,36 @@ public sealed partial class TabletUiSystem : ModSystem
 
     private static void DrawProductCard(SpriteBatch sb, TabletShopProduct product, Rectangle card, Vector2 mouseTablet, Layout layout)
     {
-        DrawNativeCentered(sb, _productCard.Value, card, layout);
+        DrawTexture(sb, _productCard.Value, card, layout);
         string name = Lang.GetItemNameValue(product.ItemType);
         if (name.Length > 18)
             name = name[..17] + "…";
         DrawCenteredText(sb, name, new Vector2(card.Center.X, card.Y + 5), new Color(48, 68, 93), 0.31f, layout);
 
-        Rectangle itemHoverRect = new(card.X + 4, card.Y + 4, 100, 76);
-        DrawItemIcon(sb, product.ItemType, new Rectangle(card.X + 4, card.Y + 30, 100, 48), layout);
-        if (itemHoverRect.Contains(mouseTablet.ToPoint()))
+        Rectangle itemHoverRect = new(card.X + 8, card.Y + 38, 92, 48);
+        DrawItemIcon(sb, product.ItemType, itemHoverRect, layout);
+        DrawFavoriteIcon(sb, ProductFavoriteRect(card), Preferences.IsFavorite(product), false, layout);
+        if (ShopListClip.Contains(mouseTablet.ToPoint()) && ProductFavoriteRect(card).Contains(mouseTablet.ToPoint()))
+            Main.instance.MouseText(Preferences.IsFavorite(product) ? "取消收藏" : "收藏商品");
+        if (ShopListClip.Contains(mouseTablet.ToPoint()) && itemHoverRect.Contains(mouseTablet.ToPoint()) && !ProductFavoriteRect(card).Contains(mouseTablet.ToPoint()))
             ShowItemTooltip(product.ItemType);
 
-        Rectangle minus = new(card.X + 8, card.Y + 82, 14, 16);
-        Rectangle plus = new(card.X + 86, card.Y + 82, 14, 16);
+        Rectangle minus = new(card.X + 8, card.Y + 106, 14, 16);
+        Rectangle plus = new(card.X + 86, card.Y + 106, 14, 16);
         DrawTwoFrameButton(sb, _productMinus.Value, minus, minus.Contains(mouseTablet.ToPoint()), layout);
         DrawTwoFrameButton(sb, _productPlus.Value, plus, plus.Contains(mouseTablet.ToPoint()), layout);
-        DrawDigitsSmall(sb, GetSelectedQuantity(product.ItemType), new Vector2(card.Center.X + 20, card.Y + 82), 1, new Color(76, 99, 149), new Color(191, 197, 220), layout);
+        if (_quantityItem == product.ItemType)
+            DrawCenteredText(sb, _quantityText + "_", new Vector2(card.Center.X, card.Y + 106), new Color(76, 99, 149), .32f, layout);
+        else
+            DrawDigitsSmall(sb, GetSelectedQuantity(product.ItemType), new Vector2(card.Center.X + 20, card.Y + 106), 1, new Color(76, 99, 149), new Color(191, 197, 220), layout);
 
-        Rectangle add = new(card.X + 8, card.Y + 100, 92, 20);
+        Rectangle add = new(card.X + 8, card.Y + 124, 92, 20);
         bool hover = add.Contains(mouseTablet.ToPoint());
         int purchaseFrameWidth = _purchaseButton.Value.Width / 2;
         DrawNativeCentered(sb, _purchaseButton.Value, add, layout, new Rectangle((hover ? 1 : 0) * purchaseFrameWidth, 0, purchaseFrameWidth, _purchaseButton.Value.Height));
-        DrawTinyIcon(sb, _creditIcon.Value, new Rectangle(card.X + 13, card.Y + 106, 12, 7), layout);
+        DrawTinyIcon(sb, _creditIcon.Value, new Rectangle(card.X + 13, card.Y + 130, 12, 7), layout);
         long selectedPrice = (long)product.PriceCredits * GetSelectedQuantity(product.ItemType);
-        DrawDigitsSmall(sb, selectedPrice, new Vector2(card.Right - 10, card.Y + 103), 1, Color.White, Color.Transparent, layout);
+        DrawDigitsSmall(sb, selectedPrice, new Vector2(card.Right - 10, card.Y + 127), 1, Color.White, Color.Transparent, layout);
     }
 
     private static void DrawCart(SpriteBatch sb, Layout layout, Vector2 mouseTablet)
@@ -1782,20 +1886,19 @@ public sealed partial class TabletUiSystem : ModSystem
         int maxStart = Math.Max(0, lines.Count - 5);
         _cartScrollIndex = Math.Clamp(_cartScrollIndex, 0, maxStart);
 
-        int start = _cartScrollIndex;
-        for (int i = 0; i < 5; i++)
+        DrawClippedList(sb, layout, ShopListClip, () =>
         {
-            int index = start + i;
-            if (index >= lines.Count)
-                break;
-            DrawCartRow(sb, lines[index], GetCartRowRect(i), mouseTablet, layout);
-        }
+            for (int i = 0; i < lines.Count; i++)
+            {
+                Rectangle row = GetCartRowRect(i);
+                if (row.Intersects(ShopListClip)) DrawCartRow(sb, lines[i], row, mouseTablet, layout);
+            }
+        });
 
         DrawScrollbar(sb, lines.Count, true, layout, mouseTablet);
         if (lines.Count == 0)
             DrawCenteredText(sb, "Shopping cart is empty", new Vector2(416, 210), new Color(70, 80, 95), 0.50f, layout);
-        else
-            DrawCenteredText(sb, "CART", new Vector2(416, 354), new Color(48, 68, 93), 0.36f, layout);
+
     }
 
     private static void DrawCartRow(SpriteBatch sb, TabletCartLine line, Rectangle row, Vector2 mouseTablet, Layout layout)
@@ -1807,7 +1910,7 @@ public sealed partial class TabletUiSystem : ModSystem
         // Reserve the left 42 px for the real item texture instead of showing a text-only row.
         Rectangle itemHoverRect = new(row.X + 3, row.Y + 3, 116, 44);
         DrawItemIcon(sb, line.ItemType, new Rectangle(row.X + 5, row.Y + 5, 40, 40), layout);
-        if (itemHoverRect.Contains(mouseTablet.ToPoint()))
+        if (ShopListClip.Contains(mouseTablet.ToPoint()) && itemHoverRect.Contains(mouseTablet.ToPoint()))
             ShowItemTooltip(line.ItemType);
 
         string name = Lang.GetItemNameValue(line.ItemType);
@@ -1862,10 +1965,10 @@ public sealed partial class TabletUiSystem : ModSystem
     {
         int col = slot & 1;
         int row = slot >> 1;
-        return new Rectangle(306 + col * 110, 80 + row * 128, 108, 126);
+        return new Rectangle(306 + col * 110, 80 + row * 150 - (int)_shopScrollVisual, 108, 148);
     }
 
-    private static Rectangle GetCartRowRect(int slot) => new(306, 80 + slot * 52, 220, 50);
+    private static Rectangle GetCartRowRect(int slot) => new(306, 80 + slot * 52 - (int)_cartScrollVisual, 220, 50);
 
     private static int GetSelectedQuantity(int itemType)
     {
@@ -1886,7 +1989,7 @@ public sealed partial class TabletUiSystem : ModSystem
         }
         else
         {
-            int totalRows = Math.Max(0, (TabletShopCatalog.GetProducts(_selectedCategory).Count + 1) / 2);
+            int totalRows = Math.Max(0, (VisibleProducts().Count + 1) / 2);
             int maxRow = Math.Max(0, totalRows - 2);
             _shopScrollRow = Math.Clamp(_shopScrollRow + delta, 0, maxRow);
         }
@@ -1900,7 +2003,7 @@ public sealed partial class TabletUiSystem : ModSystem
 
     private static void SetScrollFromMouse(int tabletMouseY)
     {
-        int count = _showingCart ? TabletCart.LineCount : TabletShopCatalog.GetProducts(_selectedCategory).Count;
+        int count = _showingCart ? TabletCart.LineCount : VisibleProducts().Count;
         int totalUnits = _showingCart ? count : Math.Max(0, (count + 1) / 2);
         int visibleUnits = _showingCart ? 5 : 2;
         int maxStart = Math.Max(0, totalUnits - visibleUnits);
@@ -1941,6 +2044,8 @@ public sealed partial class TabletUiSystem : ModSystem
         {
             TabletPage.Home => "HOME",
             TabletPage.Formation => "Unit Formation",
+            TabletPage.WeaponUpgrade => "武器升级",
+            TabletPage.Mail => "邮件",
             _ => _showingCart ? "SHOP / CART" : "SHOP"
         };
         DrawText(sb, pageName, new Vector2(90, 43), new Color(48, 68, 93), 0.48f, layout, bold: true);
@@ -2223,18 +2328,21 @@ public sealed partial class TabletUiSystem : ModSystem
 
     private static void DrawClassroomBackground(SpriteBatch sb, Layout layout)
     {
-        // The original art is 880x466 and authored with an X offset of 250.
-        // Crop the 514x386 display window from every layer, preserving the authored parallax composition.
-        Rectangle source = new(250, 0, DisplayRect.Width, DisplayRect.Height);
+        // Keep the original horizontal center, zoom out and include the bottom
+        // of the 880x466 artwork. The water pass uses this same source window.
+        Asset<Texture2D>[] layers = _lobbyDayTime ? _classroomLayers : _nightClassroomLayers;
+        // Sky overlaps the bright upper edge of the sea at the horizon.
+        sb.Draw(layers[1].Value, layout.ToScreen(DisplayRect), ClassroomSourceRect, Color.White);
         for (int i = 0; i < _classroomLayers.Length; i++)
         {
+            if (i == 1) continue;
             if (i == 2)
             {
                 DrawLegacyPresentationPass(sb, layout, startup: false);
                 continue;
             }
-            Texture2D tex = _classroomLayers[i].Value;
-            sb.Draw(tex, layout.ToScreen(DisplayRect), source, Color.White);
+            Texture2D tex = layers[i].Value;
+            sb.Draw(tex, layout.ToScreen(DisplayRect), ClassroomSourceRect, Color.White);
         }
     }
 

@@ -1,0 +1,172 @@
+{
+  "Noa": [
+    {
+      "source": "受伤语音/诺亚/被攻击1.WAV",
+      "variant": 1,
+      "seconds": 0.8823582766439909,
+      "activeRmsDb": -22.570209862560823,
+      "sha256": "90b132f86a1d5f43160ae39621528c34a9a9f5bce21c5606f5e4a411391ce7c6",
+      "heavy": true
+    },
+    {
+      "source": "受伤语音/诺亚/被攻击2.WAV",
+      "variant": 2,
+      "seconds": 0.6733786848072563,
+      "activeRmsDb": -32.22092768846422,
+      "sha256": "ca1d030b1fec19774b727e86a1a714c727db2a9fb0a14d5c5dcffdc9ccb4094b",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/诺亚/被攻击4.WAV",
+      "variant": 4,
+      "seconds": 0.7430385487528345,
+      "activeRmsDb": -28.887242831405608,
+      "sha256": "c7acaf013ac9aaf398e58ed35fa5e33c814221f1ead19326996f0d03aa1d9c9b",
+      "heavy": false
+    }
+  ],
+  "Hina": [
+    {
+      "source": "受伤语音/日奈/被攻击1.WAV",
+      "variant": 1,
+      "seconds": 0.5108390022675737,
+      "activeRmsDb": -27.377694374452453,
+      "sha256": "c2680163ba35c5e324f4200a88075c15559cafb99ed5143b83e7772db6b25c3f",
+      "heavy": true
+    },
+    {
+      "source": "受伤语音/日奈/被攻击3.WAV",
+      "variant": 3,
+      "seconds": 0.8126984126984127,
+      "activeRmsDb": -28.028932650917987,
+      "sha256": "e6e2bf7edbfd70631fd628a8cda77afe32e9e90c61dd9ffcb169646e0b7e18fa",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/日奈/被攻击4.WAV",
+      "variant": 4,
+      "seconds": 1.0681179138321995,
+      "activeRmsDb": -34.16488256547972,
+      "sha256": "9390092512a4349a15824dddf775bd02448483eb8c04e5a42ed24dae5978b0f6",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/日奈/被攻击7（最好）.WAV",
+      "variant": 7,
+      "seconds": 0.6733786848072563,
+      "activeRmsDb": -34.156549977060386,
+      "sha256": "671dee09d3a7aab58f8fb44832ebdeb368374e7ebc0b54f17290e2020dea65d1",
+      "heavy": false
+    }
+  ],
+  "Seia": [
+    {
+      "source": "受伤语音/圣亚/被攻击1.WAV",
+      "variant": 1,
+      "seconds": 0.8359183673469388,
+      "activeRmsDb": -28.23308358746409,
+      "sha256": "d64832c6152408a7b401dd3fdf3ad16bee0cece2af55260cb9efe6e99c7ef901",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/圣亚/被攻击3.WAV",
+      "variant": 3,
+      "seconds": 0.7894784580498866,
+      "activeRmsDb": -25.930934712336892,
+      "sha256": "ec571e0d125ca7f76689ffc9326e407e817f4dc747d9474210b4a97864c656cd",
+      "heavy": true
+    },
+    {
+      "source": "受伤语音/圣亚/被攻击4.WAV",
+      "variant": 4,
+      "seconds": 0.7430385487528345,
+      "activeRmsDb": -33.085121715557186,
+      "sha256": "e085d49008c4d1b94b5caac142a20881b36a190ecc59f933a43a70c716f5efa5",
+      "heavy": false
+    }
+  ],
+  "Yuuka": [
+    {
+      "source": "受伤语音/优香/被攻击1.WAV",
+      "variant": 1,
+      "seconds": 0.6501587301587302,
+      "activeRmsDb": -21.7963071087487,
+      "sha256": "8bc32f7ff6320ee971fa02eb8dd242a5430467db49be7a22595095cb338a7d12",
+      "heavy": true
+    },
+    {
+      "source": "受伤语音/优香/被攻击3.WAV",
+      "variant": 3,
+      "seconds": 0.4179591836734694,
+      "activeRmsDb": -26.33103374317074,
+      "sha256": "7da48515eacf4f85ce5f570372768ad53a1f216fb50f4a4f69cb3594714b3256",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/优香/被攻击4.WAV",
+      "variant": 4,
+      "seconds": 0.301859410430839,
+      "activeRmsDb": -30.700626488908643,
+      "sha256": "5e6301862c368590afedb47736de85f5115faa222fdfd3a3238ca76e80015029",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/优香/被攻击5.WAV",
+      "variant": 5,
+      "seconds": 0.34829931972789113,
+      "activeRmsDb": -29.705185244244507,
+      "sha256": "6357d4e22b68f591c127a8e310100ce054dcad4bfc5789339004aaab2f591ec1",
+      "heavy": false
+    }
+  ],
+  "Nagisa": [
+    {
+      "source": "受伤语音/渚/被攻击1.WAV",
+      "variant": 1,
+      "seconds": 0.4179591836734694,
+      "activeRmsDb": -27.522296873876492,
+      "sha256": "c37ff62ffb9958b417d22528338561052b7b80ea5ca2af48c3b296ad2c74f4b5",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/渚/被攻击2.WAV",
+      "variant": 2,
+      "seconds": 0.603718820861678,
+      "activeRmsDb": -29.668976376464894,
+      "sha256": "19c4cd7e792226c8e4765d1a60a4e75892470873cd50a4c1662ef2dcd8bd0d62",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/渚/被攻击3.WAV",
+      "variant": 3,
+      "seconds": 0.7198185941043084,
+      "activeRmsDb": -32.54497860432828,
+      "sha256": "f1d626f1b9998820a741c64816ffc3daea5ea5a1c81a3ff8d4192d22242b65fb",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/渚/被攻击4.WAV",
+      "variant": 4,
+      "seconds": 0.44117913832199546,
+      "activeRmsDb": -25.36729812593255,
+      "sha256": "9cce4641b049541cc88f39c8868d2f00ab346dbaffcb8db9a4df39e5d30e2ea9",
+      "heavy": true
+    },
+    {
+      "source": "受伤语音/渚/被攻击5.WAV",
+      "variant": 5,
+      "seconds": 0.8359183673469388,
+      "activeRmsDb": -31.680410077171803,
+      "sha256": "4cfaf00ce6153f6a998e6ea299e0ebe3f50b1865ccbe73f8461c405d016b67f4",
+      "heavy": false
+    },
+    {
+      "source": "受伤语音/渚/被攻击6.WAV",
+      "variant": 6,
+      "seconds": 0.5108390022675737,
+      "activeRmsDb": -26.780950261198917,
+      "sha256": "76fa1008204534e602ac6bbd1a1be7c72c098b679a62c00db6c5ce55656e8fa5",
+      "heavy": false
+    }
+  ]
+}

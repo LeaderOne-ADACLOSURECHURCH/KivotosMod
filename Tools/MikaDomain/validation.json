@@ -1,0 +1,20 @@
+{
+  "layers": 119,
+  "stars": 51,
+  "front": 18,
+  "back": 33,
+  "velocity": [
+    114.66666666666667,
+    41.333333333333336
+  ],
+  "motion_finite": true,
+  "all_paths_cross_original_position": true,
+  "no_ae_starfield": true,
+  "paint_alpha_sums": [
+    25717133,
+    22227242,
+    15795372,
+    13609237
+  ],
+  "source_texture_mib": 186.37261962890625
+}

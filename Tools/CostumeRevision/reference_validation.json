@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "students": {
+    "Mutsuki": {
+      "matchedFraction": 0.9130434782608695,
+      "previousCenteredFraction": 0.21014492753623187,
+      "offset": [
+        -16,
+        0
+      ]
+    },
+    "Nozomi": {
+      "matchedFraction": 0.7586206896551724,
+      "previousCenteredFraction": 0.13793103448275862,
+      "offset": [
+        -16,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sourceFiles": 364,
+  "errors": [],
+  "warningCount": 7,
+  "references": 231,
+  "passed": true,
+  "verification": "Combined project semantic diagnostics against installed tML and net8 references; no emit/package/run"
+}

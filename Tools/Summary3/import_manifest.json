@@ -1,0 +1,57 @@
+[
+  {
+    "source": "UI/商店收藏1.png",
+    "output": "Assets\\Tablet\\Upgrades\\ShopFavoriteNormal.png",
+    "sha256": "a6464435b4317833f8ccf060146324bffb2d6243cb8e9e9b5744d54ad0703ad4"
+  },
+  {
+    "source": "UI/白色框1.png",
+    "output": "Assets\\Tablet\\Upgrades\\WeaponCard.png",
+    "sha256": "a485122e50867ac4e5fb7254e1d44f396617ba3004aa6797517a179eed8726dd"
+  },
+  {
+    "source": "UI/星.png",
+    "output": "Assets\\Tablet\\Upgrades\\StarActive.png",
+    "sha256": "2ae5a495858d32c5dc1a0d16c746b05d9b5619123bcab5926888eb574ca21972"
+  },
+  {
+    "source": "UI/实心.png",
+    "output": "Assets\\Tablet\\Upgrades\\HeartActive.png",
+    "sha256": "969014f26fb202e66c62571d3ca20f676fcfb86a53a389a4810b9da5ce91d38d"
+  },
+  {
+    "source": "UI/商店收藏2.png",
+    "output": "Assets\\Tablet\\Upgrades\\ShopFavoriteHover.png",
+    "sha256": "88ec8db58e28a051756da924ff2066d6316f5b4496df2c3785f2d936a262aef8"
+  },
+  {
+    "source": "UI/白色框2.png",
+    "output": "Assets\\Tablet\\Upgrades\\WeaponCardPressed.png",
+    "sha256": "09bb70e900f7dc447b1bc966e8ffcff7511ab0e6ed038e01f445ba27e54cd6df"
+  },
+  {
+    "source": "UI/商店收藏3.png",
+    "output": "Assets\\Tablet\\Upgrades\\ShopFavoritePressed.png",
+    "sha256": "5797f0af6d4e4a4ab8f3e491ec1ac0a1dc3d48bf6a42c642633a4228cb6f667f"
+  },
+  {
+    "source": "UI/灰星.png",
+    "output": "Assets\\Tablet\\Upgrades\\StarInactive.png",
+    "sha256": "0a80791a3c7fcf1677c4b3345e42cdeaf2cd483a08086d9215d70d7c27f39ac5"
+  },
+  {
+    "source": "UI/空心.png",
+    "output": "Assets\\Tablet\\Upgrades\\HeartInactive.png",
+    "sha256": "8b8bc40efa94ea46cc3aa75897e6c1b3d6126caa65abf83ac98f70bf8004bb87"
+  },
+  {
+    "source": "UI/白色边框.png",
+    "output": "Assets\\Tablet\\Upgrades\\WhiteBorder.png",
+    "sha256": "90e06c28c2faeab2d3500cacebca73488c3f950827d586073409e6e586079109"
+  },
+  {
+    "source": "C:\\Users\\Sunbinbin\\AppData\\Local\\Temp\\codex-clipboard-d720fb0b-b72b-4858-bbc7-1f7b0238d48f.png",
+    "output": "Assets\\Tablet\\Upgrades\\CraftingBackground.png",
+    "sha256": "db658c0cb150517a6de0f589bead14faf9e595e91ec5fe6bfdccef240fd4fabf"
+  }
+]

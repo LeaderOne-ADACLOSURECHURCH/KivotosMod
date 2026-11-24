@@ -29,7 +29,7 @@ namespace KivotosMod.Content.Projs.Ranged.StudentWeapons.Gehenna
             for (int i = 0; i < 15; i++)
             {
                 Vector2 randomVelocity = dir.RotatedByRandom(randRot) * Main.rand.NextFloat(0.88f, 1.12f);
-                Projectile proj = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), pos, randomVelocity * 16f, ProjectileType<HarukaWeaponBullet>(), Projectile.originalDamage, Projectile.knockBack, Projectile.owner);
+                Projectile proj = Fire(pos, randomVelocity * 16f, ProjectileType<HarukaWeaponBullet>());
             }
             ScreenShakeSystem.AddScreenShakes(Projectile.Center, 30, 30, RandRotTwoPi);
             for (int i = 0; i < 28; i++)

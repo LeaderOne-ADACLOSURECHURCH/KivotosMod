@@ -1,0 +1,242 @@
+[
+  {
+    "source": "AkeboshiHimari/AkeboshiHimariHead_Head.png",
+    "target": "PackHimari2x2Head_Head.png"
+  },
+  {
+    "source": "AkeboshiHimari/AkeboshiHimariBody_Body.png",
+    "target": "PackHimari2x2Body_Body.png"
+  },
+  {
+    "source": "AkeboshiHimari/AkeboshiHimariLegs_Legs.png",
+    "target": "PackHimari2x2Boots_Legs.png"
+  },
+  {
+    "source": "AmauAko/AmauAkoHead_Head.png",
+    "target": "PackAko2x2Head_Head.png"
+  },
+  {
+    "source": "AmauAko/AmauAkoBody_Body.png",
+    "target": "PackAko2x2Body_Body.png"
+  },
+  {
+    "source": "AmauAko/AmauAkoLegs_Legs.png",
+    "target": "PackAko2x2Boots_Legs.png"
+  },
+  {
+    "source": "AsagiMutsuki/AsagiMutsukiHead_Head.png",
+    "target": "PackMutsuki2x2Head_Head.png"
+  },
+  {
+    "source": "AsagiMutsuki/AsagiMutsukiBody_Body.png",
+    "target": "PackMutsuki2x2Body_Body.png"
+  },
+  {
+    "source": "AsagiMutsuki/AsagiMutsukiLegs_Legs.png",
+    "target": "PackMutsuki2x2Boots_Legs.png"
+  },
+  {
+    "source": "GenericGehenna/GehennaStudentHead_Head.png",
+    "target": "PackGehennaStudent2x2Head_Head.png"
+  },
+  {
+    "source": "GenericGehenna/GehennaStudentBody_Body.png",
+    "target": "PackGehennaStudent2x2Body_Body.png"
+  },
+  {
+    "source": "GenericGehenna/GehennaStudentLegs_Legs.png",
+    "target": "PackGehennaStudent2x2Boots_Legs.png"
+  },
+  {
+    "source": "IgusaHaruka/IgusaHarukaHead_Head.png",
+    "target": "PackHaruka2x2Head_Head.png"
+  },
+  {
+    "source": "IgusaHaruka/IgusaHarukaBody_Body.png",
+    "target": "PackHaruka2x2Body_Body.png"
+  },
+  {
+    "source": "IgusaHaruka/IgusaHarukaLegs_Legs.png",
+    "target": "PackHaruka2x2Boots_Legs.png"
+  },
+  {
+    "source": "IzayoiNonomi/IzayoiNonomiCosplay_Head.png",
+    "target": "PackNonomi2x2Head_Head.png"
+  },
+  {
+    "source": "IzayoiNonomi/IzayoiNonomiCosplay_Body.png",
+    "target": "PackNonomi2x2Body_Body.png"
+  },
+  {
+    "source": "IzayoiNonomi/IzayoiNonomiCosplay_Legs.png",
+    "target": "PackNonomi2x2Boots_Legs.png"
+  },
+  {
+    "source": "KuromiSerika/KuromiSerikaCosplay_Head.png",
+    "target": "PackSerika2x2Head_Head.png"
+  },
+  {
+    "source": "KuromiSerika/KuromiSerikaCosplay_Body.png",
+    "target": "PackSerika2x2Body_Body.png"
+  },
+  {
+    "source": "KuromiSerika/KuromiSerikaCosplay_Legs.png",
+    "target": "PackSerika2x2Boots_Legs.png"
+  },
+  {
+    "source": "KurosakiKoyuki/KurosakiKoyukiHead_Head.png",
+    "target": "PackKoyuki2x2Head_Head.png"
+  },
+  {
+    "source": "KurosakiKoyuki/KurosakiKoyukiBody_Body.png",
+    "target": "PackKoyuki2x2Body_Body.png"
+  },
+  {
+    "source": "KurosakiKoyuki/KurosakiKoyukiLegs_Legs.png",
+    "target": "PackKoyuki2x2Boots_Legs.png"
+  },
+  {
+    "source": "NatsumeIroha/NatsumeIrohaHead_Head.png",
+    "target": "PackIroha2x2Head_Head.png"
+  },
+  {
+    "source": "NatsumeIroha/NatsumeIrohaBody_Body.png",
+    "target": "PackIroha2x2Body_Body.png"
+  },
+  {
+    "source": "NatsumeIroha/NatsumeIrohaLegs_Legs.png",
+    "target": "PackIroha2x2Boots_Legs.png"
+  },
+  {
+    "source": "OnikataKayoko/OnikataKayokoHead_Head.png",
+    "target": "PackKayoko2x2Head_Head.png"
+  },
+  {
+    "source": "OnikataKayoko/OnikataKayokoBody_Body.png",
+    "target": "PackKayoko2x2Body_Body.png"
+  },
+  {
+    "source": "OnikataKayoko/OnikataKayokoLegs_Legs.png",
+    "target": "PackKayoko2x2Boots_Legs.png"
+  },
+  {
+    "source": "RikuhachimaAru/RikuhachimaAruHead_Head.png",
+    "target": "PackAru2x2Head_Head.png"
+  },
+  {
+    "source": "RikuhachimaAru/RikuhachimaAruBody_Body.png",
+    "target": "PackAru2x2Body_Body.png"
+  },
+  {
+    "source": "RikuhachimaAru/RikuhachimaAruLegs_Legs.png",
+    "target": "PackAru2x2Boots_Legs.png"
+  },
+  {
+    "source": "ShimokuraMegu/ShimokuraMeguHead_Head.png",
+    "target": "PackMegu2x2Head_Head.png"
+  },
+  {
+    "source": "ShimokuraMegu/ShimokuraMeguBody_Body.png",
+    "target": "PackMegu2x2Body_Body.png"
+  },
+  {
+    "source": "ShimokuraMegu/ShimokuraMeguLegs_Legs.png",
+    "target": "PackMegu2x2Boots_Legs.png"
+  },
+  {
+    "source": "SorasakiHina/SorasakiHinaHead_Head.png",
+    "target": "PackHina2x2Head_Head.png"
+  },
+  {
+    "source": "SorasakiHina/SorasakiHinaBody_Body.png",
+    "target": "PackHina2x2Body_Body.png"
+  },
+  {
+    "source": "SorasakiHina/SorasakiHinaLegs_Legs.png",
+    "target": "PackHina2x2Boots_Legs.png"
+  },
+  {
+    "source": "SunaookamiShiroko/SunaookamiShirokoCosplay_Head.png",
+    "target": "PackShiroko2x2Head_Head.png"
+  },
+  {
+    "source": "SunaookamiShiroko/SunaookamiShirokoCosplay_Body.png",
+    "target": "PackShiroko2x2Body_Body.png"
+  },
+  {
+    "source": "SunaookamiShiroko/SunaookamiShirokoCosplay_Legs.png",
+    "target": "PackShiroko2x2Boots_Legs.png"
+  },
+  {
+    "source": "Tachibanas/TachibanaHikariHead_Head.png",
+    "target": "PackHikari2x2Head_Head.png"
+  },
+  {
+    "source": "Tachibanas/TachibanaHikariBody_Body.png",
+    "target": "PackHikari2x2Body_Body.png"
+  },
+  {
+    "source": "Tachibanas/TachibanaSistersLegs_Legs.png",
+    "target": "PackHikari2x2Boots_Legs.png"
+  },
+  {
+    "source": "Tachibanas/TachibanaNozomiHead_Head.png",
+    "target": "PackNozomi2x2Head_Head.png"
+  },
+  {
+    "source": "Tachibanas/TachibanaNozomiBody_Body.png",
+    "target": "PackNozomi2x2Body_Body.png"
+  },
+  {
+    "source": "Tachibanas/TachibanaSistersLegs_Legs.png",
+    "target": "PackNozomi2x2Boots_Legs.png"
+  },
+  {
+    "source": "TakanashiHoshino/TakanashiHoshinoCosplay_Head.png",
+    "target": "PackHoshino2x2Head_Head.png"
+  },
+  {
+    "source": "TakanashiHoshino/TakanashiHoshinoCosplay_Body.png",
+    "target": "PackHoshino2x2Body_Body.png"
+  },
+  {
+    "source": "TakanashiHoshino/TakanashiHoshinoCosplay_Legs.png",
+    "target": "PackHoshino2x2Boots_Legs.png"
+  },
+  {
+    "source": "UshioNoa/UshioNoaHead_Head.png",
+    "target": "PackNoa2x2Head_Head.png"
+  },
+  {
+    "source": "UshioNoa/UshioNoaBody_Body.png",
+    "target": "PackNoa2x2Body_Body.png"
+  },
+  {
+    "source": "UshioNoa/UshioNoaLegs_Legs.png",
+    "target": "PackNoa2x2Boots_Legs.png"
+  },
+  {
+    "source": "WanibuchiAkari/WanibuchiAkariHead_Head.png",
+    "target": "PackAkari2x2Head_Head.png"
+  },
+  {
+    "source": "WanibuchiAkari/WanibuchiAkariBody_Body.png",
+    "target": "PackAkari2x2Body_Body.png"
+  },
+  {
+    "source": "WanibuchiAkari/WanibuchiAkariLegs_Legs.png",
+    "target": "PackAkari2x2Boots_Legs.png"
+  },
+  {
+    "source": "ShimokuraMegu/Sauna/Sauna_ShimokuraMeguHead_Head.png",
+    "target": "PackMeguSauna2x2Head_Head.png"
+  },
+  {
+    "source": "ShimokuraMegu/Sauna/Sauna_BodyB1_Body.png",
+    "target": "PackMeguSauna2x2Body_Body.png"
+  },
+  {
+    "source": "ShimokuraMegu/Sauna/Sauna_Legs_Legs.png",
+    "target": "PackMeguSauna2x2Boots_Legs.png"
+  }
+]

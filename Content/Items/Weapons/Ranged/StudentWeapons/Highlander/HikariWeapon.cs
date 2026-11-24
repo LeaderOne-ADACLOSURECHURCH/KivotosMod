@@ -26,7 +26,7 @@ namespace KivotosMod.Content.Items.Weapons.Ranged.StudentWeapons.Highlander
         {
             base.SetDefaults();
             Item.useTime = Item.useAnimation = 25;
-            Item.damage = 45;
+            Item.damage = 38;
             Item.knockBack = 1;
             Item.shootSpeed = 10f;
             Item.shoot = ProjectileType<HikariWeaponHeldProj>();

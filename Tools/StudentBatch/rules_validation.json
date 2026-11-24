@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "productionHooks": true,
+  "engineDependenciesStubbed": true,
+  "oldIdsStable": true,
+  "allFormationIdsRoundTrip": true,
+  "newVisualSlots": true,
+  "networkWhitelistAndInvalidSaveFallback": true,
+  "haloLightOutfits": 12,
+  "lightSuppressedForDeadGhostInvisibleInactiveServerAndMenu": true,
+  "lightRemovedWhenOutfitRemoved": true,
+  "reverseGravityLightPosition": true,
+  "maximumLightChannel": 0.55,
+  "hurtVoiceStudents": 5,
+  "hurtVoiceCooldownTicks": 45,
+  "hurtVoiceHeavyGroupsAndVanillaSuppression": true,
+  "environmentLightBeforeVisualSlotAssignment": true,
+  "perPlayerOutfitsAndCanonicalIdentity": true
+}
